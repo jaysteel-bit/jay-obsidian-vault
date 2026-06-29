@@ -1,0 +1,256 @@
+﻿# Not Ready Page — exoent.co/not-ready
+
+**Not Ready** holding/redirect page. Shown to visitors who opt out of a primary offer or indicate they are not ready to commit. Designed to keep them in the funnel with a softer path — could offer a lead magnet or downgrade option.
+
+**Live URL:** exoent.co/not-ready
+
+---
+
+```html
+<!-- ADMIN PLACEHOLDER: Not linked in production. For future lead qualification flow. -->
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo Enterprise | Qualification Status</title>
+
+
+    <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1715251733215249');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1715251733215249&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+
+  <!-- PostHog Analytics -->
+    <script>
+        !function (t, e) { var o, n, p, r; e.__SV || (window.posthog = e, e._i = [], e.init = function (i, s, a) { function g(t, e) { var o = e.split("."); 2 == o.length && (t = t[o[0]], e = o[1]), t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))) } } (p = t.createElement("script")).type = "text/javascript", p.async = !0, p.src = s.api_host.replace(".i.posthog.com", "-assets.i.posthog.com") + "/static/array.js", (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(p, r); var u = e; for (void 0 !== a ? u = e[a] = [] : a = "posthog", u.people = u.people || [], u.toString = function (t) { var e = "posthog"; return "posthog" !== a && (e += "." + a), t || (e += " (stub)"), e }, u.people.toString = function () { return u.toString(1) + ".people (stub)" }, o = "init capture register register_once register_for_session unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group identify setPersonProperties setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags resetGroups onFeatureFlags addFeatureFlagsHandler onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep".split(" "), n = 0; n < o.length; n++)g(u, o[n]); e._i.push([i, s, a]) }, e.__SV = 1) }(document, window.posthog || []);
+        posthog.init('phc_N1Clw6iwKeyIqhNrxd1cejjCuvKXPtW17bn9h6ZUw9b', {
+            api_host: 'https://us.i.posthog.com',
+            defaults: '2025-11-30'
+        })
+    </script>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Iconify -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+
+    <style>
+        :root {
+            --font-sans: 'Urbanist', sans-serif;
+            --font-serif: 'Playfair Display', serif;
+        }
+
+        body {
+            font-family: var(--font-sans);
+            background-color: #fafafa;
+            /* Light neutral background */
+            color: #171717;
+        }
+
+        .font-serif {
+            font-family: var(--font-serif);
+        }
+    </style>
+</head>
+
+<body class="antialiased min-h-screen flex flex-col">
+
+    <!-- Navbar -->
+    <nav
+        class="w-full py-6 px-6 flex justify-center border-b border-black/5 bg-white/50 backdrop-blur-sm fixed top-0 z-50">
+        <div class="flex items-center gap-2 opacity-80 hover:opacity-100 transition-opacity">
+            <img src="./logos/LOGO MARK.png" alt="Exo Logo" class="w-6 h-6 grayscale opacity-80">
+            <span class="text-sm font-bold tracking-widest text-neutral-800">EXO ENTERPRISE</span>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="flex-grow pt-32 pb-20 px-6">
+        <div class="max-w-4xl mx-auto">
+
+            <!-- Hero Section -->
+            <div class="text-center space-y-6 mb-16">
+                <div
+                    class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-slate-100 mb-4 text-slate-500">
+                    <iconify-icon icon="solar:compass-linear" class="text-3xl"></iconify-icon>
+                </div>
+
+                <h1 class="text-4xl md:text-5xl font-serif text-neutral-900 leading-tight">
+                    Building Toward <span class="italic text-slate-500">Transformation</span>
+                </h1>
+
+                <p class="text-lg text-neutral-600 max-w-2xl mx-auto leading-relaxed">
+                    Based on your application, your business is currently in a growth stage that precedes our 90-day
+                    transformation program.
+                    <br class="hidden md:block">
+                    Most companies need time to reach the customized operational maturity required for Flow OS.
+                </p>
+            </div>
+
+            <!-- Current State Explanation -->
+            <div
+                class="bg-white rounded-2xl p-8 border border-neutral-200 shadow-sm mb-12 text-center max-w-2xl mx-auto">
+                <h3 class="text-sm font-bold tracking-widest text-neutral-400 uppercase mb-4">Why Now Isn't The Time
+                </h3>
+                <p class="text-neutral-600">
+                    Our transformation process is engineered for companies generating <strong>$2M - $50M
+                        annually</strong> with established operational teams.
+                    Implementing AI departments before these foundations are set can often stifle growth rather than
+                    accelerate it.
+                </p>
+            </div>
+
+            <!-- Path Forward (3 Columns) -->
+            <div class="grid md:grid-cols-3 gap-6 mb-16">
+
+                <!-- Insider List -->
+                <div
+                    class="bg-white p-6 rounded-xl border border-neutral-100 hover:border-slate-200 transition-colors shadow-sm group">
+                    <div
+                        class="w-10 h-10 rounded-lg bg-slate-50 text-slate-600 flex items-center justify-center mb-4 group-hover:bg-slate-100 transition-colors">
+                        <iconify-icon icon="solar:letter-linear" class="text-xl"></iconify-icon>
+                    </div>
+                    <h3 class="font-bold text-neutral-800 mb-2">Join Insider List</h3>
+                    <p class="text-sm text-neutral-500 mb-6 leading-relaxed">
+                        Get monthly frameworks on AI operations. No spam, just high-value architectural insights.
+                    </p>
+
+                    <!-- Simpler email capture -->
+                    <form class="flex flex-col gap-2"
+                        onsubmit="event.preventDefault(); alert('You have been added to the list.');">
+                        <input type="email" placeholder="Your work email"
+                            class="w-full px-4 py-2 bg-neutral-50 border border-neutral-200 rounded-lg text-sm focus:outline-none focus:border-slate-400 transition-colors"
+                            required>
+                        <button type="submit"
+                            class="w-full py-2 bg-neutral-900 text-white rounded-lg text-sm font-medium hover:bg-neutral-800 transition-colors">
+                            Stay Connected
+                        </button>
+                    </form>
+                    <p class="text-[10px] text-neutral-400 mt-2 text-center">Unsubscribe anytime.</p>
+                </div>
+
+                <!-- Resources -->
+                <div
+                    class="bg-white p-6 rounded-xl border border-neutral-100 hover:border-indigo-200 transition-colors shadow-sm group">
+                    <div
+                        class="w-10 h-10 rounded-lg bg-indigo-50 text-indigo-500 flex items-center justify-center mb-4 group-hover:bg-indigo-100 transition-colors">
+                        <iconify-icon icon="solar:notebook-linear" class="text-xl"></iconify-icon>
+                    </div>
+                    <h3 class="font-bold text-neutral-800 mb-2">Access Resources</h3>
+                    <p class="text-sm text-neutral-500 mb-6 leading-relaxed">
+                        Download our Operations Audit Framework to start documenting your core processes today.
+                    </p>
+                    <a href="#"
+                        class="inline-flex items-center text-sm font-medium text-indigo-600 hover:text-indigo-700 transition-colors">
+                        Read the Guide <iconify-icon icon="solar:arrow-right-linear" class="ml-1"></iconify-icon>
+                    </a>
+                </div>
+
+                <!-- Revisit -->
+                <div
+                    class="bg-white p-6 rounded-xl border border-neutral-100 hover:border-slate-200 transition-colors shadow-sm group">
+                    <div
+                        class="w-10 h-10 rounded-lg bg-slate-50 text-slate-600 flex items-center justify-center mb-4 group-hover:bg-slate-100 transition-colors">
+                        <iconify-icon icon="solar:history-linear" class="text-xl"></iconify-icon>
+                    </div>
+                    <h3 class="font-bold text-neutral-800 mb-2">Revisit in 6-12 Months</h3>
+                    <p class="text-sm text-neutral-500 mb-6 leading-relaxed">
+                        When you hit $2M in revenue or have a team of 10+, you'll be ready for full automation.
+                    </p>
+                    <a href="x-scale.html"
+                        class="inline-flex items-center text-sm font-medium text-neutral-900 hover:text-neutral-700 transition-colors">
+                        Save Application Link <iconify-icon icon="solar:arrow-right-linear" class="ml-1"></iconify-icon>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Tactical Advice -->
+            <div class="bg-neutral-50 rounded-2xl p-8 border border-neutral-100">
+                <div class="flex items-center gap-3 mb-6">
+                    <iconify-icon icon="solar:checklist-minimalistic-linear"
+                        class="text-slate-500 text-xl"></iconify-icon>
+                    <h3 class="font-bold text-neutral-800">What You Can Do Now</h3>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="flex gap-3">
+                        <div
+                            class="w-6 h-6 rounded-full bg-white border border-neutral-200 flex items-center justify-center text-xs font-bold text-neutral-400 mt-0.5">
+                            1</div>
+                        <div>
+                            <h4 class="text-sm font-bold text-neutral-900">Document Everything</h4>
+                            <p class="text-sm text-neutral-500 mt-1">AI can't automate what isn't defined. Start
+                                building SOPs for every recurring task.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-3">
+                        <div
+                            class="w-6 h-6 rounded-full bg-white border border-neutral-200 flex items-center justify-center text-xs font-bold text-neutral-400 mt-0.5">
+                            2</div>
+                        <div>
+                            <h4 class="text-sm font-bold text-neutral-900">Bootstrap Growth</h4>
+                            <p class="text-sm text-neutral-500 mt-1">Focus on sales and product-market fit. Scale
+                                revenue to $2M to justify the infrastructure investment.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-3">
+                        <div
+                            class="w-6 h-6 rounded-full bg-white border border-neutral-200 flex items-center justify-center text-xs font-bold text-neutral-400 mt-0.5">
+                            3</div>
+                        <div>
+                            <h4 class="text-sm font-bold text-neutral-900">Build Foundations</h4>
+                            <p class="text-sm text-neutral-500 mt-1">Hire your first key operators. We work best when
+                                there is a team to empower.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-neutral-100 py-12">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <a href="index.html"
+                class="text-xs font-bold tracking-widest text-neutral-400 hover:text-neutral-600 transition-colors uppercase">
+                Return to Exo Enterprise
+            </a>
+            <p class="text-neutral-400 text-xs mt-4">
+                Questions? Email us at <a href="mailto:access@exo.enterprise"
+                    class="underline hover:text-neutral-600">access@exo.enterprise</a>
+            </p>
+            <p class="text-neutral-300 text-[10px] mt-8">
+                © 2026 Exo Enterprise LLC. • <a href="privacy.html" class="hover:text-neutral-600">Privacy</a> • <a
+                    href="terms.html" class="hover:text-neutral-600">Terms</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+```

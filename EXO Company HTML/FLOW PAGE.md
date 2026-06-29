@@ -1,0 +1,4045 @@
+﻿# Flow Page — exoent.co/flow + exoflowos.com
+
+**Flow OS** product page. Promotes Exo's unified AI operations layer for business. exoflowos.com forwards here. This is the primary product landing page targeting operators, agencies, and founders who want to automate and unify their business workflows with AI.
+
+**Live URLs:** exoent.co/flow | exoflowos.com → exoent.co/flow
+
+---
+
+```html
+<html lang="en" class="h-full">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flow OS by Exo | The Operating System for Departments</title>
+  <meta name="description"
+    content="Flow OS is the unified operations layer for growing companies. One department for every workflow, every agent, every decision — 90 days to full ownership.">
+  <meta property="og:title" content="Flow OS by Exo | The Operating System for Departments">
+  <meta property="og:description" content="The department-in-a-box solution. Autonomous operations in 90 days.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/favicon.png">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/favicon.png">
+
+  <!-- Spline Preconnect for faster loading (PRIORITY) -->
+  <link rel="preconnect" href="https://my.spline.design">
+  <link rel="dns-prefetch" href="https://my.spline.design">
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1715251733215249');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1715251733215249&ev=PageView&noscript=1" /></noscript>
+  <!-- End Meta Pixel Code -->
+
+  <!-- PostHog Analytics -->
+  <script>
+    !function (t, e) { var o, n, p, r; e.__SV || (window.posthog = e, e._i = [], e.init = function (i, s, a) { function g(t, e) { var o = e.split("."); 2 == o.length && (t = t[o[0]], e = o[1]), t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))) } } (p = t.createElement("script")).type = "text/javascript", p.async = !0, p.src = s.api_host.replace(".i.posthog.com", "-assets.i.posthog.com") + "/static/array.js", (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(p, r); var u = e; for (void 0 !== a ? u = e[a] = [] : a = "posthog", u.people = u.people || [], u.toString = function (t) { var e = "posthog"; return "posthog" !== a && (e += "." + a), t || (e += " (stub)"), e }, u.people.toString = function () { return u.toString(1) + ".people (stub)" }, o = "init capture register register_once register_for_session unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group identify setPersonProperties setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags resetGroups onFeatureFlags addFeatureFlagsHandler onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep".split(" "), n = 0; n < o.length; n++)g(u, o[n]); e._i.push([i, s, a]) }, e.__SV = 1) }(document, window.posthog || []);
+    posthog.init('phc_N1Clw6iwKeyIqhNrxd1cejjCuvKXPtW17bn9h6ZUw9b', {
+      api_host: 'https://us.i.posthog.com',
+      defaults: '2025-11-30'
+    })
+  </script>
+
+  <!-- Inter font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@0.344.0"></script>
+  <!-- Iconify -->
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+  <!-- GSAP for Scroll Animations -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <meta name="disabled-font-classes"
+    content="font-instrument-serif,font-bricolage,font-jakarta,font-manrope,font-space-grotesk,font-work-sans,font-pt-serif,font-space-mono,font-quicksand,font-nunito">
+  <style id="aura-editor-visibility-style">
+    .invisible {
+      visibility: hidden !important;
+    }
+
+    <style>@media (max-width: 768px) {
+      main section .md\:col-span-5 h1 {
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.85), 0 1px 2px rgba(0, 0, 0, 0.45) !important;
+        color: #1f2937 !important;
+      }
+
+      main section .md\:col-span-5 h1 span {
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.85), 0 1px 2px rgba(0, 0, 0, 0.45) !important;
+        color: #1f2937 !important;
+        background: none !important;
+        -webkit-background-clip: unset !important;
+        -webkit-text-fill-color: unset !important;
+      }
+
+      main section .md\:col-span-4 p.leading-relaxed {
+        color: rgba(31, 41, 55, 0.7) !important;
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75), 0 0 2px rgba(0, 0, 0, 0.5) !important;
+      }
+
+      main section .md\:col-span-4 p.italic {
+        color: rgba(31, 41, 55, 0.6) !important;
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75), 0 0 2px rgba(0, 0, 0, 0.45) !important;
+      }
+
+      main section .md\:col-span-4 .border-t .flex.gap-2 span:last-child {
+        color: #1f2937 !important;
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75), 0 0 2px rgba(0, 0, 0, 0.45) !important;
+      }
+    }
+  </style>
+  <style>
+    /*
+Parallax Animation
+1) Insert this code in the <head>
+2) Add to Tailwind Classes: [animation:parallaxElement_linear_both] [animation-timeline:view()] [animation-range:entry_0%_entry_160%]
+*/
+    @keyframes parallaxElement {
+      from {
+        transform: translateY(-12%);
+      }
+
+      to {
+        transform: translateY(12%);
+      }
+    }
+  </style>
+  <style class="">
+    /*
+Sequence animation intro. Usage:
+1) Insert this code in the <head>
+2) Add to Tailwind Classes: [animation:fadeSlideIn_1s_ease-out_0.1s_both]
+*/
+    @keyframes fadeSlideIn {
+      0% {
+        opacity: 0;
+        transform: translateY(30px);
+        filter: blur(8px);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+        filter: blur(0px);
+      }
+    }
+
+    /* Spline Loader Animations */
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes pulse {
+
+      0%,
+      100% {
+        opacity: 0.6;
+      }
+
+      50% {
+        opacity: 1;
+      }
+    }
+
+    /* Protected Images */
+    .img-protected {
+      pointer-events: none;
+      user-select: none;
+      -webkit-user-select: none;
+      -webkit-user-drag: none;
+      -webkit-touch-callout: none;
+    }
+  </style>
+  <script>
+      /*
+      Sequence animation on scroll when visible. Requires Keyframe animation. Usage:
+      1) Insert this code in the <head> along with the Animation Keyframe code.
+      2) Add to Tailwind Classes: [animation:fadeSlideIn_1s_ease-out_0.1s_both] animate-on-scroll
+      */
+      (function () {
+        // Inject CSS for paused/running states
+        const style = document.createElement("style");
+        style.textContent = `
+/* Default: paused */
+.animate-on-scroll { animation-play-state: paused !important; }
+/* Activated by JS */
+.animate-on-scroll.animate { animation-play-state: running !important; }
+`;
+        document.head.appendChild(style);
+        const once = true;
+        if (!window.__inViewIO) {
+          window.__inViewIO = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("animate");
+                if (once) window.__inViewIO.unobserve(entry.target);
+              }
+            });
+          }, { threshold: 0.2, rootMargin: "0px 0px -10% 0px" });
+        }
+        window.initInViewAnimations = function (selector = ".animate-on-scroll") {
+          document.querySelectorAll(selector).forEach((el) => {
+            window.__inViewIO.observe(el); // observing twice is a no-op
+          });
+        };
+        document.addEventListener("DOMContentLoaded", () => initInViewAnimations());
+      })();
+  </script>
+  <style id="responsive-mobile-drawer-style">
+    @media (max-width: 768px) {
+      #mobileNavDrawer {
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+      }
+
+      #mobileNavDrawer.open {
+        transform: translateX(0);
+      }
+    }
+
+    /* Desktop dropdown animations */
+    .group:hover>div>div {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .group>div>div {
+      opacity: 1;
+    }
+  </style>
+  <!-- Geist: Body text, UI, navigation -->
+
+
+  <style>
+    .font-geist {
+      font-family: 'Urbanist', sans-serif !important;
+    }
+  </style>
+
+  <!-- Playfair Display: Headlines only -->
+
+
+  <style>
+    .font-playfair {
+      font-family: 'Playfair Display', serif !important;
+    }
+  </style>
+  <link id="all-fonts-link-font-urbanist" rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&amp;display=swap">
+  <style id="all-fonts-style-font-geist">
+    .font-geist {
+      font-family: 'Urbanist', sans-serif !important;
+    }
+  </style>
+  <link id="all-fonts-link-font-playfair" rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&amp;display=swap">
+  <style id="all-fonts-style-font-playfair">
+    .font-playfair {
+      font-family: 'Playfair Display', serif !important;
+    }
+  </style>
+</head>
+
+<body class="antialiased text-slate-100 bg-slate-950 h-full"
+  style="font-family: 'Urbanist', ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial">
+
+  <!-- Announcement Bar -->
+  <div
+    class="sticky top-0 z-[60] w-full bg-emerald-950/90 backdrop-blur-md border-b border-emerald-500/20 flex items-center justify-center px-4 py-2.5 transition-all">
+    <a href="/x-scale.html"
+      class="flex items-center gap-2 text-sm font-medium text-emerald-100 hover:text-white transition-colors group">
+      <span class="font-['Urbanist'] tracking-wide"><span
+          class="inline-flex items-center justify-center bg-white text-emerald-950 text-[10px] font-bold px-2 py-0.5 rounded-full mr-2 leading-none">NEW</span>Slots
+        Open This Month: <strong>Transform Your Business</strong></span>
+      <iconify-icon icon="solar:arrow-right-linear" width="16"
+        class="text-emerald-400 group-hover:translate-x-0.5 transition-transform"></iconify-icon>
+    </a>
+  </div>
+
+  <!-- Spline moved to hero section only for performance -->
+
+  <div class="aura-background-component z-10 mix-blend-screen w-full h-screen absolute top-0">
+    <div class="-z-10 absolute top-0 right-0 bottom-0 left-0" id="particles-js">
+      <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+      <script>
+        window.addEventListener('load', function () {
+          setTimeout(function () {
+            particlesJS('particles-js', {
+              particles: {
+                number: { value: 80, density: { enable: true, value_area: 800 } },
+                color: { value: "#ffffff" },
+                shape: { type: "circle" },
+                opacity: { value: 0.5, random: false },
+                size: { value: 3, random: true },
+                line_linked: { enable: true, distance: 150, color: "#ffffff", opacity: 0.4, width: 1 },
+                move: { enable: true, speed: 6, direction: "none", random: false, straight: false, out_mode: "out", bounce: false }
+              },
+              interactivity: {
+                detect_on: "canvas",
+                events: { onhover: { enable: true, mode: "repulse" }, onclick: { enable: true, mode: "push" }, resize: true },
+                modes: { grab: { distance: 400, line_linked: { opacity: 1 } }, bubble: { distance: 400, size: 40, duration: 2, opacity: 8, speed: 3 }, repulse: { distance: 200, duration: 0.4 }, push: { particles_nb: 4 }, remove: { particles_nb: 2 } }
+              },
+              retina_detect: true
+            });
+          }, 500);
+        });
+      </script>
+
+
+      <canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;" width="1888" height="816"></canvas>
+    </div>
+  </div>
+  <!-- HERO SECTION - Exo Flow OS -->
+  <!-- Spline Loading Placeholder - Priority Hero -->
+  <div id="flow-spline-loader"
+    class="absolute inset-0 -z-10 bg-gradient-to-br from-blue-950/30 via-neutral-950 to-neutral-950 flex items-center justify-center transition-opacity duration-700">
+    <div class="text-center relative z-10">
+      <img src="./logos/LOGO%20MARK.png" alt="Loading..." class="w-16 h-16 mx-auto mb-4 opacity-60 img-protected"
+        draggable="false" style="animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;">
+      <div class="w-8 h-8 border-2 border-white/20 border-t-emerald-500 rounded-full mx-auto"
+        style="animation: spin 1s linear infinite;"></div>
+      <p class="text-white/40 text-xs mt-4 tracking-wider uppercase">Loading Experience</p>
+    </div>
+  </div>
+
+  <!-- Spline 3D Background - Hero Only (Priority Loading) -->
+  <div class="absolute top-0 left-0 w-full h-full -z-10" id="spline-container">
+    <iframe id="flow-spline-iframe" src="https://my.spline.design/orbit-XDLATgFZPQX6SO6dgJGqPwHD/" frameborder="0"
+      width="100%" height="100%"></iframe>
+  </div>
+
+  <!-- Spline Loader Fade-Out -->
+  <script>
+    (function () {
+      const splineIframe = document.getElementById('flow-spline-iframe');
+      const loader = document.getElementById('flow-spline-loader');
+
+      if (splineIframe && loader) {
+        splineIframe.addEventListener('load', function () {
+          loader.style.opacity = '0';
+          setTimeout(() => {
+            loader.style.display = 'none';
+          }, 700);
+        });
+
+        // Fallback: Hide loader after 6 seconds (shorter for hero priority)
+        setTimeout(() => {
+          if (loader.style.display !== 'none') {
+            loader.style.opacity = '0';
+            setTimeout(() => loader.style.display = 'none', 700);
+          }
+        }, 6000);
+      }
+    })();
+  </script>
+
+  <div class="relative h-screen overflow-hidden">
+    <!-- Decorative grid lines -->
+    <div class="pointer-events-none absolute inset-0 z-0">
+      <!-- Vertical lines -->
+      <div class="absolute inset-y-0 left-[12.5%] w-px bg-gradient-to-b from-transparent to-transparent via-white/5">
+      </div>
+      <div class="absolute inset-y-0 left-[25%] w-px bg-gradient-to-b from-transparent to-transparent via-white/5">
+      </div>
+      <div class="absolute inset-y-0 left-[37.5%] w-px bg-gradient-to-b from-transparent to-transparent via-white/5">
+      </div>
+      <div class="absolute inset-y-0 left-[50%] w-px bg-gradient-to-b from-transparent to-transparent via-white/8">
+      </div>
+      <div class="absolute inset-y-0 left-[62.5%] w-px bg-gradient-to-b from-transparent to-transparent via-white/5">
+      </div>
+      <div class="absolute inset-y-0 left-[75%] w-px bg-gradient-to-b from-transparent to-transparent via-white/5">
+      </div>
+      <div class="absolute inset-y-0 left-[87.5%] w-px bg-gradient-to-b from-transparent to-transparent via-white/5">
+      </div>
+
+      <!-- Horizontal lines -->
+      <div class="absolute inset-x-0 top-[20%] h-px bg-gradient-to-r from-transparent to-transparent via-white/5"></div>
+      <div class="absolute inset-x-0 top-[40%] h-px bg-gradient-to-r from-transparent to-transparent via-white/5"></div>
+      <div class="absolute inset-x-0 top-[60%] h-px bg-gradient-to-r from-transparent to-transparent via-white/5"></div>
+      <div class="absolute inset-x-0 top-[80%] h-px bg-gradient-to-r from-transparent to-transparent via-white/5"></div>
+    </div>
+
+    <!-- Background image -->
+
+    <!-- Atmospheric overlays -->
+    <div class="absolute top-0 right-0 bottom-0 left-0"></div>
+
+    <!-- Header -->
+    <header class="z-50 border-white/5 border-b relative">
+      <div class="flex md:px-8 max-w-7xl mr-auto ml-auto pt-5 pr-6 pb-5 pl-6 items-center justify-between">
+        <!-- Left: brand + primary nav -->
+        <div
+          class="flex md:gap-6 gap-x-4 gap-y-4 items-center [animation:fadeSlideIn_1s_ease-out_0.1s_both] ring-white/5 ring-1 rounded-full pt-1 pr-1 pb-1 pl-1">
+          <a href="/"
+            class="inline-flex items-center justify-center xl:text-3xl xl:text-slate-100 text-lg font-semibold text-white font-playfair bg-transparent rounded-full px-4 py-1.5"
+            style="--gradient-angle: 0deg; --gradient-angle-offset: 0deg; --gradient-percent: 20%; --gradient-shine: #8484ff; position: relative; overflow: hidden; border-radius: 9999px; background: linear-gradient(#000000, #000000) padding-box, conic-gradient(from calc(var(--gradient-angle) - var(--gradient-angle-offset)), transparent 0%, #1d4ed8 5%, var(--gradient-shine) 15%, #1d4ed8 30%, transparent 40%, transparent 100%) border-box; border: 2px solid transparent; box-shadow: rgb(26, 24, 24) 0px 0px 0px 1px inset; animation: 2.5s linear 0s infinite normal none running border-spin; z-index: 0;">
+            <style>
+              @property --gradient-angle {
+                syntax: "<angle>";
+                initial-value: 0deg;
+                inherits: false;
+              }
+
+              @property --gradient-angle-offset {
+                syntax: "<angle>";
+                initial-value: 0deg;
+                inherits: false;
+              }
+
+              @property --gradient-percent {
+                syntax: "<percentage>";
+                initial-value: 20%;
+                inherits: false;
+              }
+
+              @property --gradient-shine {
+                syntax: "<color>";
+                initial-value: #8484ff;
+                inherits: false;
+              }
+
+              @keyframes border-spin {
+                to {
+                  --gradient-angle: 360deg;
+                }
+              }
+
+              @keyframes shimmer {
+                to {
+                  transform: translate(-50%, -50%) rotate(360deg);
+                }
+              }
+
+              @keyframes breathe {
+
+                0%,
+                100% {
+                  transform: translate(-50%, -50%) scale(1);
+                }
+
+                50% {
+                  transform: translate(-50%, -50%) scale(1.20);
+                }
+              }
+            </style>
+            <span style="position: relative; z-index: 2; display: inline-block;" class="">Flow OS</span>
+            <span
+              style="content: ''; pointer-events: none; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); z-index: 0; width: calc(100% - 6px); height: calc(100% - 6px); background: radial-gradient(circle at 2px 2px, white 0.5px, transparent 0) padding-box; background-size: 4px 4px; background-repeat: space; mask-image: conic-gradient(from calc(var(--gradient-angle) + 45deg), black, transparent 10% 90%, black); border-radius: inherit; opacity: 0.4;"></span>
+            <span
+              style="content: ''; pointer-events: none; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); z-index: 1; width: 100%; aspect-ratio: 1; background: linear-gradient(-50deg, transparent, #1d4ed8, transparent); mask-image: radial-gradient(circle at bottom, transparent 40%, black); opacity: 0.6; animation: shimmer 4s linear infinite;"></span>
+          </a>
+          <nav class="hidden md:flex gap-2 gap-x-2 gap-y-2 items-center" role="navigation"
+            aria-label="Primary Navigation">
+            <div class="relative group">
+              <a href="/"
+                class="inline-flex items-center gap-2 transition hover:bg-white/10 hover:ring-white/20 xl:text-sky-600/90 text-sm font-medium text-white/90 font-geist bg-white/5 rounded-full ring-white/10 ring-1 pt-2 pr-3.5 pb-2 pl-3.5 backdrop-blur-sm">
+                Home
+              </a>
+            </div>
+            <div class="relative group">
+              <a href="#services"
+                class="inline-flex items-center gap-2 transition hover:bg-white/10 hover:ring-white/20 xl:text-sky-600/90 text-sm font-medium text-white/90 font-geist bg-white/5 rounded-full ring-white/10 ring-1 pt-2 pr-3.5 pb-2 pl-3.5 backdrop-blur-sm">
+                Services
+              </a>
+              <div class="absolute left-0 top-full hidden group-hover:block transition-all duration-300 z-[100] pt-2">
+                <div
+                  class="min-w-[220px] bg-slate-900/70 ring-white/10 ring-1 rounded-xl pt-2 pr-2 pb-2 pl-2 shadow-2xl backdrop-blur-md"
+                  style="backdrop-filter: blur(8px)">
+                  <a href="/x-scale.html"
+                    class="block hover:bg-white/10 transition text-sm text-white/90 font-geist rounded-lg pt-2 pr-3 pb-2 pl-3">Rebuild
+                    — Team Augmentation</a>
+                  <a href="/x-scale.html"
+                    class="block hover:bg-white/10 transition text-sm text-white/90 font-geist rounded-lg pt-2 pr-3 pb-2 pl-3">
+                    Recruit — AI Native Talent
+                  </a>
+                  <a href="/x-scale.html"
+                    class="block hover:bg-white/10 transition text-sm text-white/90 font-geist rounded-lg pt-2 pr-3 pb-2 pl-3">
+                    Manage — Scale Your Operations
+                  </a><a href="index.html#exo-ai"
+                    class="block hover:bg-white/10 transition text-sm text-white/90 font-geist rounded-lg pt-2 pr-3 pb-2 pl-3">Exo
+                    AI — Custom Solutions</a>
+                </div>
+              </div>
+            </div>
+            <div class="relative group">
+              <a href="#exosystem"
+                class="inline-flex items-center gap-2 transition hover:bg-white/10 hover:ring-white/20 text-sm font-medium text-white/90 font-geist bg-white/5 ring-white/10 ring-1 rounded-full pt-2 pr-3.5 pb-2 pl-3.5 backdrop-blur-sm xl:text-sky-600/90">
+                Benefits
+              </a>
+            </div>
+            <div class="relative group">
+              <a href="/x-scale.html"
+                class="inline-flex items-center gap-2 transition ring-1 hover:bg-white/10 hover:ring-white/20 ring-white/10 xl:text-sky-600/90 text-sm font-medium text-white/90 font-geist bg-white/5 rounded-full pt-2 pr-3.5 pb-2 pl-3.5 backdrop-blur-sm">
+                Pricing
+              </a>
+            </div>
+            <div class="relative group">
+              <a href="/firm.html"
+                class="inline-flex items-center gap-2 transition ring-1 hover:bg-white/10 hover:ring-white/20 ring-white/10 xl:text-sky-600/90 text-sm font-medium text-white/90 font-geist bg-white/5 rounded-full pt-2 pr-3.5 pb-2 pl-3.5 backdrop-blur-sm">
+                About
+              </a>
+            </div>
+          </nav>
+        </div>
+
+        <!-- Right: auth -->
+        <div class="flex ring-1 rounded-full pt-1 pr-1 pb-1 pl-1 gap-x-2 gap-y-2 items-center ring-white/5">
+          <div class="flex ring-1 rounded-full pt-1 pr-1 pb-1 pl-1 gap-x-2 gap-y-2 items-center ring-white/5">
+            <div class="relative group hidden sm:inline-block">
+              <a href="#placeholder"
+                class="hidden items-center gap-2 transition [animation:fadeSlideIn_1s_ease-out_0.2s_both] text-sm font-medium font-geist ring-1 rounded-full pt-2 pr-3.5 pb-2 pl-3.5 backdrop-blur-sm sm:inline-flex hover:bg-white/10 hover:ring-white/20 text-white/90 bg-white/5 ring-white/10">
+                Join Waitlist
+              </a>
+              <div class="absolute left-0 top-full hidden group-hover:block transition-all duration-300 z-[100] pt-2">
+                <div
+                  class="min-w-[220px] rounded-xl ring-1 ring-white/10 bg-slate-900/70 p-2 shadow-2xl backdrop-blur-md"
+                  style="backdrop-filter: blur(8px);">
+
+                  <a href="/steel.html"
+                    class="block hover:bg-white/10 transition text-sm text-white/90 font-geist rounded-lg pt-2 pr-3 pb-2 pl-3">
+                    The Steel Card
+                  </a>
+                  <a href="/x-scale.html"
+                    class="block hover:bg-white/10 transition text-sm text-white/90 font-geist rounded-lg pt-2 pr-3 pb-2 pl-3">
+                    Exosystem
+                  </a>
+                </div>
+              </div>
+            </div>
+            <a href="/x-scale.html" class="shiny-cta focus:outline-none inline-flex items-center gap-2 transition"
+              style="--gradient-angle: 0deg; --gradient-angle-offset: 0deg; --gradient-percent: 20%; --gradient-shine: #8484ff; --shadow-size: 2px; position: relative; overflow: hidden; border-radius: 9999px; padding: 0.5rem 0.875rem; font-size: 0.875rem; line-height: 1.25rem; font-weight: 500; color: rgb(255, 255, 255); background: linear-gradient(#000000, #000000) padding-box, conic-gradient(from calc(var(--gradient-angle) - var(--gradient-angle-offset)), transparent 0%, #1d4ed8 5%, var(--gradient-shine) 15%, #1d4ed8 30%, transparent 40%, transparent 100%) border-box; border: 2px solid transparent; box-shadow: rgb(26, 24, 24) 0px 0px 0px 1px inset; cursor: pointer; isolation: isolate; font-family: Geist, Inter, &quot;Helvetica Neue&quot;, sans-serif; z-index: 0; animation: 2.5s linear 0s infinite normal none running border-spin; backdrop-filter: blur(4px);"
+              aria-label="Contact">
+              <style>
+                @property --gradient-angle {
+                  syntax: "<angle>";
+                  initial-value: 0deg;
+                  inherits: false;
+                }
+
+                @property --gradient-angle-offset {
+                  syntax: "<angle>";
+                  initial-value: 0deg;
+                  inherits: false;
+                }
+
+                @property --gradient-percent {
+                  syntax: "<percentage>";
+                  initial-value: 20%;
+                  inherits: false;
+                }
+
+                @property --gradient-shine {
+                  syntax: "<color>";
+                  initial-value: #8484ff;
+                  inherits: false;
+                }
+
+                .shiny-cta::before {
+                  content: '';
+                  pointer-events: none;
+                  position: absolute;
+                  left: 50%;
+                  top: 50%;
+                  transform: translate(-50%, -50%);
+                  z-index: 0;
+                  width: calc(100% - 6px);
+                  height: calc(100% - 6px);
+                  background: radial-gradient(circle at 2px 2px, white 0.5px, transparent 0) padding-box;
+                  background-size: 4px 4px;
+                  background-repeat: space;
+                  mask-image: conic-gradient(from calc(var(--gradient-angle) + 45deg), black, transparent 10% 90%, black);
+                  border-radius: inherit;
+                  opacity: 0.4;
+                }
+
+                .shiny-cta::after {
+                  content: '';
+                  pointer-events: none;
+                  position: absolute;
+                  left: 50%;
+                  top: 50%;
+                  transform: translate(-50%, -50%);
+                  z-index: 1;
+                  width: 100%;
+                  aspect-ratio: 1;
+                  background: linear-gradient(-50deg, transparent, #1d4ed8, transparent);
+                  mask-image: radial-gradient(circle at bottom, transparent 40%, black);
+                  opacity: 0.6;
+                  animation: shimmer 4s linear infinite;
+                }
+
+                @keyframes border-spin {
+                  to {
+                    --gradient-angle: 360deg;
+                  }
+                }
+
+                @keyframes shimmer {
+                  to {
+                    transform: translate(-50%, -50%) rotate(360deg);
+                  }
+                }
+              </style>
+              <span style="position: relative; z-index: 2; display: inline-block;" class="">
+                By Exo
+              </span>
+            </a>
+            <!-- MOBILE SECTION: HAMBURGER BUTTON -->
+            <button aria-label="Open menu"
+              class="md:hidden inline-flex hover:ring-white/30 hover:bg-white/15 transition text-white bg-white/10 rounded-full ring-white/15 ring-1 ml-1 pt-2 pr-2 pb-2 pl-2 items-center justify-center"
+              type="button" id="mobileMenuToggle">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="w-[22px] h-[22px]" data-icon-replaced="true"
+                style="color: rgb(255, 255, 255); width: 22px; height: 22px;">
+                <line x1="3" x2="21" y1="6" y2="6"></line>
+                <line x1="3" x2="21" y1="12" y2="12" class=""></line>
+                <line x1="3" x2="21" y1="18" y2="18"></line>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="wrapper">
+        <div class="gradient-blur">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </header>
+    <!-- MOBILE SECTION: NAVIGATION DRAWER -->
+    <div id="mobileNavDrawer" class="fixed inset-0 z-50 transition-transform duration-300 bg-slate-900/80 md:hidden"
+      style="backdrop-filter: blur(8px);">
+      <div class="absolute top-16 left-0 right-0 p-4 flex items-center justify-between z-50">
+        <span class="text-white font-geist font-semibold">Menu</span>
+        <button id="mobileMenuClose" aria-label="Close menu"
+          class="inline-flex items-center justify-center text-white bg-white/10 ring-1 ring-white/15 hover:ring-white/30 hover:bg-white/15 transition rounded-full p-2"
+          type="button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="w-[22px] h-[22px]">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <nav role="navigation" aria-label="Mobile Navigation" class="pt-36 px-6 h-full overflow-y-auto">
+        <div class="border-b border-white/10 py-4">
+          <a href="index.html"
+            class="w-full flex items-center text-white font-geist text-lg transition-colors hover:text-emerald-400">
+            Home - Exo
+          </a>
+        </div>
+        <div class="border-b border-white/10 py-4">
+          <button class="w-full flex items-center justify-between text-white font-geist text-lg mobile-accordion-toggle"
+            type="button">
+            Services
+            <span class="ml-2 text-xl plus">+</span>
+            <span class="ml-2 text-xl minus hidden">-</span>
+          </button>
+          <div class="mobile-submenu hidden mt-3 pl-2 space-y-2">
+            <a href="/x-scale.html"
+              class="block text-base text-white/90 font-geist bg-white/5 hover:bg-white/10 ring-1 ring-white/10 rounded-lg px-4 py-2 transition"
+              style="backdrop-filter: blur(8px);">Rebuild — Team Augmentation</a>
+            <a href="/x-scale.html"
+              class="block text-base text-white/90 font-geist bg-white/5 hover:bg-white/10 ring-1 ring-white/10 rounded-lg px-4 py-2 transition"
+              style="backdrop-filter: blur(8px);">Recruit — AI Native Talent</a>
+            <a href="/x-scale.html"
+              class="block text-base text-white/90 font-geist bg-white/5 hover:bg-white/10 ring-1 ring-white/10 rounded-lg px-4 py-2 transition"
+              style="backdrop-filter: blur(8px);">Manage — Scale Your Operations</a>
+            <a href="index.html#exo-ai"
+              class="block hover:bg-white/10 transition text-sm text-white/90 font-geist rounded-lg pt-2 pr-3 pb-2 pl-3">Exo
+              Custom Solutions</a>
+          </div>
+        </div>
+        <div class="border-b border-white/10 py-4">
+          <button class="w-full flex items-center justify-between text-white font-geist text-lg mobile-accordion-toggle"
+            type="button">Benefits<span class="ml-2 text-xl plus">+</span><span
+              class="ml-2 text-xl minus hidden">-</span></button>
+          <div class="mobile-submenu hidden mt-3 pl-2 space-y-2"><a href="#comparison"
+              class="block text-sm text-white/90 font-geist bg-white/5 hover:bg-white/10 ring-1 ring-white/10 rounded-lg px-4 py-2 transition"
+              style="backdrop-filter: blur(8px);">How It Works</a><a href="#services"
+              class="block text-sm text-white/90 font-geist bg-white/5 hover:bg-white/10 ring-1 ring-white/10 rounded-lg px-4 py-2 transition"
+              style="backdrop-filter: blur(8px);">Our Approach</a><a href="#results-roi"
+              class="block text-sm text-white/90 font-geist bg-white/5 hover:bg-white/10 ring-1 ring-white/10 rounded-lg px-4 py-2 transition"
+              style="backdrop-filter: blur(8px);">Results &amp; ROI</a></div>
+        </div>
+        <div class="border-b border-white/10 py-4">
+          <a href="/x-scale.html" class="w-full flex items-center justify-between text-white font-geist text-lg">
+            Pricing
+          </a>
+        </div>
+        <div class="border-b border-white/10 py-4">
+          <button class="w-full flex items-center justify-between text-white font-geist text-lg mobile-accordion-toggle"
+            type="button">Join Waitlist<span class="ml-2 text-xl plus">+</span><span
+              class="ml-2 text-xl minus hidden">-</span></button>
+          <div class="mobile-submenu hidden mt-3 pl-2 space-y-2"><a href="/steel.html"
+              class="block text-sm text-white/90 font-geist bg-white/5 hover:bg-white/10 ring-1 ring-white/10 rounded-lg px-4 py-2 transition"
+              style="backdrop-filter: blur(8px);">The Steel Card</a><a href="index.html#exo-ai"
+              class="block text-sm text-white/90 font-geist bg-white/5 hover:bg-white/10 ring-1 ring-white/10 rounded-lg px-4 py-2 transition"
+              style="backdrop-filter: blur(8px);">Exo AI</a></div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Hero Content -->
+    <main class="z-10 flex h-[calc(100vh-80px)] relative items-end">
+      <section class="md:px-8 md:pb-16 lg:pb-20 w-full max-w-7xl mr-auto ml-auto pr-6 pb-16 pl-6">
+        <!-- Top divider -->
+        <div class="mb-12 h-px bg-gradient-to-r from-transparent to-transparent via-white/10" style=""></div>
+
+        <div class="grid grid-cols-1 md:grid-cols-12 md:gap-6 lg:gap-10 gap-x-8 gap-y-8 items-center">
+          <!-- Column 1: Tag + Headline -->
+          <div class="md:col-span-5 lg:col-span-5 relative">
+            <div
+              class="inline-flex [animation:fadeSlideIn_1s_ease-out_0.1s_both] xl:text-black/80 text-xs font-medium text-black/80 font-geist bg-white/5 ring-white/10 ring-1 rounded-full mb-5 pt-1.5 pr-3 pb-1.5 pl-3 backdrop-blur-sm gap-x-2 gap-y-2 items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                data-lucide="award" class="lucide lucide-award w-[18px] h-[18px]" data-icon-replaced="true"
+                style="width: 18px; height: 18px; color: rgb(250, 204, 21);">
+                <path
+                  d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526">
+                </path>
+                <circle cx="12" cy="8" r="6"></circle>
+              </svg>
+              Your Unified AI Operations Layer
+            </div>
+
+            <h1
+              class="leading-tight [animation:fadeSlideIn_1s_ease-out_0.2s_both] sm:text-5xl md:text-5xl lg:text-6xl lg:text-white text-4xl text-white tracking-tighter font-geist"
+              style="text-shadow: 0 1px 0 rgba(255,255,255,0.85), 0 1px 2px rgba(0,0,0,0.45);">
+              Stop Drowning
+              <span
+                class="block bg-clip-text xl:text-white text-white tracking-tighter font-geist bg-gradient-to-r from-white via-white to-white/70"
+                style="text-shadow: 0 1px 0 rgba(255,255,255,0.85), 0 1px 2px rgba(0,0,0,0.45);">
+                in Busywork.
+              </span>
+            </h1>
+
+            <p class="[animation:fadeSlideIn_1s_ease-out_0.25s_both] md:text-2xl md:text-emerald-300/90 text-xl font-medium text-emerald-300 font-geist mt-4"
+              style="text-shadow: 0 1px 0 rgba(255,255,255,0.85), 0 1px 2px rgba(0,0,0,0.45);">
+              We Architect the System. Arm Your Team.
+            </p>
+            <p class="[animation:fadeSlideIn_1s_ease-out_0.25s_both] md:text-2xl md:mt-0 md:text-emerald-300/90 text-xl font-medium text-emerald-300 font-geist mt-0"
+              style="text-shadow: 0 1px 0 rgba(255,255,255,0.9), 0 -1px 0 rgba(255,255,255,0.25), 0 2px 4px rgba(2,6,23,0.45), 0 8px 20px rgba(2,6,23,0.25);">
+              — Transfer Full Ownership.
+            </p>
+          </div>
+
+          <!-- Vertical divider -->
+          <div class="hidden md:block md:col-span-1 lg:col-span-1 relative">
+            <div
+              class="absolute left-1/2 top-0 bottom-0 w-px bg-gradient-to-b -translate-x-1/2 from-white/20 via-white/10 to-white/5">
+            </div>
+          </div>
+
+          <!-- Column 2: Description -->
+          <div class="md:col-span-4 lg:col-span-3 [animation:fadeSlideIn_1s_ease-out_0.3s_both] relative">
+            <p class="leading-relaxed md:text-lg md:font-semibold md:text-white/95 text-base text-white font-geist"
+              style="text-shadow: 0 1px 0 rgba(255,255,255,0.75), 0 0 2px rgba(0,0,0,0.5);">Flow OS captures every
+              workflow, decision, and handoff — transforming tribal knowledge into structured data you own forever.
+              Your team will never want to go back to slow again.</p>
+            <p class="xl:text-emerald-300 text-sm font-medium italic text-emerald-300 font-geist mt-3"
+              style="text-shadow: 0 1px 0 rgba(255,255,255,0.75), 0 0 2px rgba(0,0,0,0.45);">
+              55% Efficiency Gains — Guaranteed
+            </p>
+            <div class="border-t mt-6 pt-6 border-white/10">
+              <div class="flex gap-4 text-sm gap-x-4 gap-y-4 items-center text-white/50">
+                <div class="flex gap-2 gap-x-2 gap-y-2 items-center">
+                  <!-- Animated workflow icon with pulsing glow -->
+                  <div class="relative">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                      class="w-6 h-6 text-blue-400 animate-pulse">
+                      <rect width="8" height="8" x="3" y="3" rx="2"></rect>
+                      <path d="M7 11v4a2 2 0 0 0 2 2h4"></path>
+                      <rect width="8" height="8" x="13" y="13" rx="2"></rect>
+                    </svg>
+                    <!-- Glowing ring effect -->
+                    <div
+                      class="animate-pulse xl:bg-emerald-300 xl:text-emerald-300/75 text-emerald-500 bg-emerald-500 rounded-full absolute top-0 right-0 bottom-0 left-0 blur-md">
+                    </div>
+                  </div>
+                  <span class="xl:text-white italic text-white font-geist"
+                    style="text-shadow: 0 1px 0 rgba(255,255,255,0.75), 0 0 2px rgba(0,0,0,0.45)">90 Days or Less
+                    &middot; 55% Gains &middot; <br>Zero Lock-In &middot; 100% Ownership</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Vertical divider -->
+          <div class="hidden lg:block lg:col-span-1 relative">
+            <div
+              class="absolute left-1/2 top-0 bottom-0 w-px bg-gradient-to-b -translate-x-1/2 from-white/20 via-white/10 to-white/5">
+            </div>
+          </div>
+
+          <!-- Column 3: Buttons -->
+          <div class="md:col-span-12 lg:col-span-2 relative">
+            <div class="flex flex-col gap-3">
+              <a href="/x-scale.html"
+                class="inline-flex items-center justify-center gap-2 transition whitespace-nowrap [animation:fadeSlideIn_1s_ease-out_0.4s_both] hover:bg-neutral-100 text-sm font-medium text-white font-geist rounded-full pt-2.5 pr-4 pb-2.5 pl-4 w-full"
+                style="--gradient-angle: 0deg; --gradient-angle-offset: 0deg; --gradient-percent: 20%; --gradient-shine: #8484ff; position: relative; overflow: hidden; background: linear-gradient(#000000, #000000) padding-box, conic-gradient(from calc(var(--gradient-angle) - var(--gradient-angle-offset)), transparent 0%, #1d4ed8 5%, var(--gradient-shine) 15%, #1d4ed8 30%, transparent 40%, transparent 100%) border-box; border: 2px solid transparent; box-shadow: rgb(26, 24, 24) 0px 0px 0px 1px inset; animation: 2.5s linear 0s infinite normal none running border-spin;">
+                <style>
+                  @property --gradient-angle {
+                    syntax: "<angle>";
+                    initial-value: 0deg;
+                    inherits: false;
+                  }
+
+                  @property --gradient-angle-offset {
+                    syntax: "<angle>";
+                    initial-value: 0deg;
+                    inherits: false;
+                  }
+
+                  @property --gradient-percent {
+                    syntax: "<percentage>";
+                    initial-value: 20%;
+                    inherits: false;
+                  }
+
+                  @property --gradient-shine {
+                    syntax: "<color>";
+                    initial-value: #8484ff;
+                    inherits: false;
+                  }
+
+                  @keyframes border-spin {
+                    to {
+                      --gradient-angle: 360deg;
+                    }
+                  }
+
+                  @keyframes shimmer {
+                    to {
+                      transform: translate(-50%, -50%) rotate(360deg);
+                    }
+                  }
+
+                  @keyframes breathe {
+
+                    0%,
+                    100% {
+                      transform: translate(-50%, -50%) scale(1);
+                    }
+
+                    50% {
+                      transform: translate(-50%, -50%) scale(1.20);
+                    }
+                  }
+                </style>
+                <span style="position: relative; z-index: 2; display: inline-block;" class="">
+                  Free AI Audit
+                </span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                  class="w-4 h-4" style="position: relative; z-index: 2;">
+                  <rect width="18" height="18" x="3" y="4" rx="2"></rect>
+                  <line x1="16" x2="16" y1="2" y2="6"></line>
+                  <line x1="8" x2="8" y1="2" y2="6"></line>
+                  <line x1="3" x2="21" y1="10" y2="10" class=""></line>
+                </svg>
+                <span
+                  style="content: ''; pointer-events: none; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); z-index: 0; width: calc(100% - 6px); height: calc(100% - 6px); background: radial-gradient(circle at 2px 2px, white 0.5px, transparent 0) padding-box; background-size: 4px 4px; background-repeat: space; mask-image: conic-gradient(from calc(var(--gradient-angle) + 45deg), black, transparent 10% 90%, black); border-radius: inherit; opacity: 0.4;"></span>
+                <span
+                  style="content: ''; pointer-events: none; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); z-index: 1; width: 100%; aspect-ratio: 1; background: linear-gradient(-50deg, transparent, #1d4ed8, transparent); mask-image: radial-gradient(circle at bottom, transparent 40%, black); opacity: 0.6; animation: shimmer 4s linear infinite;"></span>
+              </a>
+              <a href="#solution"
+                class="inline-flex items-center justify-center gap-2 transition [animation:fadeSlideIn_1s_ease-out_0.5s_both] hover:bg-white/15 hover:ring-white/25 ring-white/15 ring-1 text-sm font-medium text-white/90 font-geist text-center bg-white/10 w-full rounded-full pt-2.5 pr-4 pb-2.5 pl-4 backdrop-blur-sm">
+                See How It Works
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                  class="w-4 h-4">
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Subtle vignette -->
+    <div class="pointer-events-none absolute top-0 right-0 bottom-0 left-0"></div>
+  </div>
+  <!-- DUAL-MARQUEE LOGO TICKER - Scroll-Reactive Social Proof -->
+  <section id="integrations" class="overflow-hidden md:py-16 bg-slate-950 py-16 relative">
+
+    <!-- Container -->
+    <div class="z-10 max-w-7xl mx-auto relative space-y-12">
+
+      <!-- Section 1: Tech Stack Integrations (Right to Left) -->
+      <div>
+        <div class="text-center mb-6">
+          <p class="text-sm font-medium font-geist text-slate-400 tracking-widest uppercase">
+            Integrates With Your Existing Tools
+          </p>
+        </div>
+
+        <div class="marquee-container group relative overflow-hidden" data-direction="right-to-left"
+          style="--duration: 50s; --direction: normal;">
+          <!-- Gradient Overlay -->
+          <div
+            class="absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-slate-950 to-transparent z-10 pointer-events-none">
+          </div>
+          <div
+            class="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-slate-950 to-transparent z-10 pointer-events-none">
+          </div>
+
+          <div class="flex w-max animate-marquee group-hover:[animation-play-state:paused]">
+            <!-- Marquee Content -->
+            <div class="flex gap-8 px-4">
+              <!-- Tech Stack Items -->
+              <div
+                class="flex items-center justify-center p-5 rounded-xl ring-1 bg-white/5 ring-white/10 hover:bg-white/8 transition-all duration-300 min-w-[160px] h-[88px]">
+                <span class="text-xl font-semibold text-white font-geist">Slack</span>
+              </div>
+              <div
+                class="flex items-center justify-center p-5 rounded-xl ring-1 bg-white/5 ring-white/10 hover:bg-white/8 transition-all duration-300 min-w-[160px] h-[88px]">
+                <span class="text-xl font-semibold text-white font-geist">Notion</span>
+              </div>
+              <div
+                class="flex items-center justify-center p-5 rounded-xl ring-1 bg-white/5 ring-white/10 hover:bg-white/8 transition-all duration-300 min-w-[160px] h-[88px]">
+                <span class="text-xl font-semibold text-white font-geist">HubSpot</span>
+              </div>
+              <div
+                class="flex items-center justify-center p-5 rounded-xl ring-1 bg-white/5 ring-white/10 hover:bg-white/8 transition-all duration-300 min-w-[160px] h-[88px]">
+                <span class="text-xl font-semibold text-white font-geist">Salesforce</span>
+              </div>
+              <div
+                class="flex items-center justify-center p-5 rounded-xl ring-1 bg-white/5 ring-white/10 hover:bg-white/8 transition-all duration-300 min-w-[160px] h-[88px]">
+                <span class="text-xl font-semibold text-white font-geist">Google</span>
+              </div>
+              <div
+                class="flex items-center justify-center p-5 rounded-xl ring-1 bg-white/5 ring-white/10 hover:bg-white/8 transition-all duration-300 min-w-[160px] h-[88px]">
+                <span class="text-xl font-semibold text-white font-geist">AWS</span>
+              </div>
+              <div
+                class="flex items-center justify-center p-5 rounded-xl ring-1 bg-white/5 ring-white/10 hover:bg-white/8 transition-all duration-300 min-w-[160px] h-[88px]">
+                <span class="text-xl font-semibold text-white font-geist">Asana</span>
+              </div>
+              <div
+                class="flex items-center justify-center p-5 rounded-xl ring-1 bg-white/5 ring-white/10 hover:bg-white/8 transition-all duration-300 min-w-[160px] h-[88px]">
+                <span class="text-xl font-semibold text-white font-geist">Zapier</span>
+              </div>
+            </div>
+            <!-- Duplicate Content -->
+            <div class="flex gap-8 px-4">
+              <div
+                class="flex items-center justify-center p-5 rounded-xl ring-1 bg-white/5 ring-white/10 hover:bg-white/8 transition-all duration-300 min-w-[160px] h-[88px]">
+                <span class="text-xl font-semibold text-white font-geist">Slack</span>
+              </div>
+              <div
+                class="flex items-center justify-center p-5 rounded-xl ring-1 bg-white/5 ring-white/10 hover:bg-white/8 transition-all duration-300 min-w-[160px] h-[88px]">
+                <span class="text-xl font-semibold text-white font-geist">Notion</span>
+              </div>
+              <div
+                class="flex items-center justify-center p-5 rounded-xl ring-1 bg-white/5 ring-white/10 hover:bg-white/8 transition-all duration-300 min-w-[160px] h-[88px]">
+                <span class="text-xl font-semibold text-white font-geist">HubSpot</span>
+              </div>
+              <div
+                class="flex items-center justify-center p-5 rounded-xl ring-1 bg-white/5 ring-white/10 hover:bg-white/8 transition-all duration-300 min-w-[160px] h-[88px]">
+                <span class="text-xl font-semibold text-white font-geist">Salesforce</span>
+              </div>
+              <div
+                class="flex items-center justify-center p-5 rounded-xl ring-1 bg-white/5 ring-white/10 hover:bg-white/8 transition-all duration-300 min-w-[160px] h-[88px]">
+                <span class="text-xl font-semibold text-white font-geist">Google</span>
+              </div>
+              <div
+                class="flex items-center justify-center p-5 rounded-xl ring-1 bg-white/5 ring-white/10 hover:bg-white/8 transition-all duration-300 min-w-[160px] h-[88px]">
+                <span class="text-xl font-semibold text-white font-geist">AWS</span>
+              </div>
+              <div
+                class="flex items-center justify-center p-5 rounded-xl ring-1 bg-white/5 ring-white/10 hover:bg-white/8 transition-all duration-300 min-w-[160px] h-[88px]">
+                <span class="text-xl font-semibold text-white font-geist">Asana</span>
+              </div>
+              <div
+                class="flex items-center justify-center p-5 rounded-xl ring-1 bg-white/5 ring-white/10 hover:bg-white/8 transition-all duration-300 min-w-[160px] h-[88px]">
+                <span class="text-xl font-semibold text-white font-geist">Zapier</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 2: Client Social Proof (Left to Right) -->
+      <div>
+        <div class="marquee-container group relative overflow-hidden" data-direction="left-to-right"
+          style="--duration: 40s; --direction: reverse;">
+          <!-- Gradient Overlay -->
+          <div
+            class="absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-slate-950 to-transparent z-10 pointer-events-none">
+          </div>
+          <div
+            class="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-slate-950 to-transparent z-10 pointer-events-none">
+          </div>
+
+          <div class="flex w-max animate-marquee group-hover:[animation-play-state:paused]">
+            <!-- Marquee Content -->
+            <div class="flex gap-8 px-4">
+              <!-- Client Logos -->
+              <div
+                class="flex items-center justify-center p-5 rounded-xl ring-1 bg-white/5 ring-white/10 hover:bg-white/8 transition-all duration-300 min-w-[160px] h-[88px]">
+                <div
+                  class="flex bg-slate-800/40 w-full h-full ring-white/5 ring-1 rounded-lg items-center justify-center overflow-hidden p-2">
+                  <img loading="lazy" src="./logos/testimonial-logos/Chen-firm.JPG" alt="Chen Firm"
+                    class="h-10 w-auto object-contain img-protected" draggable="false">
+                </div>
+              </div>
+              <div
+                class="flex items-center justify-center p-5 rounded-xl ring-1 bg-white/5 ring-white/10 hover:bg-white/8 transition-all duration-300 min-w-[160px] h-[88px]">
+                <div
+                  class="flex bg-slate-800/40 w-full h-full ring-white/5 ring-1 rounded-lg items-center justify-center overflow-hidden p-2">
+                  <img loading="lazy" src="./logos/testimonial-logos/Nexora-logo.jpeg" alt="Nexora"
+                    class="h-10 w-auto object-contain img-protected" draggable="false">
+                </div>
+              </div>
+              <div
+                class="flex items-center justify-center p-5 rounded-xl ring-1 bg-white/5 ring-white/10 hover:bg-white/8 transition-all duration-300 min-w-[160px] h-[88px]">
+                <div
+                  class="flex bg-slate-800/40 w-full h-full ring-white/5 ring-1 rounded-lg items-center justify-center overflow-hidden p-2">
+                  <img loading="lazy" src="./logos/testimonial-logos/alponze-LTD.jpeg" alt="Alponze"
+                    class="h-10 w-auto object-contain img-protected" draggable="false">
+                </div>
+              </div>
+              <div
+                class="flex items-center justify-center p-5 rounded-xl ring-1 bg-white/5 ring-white/10 hover:bg-white/8 transition-all duration-300 min-w-[160px] h-[88px]">
+                <div
+                  class="flex bg-slate-800/40 w-full h-full ring-white/5 ring-1 rounded-lg items-center justify-center overflow-hidden p-2">
+                  <img loading="lazy" src="./logos/testimonial-logos/basel-team.jpeg" alt="Basel"
+                    class="h-10 w-auto object-contain img-protected" draggable="false">
+                </div>
+              </div>
+              <div
+                class="flex items-center justify-center p-5 rounded-xl ring-1 bg-white/5 ring-white/10 hover:bg-white/8 transition-all duration-300 min-w-[160px] h-[88px]">
+                <div
+                  class="flex bg-slate-800/40 w-full h-full ring-white/5 ring-1 rounded-lg items-center justify-center overflow-hidden p-2">
+                  <img loading="lazy" src="./logos/testimonial-logos/bynb-team.jpeg" alt="BYNB"
+                    class="h-10 w-auto object-contain img-protected" draggable="false">
+                </div>
+              </div>
+              <div
+                class="flex items-center justify-center p-5 rounded-xl ring-1 bg-white/5 ring-white/10 hover:bg-white/8 transition-all duration-300 min-w-[160px] h-[88px]">
+                <div
+                  class="flex bg-slate-800/40 w-full h-full ring-white/5 ring-1 rounded-lg items-center justify-center overflow-hidden p-2">
+                  <img loading="lazy" src="./logos/testimonial-logos/tamtam-logo.jpeg" alt="TamTam"
+                    class="h-10 w-auto object-contain img-protected" draggable="false">
+                </div>
+              </div>
+              <div
+                class="flex items-center justify-center p-5 rounded-xl ring-1 bg-white/5 ring-white/10 hover:bg-white/8 transition-all duration-300 min-w-[160px] h-[88px]">
+                <div
+                  class="flex bg-slate-800/40 w-full h-full ring-white/5 ring-1 rounded-lg items-center justify-center overflow-hidden p-2">
+                  <img loading="lazy" src="./logos/testimonial-logos/vertex-team.jpeg" alt="Vertex"
+                    class="h-10 w-auto object-contain img-protected" draggable="false">
+                </div>
+              </div>
+              <div
+                class="flex items-center justify-center p-5 rounded-xl ring-1 bg-white/5 ring-white/10 hover:bg-white/8 transition-all duration-300 min-w-[160px] h-[88px]">
+                <div
+                  class="flex bg-slate-800/40 w-full h-full ring-white/5 ring-1 rounded-lg items-center justify-center overflow-hidden p-2">
+                  <span
+                    class="font-['Urbanist'] text-sm font-bold text-white text-center leading-tight">Nordic<br>Village
+                    Resort</span>
+                </div>
+              </div>
+            </div>
+            <!-- Duplicate Content -->
+            <div class="flex gap-8 px-4">
+              <!-- Client Logos -->
+              <div
+                class="flex items-center justify-center p-5 rounded-xl ring-1 bg-white/5 ring-white/10 hover:bg-white/8 transition-all duration-300 min-w-[160px] h-[88px]">
+                <div
+                  class="flex bg-slate-800/40 w-full h-full ring-white/5 ring-1 rounded-lg items-center justify-center overflow-hidden p-2">
+                  <img loading="lazy" src="./logos/testimonial-logos/Chen-firm.JPG" alt="Chen Firm"
+                    class="h-10 w-auto object-contain img-protected" draggable="false">
+                </div>
+              </div>
+              <div
+                class="flex items-center justify-center p-5 rounded-xl ring-1 bg-white/5 ring-white/10 hover:bg-white/8 transition-all duration-300 min-w-[160px] h-[88px]">
+                <div
+                  class="flex bg-slate-800/40 w-full h-full ring-white/5 ring-1 rounded-lg items-center justify-center overflow-hidden p-2">
+                  <img loading="lazy" src="./logos/testimonial-logos/Nexora-logo.jpeg" alt="Nexora"
+                    class="h-10 w-auto object-contain img-protected" draggable="false">
+                </div>
+              </div>
+              <div
+                class="flex items-center justify-center p-5 rounded-xl ring-1 bg-white/5 ring-white/10 hover:bg-white/8 transition-all duration-300 min-w-[160px] h-[88px]">
+                <div
+                  class="flex bg-slate-800/40 w-full h-full ring-white/5 ring-1 rounded-lg items-center justify-center overflow-hidden p-2">
+                  <img loading="lazy" src="./logos/testimonial-logos/alponze-LTD.jpeg" alt="Alponze"
+                    class="h-10 w-auto object-contain img-protected" draggable="false">
+                </div>
+              </div>
+              <div
+                class="flex items-center justify-center p-5 rounded-xl ring-1 bg-white/5 ring-white/10 hover:bg-white/8 transition-all duration-300 min-w-[160px] h-[88px]">
+                <div
+                  class="flex bg-slate-800/40 w-full h-full ring-white/5 ring-1 rounded-lg items-center justify-center overflow-hidden p-2">
+                  <img loading="lazy" src="./logos/testimonial-logos/basel-team.jpeg" alt="Basel"
+                    class="h-10 w-auto object-contain img-protected" draggable="false">
+                </div>
+              </div>
+              <div
+                class="flex items-center justify-center p-5 rounded-xl ring-1 bg-white/5 ring-white/10 hover:bg-white/8 transition-all duration-300 min-w-[160px] h-[88px]">
+                <div
+                  class="flex bg-slate-800/40 w-full h-full ring-white/5 ring-1 rounded-lg items-center justify-center overflow-hidden p-2">
+                  <img loading="lazy" src="./logos/testimonial-logos/bynb-team.jpeg" alt="BYNB"
+                    class="h-10 w-auto object-contain img-protected" draggable="false">
+                </div>
+              </div>
+              <div
+                class="flex items-center justify-center p-5 rounded-xl ring-1 bg-white/5 ring-white/10 hover:bg-white/8 transition-all duration-300 min-w-[160px] h-[88px]">
+                <div
+                  class="flex bg-slate-800/40 w-full h-full ring-white/5 ring-1 rounded-lg items-center justify-center overflow-hidden p-2">
+                  <img loading="lazy" src="./logos/testimonial-logos/tamtam-logo.jpeg" alt="TamTam"
+                    class="h-10 w-auto object-contain img-protected" draggable="false">
+                </div>
+              </div>
+              <div
+                class="flex items-center justify-center p-5 rounded-xl ring-1 bg-white/5 ring-white/10 hover:bg-white/8 transition-all duration-300 min-w-[160px] h-[88px]">
+                <div
+                  class="flex bg-slate-800/40 w-full h-full ring-white/5 ring-1 rounded-lg items-center justify-center overflow-hidden p-2">
+                  <img loading="lazy" src="./logos/testimonial-logos/vertex-team.jpeg" alt="Vertex"
+                    class="h-10 w-auto object-contain img-protected" draggable="false">
+                </div>
+              </div>
+              <div
+                class="flex items-center justify-center p-5 rounded-xl ring-1 bg-white/5 ring-white/10 hover:bg-white/8 transition-all duration-300 min-w-[160px] h-[88px]">
+                <div
+                  class="flex bg-slate-800/40 w-full h-full ring-white/5 ring-1 rounded-lg items-center justify-center overflow-hidden p-2">
+                  <span
+                    class="font-['Urbanist'] text-sm font-bold text-white text-center leading-tight">Global<br>Scale</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <style>
+      @keyframes marquee {
+        from {
+          transform: translateX(0);
+        }
+
+        to {
+          transform: translateX(calc(-50%));
+        }
+      }
+
+      .animate-marquee {
+        animation: marquee var(--duration) linear infinite;
+        animation-direction: var(--direction);
+      }
+    </style>
+  </section>
+
+  <!-- HERO SCROLL DEMO (Adapted for Flow Page) -->
+  <section id="solution" class="bg-slate-950 relative">
+    <div id="merged-scroll-trigger" class="py-10 md:py-20">
+      <div class="h-[90rem] md:h-[75rem] flex items-center justify-center relative p-2 md:p-20">
+        <div class="py-10 md:py-20 w-full relative" style="perspective: 1000px;">
+
+          <!-- Header Component -->
+          <div id="scroll-demo-header" class="max-w-4xl mx-auto text-center mb-10 z-0 relative transform">
+            <span class="uppercase block text-xs text-indigo-400 tracking-widest font-mono mb-4">The Operating System
+              for Departments</span>
+            <h2 class="text-4xl md:text-7xl font-light text-white tracking-tight mb-6">
+              Enter <span class="font-serif italic text-slate-200">Flow OS</span>
+            </h2>
+            <p class="text-xl text-slate-400 font-light max-w-2xl mx-auto">
+              One department for every workflow, every agent, every decision. Flow OS is the unified operations layer
+              your entire business runs through — and at day 90, it's yours.
+            </p>
+          </div>
+
+          <!-- Card Component (Tablet Frame) -->
+          <div id="scroll-demo-card"
+            class="max-w-6xl -mt-10 md:-mt-24 mx-auto h-[30rem] md:h-[45rem] w-full border-[8px] border-slate-800 p-2 md:p-6 bg-slate-950 rounded-[40px] shadow-[0_30px_60px_rgba(0,0,0,0.5)] z-20 relative">
+            <!-- Screen Content -->
+            <div
+              class="absolute inset-2 md:inset-6 overflow-hidden rounded-[24px] bg-slate-900 border border-slate-800">
+              <!-- Image/Demo Placeholder -->
+              <img src="./assets/new-dashboard-dark.jpeg" alt="Flow OS Dashboard Demo"
+                class="object-cover object-left-top w-full h-full block img-protected" draggable="false" />
+              <div class="absolute inset-0 z-10" oncontextmenu="return false;"></div>
+            </div>
+          </div>
+
+          <!-- Features Grid (Moved Below Card) -->
+          <div id="scroll-demo-features" class="max-w-6xl mx-auto mt-10 z-30 relative">
+            <div class="grid md:grid-cols-3 gap-6">
+              <!-- Feature 1 -->
+              <div
+                class="bg-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-800 shadow-sm hover:shadow-md transition-all group">
+                <div
+                  class="w-12 h-12 bg-sky-900/30 rounded-lg flex items-center justify-center mb-4 group-hover:bg-sky-900/50 transition-colors">
+                  <iconify-icon icon="solar:layers-minimalistic-linear" class="text-sky-400 text-2xl"></iconify-icon>
+                </div>
+                <h3 class="text-lg text-white font-semibold mb-2">SOP Workflow Capture</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">
+                  Every process mapped, documented, and executable. Your playbook lives in the system — not in someone's
+                  head.
+                </p>
+              </div>
+
+              <!-- Feature 2 -->
+              <div
+                class="bg-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-800 shadow-sm hover:shadow-md transition-all group">
+                <div
+                  class="w-12 h-12 bg-indigo-900/30 rounded-lg flex items-center justify-center mb-4 group-hover:bg-indigo-900/50 transition-colors">
+                  <iconify-icon icon="solar:cpu-bolt-linear" class="text-indigo-400 text-2xl"></iconify-icon>
+                </div>
+                <h3 class="text-lg text-white font-semibold mb-2">Agent Orchestration</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">
+                  AI agents that execute tasks, route decisions, and escalate exceptions — operating 24/7 inside your
+                  workflows.
+                </p>
+              </div>
+
+              <!-- Feature 3 -->
+              <div
+                class="bg-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-800 shadow-sm hover:shadow-md transition-all group">
+                <div
+                  class="w-12 h-12 bg-emerald-900/30 rounded-lg flex items-center justify-center mb-4 group-hover:bg-emerald-900/50 transition-colors">
+                  <iconify-icon icon="solar:graph-up-linear" class="text-emerald-400 text-2xl"></iconify-icon>
+                </div>
+                <h3 class="text-lg text-white font-semibold mb-2">Forever Memory</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">
+                  Every decision, every exception, every workaround — captured and searchable. Institutional knowledge
+                  that never walks out the door.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GSAP Script for Merged Section -->
+  <script>
+    document.addEventListener("DOMContentLoaded", (event) => {
+      gsap.registerPlugin(ScrollTrigger);
+
+      const isMobile = window.innerWidth <= 768;
+      const scaleValues = isMobile ? [0.8, 0.9] : [1.1, 1];
+
+      // Mobile-specific y-values to prevent clipping
+      const headerY = isMobile ? { from: 80, to: -50 } : { from: 150, to: -200 };
+      const cardY = isMobile ? { from: 50, to: 0 } : { from: 100, to: -50 };
+      const featuresY = isMobile ? { from: 100, to: 0 } : { from: 200, to: -100 };
+
+      // Header Animation (Emerges from behind)
+      gsap.fromTo("#scroll-demo-header",
+        {
+          y: headerY.from,
+          opacity: 0.5
+        },
+        {
+          y: headerY.to,
+          opacity: 1,
+          ease: "none",
+          scrollTrigger: {
+            trigger: "#merged-scroll-trigger",
+            start: "top bottom",
+            end: "center center",
+            scrub: 1
+          }
+        }
+      );
+
+      // Card Animation (Rotate, Scale, Translate)
+      gsap.fromTo("#scroll-demo-card",
+        {
+          rotationX: isMobile ? 15 : 25,
+          scale: scaleValues[0],
+          y: cardY.from,
+          boxShadow: "0 0 0px rgba(0,0,0,0)"
+        },
+        {
+          rotationX: 0,
+          scale: scaleValues[1],
+          y: cardY.to,
+          boxShadow: "0 30px 60px rgba(0,0,0,0.5)",
+          ease: "none",
+          scrollTrigger: {
+            trigger: "#merged-scroll-trigger",
+            start: "top bottom",
+            end: "bottom bottom",
+            scrub: 1
+          }
+        }
+      );
+
+      // Features Grid Animation (Parallax Depth)
+      gsap.fromTo("#scroll-demo-features",
+        {
+          y: featuresY.from,
+          opacity: 0
+        },
+        {
+          y: featuresY.to,
+          opacity: 1,
+          ease: "none",
+          scrollTrigger: {
+            trigger: "#merged-scroll-trigger",
+            start: "top bottom",
+            end: "bottom bottom",
+            scrub: 1
+          }
+        }
+      );
+    });
+  </script>
+  <!-- Image Protection -->
+  <script src="js/image-protection.js"></script>
+
+  <!-- DREAM OUTCOME SECTION - What Flow OS Looks Like Running -->
+  <section class="overflow-hidden md:py-28 bg-slate-950 pt-20 pb-20 relative" id="how-it-works">
+    <!-- Decorative grid lines -->
+    <div class="pointer-events-none z-0 absolute inset-0">
+      <div class="absolute inset-y-0 left-[20%] w-px bg-gradient-to-b from-transparent to-transparent via-white/5">
+      </div>
+      <div class="absolute inset-y-0 left-[40%] w-px bg-gradient-to-b from-transparent to-transparent via-white/5">
+      </div>
+      <div class="absolute inset-y-0 left-[50%] w-px bg-gradient-to-b from-transparent to-transparent via-white/8">
+      </div>
+      <div class="absolute inset-y-0 left-[60%] w-px bg-gradient-to-b from-transparent to-transparent via-white/5">
+      </div>
+      <div class="absolute inset-y-0 left-[80%] w-px bg-gradient-to-b from-transparent to-transparent via-white/5">
+      </div>
+    </div>
+
+    <div class="z-10 md:px-8 max-w-7xl mr-auto ml-auto pr-6 pl-6 relative">
+      <!-- Section Header -->
+      <div
+        class="text-center max-w-3xl mx-auto mb-16 animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.1s_both] animate">
+        <h2 class="text-4xl sm:text-5xl md:text-6xl font-normal tracking-tighter font-geist text-white mb-4">
+          From Overwhelmed to Extraordinary
+        </h2>
+        <p class="text-lg md:text-xl leading-relaxed font-geist text-slate-400 mt-6">
+          Here's what your operation looks like
+          <span class="text-white font-semibold">running on Flow OS.</span>
+        </p>
+      </div>
+
+      <!-- Dream Outcome Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto mb-12">
+        <!-- Outcome 1: Visibility -->
+        <div class="animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.2s_both] animate">
+          <div
+            class="rounded-2xl ring-1 backdrop-blur-md p-8 h-full bg-gradient-to-br from-emerald-950/20 to-slate-950/60 ring-emerald-800/20 shadow-xl relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-40 h-40 bg-emerald-500/10 rounded-full blur-3xl opacity-30"></div>
+            <div class="relative z-10">
+              <div
+                class="w-12 h-12 rounded-xl bg-emerald-900/40 ring-1 ring-emerald-700/30 flex items-center justify-center mb-5">
+                <iconify-icon icon="solar:eye-bold-duotone" class="text-2xl text-emerald-400"></iconify-icon>
+              </div>
+              <h3 class="text-xl font-semibold tracking-tight font-geist text-white mb-3">Total Visibility</h3>
+              <p class="text-sm md:text-base font-geist text-slate-400 leading-relaxed">
+                Every workflow, every handoff, every decision — visible in one place. No more asking "who owns this?" or
+                digging through Slack threads to find a status update.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Outcome 2: Control -->
+        <div class="animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.25s_both] animate">
+          <div
+            class="rounded-2xl ring-1 backdrop-blur-md p-8 h-full bg-gradient-to-br from-blue-950/20 to-slate-950/60 ring-blue-800/20 shadow-xl relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-40 h-40 bg-blue-500/10 rounded-full blur-3xl opacity-30"></div>
+            <div class="relative z-10">
+              <div
+                class="w-12 h-12 rounded-xl bg-blue-900/40 ring-1 ring-blue-700/30 flex items-center justify-center mb-5">
+                <iconify-icon icon="solar:tuning-2-bold-duotone" class="text-2xl text-blue-400"></iconify-icon>
+              </div>
+              <h3 class="text-xl font-semibold tracking-tight font-geist text-white mb-3">Operational Control</h3>
+              <p class="text-sm md:text-base font-geist text-slate-400 leading-relaxed">
+                Your operation runs on documented SOPs and AI agents — not on whoever happens to remember how things
+                work. Key-person risk drops to zero.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Outcome 3: Speed -->
+        <div class="animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.3s_both] animate">
+          <div
+            class="rounded-2xl ring-1 backdrop-blur-md p-8 h-full bg-gradient-to-br from-indigo-950/20 to-slate-950/60 ring-indigo-800/20 shadow-xl relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-40 h-40 bg-indigo-500/10 rounded-full blur-3xl opacity-30"></div>
+            <div class="relative z-10">
+              <div
+                class="w-12 h-12 rounded-xl bg-indigo-900/40 ring-1 ring-indigo-700/30 flex items-center justify-center mb-5">
+                <iconify-icon icon="solar:bolt-bold-duotone" class="text-2xl text-indigo-400"></iconify-icon>
+              </div>
+              <h3 class="text-xl font-semibold tracking-tight font-geist text-white mb-3">Execution Speed</h3>
+              <p class="text-sm md:text-base font-geist text-slate-400 leading-relaxed">
+                Agents handle the repetitive work. Your team handles the judgment calls. Onboarding that took months now
+                takes days. Processes that took hours now take minutes.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Outcome 4: Autonomy -->
+        <div class="animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.35s_both] animate">
+          <div
+            class="rounded-2xl ring-1 backdrop-blur-md p-8 h-full bg-gradient-to-br from-amber-950/20 to-slate-950/60 ring-amber-800/20 shadow-xl relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-40 h-40 bg-amber-500/10 rounded-full blur-3xl opacity-30"></div>
+            <div class="relative z-10">
+              <div
+                class="w-12 h-12 rounded-xl bg-amber-900/40 ring-1 ring-amber-700/30 flex items-center justify-center mb-5">
+                <iconify-icon icon="solar:key-bold-duotone" class="text-2xl text-amber-400"></iconify-icon>
+              </div>
+              <h3 class="text-xl font-semibold tracking-tight font-geist text-white mb-3">Full Ownership</h3>
+              <p class="text-sm md:text-base font-geist text-slate-400 leading-relaxed">
+                At day 90, you get the Sovereignty Packet — SOPs, credentials, runbooks, trained team. The system is
+                yours. No subscriptions. No lock-in. It's all yours.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Outcome 5: Integration -->
+        <div class="animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.4s_both] animate">
+          <div
+            class="rounded-2xl ring-1 backdrop-blur-md p-8 h-full bg-gradient-to-br from-sky-950/20 to-slate-950/60 ring-sky-800/20 shadow-xl relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-40 h-40 bg-sky-500/10 rounded-full blur-3xl opacity-30"></div>
+            <div class="relative z-10">
+              <div
+                class="w-12 h-12 rounded-xl bg-sky-900/40 ring-1 ring-sky-700/30 flex items-center justify-center mb-5">
+                <iconify-icon icon="solar:plug-circle-bold-duotone" class="text-2xl text-sky-400"></iconify-icon>
+              </div>
+              <h3 class="text-xl font-semibold tracking-tight font-geist text-white mb-3">Zero Migration</h3>
+              <p class="text-sm md:text-base font-geist text-slate-400 leading-relaxed">
+                Flow OS sits on top of your existing stack. Slack, HubSpot, Notion, Salesforce, Google — unified under
+                one layer. No rip-and-replace. No retraining.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Outcome 6: Compounding -->
+        <div class="animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.45s_both] animate">
+          <div
+            class="rounded-2xl ring-1 backdrop-blur-md p-8 h-full bg-gradient-to-br from-violet-950/20 to-slate-950/60 ring-violet-800/20 shadow-xl relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-40 h-40 bg-violet-500/10 rounded-full blur-3xl opacity-30"></div>
+            <div class="relative z-10">
+              <div
+                class="w-12 h-12 rounded-xl bg-violet-900/40 ring-1 ring-violet-700/30 flex items-center justify-center mb-5">
+                <iconify-icon icon="solar:graph-up-bold-duotone" class="text-2xl text-violet-400"></iconify-icon>
+              </div>
+              <h3 class="text-xl font-semibold tracking-tight font-geist text-white mb-3">Compounding Intelligence</h3>
+              <p class="text-sm md:text-base font-geist text-slate-400 leading-relaxed">
+                Every decision logged. Every exception documented. Every workaround captured. Your operation gets
+                smarter every week — and none of it lives in someone's head.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div
+        class="text-center max-w-2xl mx-auto animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.5s_both] animate">
+        <a href="/x-scale.html"
+          class="inline-flex items-center justify-center gap-3 md:text-lg transition-all duration-300 shadow-emerald-500/30 hover:shadow-emerald-500/50 hover:scale-105 hover:ring-emerald-400/70 text-base font-semibold text-white font-geist bg-gradient-to-r from-emerald-600 to-blue-600 ring-emerald-500/50 ring-2 rounded-full pt-4 pr-8 pb-4 pl-8 shadow-2xl">
+          Book Architecture Session
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5">
+            <path d="M5 12h14"></path>
+            <path d="m12 5 7 7-7 7"></path>
+          </svg>
+        </a>
+
+        <div class="mt-8 space-y-3">
+          <div class="flex flex-wrap items-center justify-center gap-6 text-xs md:text-sm font-geist text-slate-500">
+            <div class="flex items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="text-emerald-400">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span>55% efficiency gains — guaranteed</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="text-emerald-400">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span>90 days to sovereignty</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="text-emerald-400">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span>You own everything we build</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SOCIAL PROOF BAR - Standalone Section -->
+  <section class="overflow-hidden md:pt-5 bg-slate-950 border-white/5 border-t border-b pt-5 pb-16 relative">
+    <!-- Decorative grid lines -->
+    <div class="pointer-events-none z-0 absolute inset-0">
+      <div class="absolute inset-y-0 left-[25%] w-px bg-gradient-to-b from-transparent to-transparent via-white/5">
+      </div>
+      <div class="absolute inset-y-0 left-[50%] w-px bg-gradient-to-b from-transparent to-transparent via-white/8">
+      </div>
+      <div class="absolute inset-y-0 left-[75%] w-px bg-gradient-to-b from-transparent to-transparent via-white/5">
+      </div>
+    </div>
+
+    <div class="z-10 md:px-8 max-w-7xl mr-auto ml-auto pr-6 pl-6 relative">
+      <!-- Badge -->
+      <div class="text-center mb-10 animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.1s_both] animate">
+        <div
+          class="inline-flex ring-1 ring-white/10 text-sm font-medium text-white/80 font-geist bg-white/5 rounded-full pt-2 pr-4 pb-2 pl-4 shadow-2xl backdrop-blur-sm gap-x-2 gap-y-2 items-center">
+          Deployed Across Industries
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="w-4 h-4 text-blue-400">
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+            <circle cx="9" cy="7" r="4"></circle>
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Icon Grid -->
+      <div
+        class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-9 gap-4 md:gap-6 max-w-6xl mx-auto animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.2s_both] animate">
+        <!-- Legal -->
+        <div
+          class="group flex flex-col items-center gap-3 p-4 rounded-2xl ring-1 bg-slate-900/40 ring-white/10 backdrop-blur-sm transition-all duration-300 hover:bg-slate-900/60 hover:ring-white/20 shadow-2xl hover:shadow-blue-500/10">
+          <div
+            class="w-10 h-10 rounded-xl ring-1 flex items-center justify-center bg-white/5 ring-white/10 group-hover:bg-white/10 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="text-slate-300">
+              <path
+                d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z">
+              </path>
+            </svg>
+          </div>
+          <span
+            class="text-xs font-medium font-geist text-slate-400 text-center group-hover:text-slate-300 transition-colors">
+            Legal
+          </span>
+        </div>
+
+        <!-- Real Estate -->
+        <div
+          class="group flex flex-col items-center gap-3 p-4 rounded-2xl ring-1 bg-slate-900/40 ring-white/10 backdrop-blur-sm transition-all duration-300 hover:bg-slate-900/60 hover:ring-white/20 shadow-2xl hover:shadow-blue-500/10">
+          <div
+            class="w-10 h-10 rounded-xl ring-1 flex items-center justify-center bg-white/5 ring-white/10 group-hover:bg-white/10 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="text-slate-300">
+              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+              <polyline points="9 22 9 12 15 12 15 22"></polyline>
+            </svg>
+          </div>
+          <span
+            class="text-xs font-medium font-geist text-slate-400 text-center group-hover:text-slate-300 transition-colors">
+            Real Estate
+          </span>
+        </div>
+
+        <!-- Healthcare -->
+        <div
+          class="group flex flex-col items-center gap-3 p-4 rounded-2xl ring-1 bg-slate-900/40 ring-white/10 backdrop-blur-sm transition-all duration-300 hover:bg-slate-900/60 hover:ring-white/20 shadow-2xl hover:shadow-blue-500/10">
+          <div
+            class="w-10 h-10 rounded-xl ring-1 flex items-center justify-center bg-white/5 ring-white/10 group-hover:bg-white/10 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="text-slate-300">
+              <path d="M12 2v4"></path>
+              <path d="M12 18v4"></path>
+              <path d="M4.93 4.93l2.83 2.83"></path>
+              <path d="M16.24 16.24l2.83 2.83"></path>
+              <path d="M2 12h4"></path>
+              <path d="M18 12h4"></path>
+              <path d="M4.93 19.07l2.83-2.83"></path>
+              <path d="M16.24 7.76l2.83-2.83"></path>
+            </svg>
+          </div>
+          <span
+            class="text-xs font-medium font-geist text-slate-400 text-center group-hover:text-slate-300 transition-colors">
+            Healthcare
+          </span>
+        </div>
+
+        <!-- Financial Services -->
+        <div
+          class="group flex flex-col items-center gap-3 p-4 rounded-2xl ring-1 bg-slate-900/40 ring-white/10 backdrop-blur-sm transition-all duration-300 hover:bg-slate-900/60 hover:ring-white/20 shadow-2xl hover:shadow-blue-500/10">
+          <div
+            class="w-10 h-10 rounded-xl ring-1 flex items-center justify-center bg-white/5 ring-white/10 group-hover:bg-white/10 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="text-slate-300">
+              <line x1="12" x2="12" y1="2" y2="22"></line>
+              <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+            </svg>
+          </div>
+          <span
+            class="text-xs font-medium font-geist text-slate-400 text-center group-hover:text-slate-300 transition-colors">
+            Financial
+          </span>
+        </div>
+
+        <!-- Manufacturing -->
+        <div
+          class="group flex flex-col items-center gap-3 p-4 rounded-2xl ring-1 bg-slate-900/40 ring-white/10 backdrop-blur-sm transition-all duration-300 hover:bg-slate-900/60 hover:ring-white/20 shadow-2xl hover:shadow-blue-500/10">
+          <div
+            class="w-10 h-10 rounded-xl ring-1 flex items-center justify-center bg-white/5 ring-white/10 group-hover:bg-white/10 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="text-slate-300">
+              <path d="M12 2v20"></path>
+              <path d="m15 5 4 4H5l4-4"></path>
+              <path d="M3 9h18" class=""></path>
+              <path d="m5 15 4-4"></path>
+              <path d="m15 15-4-4"></path>
+            </svg>
+          </div>
+          <span
+            class="text-xs font-medium font-geist text-slate-400 text-center group-hover:text-slate-300 transition-colors">
+            Manufacturing
+          </span>
+        </div>
+
+        <!-- Logistics -->
+        <div
+          class="group flex flex-col items-center gap-3 p-4 rounded-2xl ring-1 bg-slate-900/40 ring-white/10 backdrop-blur-sm transition-all duration-300 hover:bg-slate-900/60 hover:ring-white/20 shadow-2xl hover:shadow-blue-500/10">
+          <div
+            class="w-10 h-10 rounded-xl ring-1 flex items-center justify-center bg-white/5 ring-white/10 group-hover:bg-white/10 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="text-slate-300">
+              <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2" class=""></path>
+              <path d="M15 18H9"></path>
+              <path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"></path>
+              <circle cx="17" cy="18" r="2"></circle>
+              <circle cx="7" cy="18" r="2"></circle>
+            </svg>
+          </div>
+          <span
+            class="text-xs font-medium font-geist text-slate-400 text-center group-hover:text-slate-300 transition-colors">
+            Logistics
+          </span>
+        </div>
+
+        <!-- Retail & E-commerce -->
+        <div
+          class="group flex flex-col items-center gap-3 p-4 rounded-2xl ring-1 bg-slate-900/40 ring-white/10 backdrop-blur-sm transition-all duration-300 hover:bg-slate-900/60 hover:ring-white/20 shadow-2xl hover:shadow-blue-500/10">
+          <div
+            class="w-10 h-10 rounded-xl ring-1 flex items-center justify-center bg-white/5 ring-white/10 group-hover:bg-white/10 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="text-slate-300">
+              <circle cx="8" cy="21" r="1"></circle>
+              <circle cx="19" cy="21" r="1"></circle>
+              <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"></path>
+            </svg>
+          </div>
+          <span
+            class="text-xs font-medium font-geist text-slate-400 text-center group-hover:text-slate-300 transition-colors">
+            Ecomm | Retail
+          </span>
+        </div>
+
+        <!-- Hospitality -->
+        <div
+          class="group flex flex-col items-center gap-3 p-4 rounded-2xl ring-1 bg-slate-900/40 ring-white/10 backdrop-blur-sm transition-all duration-300 hover:bg-slate-900/60 hover:ring-white/20 shadow-2xl hover:shadow-blue-500/10">
+          <div
+            class="w-10 h-10 rounded-xl ring-1 flex items-center justify-center bg-white/5 ring-white/10 group-hover:bg-white/10 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="text-slate-300">
+              <path d="M2 20v-5c0-1.1.9-2 2-2h3"></path>
+              <path d="M20 20v-5c0-1.1-.9-2-2-2h-3"></path>
+              <path d="M10 20v-8"></path>
+              <path d="M14 20v-8"></path>
+              <path d="M2 4h20"></path>
+              <path d="M7 4v4"></path>
+              <path d="M12 4v4"></path>
+              <path d="M17 4v4"></path>
+            </svg>
+          </div>
+          <span
+            class="text-xs font-medium font-geist text-slate-400 text-center group-hover:text-slate-300 transition-colors">
+            Hospitality
+          </span>
+        </div>
+
+        <!-- & More (with glow and heavy shadows) -->
+        <div
+          class="group flex flex-col items-center gap-3 p-4 rounded-2xl ring-1 bg-slate-900/40 ring-white/10 backdrop-blur-sm transition-all duration-300 hover:bg-slate-900/60 hover:ring-white/20 shadow-2xl hover:shadow-blue-500/20 relative">
+          <!-- Glowing background effect -->
+          <div
+            class="absolute inset-0 bg-blue-500/10 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          </div>
+
+          <div
+            class="w-10 h-10 rounded-xl ring-1 flex items-center justify-center bg-white/5 ring-white/10 group-hover:bg-blue-500/20 transition-all relative shadow-xl shadow-blue-500/50">
+            <!-- Pulsing glow ring -->
+            <div class="absolute inset-0 rounded-xl bg-blue-400/20 blur-md animate-pulse"></div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="text-blue-400 relative z-10">
+              <line x1="12" x2="12" y1="5" y2="19"></line>
+              <line x1="5" x2="19" y1="12" y2="12"></line>
+            </svg>
+          </div>
+          <span
+            class="text-xs font-medium font-geist text-slate-400 text-center group-hover:text-blue-300 transition-colors relative z-10">
+            &amp; More
+          </span>
+        </div>
+      </div>
+
+      <!-- Supporting Text -->
+      <div class="text-center mt-10 animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.3s_both] animate">
+        <p class="md:text-base text-sm font-medium text-slate-400 font-geist">
+          Flow OS adapts to
+          <span class="font-semibold text-white">your industry's operational reality</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SERVICES SECTION - Value-Focused Hybrid Approach -->
+  <section class="overflow-hidden lg:py-28 bg-slate-950 pt-28 pb-28 relative" id="services">
+    <!-- Decorative grid lines -->
+    <div class="pointer-events-none z-0 absolute inset-0">
+      <div class="absolute inset-y-0 left-[20%] w-px bg-gradient-to-b from-transparent to-transparent via-white/5">
+      </div>
+      <div class="absolute inset-y-0 left-[40%] w-px bg-gradient-to-b from-transparent to-transparent via-white/5">
+      </div>
+      <div class="absolute inset-y-0 left-[50%] w-px bg-gradient-to-b from-transparent to-transparent via-white/8">
+      </div>
+      <div class="absolute inset-y-0 left-[60%] w-px bg-gradient-to-b from-transparent to-transparent via-white/5">
+      </div>
+      <div class="absolute inset-y-0 left-[80%] w-px bg-gradient-to-b from-transparent to-transparent via-white/5">
+      </div>
+    </div>
+
+    <div class="z-10 md:px-8 max-w-7xl mr-auto ml-auto pr-6 pl-6 relative">
+      <!-- Section Header -->
+      <div class="text-center max-w-4xl mx-auto mb-20 animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.1s_both]">
+        <div
+          class="inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs font-medium ring-1 mb-6 font-geist bg-blue-500/10 text-blue-300 ring-blue-500/20 backdrop-blur-sm">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12"></polyline>
+          </svg>
+          The On Ramp: Service + Software
+        </div>
+
+        <h2 class="text-4xl sm:text-5xl md:text-6xl font-normal tracking-tighter font-geist text-white mb-6">
+          We Don't Just Build It.
+          <span class="block bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-blue-300 to-emerald-400">
+            We Run It Until You Own It.
+          </span>
+        </h2>
+
+        <p class="text-lg md:text-xl leading-relaxed font-geist text-slate-400">
+          Flow OS is software. But getting it right requires the people who built it. We deliver
+          <span class="text-white font-semibold">measurable transformation</span>
+          in 90 days — then hand you the keys.
+        </p>
+      </div>
+
+      <!-- Services Grid -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 max-w-6xl mr-auto ml-auto gap-x-8 gap-y-8">
+        <!-- Service Card 1: Done-For-You Implementation -->
+        <div class="group animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.2s_both]">
+          <div
+            class="rounded-3xl ring-1 backdrop-blur-md overflow-hidden h-full transition-all duration-500 bg-slate-900/40 ring-white/10 shadow-2xl hover:shadow-blue-500/20 hover:ring-white/20 hover:-translate-y-1">
+            <!-- Image Placeholder -->
+            <div class="relative h-64 bg-gradient-to-br from-blue-900/30 to-slate-900/60 overflow-hidden">
+              <!-- Decorative glow -->
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent opacity-60"></div>
+              <div class="absolute top-0 right-0 w-48 h-48 bg-blue-500/20 rounded-full blur-3xl" style=""></div>
+
+              <!-- Placeholder content - REPLACE THIS IMAGE -->
+              <div class="z-10 flex h-full relative items-center justify-center">
+                <img src="./assets/images/Team.jpeg" alt="Done-For-You AI Team"
+                  class="w-full h-full object-cover object-[50%_25%] top-0 right-0 bottom-0 left-0"
+                  data-container-bg="true">
+              </div>
+            </div>
+
+            <!-- Card Content -->
+            <div class="pt-8 pr-8 pb-8 pl-8">
+              <h3
+                class="md:text-3xl group-hover:text-blue-300 transition-colors text-2xl font-semibold text-white tracking-tight font-geist mb-4">
+                Done-For-You AI
+                <br>
+                That Actually Works
+              </h3>
+
+              <p class="text-base font-geist text-slate-400 leading-relaxed mb-6">
+                No tech team? No problem. We handle everything from strategy
+                to implementation—so you can focus on running your business.
+              </p>
+
+              <div class="space-y-3">
+                <div class="flex items-start gap-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="flex-shrink-0 mt-0.5 text-blue-400">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <p class="text-sm font-geist text-slate-300">
+                    Complete audit of your workflows to find the biggest time
+                    drains
+                  </p>
+                </div>
+
+                <div class="flex items-start gap-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="flex-shrink-0 mt-0.5 text-blue-400">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <p class="text-sm font-geist text-slate-300">
+                    Custom AI automations built specifically for your business
+                  </p>
+                </div>
+
+                <div class="flex items-start gap-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="flex-shrink-0 mt-0.5 text-blue-400">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <p class="text-sm font-geist text-slate-300">
+                    Team training so your staff actually uses the systems we
+                    build
+                  </p>
+                </div>
+
+                <div class="flex items-start gap-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="flex-shrink-0 mt-0.5 text-blue-400">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <p class="text-sm font-geist text-slate-300">
+                    Deployment and integration with your existing tools
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service Card 2: Speed to Value -->
+        <div class="group animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.3s_both]">
+          <div
+            class="rounded-3xl ring-1 backdrop-blur-md overflow-hidden h-full transition-all duration-500 bg-slate-900/40 ring-white/10 shadow-2xl hover:shadow-emerald-500/20 hover:ring-white/20 hover:-translate-y-1">
+            <!-- Image Placeholder -->
+            <div class="relative h-64 bg-gradient-to-br from-emerald-900/30 to-slate-900/60 overflow-hidden">
+              <!-- Decorative glow -->
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent opacity-60"></div>
+              <div class="absolute top-0 left-0 w-48 h-48 bg-emerald-500/20 rounded-full blur-3xl"></div>
+
+              <!-- Placeholder content - REPLACE THIS IMAGE -->
+              <div class="z-10 flex h-full relative items-center justify-center">
+                <img src="./assets/flow-image-asset/clairty-runner.jpeg" alt="Speed to Value Runner"
+                  class="absolute inset-0 w-full h-full object-cover object-[50%_25%]" data-container-bg="true">
+              </div>
+            </div>
+
+            <!-- Card Content -->
+            <div class="p-8">
+              <h3
+                class="text-2xl md:text-3xl font-semibold tracking-tight font-geist text-white mb-4 group-hover:text-emerald-300 transition-colors">
+                From Chaos to Clarity in 30 Days
+              </h3>
+
+              <p class="leading-relaxed text-base text-slate-400 font-geist mb-6">
+                Slow Enterprise AI takes 6-12 months. We get you results in 2
+                weeks. Your competitors can't afford to wait—neither can you.
+              </p>
+
+              <div class="space-y-3">
+                <div class="flex items-start gap-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="flex-shrink-0 mt-0.5 text-emerald-400">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <p class="text-sm font-geist text-slate-300">
+                    Live in production within 30 days—not 6 months
+                  </p>
+                </div>
+
+                <div class="flex items-start gap-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="flex-shrink-0 mt-0.5 text-emerald-400">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <p class="text-sm font-geist text-slate-300">
+                    See measurable time savings in your first week
+                  </p>
+                </div>
+
+                <div class="flex items-start gap-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="flex-shrink-0 mt-0.5 text-emerald-400">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <p class="text-sm font-geist text-slate-300">
+                    Productized systems are custom but deploy at speed
+                  </p>
+                </div>
+
+                <div class="flex items-start gap-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="flex-shrink-0 mt-0.5 text-emerald-400">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <p class="text-sm font-geist text-slate-300">
+                    Quick wins that prove ROI before you scale further
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service Card 3: Outcome/ROI Focus -->
+        <div class="group animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.4s_both]">
+          <div
+            class="rounded-3xl ring-1 backdrop-blur-md overflow-hidden h-full transition-all duration-500 bg-slate-900/40 ring-white/10 shadow-2xl hover:shadow-purple-500/20 hover:ring-white/20 hover:-translate-y-1">
+            <!-- Image Placeholder -->
+            <div class="relative h-64 bg-gradient-to-br from-purple-900/30 to-slate-900/60 overflow-hidden">
+              <!-- Decorative glow -->
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent opacity-60"></div>
+              <div class="absolute bottom-0 right-0 w-48 h-48 bg-purple-500/20 rounded-full blur-3xl"></div>
+
+              <!-- IMAGE -->
+              <div class="z-10 flex h-full relative items-center justify-center">
+                <img src="./assets/flow-image-asset/flow-os-asset.jpeg" alt="Flow OS Asset"
+                  class="absolute inset-0 w-full h-full object-cover" data-container-bg="true">
+                <div class="text-center">
+                  <p class="text-xs font-geist text-slate-500 uppercase tracking-wider">
+                    Replace via Gallery
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card Content -->
+            <div class="p-8">
+              <h3
+                class="text-2xl md:text-3xl font-semibold tracking-tight font-geist text-white mb-4 group-hover:text-purple-300 transition-colors">
+                55% Efficiency Gains — Guaranteed
+              </h3>
+
+              <p class="text-base font-geist text-slate-400 leading-relaxed mb-6">
+                Measured across time and cost. Your operation gets faster, leaner, and smarter — with a performance
+                baseline to prove it.
+              </p>
+
+              <div class="space-y-3">
+                <div class="flex items-start gap-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="flex-shrink-0 mt-0.5 text-purple-400">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <p class="text-sm font-geist text-slate-300">
+                    Agents handle repetitive work autonomously
+                  </p>
+                </div>
+
+                <div class="flex items-start gap-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="flex-shrink-0 mt-0.5 text-purple-400">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <p class="text-sm font-geist text-slate-300">
+                    Scale operations without adding headcount or overhead
+                  </p>
+                </div>
+
+                <div class="flex items-start gap-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="flex-shrink-0 mt-0.5 text-purple-400">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <p class="text-sm text-slate-300 font-geist">
+                    Institutional memory captured — key-person risk eliminated
+                  </p>
+                </div>
+
+                <div class="flex items-start gap-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="flex-shrink-0 mt-0.5 text-purple-400">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <p class="text-sm font-geist text-slate-300">
+                    Full ownership at day 90 — no subscriptions needed, no lock-in
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service Card 4: Support/Partnership -->
+        <div class="group animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.5s_both]">
+          <div
+            class="rounded-3xl ring-1 backdrop-blur-md overflow-hidden h-full transition-all duration-500 bg-slate-900/40 ring-white/10 shadow-2xl hover:shadow-orange-500/20 hover:ring-white/20 hover:-translate-y-1">
+            <!-- Image Placeholder -->
+            <div class="relative h-64 bg-gradient-to-br from-orange-900/30 to-slate-900/60 overflow-hidden">
+              <!-- Decorative glow -->
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent opacity-60"></div>
+              <div class="absolute top-0 right-0 w-48 h-48 bg-orange-500/20 rounded-full blur-3xl"></div>
+
+              <!-- Placeholder content - REPLACE THIS IMAGE -->
+              <div class="z-10 flex h-full relative items-center justify-center">
+                <img src="./assets/flow-image-asset/support-asset-2.jpeg" alt="Support Partnership"
+                  class="absolute inset-0 w-full h-full object-cover" data-container-bg="true">
+              </div>
+            </div>
+
+            <!-- Card Content -->
+            <div class="p-8">
+              <h3
+                class="text-2xl md:text-3xl font-semibold tracking-tight font-geist text-white mb-4 group-hover:text-orange-300 transition-colors">
+                We Don't Stop Until You Win
+              </h3>
+
+              <p class="text-base font-geist text-slate-400 leading-relaxed mb-6">
+                Most agencies deliver and disappear. We stay in your corner
+                for 60-90 days, optimizing and adjusting until you hit your
+                goals.
+              </p>
+
+              <div class="space-y-3">
+                <div class="flex items-start gap-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="flex-shrink-0 mt-0.5 text-orange-400">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <p class="text-sm font-geist text-slate-300">
+                    60-90 day optimization period included—no extra charge
+                  </p>
+                </div>
+
+                <div class="flex items-start gap-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="flex-shrink-0 mt-0.5 text-orange-400">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <p class="text-sm font-geist text-slate-300">
+                    Monthly strategy sessions to refine and scale your systems
+                  </p>
+                </div>
+
+                <div class="flex items-start gap-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="flex-shrink-0 mt-0.5 text-orange-400">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <p class="text-sm font-geist text-slate-300">
+                    Priority support—your questions answered within 24 hours
+                  </p>
+                </div>
+
+                <div class="flex items-start gap-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="flex-shrink-0 mt-0.5 text-orange-400">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <p class="text-sm font-geist text-slate-300">
+                    We work overtime until you hit your promised results
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom CTA + Scarcity -->
+      <div id="results-roi"
+        class="text-center max-w-3xl mx-auto mt-16 animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.6s_both]">
+        <div
+          class="p-8 rounded-3xl ring-1 backdrop-blur-md bg-gradient-to-br from-blue-950/40 to-slate-900/60 ring-blue-500/20 shadow-2xl">
+          <p class="text-lg md:text-xl font-semibold font-geist text-white mb-4">
+            Ready to Transform Your Business?
+          </p>
+          <p class="text-base font-geist text-slate-400 mb-6">
+            We're limiting new clients to
+            <span class="text-blue-300 font-semibold">8 per month</span>
+            to ensure white-glove service. Book your consultation before spots
+            fill.
+          </p>
+          <a href="/x-scale.html"
+            class="inline-flex items-center justify-center gap-3 md:text-lg transition-all duration-300 ring-2 ring-blue-500/50 shadow-blue-500/30 hover:shadow-blue-500/50 hover:scale-105 hover:ring-blue-400/70 text-base font-semibold text-white font-geist bg-gradient-to-r from-blue-500 to-blue-600 rounded-full pt-4 pr-8 pb-4 pl-8 shadow-2xl">
+            Book My Free Consultation
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5">
+              <path d="M5 12h14"></path>
+              <path d="m12 5 7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCT MODULES SECTION - The Exosystem CardStack -->
+  <section class="overflow-hidden md:py-28 bg-slate-950 pt-20 pb-20 relative" id="modules">
+    <div class="pointer-events-none z-0 absolute inset-0">
+      <div class="absolute inset-y-0 left-[20%] w-px bg-gradient-to-b from-transparent to-transparent via-white/5">
+      </div>
+      <div class="absolute inset-y-0 left-[50%] w-px bg-gradient-to-b from-transparent to-transparent via-white/8">
+      </div>
+      <div class="absolute inset-y-0 left-[80%] w-px bg-gradient-to-b from-transparent to-transparent via-white/5">
+      </div>
+    </div>
+
+    <div id="exosystem" class="z-10 md:px-8 max-w-7xl mr-auto ml-auto pr-6 pl-6 relative">
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16 animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.1s_both]">
+        <div
+          class="inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs font-medium ring-1 mb-6 font-geist bg-indigo-500/10 text-indigo-300 ring-indigo-500/20 backdrop-blur-sm">
+          <iconify-icon icon="solar:widget-bold-duotone" class="text-sm"></iconify-icon>
+          The Exosystem
+        </div>
+        <h2 class="text-4xl sm:text-5xl md:text-6xl font-normal tracking-tighter font-geist text-white mb-4">
+          Flow OS Is the Foundation.
+          <span
+            class="block bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-indigo-300 to-violet-400 pb-2">
+            Everything Else Compounds.
+          </span>
+        </h2>
+        <p class="text-lg md:text-xl leading-relaxed font-geist text-slate-400 mt-6">
+          Each module plugs into Flow OS — sharing data, agents, and institutional memory across your entire operation.
+        </p>
+      </div>
+
+      <!-- CardStack Container -->
+      <div class="max-w-5xl mx-auto">
+        <div id="cardstack-container" class="relative w-full" style="height: 420px; perspective: 1100px;" tabindex="0">
+          <!-- Spotlight bg -->
+          <div
+            class="pointer-events-none absolute inset-x-0 top-6 mx-auto h-48 w-[70%] rounded-full bg-white/5 blur-3xl"
+            aria-hidden="true"></div>
+          <div
+            class="pointer-events-none absolute inset-x-0 bottom-0 mx-auto h-40 w-[76%] rounded-full bg-black/30 blur-3xl"
+            aria-hidden="true"></div>
+
+          <div id="cardstack-stage" class="absolute inset-0 flex items-end justify-center"></div>
+        </div>
+
+        <!-- Dots -->
+        <div id="cardstack-dots" class="mt-6 flex items-center justify-center gap-2"></div>
+      </div>
+    </div>
+
+    <!-- CardStack JS -->
+    <style>
+      .cs-card {
+        position: absolute;
+        bottom: 0;
+        border-radius: 1rem;
+        border: 3px solid rgba(255, 255, 255, 0.1);
+        overflow: hidden;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        will-change: transform;
+        transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.4s ease;
+        cursor: pointer;
+        user-select: none;
+        -webkit-user-select: none;
+      }
+
+      .cs-card.active {
+        cursor: grab;
+        z-index: 100 !important;
+      }
+
+      .cs-card.active:active {
+        cursor: grabbing;
+      }
+
+      .cs-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        pointer-events: none;
+        user-select: none;
+        -webkit-user-drag: none;
+      }
+
+      .cs-card .cs-overlay {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 40%, transparent 100%);
+        pointer-events: none;
+      }
+
+      .cs-card .cs-content {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 1.5rem;
+        z-index: 10;
+      }
+
+      .cs-card .cs-tag {
+        display: inline-block;
+        font-size: 0.625rem;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.7);
+        margin-bottom: 0.5rem;
+      }
+
+      .cs-card .cs-title {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 0.375rem;
+        line-height: 1.2;
+      }
+
+      .cs-card .cs-desc {
+        font-size: 0.8125rem;
+        color: rgba(255, 255, 255, 0.75);
+        line-height: 1.6;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease, opacity 0.4s ease;
+        opacity: 0;
+      }
+
+      .cs-card.active .cs-desc {
+        max-height: 12rem;
+        opacity: 1;
+      }
+
+      .cs-dot {
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 9999px;
+        background: rgba(255, 255, 255, 0.2);
+        border: none;
+        cursor: pointer;
+        transition: background 0.3s ease, transform 0.3s ease;
+        padding: 0;
+      }
+
+      .cs-dot.active {
+        background: white;
+        transform: scale(1.3);
+      }
+
+      @media (max-width: 768px) {
+        #cardstack-container {
+          height: 360px;
+        }
+      }
+    </style>
+    <script>
+      (function () {
+        const items = [
+          { id: 1, tag: "THE FOUNDATION", title: "Flow OS", desc: "The control layer your entire operation runs through. Every SOP, every agent handoff, every decision \u2014 logged, searchable, and owned by you. Not a dashboard you rent. A department you keep.", img: "./assets/flow-image-asset/flow-os-asset.jpeg" },
+          { id: 2, tag: "REVENUE OPERATIONS", title: "Deal OS", desc: "Your pipeline stops leaking. Deal OS tracks every opportunity from first touch to closed-won \u2014 surfacing stalled deals, automating follow-ups, and giving your closers the context they need before the call even starts.", img: "./assets/flow-image-asset/deal-os-asset.jpeg" },
+          { id: 3, tag: "YOUR OPS TEAM ON CALL", title: "Exo Concierge", desc: "A dedicated operations team that doesn\u2019t wait for tickets. Concierge monitors your system around the clock \u2014 catching drift before it becomes downtime, optimizing workflows you forgot you built, and keeping the machine running while you sleep.", img: "./assets/flow-image-asset/Exo-concierge-wordmark-asset.jpeg" },
+          { id: 4, tag: "KNOWLEDGE THAT COMPOUNDS", title: "Exo Academy", desc: "The reason your best hire\u2019s knowledge stops being a liability. EXA turns every process into a living certification \u2014 structured training, documented SOPs, and onboarding paths that take days instead of quarters. Ask EXA anything to instantly learn any procedure or master a new department, empowering your team and leaders to scale their skills as fast as the business.", img: "./assets/flow-image-asset/EXA-asset.JPG" },
+          { id: 5, tag: "TALENT INTELLIGENCE", title: "AURA AI", desc: "Your next great hire is already in the data. AURA scouts, screens, and ranks candidates against your actual operational needs \u2014 not a job description written six months ago. Recruiting that thinks like your best hiring manager, at scale.", img: "./assets/flow-image-asset/aura-asset.jpeg" },
+          { id: 6, tag: "MARKETING OPS", title: "Exo Launch", desc: "Marketing operations that actually know your brand. Launch generates campaign strategies, ad variations, and assets from your existing guidelines \u2014 not generic templates from a prompt. Your voice, amplified across every channel, without the agency retainer.", img: "./assets/flow-image-asset/exo-launch-asset.JPG" },
+          { id: 7, tag: "INSTITUTIONAL MEMORY", title: "Exo AI", desc: "Ask your business a question and get an instant answer. Exo AI indexes every workflow and enables autonomous execution that takes action on your behalf \u2014 the kind of intelligence that spots bottlenecks and turns memory into execution.", img: "./assets/flow-image-asset/exo-ai-orb.JPG" },
+          { id: 8, tag: "INCLUDED BONUS", title: "STEEL", desc: "For the leaders and teams behind the operation. Gain exponential lead-generation leverage.", img: "./assets/flow-image-asset/steel-card-asset.jpeg" },
+          { id: 9, tag: "EXPANDING", title: "And More +", desc: "The Exosystem grows with your operation. New modules, new departments, new capabilities \u2014 all built on the same foundation. All yours, one of a kind.", img: null }
+        ];
+
+        const len = items.length;
+        let active = 0;
+        let hovering = false;
+        let dragStartX = 0;
+        let dragging = false;
+
+        const isMobile = window.innerWidth < 768;
+        const cardW = isMobile ? 300 : 520;
+        const cardH = isMobile ? 280 : 340;
+        const overlap = 0.48;
+        const spreadDeg = 48;
+        const depthPx = 140;
+        const tiltXDeg = 12;
+        const maxVisible = 7;
+        const maxOffset = Math.floor(maxVisible / 2);
+        const cardSpacing = Math.max(10, Math.round(cardW * (1 - overlap)));
+        const stepDeg = maxOffset > 0 ? spreadDeg / maxOffset : 0;
+
+        const stage = document.getElementById('cardstack-stage');
+        const dotsContainer = document.getElementById('cardstack-dots');
+        const container = document.getElementById('cardstack-container');
+
+        // Build cards
+        const cards = items.map((item, i) => {
+          const el = document.createElement('div');
+          el.className = 'cs-card';
+          el.style.width = cardW + 'px';
+          el.style.height = cardH + 'px';
+          el.innerHTML = `
+          ${item.img
+              ? `<img src="${item.img}" alt="${item.title}" loading="eager" draggable="false">`
+              : `<div style="width:100%;height:100%;background:linear-gradient(135deg,#1e1b4b,#0f172a);display:flex;align-items:center;justify-content:center;">
+                <span style="font-size:3rem;color:rgba(255,255,255,0.15);">+</span>
+              </div>`}
+          <div class="cs-overlay"></div>
+          <div class="cs-content">
+            <div class="cs-tag">${item.tag}</div>
+            <div class="cs-title">${item.title}</div>
+            <div class="cs-desc">${item.desc}</div>
+          </div>
+        `;
+          el.addEventListener('click', () => { if (!dragging) setActive(i); });
+          stage.appendChild(el);
+          return el;
+        });
+
+        // Build dots
+        const dots = items.map((item, i) => {
+          const btn = document.createElement('button');
+          btn.className = 'cs-dot';
+          btn.setAttribute('aria-label', 'Go to ' + item.title);
+          btn.addEventListener('click', () => setActive(i));
+          dotsContainer.appendChild(btn);
+          return btn;
+        });
+
+        function wrapIndex(n) { return ((n % len) + len) % len; }
+
+        function signedOffset(i) {
+          const raw = i - active;
+          const alt = raw > 0 ? raw - len : raw + len;
+          return Math.abs(alt) < Math.abs(raw) ? alt : raw;
+        }
+
+        function render() {
+          cards.forEach((el, i) => {
+            const off = signedOffset(i);
+            const abs = Math.abs(off);
+            const visible = abs <= maxOffset;
+
+            if (!visible) {
+              el.style.opacity = '0';
+              el.style.pointerEvents = 'none';
+              return;
+            }
+
+            const rotZ = off * stepDeg;
+            const x = off * cardSpacing;
+            const y = abs * 10;
+            const z = -abs * depthPx;
+            const isActive = off === 0;
+            const sc = isActive ? 1.03 : 0.94;
+            const lift = isActive ? -22 : 0;
+            const rotX = isActive ? 0 : tiltXDeg;
+            const zIdx = 100 - abs;
+
+            el.style.opacity = '1';
+            el.style.pointerEvents = 'auto';
+            el.style.zIndex = zIdx;
+            el.style.transform = `translateX(${x}px) translateY(${y + lift}px) translateZ(${z}px) rotateZ(${rotZ}deg) rotateX(${rotX}deg) scale(${sc})`;
+
+            if (isActive) { el.classList.add('active'); }
+            else { el.classList.remove('active'); }
+          });
+
+          dots.forEach((d, i) => {
+            if (i === active) d.classList.add('active');
+            else d.classList.remove('active');
+          });
+        }
+
+        function setActive(i) {
+          active = wrapIndex(i);
+          render();
+        }
+
+        // Keyboard
+        container.addEventListener('keydown', (e) => {
+          if (e.key === 'ArrowLeft') setActive(active - 1);
+          if (e.key === 'ArrowRight') setActive(active + 1);
+        });
+
+        // Touch/drag on active card
+        container.addEventListener('touchstart', (e) => {
+          dragStartX = e.touches[0].clientX;
+          dragging = false;
+        }, { passive: true });
+        container.addEventListener('touchend', (e) => {
+          const diff = dragStartX - e.changedTouches[0].clientX;
+          if (Math.abs(diff) > 50) {
+            dragging = true;
+            if (diff > 0) setActive(active + 1);
+            else setActive(active - 1);
+            setTimeout(() => { dragging = false; }, 100);
+          }
+        });
+
+        // Mouse drag
+        let mouseDown = false, mouseStartX = 0;
+        container.addEventListener('mousedown', (e) => {
+          mouseDown = true; mouseStartX = e.clientX; dragging = false;
+        });
+        document.addEventListener('mousemove', (e) => {
+          if (mouseDown && Math.abs(e.clientX - mouseStartX) > 30) dragging = true;
+        });
+        document.addEventListener('mouseup', (e) => {
+          if (mouseDown && dragging) {
+            const diff = mouseStartX - e.clientX;
+            if (diff > 50) setActive(active + 1);
+            else if (diff < -50) setActive(active - 1);
+            setTimeout(() => { dragging = false; }, 100);
+          }
+          mouseDown = false;
+        });
+
+        // Hover pause
+        container.addEventListener('mouseenter', () => { hovering = true; });
+        container.addEventListener('mouseleave', () => { hovering = false; });
+
+        // Auto-advance
+        setInterval(() => {
+          if (!hovering && !document.hidden) setActive(active + 1);
+        }, 3500);
+
+        // Init
+        render();
+      })();
+    </script>
+  </section>
+
+  <!-- SOCIAL PROOF + FAQ SECTION - Hybrid Trust Builder -->
+  <section class="overflow-hidden bg-gradient-to-b from-slate-950 to-slate-900 pt-28 pb-28 relative lg:pt-20 lg:pb-20">
+    <!-- Decorative grid lines -->
+    <div class="pointer-events-none z-0 absolute inset-0">
+      <div class="absolute inset-y-0 left-[25%] w-px bg-gradient-to-b from-transparent to-transparent via-white/5">
+      </div>
+      <div class="absolute inset-y-0 left-[50%] w-px bg-gradient-to-b from-transparent to-transparent via-white/8">
+      </div>
+      <div class="absolute inset-y-0 left-[75%] w-px bg-gradient-to-b from-transparent to-transparent via-white/5">
+      </div>
+    </div>
+
+    <div class="z-10 md:px-8 max-w-7xl mr-auto ml-auto pr-6 pl-6 relative">
+      <!-- Section Header -->
+      <div class="text-center max-w-4xl mx-auto mb-16 animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.1s_both]">
+        <div
+          class="inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs font-medium ring-1 mb-6 font-geist bg-emerald-500/10 text-emerald-300 ring-emerald-500/20 backdrop-blur-sm">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="">
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+            <circle cx="9" cy="7" r="4"></circle>
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+          </svg>
+          Measured Outcomes
+        </div>
+
+        <h2 class="text-4xl sm:text-5xl md:text-6xl font-normal tracking-tighter font-geist text-white mb-6">
+          Real Results from
+          <span
+            class="block bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-blue-400 to-purple-400">
+            Real Businesses
+          </span>
+        </h2>
+
+        <p class="md:text-xl leading-relaxed text-lg text-slate-400 font-geist">Businesses working with Flow by Exo
+          consistently report measurable transformation within the first 30 days.</p>
+      </div>
+
+      <!-- Outcome Cards (3-column grid) -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto mb-20">
+        <!-- Outcome Card 1 -->
+        <div class="animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.2s_both]">
+          <div
+            class="rounded-2xl ring-1 backdrop-blur-md p-8 text-center transition-all duration-300 bg-slate-900/40 ring-white/10 shadow-2xl hover:shadow-emerald-500/20 hover:ring-emerald-500/30 hover:-translate-y-1">
+            <div
+              class="w-16 h-16 mx-auto mb-6 rounded-2xl bg-emerald-500/20 ring-1 ring-emerald-400/30 flex items-center justify-center backdrop-blur-sm shadow-lg shadow-emerald-500/30">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="text-emerald-400">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+            <h3 class="md:text-4xl text-3xl font-bold text-white font-geist mb-2">
+              55%
+            </h3>
+            <p class="text-sm font-geist text-emerald-300 mb-4 uppercase tracking-wider">
+              Average Efficiency Gain
+            </p>
+            <p class="text-sm font-geist text-slate-400 leading-relaxed">
+              Measured in time and cost across all deployments.
+              Operations that used to take your team hours now run
+              autonomously — or in minutes.
+            </p>
+          </div>
+        </div>
+
+        <!-- Outcome Card 2 -->
+        <div class="animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.3s_both]">
+          <div
+            class="rounded-2xl ring-1 backdrop-blur-md p-8 text-center transition-all duration-300 bg-slate-900/40 ring-white/10 shadow-2xl hover:shadow-blue-500/20 hover:ring-blue-500/30 hover:-translate-y-1">
+            <div
+              class="w-16 h-16 mx-auto mb-6 rounded-2xl bg-blue-500/20 ring-1 ring-blue-400/30 flex items-center justify-center backdrop-blur-sm shadow-lg shadow-blue-500/30">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                data-lucide="arrow-up-from-line"
+                class="lucide lucide-arrow-up-from-line text-blue-400 w-[32px] h-[32px]" data-icon-replaced="true"
+                style="color: rgb(96, 165, 250); width: 32px; height: 32px;">
+                <path d="m18 9-6-6-6 6"></path>
+                <path d="M12 3v14"></path>
+                <path d="M5 21h14"></path>
+              </svg>
+            </div>
+            <h3 class="text-3xl md:text-4xl font-bold font-geist text-white mb-2">
+              90 Days
+            </h3>
+            <p class="text-sm font-geist text-blue-300 mb-4 uppercase tracking-wider">
+              To Sovereignty
+            </p>
+            <p class="text-sm font-geist text-slate-400 leading-relaxed">
+              From kickoff to full team ownership of the system.
+              Architect. Engineer. Conductor. Then the keys are yours.
+            </p>
+          </div>
+        </div>
+
+        <!-- Outcome Card 3 -->
+        <div class="animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.4s_both]">
+          <div
+            class="rounded-2xl ring-1 backdrop-blur-md p-8 text-center transition-all duration-300 bg-slate-900/40 ring-white/10 shadow-2xl hover:shadow-purple-500/20 hover:ring-purple-500/30 hover:-translate-y-1">
+            <div
+              class="w-16 h-16 mx-auto mb-6 rounded-2xl bg-purple-500/20 ring-1 ring-purple-400/30 flex items-center justify-center backdrop-blur-sm shadow-lg shadow-purple-500/30">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="w-[32px] h-[32px]" data-icon-replaced="true"
+                style="color: rgb(192, 132, 252); width: 32px; height: 32px;">
+                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+              </svg>
+            </div>
+            <h3 class="text-3xl md:text-4xl font-bold font-geist text-white mb-2">
+              Zero
+            </h3>
+            <p class="text-sm font-geist text-purple-300 mb-4 uppercase tracking-wider">
+              Lock-In
+            </p>
+            <p class="text-sm font-geist text-slate-400 leading-relaxed">
+              You own the system. The Sovereignty Packet is yours. No
+              subscriptions. No retainers. We walk away — and it keeps running.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Implementation Timeline -->
+      <div class="max-w-5xl mx-auto mb-20 animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.5s_both]">
+        <div class="text-center mb-12">
+          <h3 class="text-3xl md:text-4xl font-semibold tracking-tight font-geist text-white mb-4">
+            Your 90-Day Path to Sovereignty
+          </h3>
+          <p class="text-base md:text-lg font-geist text-slate-400">
+            Three phases. Three Extraordinaires. One outcome: you own everything.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <!-- Week 1 -->
+          <div class="relative">
+            <div class="rounded-2xl ring-1 backdrop-blur-md p-6 bg-slate-900/40 ring-white/10 shadow-2xl">
+              <div class="flex items-center gap-3 mb-4">
+                <div
+                  class="w-10 h-10 rounded-xl bg-blue-500/20 ring-1 ring-blue-400/30 flex items-center justify-center backdrop-blur-sm">
+                  <span class="text-lg font-bold font-geist text-blue-400">
+                    1
+                  </span>
+                </div>
+                <h4 class="text-xl font-semibold font-geist text-white">
+                  Architect — Days 1-14
+                </h4>
+              </div>
+              <ul class="space-y-2 text-sm font-geist text-slate-400">
+                <li class="flex items-start gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="flex-shrink-0 mt-0.5 text-blue-400">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  Map every workflow and decision tree
+                </li>
+                <li class="flex items-start gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="flex-shrink-0 mt-0.5 text-blue-400">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  Identify automation candidates
+                </li>
+                <li class="flex items-start gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="flex-shrink-0 mt-0.5 text-blue-400">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  Blueprint the department OS
+                </li>
+                <li class="flex items-start gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="flex-shrink-0 mt-0.5 text-blue-400">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  Deliver Architecture Deck
+                </li>
+              </ul>
+            </div>
+            <!-- Arrow -->
+            <div class="hidden md:block absolute top-1/2 -right-3 transform -translate-y-1/2 z-10">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="text-slate-600">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Week 2 -->
+          <div class="relative">
+            <div class="rounded-2xl ring-1 backdrop-blur-md p-6 bg-slate-900/40 ring-white/10 shadow-2xl">
+              <div class="flex items-center gap-3 mb-4">
+                <div
+                  class="w-10 h-10 rounded-xl bg-emerald-500/20 ring-1 ring-emerald-400/30 flex items-center justify-center backdrop-blur-sm">
+                  <span class="text-lg font-bold font-geist text-emerald-400">
+                    2
+                  </span>
+                </div>
+                <h4 class="text-xl font-semibold font-geist text-white">
+                  Engineer — Days 15-45
+                </h4>
+              </div>
+              <ul class="space-y-2 text-sm font-geist text-slate-400">
+                <li class="flex items-start gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="flex-shrink-0 mt-0.5 text-emerald-400">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  Configure Flow OS to your workflows
+                </li>
+                <li class="flex items-start gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="flex-shrink-0 mt-0.5 text-emerald-400">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  Deploy AI agents for each function
+                </li>
+                <li class="flex items-start gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="flex-shrink-0 mt-0.5 text-emerald-400">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  Integrate with your existing stack
+                </li>
+                <li class="flex items-start gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="flex-shrink-0 mt-0.5 text-emerald-400">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  First measurable results
+                </li>
+              </ul>
+            </div>
+            <!-- Arrow -->
+            <div class="hidden md:block absolute top-1/2 -right-3 transform -translate-y-1/2 z-10">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="text-slate-600">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Week 3-12 -->
+          <div class="relative">
+            <div class="rounded-2xl ring-1 backdrop-blur-md p-6 bg-slate-900/40 ring-white/10 shadow-2xl">
+              <div class="flex items-center gap-3 mb-4">
+                <div
+                  class="w-10 h-10 rounded-xl bg-purple-500/20 ring-1 ring-purple-400/30 flex items-center justify-center backdrop-blur-sm">
+                  <span class="text-lg font-bold font-geist text-purple-400">
+                    3+
+                  </span>
+                </div>
+                <h4 class="text-xl font-semibold font-geist text-white">
+                  Conductor — Days 46-90
+                </h4>
+              </div>
+              <ul class="space-y-2 text-sm font-geist text-slate-400">
+                <li class="flex items-start gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="flex-shrink-0 mt-0.5 text-purple-400">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  Co-run alongside your team
+                </li>
+                <li class="flex items-start gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="flex-shrink-0 mt-0.5 text-purple-400">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  Certify operators via Exo Academy
+                </li>
+                <li class="flex items-start gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="flex-shrink-0 mt-0.5 text-purple-400">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  Capture institutional memory into system
+                </li>
+                <li class="flex items-start gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="flex-shrink-0 mt-0.5 text-purple-400">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  Deliver Sovereignty Packet
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ Accordion Section -->
+      <div class="animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.6s_both] max-w-4xl mr-auto ml-auto">
+        <div class="text-center mb-12">
+          <h3 class="text-3xl md:text-4xl font-semibold tracking-tight font-geist text-white mb-4">
+            Questions About Flow OS
+          </h3>
+          <p class="text-base md:text-lg font-geist text-slate-400">
+            Everything you need to know before your Architecture Session.
+          </p>
+        </div>
+
+        <div class="space-y-4">
+          <div
+            class="faq-item rounded-2xl ring-1 backdrop-blur-md overflow-hidden transition-all duration-300 bg-slate-900/40 ring-white/10 shadow-xl hover:ring-white/20">
+            <button
+              class="faq-question flex gap-4 group text-left w-full pt-6 pr-6 pb-6 pl-6 gap-x-4 gap-y-4 items-center justify-between"
+              onclick="toggleFAQ(this)">
+              <span
+                class="text-lg md:text-xl font-semibold font-geist text-white group-hover:text-blue-300 transition-colors">What
+                size company is Flow OS built for?</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="faq-icon flex-shrink-0 text-slate-400 transition-transform duration-300 w-6 h-6">
+                <path d="m6 9 6 6 6-6"></path>
+              </svg>
+            </button>
+            <div class="faq-answer hidden">
+              <p class="leading-relaxed text-base text-slate-400 font-geist pt-0 pr-6 pb-6 pl-6">Flow OS is designed for
+                companies doing $2M–$50M in revenue — typically 15–200 employees — where operations have outgrown
+                spreadsheets and tribal knowledge but a full-time CTO or enterprise platform doesn't make sense yet.</p>
+            </div>
+          </div>
+          <div
+            class="faq-item rounded-2xl ring-1 backdrop-blur-md overflow-hidden transition-all duration-300 bg-slate-900/40 ring-white/10 shadow-xl hover:ring-white/20">
+            <button
+              class="faq-question flex gap-4 group text-left w-full pt-6 pr-6 pb-6 pl-6 gap-x-4 gap-y-4 items-center justify-between"
+              onclick="toggleFAQ(this)">
+              <span
+                class="text-lg md:text-xl font-semibold font-geist text-white group-hover:text-blue-300 transition-colors">Do
+                we own the system, or is this another SaaS subscription?</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="faq-icon flex-shrink-0 text-slate-400 transition-transform duration-300 w-6 h-6">
+                <path d="m6 9 6 6 6-6"></path>
+              </svg>
+            </button>
+            <div class="faq-answer hidden">
+              <p class="leading-relaxed text-base text-slate-400 font-geist pt-0 pr-6 pb-6 pl-6">You own it. The
+                Sovereignty Packet includes all SOPs, agent configurations, credentials, and runbooks. When we hand you
+                the keys at day 90, we walk away. No recurring fees to Exo, no lock-in.</p>
+            </div>
+          </div>
+          <div
+            class="faq-item rounded-2xl ring-1 backdrop-blur-md overflow-hidden transition-all duration-300 bg-slate-900/40 ring-white/10 shadow-xl hover:ring-white/20">
+            <button
+              class="faq-question flex gap-4 group text-left w-full pt-6 pr-6 pb-6 pl-6 gap-x-4 gap-y-4 items-center justify-between"
+              onclick="toggleFAQ(this)">
+              <span
+                class="text-lg md:text-xl font-semibold font-geist text-white group-hover:text-blue-300 transition-colors">What
+                happens to our existing tools?</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="faq-icon flex-shrink-0 text-slate-400 transition-transform duration-300 w-6 h-6">
+                <path d="m6 9 6 6 6-6"></path>
+              </svg>
+            </button>
+            <div class="faq-answer hidden">
+              <p class="leading-relaxed text-base text-slate-400 font-geist pt-0 pr-6 pb-6 pl-6">Flow OS integrates with
+                your current stack — Slack, HubSpot, Notion, Salesforce, Google Workspace, and 200+ more. We don't rip
+                and replace. We unify. Though we can help you replace them if you want to. Simply let us know.</p>
+            </div>
+          </div>
+          <div
+            class="faq-item rounded-2xl ring-1 backdrop-blur-md overflow-hidden transition-all duration-300 bg-slate-900/40 ring-white/10 shadow-xl hover:ring-white/20">
+            <button
+              class="faq-question flex gap-4 group text-left w-full pt-6 pr-6 pb-6 pl-6 gap-x-4 gap-y-4 items-center justify-between"
+              onclick="toggleFAQ(this)">
+              <span
+                class="text-lg md:text-xl font-semibold font-geist text-white group-hover:text-blue-300 transition-colors">How
+                much of our team's time does the 90-day engagement require?</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="faq-icon flex-shrink-0 text-slate-400 transition-transform duration-300 w-6 h-6">
+                <path d="m6 9 6 6 6-6"></path>
+              </svg>
+            </button>
+            <div class="faq-answer hidden">
+              <p class="leading-relaxed text-base text-slate-400 font-geist pt-0 pr-6 pb-6 pl-6">Minimal. The Architect
+                phase requires 4–6 hours of your leadership team's time for discovery. After that, our Engineer and
+                Conductor work alongside your operators — not instead of them. Most clients report less disruption than
+                onboarding a single new hire.</p>
+            </div>
+          </div>
+          <div
+            class="faq-item rounded-2xl ring-1 backdrop-blur-md overflow-hidden transition-all duration-300 bg-slate-900/40 ring-white/10 shadow-xl hover:ring-white/20">
+            <button
+              class="faq-question flex gap-4 group text-left w-full pt-6 pr-6 pb-6 pl-6 gap-x-4 gap-y-4 items-center justify-between"
+              onclick="toggleFAQ(this)">
+              <span
+                class="text-lg md:text-xl font-semibold font-geist text-white group-hover:text-blue-300 transition-colors">What's
+                the Sovereignty Packet?</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="faq-icon flex-shrink-0 text-slate-400 transition-transform duration-300 w-6 h-6">
+                <path d="m6 9 6 6 6-6"></path>
+              </svg>
+            </button>
+            <div class="faq-answer hidden">
+              <p class="leading-relaxed text-base text-slate-400 font-geist pt-0 pr-6 pb-6 pl-6">It's the full transfer
+                document: SOPs for every automated workflow, agent configuration docs, credentials, escalation
+                playbooks, Exo Academy certifications for your team, and a 90-day operational guarantee. It's designed
+                so you never need us again.</p>
+            </div>
+          </div>
+          <div
+            class="faq-item rounded-2xl ring-1 backdrop-blur-md overflow-hidden transition-all duration-300 bg-slate-900/40 ring-white/10 shadow-xl hover:ring-white/20">
+            <button
+              class="faq-question flex gap-4 group text-left w-full pt-6 pr-6 pb-6 pl-6 gap-x-4 gap-y-4 items-center justify-between"
+              onclick="toggleFAQ(this)">
+              <span
+                class="text-lg md:text-xl font-semibold font-geist text-white group-hover:text-blue-300 transition-colors">What
+                if our processes change after the engagement?</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="faq-icon flex-shrink-0 text-slate-400 transition-transform duration-300 w-6 h-6">
+                <path d="m6 9 6 6 6-6"></path>
+              </svg>
+            </button>
+            <div class="faq-answer hidden">
+              <p class="leading-relaxed text-base text-slate-400 font-geist pt-0 pr-6 pb-6 pl-6">Flow OS is built to be
+                modified by your team. The Conductor phase trains your operators to adjust workflows, add agents, and
+                update the system themselves. If you need help later, we offer advisory hours — but you'll likely never
+                need them.</p>
+            </div>
+          </div>
+          <div
+            class="faq-item rounded-2xl ring-1 backdrop-blur-md overflow-hidden transition-all duration-300 bg-slate-900/40 ring-white/10 shadow-xl hover:ring-white/20">
+            <button
+              class="faq-question flex gap-4 group text-left w-full pt-6 pr-6 pb-6 pl-6 gap-x-4 gap-y-4 items-center justify-between"
+              onclick="toggleFAQ(this)">
+              <span
+                class="text-lg md:text-xl font-semibold font-geist text-white group-hover:text-blue-300 transition-colors">What
+                does the 90-day operational guarantee cover?</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="faq-icon flex-shrink-0 text-slate-400 transition-transform duration-300 w-6 h-6">
+                <path d="m6 9 6 6 6-6"></path>
+              </svg>
+            </button>
+            <div class="faq-answer hidden">
+              <p class="leading-relaxed text-base text-slate-400 font-geist pt-0 pr-6 pb-6 pl-6">If any workflow we
+                built breaks or underperforms within 90 days of handoff, we fix it at no extra fee charge. Period. We
+                also
+                include
+                a performance baseline so you can measure gains objectively.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- FAQ Accordion JavaScript -->
+  <script class="">
+    function toggleFAQ(button) {
+      const faqItem = button.closest('.faq-item');
+      const answer = faqItem.querySelector('.faq-answer');
+      const icon = button.querySelector('.faq-icon');
+      const allFAQs = document.querySelectorAll('.faq-item');
+
+      // Close all other FAQs
+      allFAQs.forEach(item => {
+        if (item !== faqItem) {
+          item.querySelector('.faq-answer').classList.add('hidden');
+          item.querySelector('.faq-icon').style.transform = 'rotate(0deg)';
+          item.classList.remove('ring-blue-500/30');
+        }
+      });
+
+      // Toggle current FAQ
+      if (answer.classList.contains('hidden')) {
+        answer.classList.remove('hidden');
+        icon.style.transform = 'rotate(180deg)';
+        faqItem.classList.add('ring-blue-500/30');
+      } else {
+        answer.classList.add('hidden');
+        icon.style.transform = 'rotate(0deg)';
+        faqItem.classList.remove('ring-blue-500/30');
+      }
+    }
+  </script>
+  <!-- HYBRID TESTIMONIAL SECTION - Quick Quotes + Detailed Case Studies -->
+  <section class="overflow-hidden lg:py-28 bg-slate-950 pt-28 pb-28 relative">
+    <!-- Decorative grid lines -->
+    <div class="pointer-events-none z-0 absolute inset-0">
+      <div class="absolute inset-y-0 left-[25%] w-px bg-gradient-to-b from-transparent to-transparent via-white/5">
+      </div>
+      <div class="absolute inset-y-0 left-[50%] w-px bg-gradient-to-b from-transparent to-transparent via-white/8">
+      </div>
+      <div class="absolute inset-y-0 left-[75%] w-px bg-gradient-to-b from-transparent to-transparent via-white/5">
+      </div>
+    </div>
+
+    <div class="z-10 md:px-8 max-w-7xl mr-auto ml-auto pr-6 pl-6 relative">
+      <!-- Section Header -->
+      <div class="text-center max-w-4xl mx-auto mb-16 animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.1s_both]">
+        <div
+          class="inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs font-medium ring-1 mb-6 font-geist bg-blue-500/10 text-blue-300 ring-blue-500/20 backdrop-blur-sm">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path
+              d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z">
+            </path>
+            <path
+              d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z">
+            </path>
+          </svg>
+          What Our Partners Say
+        </div>
+
+        <h2 class="text-4xl sm:text-5xl md:text-6xl font-normal tracking-tighter font-geist text-white mb-6">
+          Real Businesses,
+          <span
+            class="block bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-emerald-400 to-purple-400">
+            Real Results
+          </span>
+        </h2>
+
+        <p class="md:text-xl leading-relaxed text-lg text-slate-400 font-geist">See how businesses like yours are
+          transforming operations with Exo.</p>
+      </div>
+
+      <!-- PART 1: Glassmorphism Quick Quotes Stack -->
+      <div
+        class="relative flex items-center justify-center mb-20 min-h-[400px] md:min-h-[420px] animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.2s_both]">
+        <div
+          class="testimonial-container relative flex flex-col md:flex-row items-center justify-center w-full gap-6 md:gap-0">
+          <!-- Quote Card 1: Attorney -->
+          <div
+            class="glass-card relative w-full max-w-[340px] md:w-[340px] h-[380px] bg-gradient-to-br from-white/10 to-transparent border border-white/10 rounded-2xl backdrop-blur-md shadow-2xl transition-all duration-500 md:rotate-[-8deg] md:mr-[-40px] hover:rotate-0 hover:scale-105 hover:z-30">
+            <div
+              class="absolute inset-4 rounded-xl bg-white text-neutral-900 shadow-2xl ring-1 ring-black/5 overflow-hidden">
+              <div class="pt-6 pr-6 pb-6 pl-6">
+                <!-- Quote badge -->
+                <div
+                  class="inline-flex items-center justify-center h-8 w-8 rounded-lg bg-neutral-100 ring-1 ring-black/5 mb-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="h-4 w-4 text-neutral-700">
+                    <path
+                      d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z">
+                    </path>
+                    <path
+                      d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z">
+                    </path>
+                  </svg>
+                </div>
+
+                <p class="leading-relaxed text-sm text-neutral-900 mb-4">"We were losing around $11K/month across 9
+                  different
+                  platforms nobody fully understood. Flow OS consolidated everything into one department, it was
+                  beautiful. One huge company view after a while. Our ops team
+                  went from all over the place to organized in 60 days time."
+                </p>
+
+                <!-- Author row -->
+                <div class="pt-3 border-t border-neutral-200 flex items-center justify-between">
+                  <div class="flex items-center gap-2">
+                    <div
+                      class="flex text-xs font-semibold text-white bg-gradient-to-br from-blue-500 to-blue-600 w-8 h-8 rounded-full items-center justify-center">
+                      MW
+                    </div>
+                    <div class="">
+                      <div class="text-xs font-medium text-neutral-900">
+                        Marcus Webb
+                      </div>
+                      <div class="text-xs text-neutral-500">
+                        Operations Director, Tether L.P.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex items-center gap-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                      fill="currentColor" class="text-amber-400">
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                        class=""></path>
+                    </svg>
+                    <span class="text-xs font-medium">5.0</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quote Card 2: COO -->
+          <div
+            class="glass-card relative w-full max-w-[340px] md:w-[340px] h-[380px] bg-gradient-to-br from-white/8 to-transparent border border-white/10 rounded-2xl backdrop-blur-md shadow-2xl transition-all duration-500 md:rotate-0 md:z-20 hover:rotate-0 hover:scale-105 hover:z-30">
+            <div
+              class="absolute inset-4 rounded-xl bg-white/95 text-neutral-900 shadow-xl ring-1 ring-black/5 backdrop-blur overflow-hidden">
+              <div class="p-6">
+                <!-- Quote badge -->
+                <div
+                  class="inline-flex items-center justify-center h-8 w-8 rounded-lg bg-neutral-100 ring-1 ring-black/5 mb-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="h-4 w-4 text-neutral-700">
+                    <path
+                      d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z">
+                    </path>
+                    <path
+                      d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z">
+                    </path>
+                  </svg>
+                </div>
+
+                <p class="leading-relaxed text-sm text-neutral-900 mb-4">
+                  "The Sovereignty Packet was the smoothest transition we've ever had. For the first time, our
+                  operational playbook exists
+                  outside of me and my partner. When our lead designer left, nothing broke. The AI's are handling it."
+                </p>
+
+                <!-- Author row -->
+                <div class="pt-3 border-t border-neutral-200 flex items-center justify-between">
+                  <div class="flex items-center gap-2">
+                    <div
+                      class="flex text-xs font-semibold text-white bg-gradient-to-br from-emerald-500 to-emerald-600 w-8 h-8 rounded-full items-center justify-center">
+                      TO
+                    </div>
+                    <div class="">
+                      <div class="text-xs font-medium text-neutral-900">
+                        Tyler Osei
+                      </div>
+                      <div class="text-xs text-neutral-500">
+                        Founder, Harborline
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex items-center gap-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                      fill="currentColor" class="text-amber-400">
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+                      </path>
+                    </svg>
+                    <span class="text-xs font-medium">5.0</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quote Card 3: Enterprise Manufacturing -->
+          <div
+            class="glass-card relative w-full max-w-[340px] md:w-[340px] h-[380px] bg-gradient-to-br from-white/6 to-transparent border border-white/10 rounded-2xl backdrop-blur-md shadow-2xl transition-all duration-500 md:rotate-[8deg] md:ml-[-40px] hover:rotate-0 hover:scale-105 hover:z-30">
+            <div
+              class="overflow-hidden text-neutral-900 bg-white/90 ring-black/5 ring-1 rounded-xl absolute top-4 right-4 bottom-4 left-4 shadow-lg backdrop-blur">
+              <div class="p-6">
+                <!-- Quote badge -->
+                <div
+                  class="inline-flex items-center justify-center h-8 w-8 rounded-lg bg-neutral-100 ring-1 ring-black/5 mb-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="h-4 w-4 text-neutral-700">
+                    <path
+                      d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z">
+                    </path>
+                    <path
+                      d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z">
+                    </path>
+                  </svg>
+                </div>
+
+                <p class="leading-relaxed text-sm text-neutral-900 mb-4">"Other firms wanted to lock us into retainers.
+                  Exo built the system, trained my team, and really did hand us the 'keys'. We've been running it
+                  ourselves for 6
+                  months. There is a noticeable difference with AI involved."</p>
+
+                <!-- Author row -->
+                <div class="pt-3 border-t border-neutral-200 flex items-center justify-between">
+                  <div class="flex items-center gap-2">
+                    <div
+                      class="flex text-xs font-semibold text-white bg-gradient-to-br from-purple-500 to-purple-600 w-8 h-8 rounded-full items-center justify-center">
+                      CD
+                    </div>
+                    <div class="">
+                      <div class="text-xs font-medium text-neutral-900">
+                        Claire Dupont
+                      </div>
+                      <div class="text-xs text-neutral-500">
+                        Chief of Staff, Meridian Stu.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex items-center gap-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                      fill="currentColor" class="text-amber-400">
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                        class=""></path>
+                    </svg>
+                    <span class="text-xs font-medium">5.0</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Transition Divider -->
+      <div class="flex items-center justify-center mb-16">
+        <div class="h-px w-32 bg-gradient-to-r from-transparent via-white/20 to-transparent"></div>
+        <div class="mx-4">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="text-slate-600">
+            <path d="m6 9 6 6 6-6" class=""></path>
+          </svg>
+        </div>
+        <div class="h-px w-32 bg-gradient-to-r from-transparent via-white/20 to-transparent"></div>
+      </div>
+
+      <!-- PART 2: Detailed Case Studies -->
+      <div class="max-w-6xl mx-auto">
+        <div class="text-center mb-12 animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.3s_both]">
+          <h3 class="md:text-4xl text-3xl font-semibold text-white tracking-tight font-geist mb-4">Flow
+            Transformations</h3>
+          <p class="text-base md:text-lg font-geist text-slate-400">
+            Deep-dive into how we deliver measurable results.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <!-- Case Study 1: Law Firm -->
+          <div class="animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.4s_both]">
+            <div
+              class="rounded-3xl ring-1 backdrop-blur-md p-8 h-full transition-all duration-300 bg-slate-900/40 ring-white/10 shadow-2xl hover:shadow-blue-500/20 hover:ring-white/20">
+              <!-- Industry Badge -->
+              <div
+                class="inline-flex items-center gap-2 rounded-full px-3 py-1.5 text-xs font-medium ring-1 mb-6 font-geist bg-blue-500/10 text-blue-300 ring-blue-500/20 backdrop-blur-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z">
+                  </path>
+                </svg>
+                Legal Services
+              </div>
+
+              <h4 class="text-2xl font-semibold tracking-tight font-geist text-white mb-3">
+                Firm Transformation
+              </h4>
+
+              <p class="text-sm font-geist text-slate-400 mb-4">
+                <span class="font-semibold text-white">
+                  13-person family firm
+                </span>
+                • $7.8M annual revenue
+              </p>
+
+              <!-- The Problem -->
+              <div class="mb-6">
+                <div class="flex items-center gap-2 mb-3">
+                  <div class="w-6 h-6 rounded-lg bg-red-500/20 ring-1 ring-red-400/30 flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="text-red-400">
+                      <line x1="18" x2="6" y1="6" y2="18"></line>
+                      <line x1="6" x2="18" y1="6" y2="18"></line>
+                    </svg>
+                  </div>
+                  <h5 class="text-sm font-semibold font-geist text-white uppercase tracking-wider">
+                    The Problem
+                  </h5>
+                </div>
+                <ul class="space-y-2 text-sm font-geist text-slate-400 ml-8">
+                  <li class="">• 30+ hours/week on scheduling chaos</li>
+                  <li class="">• Missing 40% of calls during court hours</li>
+                  <li class="">• 3-day lead response time = lost clients</li>
+                  <li class="">• 18% no-show rate ($8K/month lost)</li>
+                </ul>
+              </div>
+
+              <!-- The Solution -->
+              <div class="mb-6">
+                <div class="flex items-center gap-2 mb-3">
+                  <div
+                    class="w-6 h-6 rounded-lg bg-blue-500/20 ring-1 ring-blue-400/30 flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="text-blue-400">
+                      <path d="M12 2v20"></path>
+                      <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                    </svg>
+                  </div>
+                  <h5 class="text-sm font-semibold font-geist text-white uppercase tracking-wider">
+                    The Solution
+                  </h5>
+                </div>
+                <p class="text-sm font-geist text-slate-400 ml-8">
+                  AI virtual receptionist, automated scheduling, smart
+                  follow-ups, no-show prevention and more.
+                  <span class="text-emerald-400 font-semibold">
+                    Delivered in 14 days.
+                  </span>
+                </p>
+              </div>
+
+              <!-- The Results -->
+              <div class="mb-6">
+                <div class="flex items-center gap-2 mb-3">
+                  <div
+                    class="w-6 h-6 rounded-lg bg-emerald-500/20 ring-1 ring-emerald-400/30 flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="text-emerald-400">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </div>
+                  <h5 class="text-sm font-semibold font-geist text-white uppercase tracking-wider">
+                    The Results
+                  </h5>
+                </div>
+                <div class="grid grid-cols-2 gap-3 ml-8">
+                  <div class="p-3 rounded-xl bg-slate-800/50 ring-1 ring-white/10">
+                    <div class="text-2xl font-bold font-geist text-emerald-400 mb-1">
+                      22 hrs
+                    </div>
+                    <div class="text-xs font-geist text-slate-400">
+                      Per week saved
+                    </div>
+                  </div>
+                  <div class="p-3 rounded-xl bg-slate-800/50 ring-1 ring-white/10">
+                    <div class="text-2xl font-bold font-geist text-emerald-400 mb-1">
+                      100%
+                    </div>
+                    <div class="text-xs font-geist text-slate-400">
+                      Call capture rate
+                    </div>
+                  </div>
+                  <div class="p-3 rounded-xl bg-slate-800/50 ring-1 ring-white/10">
+                    <div class="text-2xl font-bold font-geist text-emerald-400 mb-1">
+                      5 min
+                    </div>
+                    <div class="text-xs font-geist text-slate-400">
+                      Lead response time
+                    </div>
+                  </div>
+                  <div class="p-3 rounded-xl bg-slate-800/50 ring-1 ring-white/10">
+                    <div class="text-2xl font-bold text-emerald-400 font-geist mb-1">
+                      46%
+                    </div>
+                    <div class="text-xs font-geist text-slate-400">
+                      More consultations
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonial Quote -->
+              <div class="p-4 rounded-xl bg-slate-800/30 ring-1 ring-white/10">
+                <p class="text-sm italic text-slate-300 font-geist mb-3">"We're competing with big firms now—without
+                  the
+                  overhead.
+                  Exo gave us our lives back while growing revenue."</p>
+                <div class="flex items-center gap-2">
+                  <div
+                    class="flex text-xs font-semibold text-white bg-gradient-to-br from-blue-500 to-blue-600 w-8 h-8 rounded-full items-center justify-center">
+                    CB
+                  </div>
+                  <div class="">
+                    <div class="text-xs font-medium text-white">
+                      Cole Barrett
+                    </div>
+                    <div class="text-xs text-slate-500">Head of Partnerships, Benchmark Advisory</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Case Study 2: Enterprise Manufacturing -->
+          <div class="animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.5s_both]">
+            <div
+              class="transition-all duration-300 hover:shadow-purple-500/20 hover:ring-white/20 bg-slate-900/40 h-full rounded-3xl ring-white/10 ring-1 pt-8 pr-8 pb-8 pl-8 shadow-2xl backdrop-blur-md">
+              <!-- Industry Badge -->
+              <div
+                class="inline-flex items-center gap-2 rounded-full px-3 py-1.5 text-xs font-medium ring-1 mb-6 font-geist bg-purple-500/10 text-purple-300 ring-purple-500/20 backdrop-blur-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2v20"></path>
+                  <path d="m15 5 4 4H5l4-4"></path>
+                  <path d="M3 9h18"></path>
+                  <path d="m5 15 4-4"></path>
+                  <path d="m15 15-4-4"></path>
+                </svg>
+                Precision Manufacturing
+              </div>
+
+              <h4 class="text-2xl font-semibold tracking-tight font-geist text-white mb-3">
+                Enterprise Manufacturing Scale-Up
+              </h4>
+
+              <p class="text-sm font-geist text-slate-400 mb-4">
+                <span class="font-semibold text-white">
+                  85 employees, aerospace components
+                </span>
+                • $12M annual revenue
+              </p>
+
+              <!-- The Problem -->
+              <div class="mb-6">
+                <div class="flex items-center gap-2 mb-3">
+                  <div class="w-6 h-6 rounded-lg bg-red-500/20 ring-1 ring-red-400/30 flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="text-red-400">
+                      <line x1="18" x2="6" y1="6" y2="18"></line>
+                      <line x1="6" x2="18" y1="6" y2="18"></line>
+                    </svg>
+                  </div>
+                  <h5 class="text-sm font-semibold font-geist text-white uppercase tracking-wider">
+                    The Problem
+                  </h5>
+                </div>
+                <ul class="space-y-2 text-sm font-geist text-slate-400 ml-8">
+                  <li class="">• Growing 35% YoY but hitting limits</li>
+                  <li class="">• $240K tied up in excess inventory</li>
+                  <li class="">• Needed 5 new hires ($320K/year)</li>
+                  <li class="">• Manual processes killing margins</li>
+                </ul>
+              </div>
+
+              <!-- The Solution -->
+              <div class="mb-6">
+                <div class="flex items-center gap-2 mb-3">
+                  <div
+                    class="w-6 h-6 rounded-lg bg-purple-500/20 ring-1 ring-purple-400/30 flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="text-purple-400">
+                      <path d="M12 2v20"></path>
+                      <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                    </svg>
+                  </div>
+                  <h5 class="text-sm font-semibold font-geist text-white uppercase tracking-wider">
+                    The Solution
+                  </h5>
+                </div>
+                <p class="text-sm font-geist text-slate-400 ml-8">
+                  Predictive inventory AI, supplier automation, AI quality
+                  inspection, production optimization.
+                  <span class="text-emerald-400 font-semibold">
+                    Delivered in 10 days. Faster than promised.
+                  </span>
+                </p>
+              </div>
+
+              <!-- The Results -->
+              <div class="mb-6">
+                <div class="flex items-center gap-2 mb-3">
+                  <div
+                    class="w-6 h-6 rounded-lg bg-emerald-500/20 ring-1 ring-emerald-400/30 flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="text-emerald-400">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </div>
+                  <h5 class="text-sm font-semibold font-geist text-white uppercase tracking-wider">
+                    The Results (6 Months)
+                  </h5>
+                </div>
+                <div class="grid grid-cols-2 gap-3 ml-8">
+                  <div class="p-3 rounded-xl bg-slate-800/50 ring-1 ring-white/10">
+                    <div class="text-2xl font-bold font-geist text-emerald-400 mb-1">
+                      $380K
+                    </div>
+                    <div class="text-xs font-geist text-slate-400">
+                      Annual savings
+                    </div>
+                  </div>
+                  <div class="p-3 rounded-xl bg-slate-800/50 ring-1 ring-white/10">
+                    <div class="text-2xl font-bold font-geist text-emerald-400 mb-1">
+                      38%
+                    </div>
+                    <div class="text-xs font-geist text-slate-400">
+                      Inventory reduction
+                    </div>
+                  </div>
+                  <div class="p-3 rounded-xl bg-slate-800/50 ring-1 ring-white/10">
+                    <div class="text-2xl font-bold font-geist text-emerald-400 mb-1">
+                      42%
+                    </div>
+                    <div class="text-xs font-geist text-slate-400">
+                      Faster delivery
+                    </div>
+                  </div>
+                  <div class="p-3 rounded-xl bg-slate-800/50 ring-1 ring-white/10">
+                    <div class="text-2xl font-bold font-geist text-emerald-400 mb-1">
+                      0.8%
+                    </div>
+                    <div class="text-xs font-geist text-slate-400">
+                      Defect rate (from 3.2%)
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonial Quote -->
+              <div class="p-4 rounded-xl bg-slate-800/30 ring-1 ring-white/10">
+                <p class="text-sm italic text-slate-300 font-geist mb-3">"You guys didn't just save us money—but made
+                  us
+                  way
+                  more competitive. We're winning contracts against bigger
+                  players."</p>
+                <div class="flex gap-2 gap-x-2 gap-y-2 items-center">
+                  <div
+                    class="h-8 w-8 rounded-full bg-gradient-to-br from-purple-500 to-purple-600 flex items-center justify-center text-white text-xs font-semibold">
+                    JC
+                  </div>
+                  <div class="">
+                    <div class="text-xs font-medium text-white">
+                      Jordan Callahan
+                    </div>
+                    <div class="text-xs text-slate-500">
+                      CEO &amp; Founder, Aided Design LP
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mobile Optimization Styles -->
+  <style>
+    /* Desktop glassmorphism interactions */
+    @media (min-width: 768px) {
+      .testimonial-container:hover .glass-card {
+        transform: rotate(0deg) !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+      }
+    }
+
+    /* Mobile: Remove rotations and overlaps */
+    @media (max-width: 767px) {
+      .glass-card {
+        transform: none !important;
+        margin: 0 !important;
+        max-width: 100% !important;
+      }
+    }
+
+    /* Smooth transitions */
+    .glass-card {
+      transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  </style>
+  <section
+    class="overflow-hidden lg:py-24 bg-center bg-[url(https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/4269ef37-3598-4f9f-b520-1b08fd1d0a85_3840w.jpg)] bg-cover pt-16 pb-16 relative"
+    id="showcase">
+    <!-- Decorative grid lines -->
+    <div class="pointer-events-none z-0 absolute inset-0">
+      <div class="absolute inset-y-0 left-[12.5%] w-px bg-gradient-to-b from-transparent to-transparent via-white/5">
+      </div>
+      <div class="absolute inset-y-0 left-[37.5%] w-px bg-gradient-to-b from-transparent to-transparent via-white/5">
+      </div>
+      <div class="absolute inset-y-0 left-1/2 w-px bg-gradient-to-b from-transparent to-transparent via-white/8"
+        style=""></div>
+      <div class="absolute inset-y-0 left-[62.5%] w-px bg-gradient-to-b from-transparent to-transparent via-white/5">
+      </div>
+      <div class="absolute inset-x-0 top-1/2 h-px bg-gradient-to-r from-transparent to-transparent via-white/5"></div>
+    </div>
+
+    <!-- Floating portrait (desktop view) -->
+    <div class="hidden lg:block absolute right-8 top-10 z-10">
+      <div class="rounded-xl overflow-hidden ring-1 backdrop-blur-sm ring-white/10 bg-white/5" style="">
+        <img src="./assets/flow-image-asset/steel-card-asset.jpeg" alt="Container background"
+          class="w-full h-full object-cover absolute top-0 right-0 bottom-0 left-0" data-container-bg="true">
+        <img loading="lazy" src="./assets/flow-image-asset/steel-card-asset.jpeg" alt="Steel Card"
+          class="w-48 h-36 object-cover">
+      </div>
+      <p class="text-[11px] xl:text-neutral-50 text-slate-400 font-geist mt-2">
+        Introducing The Steel Card — Exclusive
+      </p>
+      <p class="text-[11px] text-slate-400 font-geist mt-2 xl:text-neutral-50">
+        Revolutionary Card for Business and Life
+      </p>
+    </div>
+
+    <div class="z-10 md:px-8 max-w-7xl mr-auto ml-auto pr-6 pl-6 relative">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 gap-x-8 gap-y-8 items-center">
+        <!-- Large visual -->
+        <div class="lg:col-span-7">
+          <div class="aspect-[16/11] md:aspect-[5/4] overflow-hidden rounded-3xl relative">
+            <img src="./assets/flow-image-asset/steel-phone-logo.png" alt="Steel Phone App"
+              class="[animation:parallaxElement_linear_both] [animation-timeline:view()] [animation-range:entry_0%_entry_100%] w-full h-full object-cover">
+          </div>
+        </div>
+
+        <!-- Copy -->
+        <div class="lg:col-span-5">
+          <div
+            class="inline-flex animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.05s_both] xl:text-[#fffff]/80 xl:text-[#ffffff]/95 ring-white/10 ring-1 text-xs font-medium text-[#ffffff]/95 font-geist bg-white/5 w-fit rounded-full pt-1.5 pr-3 pb-1.5 pl-3 shadow-xl gap-x-2 gap-y-2 items-center">
+            Steel by Exo
+          </div>
+
+          <h2
+            class="animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.15s_both] sm:text-5xl md:text-6xl md:font-normal md:tracking-tighter md:text-[#ffffff] text-4xl font-semibold tracking-tight font-geist mt-4">
+            The Unfair Advantage
+          </h2>
+
+          <p class="leading-relaxed animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.25s_both] text-[#fffff]/70 md:mt-5 md:text-lg md:font-semibold md:text-[#ffffff] text-base font-semibold text-[#ffffff] font-geist mt-5"
+            style="text-shadow: 0 -1px 0 rgba(255,255,255,0.28), 0 1px 0 rgba(0,0,0,0.55), 0 2px 6px rgba(2,6,23,0.5), 0 0 12px rgba(255,255,255,0.12);">
+            Introducing The Steel Card — your gateway to an exclusive network of forward-thinking leaders, curated
+            perks
+            that unlock doors that don't advertise, and financial tools designed for those who move fast. Reserved for
+            Exo partners and select early adopters — Access Compounds with Steel by Exo</p>
+
+          <a href="/steel.html"
+            class="group inline-flex items-center gap-2 underline underline-offset-4 animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.35s_both] xl:text-[#ffffff] decoration-white/30 hover:decoration-white/60 text-sm font-medium text-white font-geist mt-6 transition duration-300"
+            style="text-shadow: 0 1px 0 rgba(0,0,0,0.6), 0 2px 4px rgba(2,6,23,0.55), 0 0 12px rgba(255,255,255,0.25), 0 0 2px rgba(255,255,255,0.75); filter: drop-shadow(0 0 10px rgba(255,255,255,0.18));">
+            Join the waitlist
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"
+              data-lucide="arrow-right"
+              class="lucide lucide-arrow-right transition-transform duration-200 group-hover:translate-x-0.5 text-emerald-300 w-[16px] h-[16px]"
+              data-icon-replaced="true" style="width: 16px; height: 16px;">
+              <path d="M5 12h14"></path>
+              <path d="m12 5 7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- FINAL CTA SECTION - Consultation Booking -->
+    <section class="overflow-hidden lg:pb-5 lg:pt-5 pt-5 pb-5 relative">
+      <!-- Decorative grid lines -->
+      <div class="pointer-events-none z-0 absolute inset-0">
+        <div class="absolute inset-y-0 left-[25%] w-px bg-gradient-to-b from-transparent to-transparent via-white/5">
+        </div>
+        <div class="absolute inset-y-0 left-[50%] w-px bg-gradient-to-b from-transparent to-transparent via-white/8">
+        </div>
+        <div class="absolute inset-y-0 left-[75%] w-px bg-gradient-to-b from-transparent to-transparent via-white/5">
+        </div>
+      </div>
+
+      <!-- Radial gradient glow -->
+      <div class="pointer-events-none absolute inset-0 flex items-center justify-center">
+        <div class="w-[600px] h-[600px] bg-blue-500/10 rounded-full blur-3xl opacity-30"></div>
+      </div>
+
+      <div class="z-10 md:px-8 max-w-5xl mr-auto ml-auto pr-6 pl-6 relative">
+        <!-- Main CTA Card -->
+        <div
+          class="transition-all duration-300 animate-on-scroll [animation:fadeSlideIn_1s_ease-out_0.1s_both] md:p-12 lg:p-16 lg:bg-slate-900 bg-slate-900 ring-white/10 ring-1 rounded-3xl pt-10 pr-10 pb-10 pl-10 shadow-2xl backdrop-blur-md">
+          <!-- Status Indicator (Top) -->
+          <div class="flex mb-8 gap-x-6 gap-y-6 items-center justify-center">
+            <!-- Accepting Applications (Active) -->
+            <div class="flex items-center gap-2">
+              <div class="relative">
+                <div class="w-3 h-3 rounded-full bg-emerald-400 shadow-lg shadow-emerald-400/50"></div>
+                <div class="absolute inset-0 w-3 h-3 rounded-full bg-emerald-400 animate-ping opacity-75"></div>
+              </div>
+              <span class="text-sm font-medium font-geist text-emerald-300">
+                Spots Available
+              </span>
+            </div>
+
+            <!-- Not Accepting (Dimmed) -->
+            <div class="flex items-center gap-2 opacity-30">
+              <div class="w-3 h-3 rounded-full bg-slate-600"></div>
+              <span class="text-sm font-medium font-geist text-slate-500">
+                Not Accepting At This Time
+              </span>
+            </div>
+          </div>
+
+          <!-- Headline -->
+          <h2
+            class="text-4xl sm:text-5xl md:text-6xl font-normal tracking-tighter font-geist text-white text-center mb-6">
+            Ready to Own
+            <span
+              class="block bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-emerald-400 to-blue-400">
+              Your Operations?
+            </span>
+          </h2>
+
+          <!-- Subheadline -->
+          <p
+            class="md:text-xl leading-relaxed text-lg text-slate-400 font-geist text-center max-w-3xl mr-auto mb-10 ml-auto">
+            In 45 minutes, an Exo Architect will map your current workflows, identify
+            the highest-impact automation candidates, and show you exactly what your
+            Flow OS department would look like.
+            <span class="font-semibold text-white">
+              Walk away with a blueprint you can use — whether you hire us or not.
+            </span>
+          </p>
+
+          <!-- Value Stack -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl mx-auto mb-10">
+            <div class="flex items-start gap-3 p-4 rounded-xl bg-slate-800/40 ring-1 ring-white/10">
+              <div
+                class="flex-shrink-0 w-8 h-8 rounded-lg bg-blue-500/20 ring-1 ring-blue-400/30 flex items-center justify-center mt-0.5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="text-blue-400">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <div class="">
+                <h3 class="text-base font-semibold font-geist text-white mb-1">
+                  Complete Workflow Audit
+                </h3>
+                <p class="text-sm font-geist text-slate-400">
+                  Every process mapped and prioritized
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3 p-4 rounded-xl bg-slate-800/40 ring-1 ring-white/10">
+              <div
+                class="flex-shrink-0 w-8 h-8 rounded-lg bg-emerald-500/20 ring-1 ring-emerald-400/30 flex items-center justify-center mt-0.5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="text-emerald-400">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <div class="">
+                <h3 class="text-base font-semibold font-geist text-white mb-1">
+                  Custom Architecture Deck
+                </h3>
+                <p class="text-sm font-geist text-slate-400">
+                  Your Flow OS blueprint — yours to keep
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3 p-4 rounded-xl bg-slate-800/40 ring-1 ring-white/10">
+              <div
+                class="flex-shrink-0 w-8 h-8 rounded-lg bg-purple-500/20 ring-1 ring-purple-400/30 flex items-center justify-center mt-0.5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="text-purple-400">
+                  <polyline points="20 6 9 17 4 12" class=""></polyline>
+                </svg>
+              </div>
+              <div class="">
+                <h3 class="text-base font-semibold font-geist text-white mb-1">
+                  90-Day Guarantee
+                </h3>
+                <p class="text-sm font-geist text-slate-400">
+                  55% efficiency gains or we stay until you hit it
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3 p-4 rounded-xl bg-slate-800/40 ring-1 ring-white/10">
+              <div
+                class="flex-shrink-0 w-8 h-8 rounded-lg bg-orange-500/20 ring-1 ring-orange-400/30 flex items-center justify-center mt-0.5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="text-orange-400">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <div class="">
+                <h3 class="text-base font-semibold font-geist text-white mb-1">
+                  Full Ownership Transfer
+                </h3>
+                <p class="text-sm font-geist text-slate-400">
+                  Sovereignty Packet — no lock-in, ever
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- CTA Button -->
+          <div class="text-center mb-8">
+            <a href="/x-scale.html"
+              class="group inline-flex items-center justify-center gap-3 md:text-xl transition-all duration-300 shadow-emerald-500/40 hover:shadow-emerald-500/60 hover:scale-105 hover:ring-emerald-400/70 text-lg font-bold text-white font-geist bg-gradient-to-r from-emerald-600 to-blue-600 ring-emerald-500/50 ring-2 rounded-full pt-5 pr-10 pb-5 pl-10 shadow-2xl">
+              Book Architecture Session
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="w-6 h-6 transition-transform group-hover:translate-x-1">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Scarcity Text -->
+          <p class="text-center text-sm md:text-base font-medium font-geist text-slate-400 mb-8">
+            Accepting
+            <span class="text-white font-semibold">
+              4 new engagements at a time
+            </span>
+            to ensure white-glove delivery
+          </p>
+          <p class="text-center text-xs font-geist text-slate-500 -mt-5 mb-8 tracking-wide">*2 ROUNDS PER MONTH</p>
+
+          <!-- Risk Reversal / Trust Elements -->
+          <div class="border-t border-white/10 pt-8">
+            <div class="space-y-4 max-w-2xl mx-auto">
+              <!-- Primary Guarantee -->
+              <div class="flex items-start gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="flex-shrink-0 mt-0.5 text-emerald-400">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"></path>
+                  <path d="m9 12 2 2 4-4"></path>
+                </svg>
+                <p class="text-sm md:text-base font-geist text-slate-300">
+                  <span class="text-white font-semibold">
+                    90-day operational guarantee.
+                  </span>
+                  You own everything we build. If Flow OS doesn't deliver 55% efficiency gains, we stay until it does.
+                </p>
+              </div>
+
+              <!-- Walk Away Value -->
+              <div class="flex items-start gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="flex-shrink-0 mt-0.5 text-emerald-400">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <p class="text-sm md:text-base font-geist text-slate-300">
+                  Walk away with a roadmap and insights you can use
+                  <span class="text-white font-semibold">
+                    whether you hire us or not
+                  </span>
+                </p>
+              </div>
+
+              <!-- Strategy Session (Not Sales Call) -->
+              <div class="flex items-start gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="flex-shrink-0 mt-0.5 text-emerald-400">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <p class="text-sm md:text-base font-geist text-slate-300">
+                  This is a strategy session, not a sales call—average
+                  consultation delivers
+                  <span class="text-white font-semibold">$5K+ in value</span>
+                </p>
+              </div>
+
+              <!-- Conditional Guarantee Fine Print for Activation Steps, *This needs to be updated -
+                  So that it is engineered to walk clients toward activation steps-->
+              <div class="pt-4 border-t border-white/5">
+                <p class="leading-relaxed text-xs text-slate-200 font-geist font-bold text-center">FIND OUT IF YOU'RE A
+                  FIT
+                  TODAY
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="overflow-hidden bg-slate-950 border-white/5 border-t relative" style="">
+      <!-- Decorative grid lines -->
+      <div class="pointer-events-none z-0 absolute inset-0">
+        <div class="absolute inset-y-0 left-[12.5%] w-px bg-gradient-to-b to-transparent from-white/5 via-white/5"
+          style=""></div>
+        <div class="absolute inset-y-0 left-[37.5%] w-px bg-gradient-to-b to-transparent from-white/5 via-white/5"
+          style=""></div>
+        <div class="absolute inset-y-0 left-1/2 w-px bg-gradient-to-b to-transparent from-white/8 via-white/5" style="">
+        </div>
+        <div class="absolute inset-y-0 left-[62.5%] w-px bg-gradient-to-b to-transparent from-white/5 via-white/5"
+          style=""></div>
+      </div>
+
+      <div class="z-10 md:px-8 lg:py-20 max-w-7xl mr-auto ml-auto pt-16 pr-6 pb-16 pl-6 relative">
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 lg:gap-12 gap-x-8 gap-y-8">
+          <!-- Brand Logo Section -->
+          <div class="col-span-2 flex flex-col items-center justify-center">
+            <div
+              class="w-full bg-white/5 border border-white/10 rounded-lg p-6 backdrop-blur-xl flex items-center justify-center hover:bg-white/[0.07] transition-colors duration-300"
+              style="aspect-ratio: 1; max-width: 200px;">
+              <img loading="lazy" src="./logos/LOGO%20MARK.png" alt="Exo Enterprise Logo"
+                class="w-[80%] h-[80%] object-contain" style="filter: drop-shadow(0 4px 12px rgba(0,0,0,0.3));">
+            </div>
+            <p class="text-xs text-slate-400 font-geist mt-4 text-center">Exo Enterprise</p>
+            <p class="leading-relaxed text-sm text-slate-400 font-geist max-w-xs mt-4 text-center">
+              Building the future of AI-powered systems for forward-thinking teams.
+            </p>
+          </div>
+
+          <!-- Company -->
+          <div class="">
+            <div class="">
+              <h3 class="text-sm font-medium text-white font-geist" style="">
+                Company
+              </h3>
+              <ul class="mt-4 space-y-3">
+                <li>
+                  <a href="/firm.html" class="transition hover:text-white text-sm text-slate-400 font-geist">
+                    About
+                  </a>
+                </li>
+
+                <li>
+                  <a href="/steel.html" class="transition hover:text-white text-sm text-slate-400 font-geist">
+                    STEEL
+                  </a>
+                </li>
+
+                <li>
+                  <a href="/x-scale.html" class="transition hover:text-white text-sm text-slate-400 font-geist">
+                    Contact
+                  </a>
+                </li>
+
+                <li>
+                  <a href="/careers.html" class="transition hover:text-white text-sm text-slate-400 font-geist">
+                    Careers
+                  </a>
+                </li>
+
+                <li>
+                  <a href="index.html#departments"
+                    class="transition hover:text-white text-sm text-slate-400 font-geist">
+                    Departments
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Product -->
+          <div>
+            <h4 class="text-xs font-semibold text-white uppercase tracking-wider mb-4">Product</h4>
+            <ul class="mt-4 space-y-3">
+              <li><a href="/flow.html" class="transition hover:text-white text-sm text-slate-400 font-geist">Flow OS</a>
+              </li>
+              <li><a href="/steel.html" class="transition hover:text-white text-sm text-slate-400 font-geist">Steel
+                  Card</a></li>
+              <li><a href="index.html#departments"
+                  class="transition hover:text-white text-sm text-slate-400 font-geist">Exo Academy</a></li>
+              <li><a href="#integrations"
+                  class="transition hover:text-white text-sm text-slate-400 font-geist">Integrations</a></li>
+            </ul>
+          </div>
+
+          <!-- Legal -->
+          <div>
+            <h4 class="text-xs font-semibold text-white uppercase tracking-wider mb-4">Legal</h4>
+            <ul class="mt-4 space-y-3">
+              <li><a href="/privacy.html" class="transition hover:text-white text-sm text-slate-400 font-geist">Privacy
+                  Policy</a></li>
+              <li><a href="/terms.html" class="transition hover:text-white text-sm text-slate-400 font-geist">Terms of
+                  Service</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Bottom bar -->
+        <div
+          class="flex flex-col md:flex-row gap-4 border-white/5 border-t mt-16 pt-8 gap-x-4 gap-y-4 items-center justify-center">
+          <p class="text-sm text-slate-400 font-geist">
+            © 2026 Exo Enterprise — All rights reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      window.addEventListener('DOMContentLoaded', () => {
+        if (window.lucide) lucide.createIcons();
+      });
+    </script>
+  </section>
+
+  <script>
+    (function () { const openBtn = document.getElementById('mobileMenuToggle'); const closeBtn = document.getElementById('mobileMenuClose'); const drawer = document.getElementById('mobileNavDrawer'); function open() { if (drawer) drawer.classList.add('open'); } function close() { if (drawer) drawer.classList.remove('open'); } if (openBtn) openBtn.addEventListener('click', open); if (closeBtn) closeBtn.addEventListener('click', close); if (drawer) drawer.addEventListener('click', (e) => { if (e.target === drawer) close(); }); document.querySelectorAll('.mobile-accordion-toggle').forEach(btn => { btn.addEventListener('click', () => { const wrap = btn.parentElement; const submenu = wrap.querySelector('.mobile-submenu'); const plus = btn.querySelector('.plus'); const minus = btn.querySelector('.minus'); if (submenu) { submenu.classList.toggle('hidden'); } if (plus && minus) { plus.classList.toggle('hidden'); minus.classList.toggle('hidden'); } }); }); })();
+  </script>
+
+  <!-- Meta Pixel Conversion Events -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Track Lead event on primary CTA clicks to x-scale.html
+      document.querySelectorAll('a[href*="x-scale.html"]').forEach(function (link) {
+        // Only track CTA buttons (rounded-full = button style), not nav/footer text links
+        if (link.classList.contains('rounded-full') || link.classList.contains('shiny-cta')) {
+          link.addEventListener('click', function () {
+            if (typeof fbq === 'function') {
+              fbq('track', 'Lead', { content_name: 'Flow OS CTA', content_category: 'Architecture Session' });
+            }
+          });
+        }
+      });
+
+      // Track ViewContent on key sections when they enter viewport
+      var tracked = {};
+      var observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting && !tracked[entry.target.id]) {
+            tracked[entry.target.id] = true;
+            if (typeof fbq === 'function') {
+              fbq('track', 'ViewContent', { content_name: entry.target.id });
+            }
+          }
+        });
+      }, { threshold: 0.3 });
+
+      ['how-it-works', 'services', 'modules', 'integrations'].forEach(function (id) {
+        var el = document.getElementById(id);
+        if (el) observer.observe(el);
+      });
+    });
+  </script>
+
+  <!-- Cookie Consent Banner -->
+  <div id="cookie-banner"
+    class="fixed bottom-0 left-0 right-0 z-[100] bg-black border-t border-white/10 text-white px-6 py-4 pb-6 sm:pb-4 transform translate-y-full transition-transform duration-500 ease-out flex flex-row items-start sm:items-center justify-between gap-4 shadow-2xl">
+    <p class="text-xs sm:text-sm text-neutral-300 font-geist text-left max-w-4xl">
+      Exo uses cookies to maintain user sessions and track marketing efforts. By continuing to use our website, you
+      agree to our use of cookies for these purposes.
+      <a href="/privacy.html" class="text-white underline hover:no-underline transition-colors">Read our Privacy
+        Policy</a>
+    </p>
+    <button id="close-cookie-banner" aria-label="Close cookie banner"
+      class="text-white hover:text-neutral-400 transition-colors p-1 sm:p-2 shrink-0">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+  </div>
+
+  <script>
+    (function () {
+      const banner = document.getElementById('cookie-banner');
+      const closeBtn = document.getElementById('close-cookie-banner');
+      const consentKey = 'exo-cookie-consent-dismissed';
+
+      if (!localStorage.getItem(consentKey)) {
+        // Delay appearance for "pop up" effect
+        setTimeout(() => {
+          banner.classList.remove('translate-y-full');
+        }, 1000);
+      }
+
+      if (closeBtn) {
+        closeBtn.addEventListener('click', () => {
+          banner.classList.add('translate-y-full');
+          localStorage.setItem(consentKey, 'true');
+        });
+      }
+    })();
+  </script>
+</body>
+
+</html>
+```

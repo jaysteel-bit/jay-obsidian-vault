@@ -1,0 +1,1310 @@
+﻿# X-Scale Page — exoent.co/x-scale
+
+**X-Scale** product page. The VSL (Video Sales Letter) page for Exo's scaling program or high-ticket offer. Contains the embedded video sales letter with Exo AI as the TTS speaker, built around the 5P framework + FAQ + proof stack structure.
+
+**Live URL:** exoent.co/x-scale
+
+---
+
+```html
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo Enterprise | X-Scale Program</title>
+    <meta name="description"
+        content="Join our X-Scale Program. We install a self-running AI department in your company in 90 days. Limited to 8 partners per month.">
+    <meta property="og:title" content="Exo Enterprise | X-Scale Program">
+    <meta property="og:description" content="We install a self-running AI department in your company in 90 days.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/logos/LOGO%20MARK.png">
+    <link rel="icon" type="image/png" href="/logos/LOGO%20MARK.png">
+
+    <!-- Spline Preconnect for faster loading -->
+    <link rel="preconnect" href="https://my.spline.design">
+    <link rel="dns-prefetch" href="https://my.spline.design">
+
+    <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1715251733215249');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1715251733215249&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+
+  <!-- PostHog Analytics -->
+    <script>
+        !function (t, e) { var o, n, p, r; e.__SV || (window.posthog = e, e._i = [], e.init = function (i, s, a) { function g(t, e) { var o = e.split("."); 2 == o.length && (t = t[o[0]], e = o[1]), t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))) } } (p = t.createElement("script")).type = "text/javascript", p.async = !0, p.src = s.api_host.replace(".i.posthog.com", "-assets.i.posthog.com") + "/static/array.js", (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(p, r); var u = e; for (void 0 !== a ? u = e[a] = [] : a = "posthog", u.people = u.people || [], u.toString = function (t) { var e = "posthog"; return "posthog" !== a && (e += "." + a), t || (e += " (stub)"), e }, u.people.toString = function () { return u.toString(1) + ".people (stub)" }, o = "init capture register register_once register_for_session unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group identify setPersonProperties setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags resetGroups onFeatureFlags addFeatureFlagsHandler onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep".split(" "), n = 0; n < o.length; n++)g(u, o[n]); e._i.push([i, s, a]) }, e.__SV = 1) }(document, window.posthog || []);
+        posthog.init('phc_N1Clw6iwKeyIqhNrxd1cejjCuvKXPtW17bn9h6ZUw9b', {
+            api_host: 'https://us.i.posthog.com',
+            defaults: '2025-11-30'
+        })
+    </script>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Iconify -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+    <!-- GSAP for Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&amp;family=Geist:wght@300;400;500;600&amp;family=Playfair+Display:ital,wght@0,400;0,600;1,400&amp;family=Inter:wght@300;400;500;600&amp;display=swap"
+        rel="stylesheet">
+
+    <style>
+        /* Base Styles */
+        :root {
+            --font-sans: 'Urbanist', 'Geist', 'Inter', sans-serif;
+            --font-serif: 'Playfair Display', serif;
+        }
+
+        /* iOS Safari uses html as scroll root — must set on both */
+        html {
+            overflow-x: hidden;
+            max-width: 100%;
+        }
+
+        body {
+            font-family: var(--font-sans);
+            background-color: #050505;
+            color: #e5e5e5;
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
+            max-width: 100%;
+        }
+
+        /* Typography Utilities */
+        .font-serif {
+            font-family: var(--font-serif);
+        }
+
+        .tracking-tighter-custom {
+            letter-spacing: -0.04em;
+        }
+
+        /* Glass Cards */
+        .glass-panel {
+            background: rgba(20, 20, 20, 0.4);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        /* Animation */
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-fade-up {
+            animation: fadeUp 0.8s ease-out forwards;
+        }
+
+        /* Form Inputs */
+        input[type="text"],
+        input[type="email"],
+        select {
+            background-color: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: white;
+            transition: all 0.3s ease;
+        }
+
+        input:focus,
+        select:focus {
+            outline: none;
+            border-color: #10b981;
+            /* Emerald-500 */
+            background-color: rgba(255, 255, 255, 0.08);
+        }
+
+        /* Accordion */
+        details>summary {
+            list-style: none;
+        }
+
+        details>summary::-webkit-details-marker {
+            display: none;
+        }
+
+        /* Spline Loader Animations */
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                opacity: 0.6;
+            }
+
+            50% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes emerald-pulse {
+
+            0%,
+            100% {
+                box-shadow: 0 0 15px -5px rgba(16, 185, 129, 0.3);
+                border-color: rgba(16, 185, 129, 0.3);
+            }
+
+            50% {
+                box-shadow: 0 0 25px 5px rgba(16, 185, 129, 0.6);
+                border-color: rgba(16, 185, 129, 0.7);
+            }
+        }
+
+        .animate-emerald-pulse {
+            animation: emerald-pulse 3s ease-in-out infinite;
+        }
+
+        .img-protected {
+            pointer-events: none;
+            user-select: none;
+            -webkit-user-select: none;
+            -webkit-user-drag: none;
+            -webkit-touch-callout: none;
+        }
+    </style>
+</head>
+
+<body
+    class="bg-neutral-950 text-neutral-200 antialiased selection:bg-emerald-500/30 selection:text-white overflow-x-hidden">
+
+    <!-- Lead Magnet Notification Banner -->
+    <div id="value-notification-banner"
+        class="fixed top-0 left-0 w-full z-[9999] bg-emerald-950/95 backdrop-blur-md border-b border-emerald-500/30 shadow-[0_0_30px_rgba(16,185,129,0.2)] transform -translate-y-full transition-transform duration-500 ease-out">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-center gap-3">
+            <div class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></div>
+            <p class="text-sm font-medium text-emerald-100 tracking-wide text-center uppercase">
+                ACCESS GRANTED. CHECK YOUR EMAIL FOR THE GIFT IN A MOMENT.
+            </p>
+            <button onclick="document.getElementById('value-notification-banner').classList.add('-translate-y-full')"
+                class="ml-4 text-emerald-400 hover:text-emerald-200 transition-colors">
+                <iconify-icon icon="solar:close-circle-bold" class="text-lg"></iconify-icon>
+            </button>
+        </div>
+    </div>
+
+    <!-- SPLINE LOADING PLACEHOLDER -->
+    <div id="spline-loader"
+        class="fixed inset-0 z-[120] bg-neutral-950 flex items-center justify-center transition-opacity duration-700 pointer-events-none">
+        <div class="text-center relative z-10">
+            <img src="./logos/LOGO%20MARK.png" alt="Loading..." class="w-16 h-16 mx-auto mb-4 opacity-60"
+                style="animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;">
+            <div class="w-8 h-8 border-2 border-white/20 border-t-emerald-500 rounded-full mx-auto"
+                style="animation: spin 1s linear infinite;"></div>
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-b from-neutral-900/40 via-transparent to-neutral-950">
+        </div>
+    </div>
+
+    <!-- SPLINE BACKGROUND -->
+    <div class="fixed top-0 left-0 w-full h-full -z-10 opacity-60 pointer-events-none overflow-hidden">
+        <div class="absolute inset-0 bg-neutral-950/40 z-10"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-neutral-850/20 via-transparent to-neutral-850 z-10"></div>
+        <iframe id="spline-iframe" src="https://my.spline.design/animatedshapeblend-1gCFHvLukjcmK6imbIAFLY2d/"
+            frameborder="0" width="100%" height="100%"></iframe>
+    </div>
+
+    <!-- NAVIGATION -->
+    <!-- ANNOUNCEMENT BAR -->
+    <div class="fixed top-0 left-0 w-full z-50 bg-black flex items-center justify-center py-3 border-b border-white/5">
+        <div class="bg-white px-4 py-1.5 rounded-full flex items-center gap-3 shadow-[0_0_15px_rgba(255,255,255,0.1)]">
+            <span class="relative flex h-2.5 w-2.5">
+                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
+                <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-red-500"></span>
+            </span>
+            <span class="text-black text-xs font-bold tracking-wide">8 Acceptances Per Month | Apply Now</span>
+        </div>
+    </div>
+
+    <!-- HERO SECTION -->
+    <header class="min-h-screen flex flex-col pt-32 pb-20 relative items-center justify-center">
+        <div class="max-w-5xl mx-auto text-center z-20 space-y-10 px-6 animate-fade-up">
+
+            <!-- Context Tag -->
+            <div
+                class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm mx-auto">
+                <span class="relative flex h-2 w-2">
+                    <span
+                        class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                    <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                </span>
+                <span class="text-[11px] uppercase font-bold text-white/90 tracking-widest">Service-Software Hybrid |
+                    90-Day Transformation</span>
+            </div>
+
+            <!-- Headline -->
+            <h1
+                class="text-4xl md:text-6xl lg:text-7xl font-semibold tracking-tighter-custom text-white leading-[1.05]">
+                ARE YOU THE BIGGEST RISK <br>
+                <span
+                    class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-200 to-emerald-600 font-serif italic pr-2 decoration-clone">TO
+                    YOUR OWN BUSINESS?</span>
+            </h1>
+
+            <!-- Sub-headline -->
+            <p style="text-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 1px 1px rgba(0,0,0,0.75);"
+                class="text-lg md:text-xl text-slate-300 font-['Urbanist'] font-normal max-w-3xl mx-auto leading-relaxed">
+                Join our <span class="text-white font-medium">X-Scale Department Program</span>. We install a
+                self-running AI department in your company, removing you as the single point of failure.<br>
+                <span class="text-white font-bold">Letting You Work
+                </span><span class="text-emerald-400 font-bold">ON</span>
+                <span class="text-white font-bold">
+                    The Business, Not Kept
+                </span>
+                <span class="text-red-600 font-bold">
+                    STUCK IN
+                </span>
+                <span class="text-white font-bold">
+                    It</span>
+            </p>
+
+            <!-- Video Placeholder -->
+            <div
+                class="w-full max-w-4xl mx-auto aspect-video glass-panel rounded-xl overflow-hidden relative group cursor-pointer shadow-2xl shadow-emerald-900/10 border border-white/10 mt-8 animate-emerald-pulse">
+                <div
+                    class="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/30 transition-all">
+                    <div
+                        class="w-20 h-20 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center border border-white/20 group-hover:scale-110 transition-transform duration-300">
+                        <iconify-icon icon="solar:play-bold" class="text-white text-3xl ml-1"></iconify-icon>
+                    </div>
+                </div>
+                <div class="absolute bottom-6 left-6 right-6 flex items-center justify-between pointer-events-none">
+                    <span class="text-xs font-mono text-white/80 bg-black/50 px-2 py-1 rounded">EXO CORE // SIZZLE
+                        REEL</span>
+                    <span class="text-xs font-mono text-white/80">02:34</span>
+                </div>
+                <!-- Image Placeholder for Video Thumb -->
+                <div class="absolute inset-0 -z-10 bg-neutral-900 flex items-center justify-center text-neutral-700">
+                    [VIDEO]
+                </div>
+            </div>
+
+            <!-- Primary CTA -->
+            <div class="pt-8">
+                <a href="#book"
+                    class="inline-flex items-center gap-3 px-10 py-5 bg-white text-black rounded-lg text-sm font-bold tracking-wide hover:bg-neutral-200 transition-all shadow-[0_0_20px_-5px_rgba(255,255,255,0.3)] hover:shadow-[0_0_30px_-5px_rgba(255,255,255,0.5)] transform hover:-translate-y-1">
+                    START TRANSFORMATION
+                    <iconify-icon icon="solar:round-alt-arrow-right-bold" width="20"></iconify-icon>
+                </a>
+                <p class="text-xs text-neutral-500 mt-4 uppercase tracking-widest text-center">Limited Availability - 8
+                    Partners/Month</p>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- SOCIAL PROOF -->
+    <section class="py-20 border-t border-white/5 bg-neutral-900/30">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <p class="text-[10px] uppercase tracking-[0.2em] text-white mb-10 font-['Urbanist'] font-medium">
+                Trusted by founders and leaders building the future</p>
+
+            <!-- Animated Tooltip Component -->
+            <div class="flex flex-row items-center justify-center mb-10 w-full animate-fade-up overflow-x-hidden"
+                style="animation-delay: 0.2s;">
+                <div class="flex items-center gap-2 max-w-full" id="animated-tooltip-container">
+                    <!-- Items will be injected here or hardcoded below -->
+
+                    <!-- Person 1 -->
+                    <div class="relative group cursor-pointer -mr-4" data-id="1">
+                        <!-- Tooltip -->
+                        <div class="tooltip absolute -top-16 -left-1/2 translate-x-1/2 flex text-xs flex-col items-center justify-center rounded-md bg-neutral-900 border border-white/10 z-50 shadow-xl px-4 py-2 opacity-0 scale-75 pointer-events-none transition-all duration-300 group-hover:opacity-100 group-hover:scale-100 group-hover:translate-y-0 translate-y-4"
+                            style="white-space: nowrap;">
+                            <div
+                                class="absolute inset-x-10 z-30 w-[20%] -bottom-px bg-gradient-to-r from-transparent via-emerald-500 to-transparent h-px">
+                            </div>
+                            <div
+                                class="absolute left-10 w-[40%] z-30 -bottom-px bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px">
+                            </div>
+                            <div class="font-bold text-white relative z-30 text-base">Marcus Webb</div>
+                            <div class="text-neutral-400 text-xs">Operations Director</div>
+                        </div>
+                        <!-- Image -->
+                        <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80"
+                            alt="Marcus Webb" draggable="false"
+                            class="object-cover !m-0 !p-0 object-top rounded-full h-14 w-14 border-2 group-hover:scale-105 group-hover:z-30 border-neutral-950 relative transition duration-500 img-protected"
+                            onmousemove="handleTooltipMove(event, this)">
+                    </div>
+
+                    <!-- Person 2 -->
+                    <div class="relative group cursor-pointer -mr-4" data-id="2">
+                        <div class="tooltip absolute -top-16 -left-1/2 translate-x-1/2 flex text-xs flex-col items-center justify-center rounded-md bg-neutral-900 border border-white/10 z-50 shadow-xl px-4 py-2 opacity-0 scale-75 pointer-events-none transition-all duration-300 group-hover:opacity-100 group-hover:scale-100 group-hover:translate-y-0 translate-y-4"
+                            style="white-space: nowrap;">
+                            <div
+                                class="absolute inset-x-10 z-30 w-[20%] -bottom-px bg-gradient-to-r from-transparent via-emerald-500 to-transparent h-px">
+                            </div>
+                            <div
+                                class="absolute left-10 w-[40%] z-30 -bottom-px bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px">
+                            </div>
+                            <div class="font-bold text-white relative z-30 text-base">Tyler Osei</div>
+                            <div class="text-neutral-400 text-xs">Co-Founder</div>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
+                            alt="Tyler Osei" draggable="false"
+                            class="object-cover !m-0 !p-0 object-top rounded-full h-14 w-14 border-2 group-hover:scale-105 group-hover:z-30 border-neutral-950 relative transition duration-500 img-protected"
+                            onmousemove="handleTooltipMove(event, this)">
+                    </div>
+
+                    <!-- Person 3 -->
+                    <div class="relative group cursor-pointer -mr-4" data-id="3">
+                        <div class="tooltip absolute -top-16 -left-1/2 translate-x-1/2 flex text-xs flex-col items-center justify-center rounded-md bg-neutral-900 border border-white/10 z-50 shadow-xl px-4 py-2 opacity-0 scale-75 pointer-events-none transition-all duration-300 group-hover:opacity-100 group-hover:scale-100 group-hover:translate-y-0 translate-y-4"
+                            style="white-space: nowrap;">
+                            <div
+                                class="absolute inset-x-10 z-30 w-[20%] -bottom-px bg-gradient-to-r from-transparent via-emerald-500 to-transparent h-px">
+                            </div>
+                            <div
+                                class="absolute left-10 w-[40%] z-30 -bottom-px bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px">
+                            </div>
+                            <div class="font-bold text-white relative z-30 text-base">Claire Dupont</div>
+                            <div class="text-neutral-400 text-xs">Chief of Staff</div>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
+                            alt="Claire Dupont" draggable="false"
+                            class="object-cover !m-0 !p-0 object-top rounded-full h-14 w-14 border-2 group-hover:scale-105 group-hover:z-30 border-neutral-950 relative transition duration-500 img-protected"
+                            onmousemove="handleTooltipMove(event, this)">
+                    </div>
+
+                    <!-- Person 4 -->
+                    <div class="relative group cursor-pointer -mr-4" data-id="4">
+                        <div class="tooltip absolute -top-16 -left-1/2 translate-x-1/2 flex text-xs flex-col items-center justify-center rounded-md bg-neutral-900 border border-white/10 z-50 shadow-xl px-4 py-2 opacity-0 scale-75 pointer-events-none transition-all duration-300 group-hover:opacity-100 group-hover:scale-100 group-hover:translate-y-0 translate-y-4"
+                            style="white-space: nowrap;">
+                            <div
+                                class="absolute inset-x-10 z-30 w-[20%] -bottom-px bg-gradient-to-r from-transparent via-emerald-500 to-transparent h-px">
+                            </div>
+                            <div
+                                class="absolute left-10 w-[40%] z-30 -bottom-px bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px">
+                            </div>
+                            <div class="font-bold text-white relative z-30 text-base">Lena Strauss</div>
+                            <div class="text-neutral-400 text-xs">Managing Director</div>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60"
+                            alt="Lena Strauss" draggable="false"
+                            class="object-cover !m-0 !p-0 object-top rounded-full h-14 w-14 border-2 group-hover:scale-105 group-hover:z-30 border-neutral-950 relative transition duration-500 img-protected"
+                            onmousemove="handleTooltipMove(event, this)">
+                    </div>
+
+                    <!-- Person 5 -->
+                    <div class="relative group cursor-pointer -mr-4" data-id="5">
+                        <div class="tooltip absolute -top-16 -left-1/2 translate-x-1/2 flex text-xs flex-col items-center justify-center rounded-md bg-neutral-900 border border-white/10 z-50 shadow-xl px-4 py-2 opacity-0 scale-75 pointer-events-none transition-all duration-300 group-hover:opacity-100 group-hover:scale-100 group-hover:translate-y-0 translate-y-4"
+                            style="white-space: nowrap;">
+                            <div
+                                class="absolute inset-x-10 z-30 w-[20%] -bottom-px bg-gradient-to-r from-transparent via-emerald-500 to-transparent h-px">
+                            </div>
+                            <div
+                                class="absolute left-10 w-[40%] z-30 -bottom-px bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px">
+                            </div>
+                            <div class="font-bold text-white relative z-30 text-base">Jordan Callahan</div>
+                            <div class="text-neutral-400 text-xs">Founder &amp; CEO</div>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80"
+                            alt="Jordan Callahan" draggable="false"
+                            class="object-cover !m-0 !p-0 object-top rounded-full h-14 w-14 border-2 group-hover:scale-105 group-hover:z-30 border-neutral-950 relative transition duration-500 img-protected"
+                            onmousemove="handleTooltipMove(event, this)">
+                    </div>
+
+                    <!-- Person 6 -->
+                    <!-- Person 6: Anika (Right Anchored Tooltip) -->
+                    <div class="relative group cursor-pointer -mr-4" data-id="6">
+                        <div class="tooltip absolute -top-16 right-0 translate-x-0 flex text-xs flex-col items-center justify-center rounded-md bg-neutral-900 border border-white/10 z-50 shadow-xl px-4 py-2 opacity-0 scale-75 pointer-events-none transition-all duration-300 group-hover:opacity-100 group-hover:scale-100 group-hover:translate-y-0 translate-y-4"
+                            style="white-space: nowrap;">
+                            <div
+                                class="absolute inset-x-10 z-30 w-[20%] -bottom-px bg-gradient-to-r from-transparent via-emerald-500 to-transparent h-px">
+                            </div>
+                            <div
+                                class="absolute left-10 w-[40%] z-30 -bottom-px bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px">
+                            </div>
+                            <div class="font-bold text-white relative z-30 text-base">Anika Rhodes</div>
+                            <div class="text-neutral-400 text-xs">Head of Growth</div>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3534&q=80"
+                            alt="Anika Rhodes" draggable="false"
+                            class="object-cover !m-0 !p-0 object-top rounded-full h-14 w-14 border-2 group-hover:scale-105 group-hover:z-30 border-neutral-950 relative transition duration-500 img-protected"
+                            onmousemove="handleTooltipMove(event, this)">
+                    </div>
+
+                </div>
+            </div>
+
+            <script>
+                // Logic for Animated Tooltip (Spring Physics)
+                function handleTooltipMove(event, imgElement) {
+                    const container = imgElement.parentElement;
+                    const tooltip = container.querySelector('.tooltip');
+                    const isLastItem = container.getAttribute('data-id') === '6'; // Anika
+
+                    if (!tooltip) return;
+
+                    // Calculate mouse position relative to the image
+                    const halfWidth = imgElement.offsetWidth / 2;
+                    const xPos = event.offsetX - halfWidth; // -width/2 to +width/2
+
+                    // Spring physics values
+                    const rotateVal = (xPos / 100) * 45;
+                    const translateXVal = (xPos / 100) * 50;
+
+                    // For the last item (Anika), we modify the transform to keep it on screen
+                    // The CSS for Anika aligns it to right-0, so we adjust xPercent accordingly or use different logic
+                    // Actually, simpler: Just let GSAP handle the motion, but ensure CSS anchors it safely.
+                    // If we changed Anika's CSS to be right-anchored, we need to respect that here.
+
+                    // Update: I will modify Anika's CSS in the HTML directly below to be right-anchored.
+                    // Here we just apply the dynamic motion. 
+
+                    let xPercentVal = -50;
+                    if (isLastItem) {
+                        xPercentVal = 0; // If right anchored, maybe we don't need -50% centering
+                    }
+
+                    gsap.to(tooltip, {
+                        x: translateXVal,
+                        xPercent: isLastItem ? 10 : -50, // Anika: Shift slightly right or keep 0 to avoid left overflow? 
+                        // Actually, if Anika is right-anchored (right-0), xPercent -50 moves it LEFT.
+                        // We want Anika's tooltip to stay Left of the right edge.
+                        // Let's just rely on the CSS change for Anika and keep physics subtle.
+                        rotate: rotateVal,
+                        duration: 0.2,
+                        ease: "power2.out",
+                        overwrite: "auto"
+                    });
+                }
+
+                // Clear transforms on mouse leave to reset (optional, though the CSS transition handles opacity/scale)
+                document.querySelectorAll('#animated-tooltip-container .group').forEach(group => {
+                    group.addEventListener('mouseleave', () => {
+                        const tooltip = group.querySelector('.tooltip');
+                        if (tooltip) {
+                            gsap.to(tooltip, {
+                                x: 0,
+                                xPercent: group.getAttribute('data-id') === '6' ? 10 : -50, // Reset logic matches handler
+                                rotate: 0,
+                                duration: 0.2,
+                                ease: "power2.out"
+                            });
+                        }
+                    });
+                });
+            </script>
+
+            <!-- Testimonial Reel Placeholder -->
+            <div class="mt-20">
+                <div class="glass-panel p-8 rounded-2xl max-w-4xl mx-auto border border-white/10">
+                    <h3 class="text-lg font-medium text-white mb-6 flex items-center justify-center gap-2">
+                        <iconify-icon icon="solar:chat-round-like-linear" class="text-emerald-400"></iconify-icon>
+                        What Partners Are Saying
+                    </h3>
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <!-- Testimonial 1 -->
+                        <div class="bg-white/5 p-6 rounded-xl text-left">
+                            <div class="flex text-emerald-400 mb-3 text-xs">★★★★★</div>
+                            <p class="text-sm text-neutral-300 mb-4">"The 90-day handoff is real. Scaled our ops
+                                without hiring a single new manager. This year we're bullish on Exo AI!"</p>
+                            <div class="flex items-center gap-3">
+                                <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80"
+                                    alt="Marcus Webb" draggable="false"
+                                    class="w-8 h-8 rounded-full object-cover object-top img-protected">
+                                <div>
+                                    <div class="text-xs font-bold text-white">Marcus Webb</div>
+                                    <div class="text-[10px] text-neutral-500">Operations Director, Tether L.P.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimonial 2 tyler profile picture should go in the above div = <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" -->
+                        <div
+                            class="bg-white/5 p-6 rounded-xl text-left border border-white/10 relative overflow-hidden">
+                            <div class="absolute inset-0 bg-emerald-500/5 z-0"></div>
+                            <div class="flex text-emerald-400 mb-3 text-xs z-10 relative">★★★★★</div>
+                            <p class="text-sm text-neutral-300 mb-4 z-10 relative">"Exo installed Deal OS and boom! Our
+                                close
+                                rates went from 15% to 42% in 6 weeks!"</p>
+                            <div class="flex items-center gap-3 z-10 relative">
+                                <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
+                                    alt="Tyler Osei" draggable="false"
+                                    class="w-8 h-8 rounded-full object-cover object-top img-protected">
+                                <div>
+                                    <div class="text-xs font-bold text-white">Tyler Osei</div>
+                                    <div class="text-[10px] text-neutral-500">Founder, Harborline</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimonial 3 -->
+                        <div class="bg-white/5 p-6 rounded-xl text-left">
+                            <div class="flex text-emerald-400 mb-3 text-xs">★★★★★</div>
+                            <p class="text-sm text-neutral-300 mb-4">"Stopped firefighting. We've been mostly
+                                strategizing. Best AI investment we made last year."</p>
+                            <div class="flex items-center gap-3">
+                                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
+                                    alt="Claire Dupont" draggable="false"
+                                    class="w-8 h-8 rounded-full object-cover object-top img-protected">
+                                <div>
+                                    <div class="text-xs font-bold text-white">Claire Dupont</div>
+                                    <div class="text-[10px] text-neutral-500">Chief of Staff, Meridian Stu.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VALUE STACK (3 PILLARS) -->
+    <section id="outcomes" class="py-24 bg-neutral-950">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <span class="text-emerald-500 text-xs font-mono tracking-widest uppercase block mb-4">The Exo
+                    Promise</span>
+                <h2 class="text-3xl md:text-5xl font-light text-white">What You Get in <span
+                        class="font-serif italic text-emerald-400">90 Days</span></h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Pillar 1 -->
+                <div
+                    class="group p-8 rounded-2xl glass-panel border border-white/10 hover:border-emerald-500/50 transition-all duration-300">
+                    <div class="text-5xl font-serif text-white/5 font-bold absolute top-6 right-8">01</div>
+                    <div
+                        class="w-12 h-12 rounded-lg bg-indigo-500/10 flex items-center justify-center mb-6 text-indigo-400">
+                        <iconify-icon icon="solar:users-group-two-rounded-bold" class="text-2xl"></iconify-icon>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">Exo Architects</h3>
+                    <p class="text-sm text-neutral-400 leading-relaxed mb-6">
+                        Access to high-caliber operators who build your AI implementation. We don't just advise; we
+                        help engineer the system for you.
+                    </p>
+                    <ul class="text-sm text-neutral-300 space-y-3">
+                        <li class="flex items-center gap-2"><iconify-icon icon="solar:check-circle-linear"
+                                class="text-indigo-400"></iconify-icon> Dedicated Implementation Team</li>
+                        <li class="flex items-center gap-2"><iconify-icon icon="solar:check-circle-linear"
+                                class="text-indigo-400"></iconify-icon> Custom Workflow Mapping</li>
+                    </ul>
+                </div>
+
+                <!-- Pillar 2 -->
+                <div
+                    class="group p-8 rounded-2xl glass-panel border border-white/10 hover:border-emerald-500/50 transition-all duration-300 bg-emerald-500/5">
+                    <div class="text-5xl font-serif text-white/5 font-bold absolute top-6 right-8">02</div>
+                    <div
+                        class="w-12 h-12 rounded-lg bg-emerald-500/10 flex items-center justify-center mb-6 text-emerald-400">
+                        <iconify-icon icon="solar:widget-linear" class="text-2xl"></iconify-icon>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">Flow OS Installation</h3>
+                    <p class="text-sm text-neutral-400 leading-relaxed mb-6">
+                        We install our proprietary operating system. Centralize your data, automate diffs, and deploy
+                        reflex agents.
+                    </p>
+                    <ul class="text-sm text-neutral-300 space-y-3">
+                        <li class="flex items-center gap-2"><iconify-icon icon="solar:check-circle-linear"
+                                class="text-emerald-400"></iconify-icon> Full Software Deployment</li>
+                        <li class="flex items-center gap-2"><iconify-icon icon="solar:check-circle-linear"
+                                class="text-emerald-400"></iconify-icon> Agentic Automation Setup</li>
+                    </ul>
+                </div>
+
+                <!-- Pillar 3 -->
+                <div
+                    class="group p-8 rounded-2xl glass-panel border border-white/10 hover:border-emerald-500/50 transition-all duration-300">
+                    <div class="text-5xl font-serif text-white/5 font-bold absolute top-6 right-8">03</div>
+                    <div class="w-12 h-12 rounded-lg bg-sky-500/10 flex items-center justify-center mb-6 text-sky-400">
+                        <iconify-icon icon="solar:crown-linear" class="text-2xl"></iconify-icon>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">Complete Sovereignty</h3>
+                    <p class="text-sm text-neutral-400 leading-relaxed mb-6">
+                        The "Transfer" Process. You walk away with a fully documented, self-running department that you
+                        own forever. If you miss us, we're always a click away.
+                    </p>
+                    <ul class="text-sm text-neutral-300 space-y-3">
+                        <li class="flex items-center gap-2"><iconify-icon icon="solar:check-circle-linear"
+                                class="text-sky-400"></iconify-icon> Zero Vendor Lock-In</li>
+                        <li class="flex items-center gap-2"><iconify-icon icon="solar:check-circle-linear"
+                                class="text-sky-400"></iconify-icon> Training & Handover Packet</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="#book"
+                    class="inline-flex items-center gap-2 px-8 py-3 rounded-full border border-white/10 bg-white/5 hover:bg-white/10 transition-all text-sm font-medium text-white hover:text-white">
+                    <span class="">See If You Are A Fit</span>
+                    <iconify-icon icon="solar:arrow-down-linear" width="16"></iconify-icon>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- BOOKING SECTION -->
+    <section id="book" class="py-24 relative overflow-hidden">
+        <!-- Background Glow -->
+        <div
+            class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-emerald-600/10 blur-[120px] rounded-full pointer-events-none">
+        </div>
+
+        <div class="max-w-4xl mx-auto px-6 relative z-10">
+            <div class="glass-panel rounded-3xl border border-white/10 overflow-hidden shadow-2xl">
+                <div class="grid md:grid-cols-5">
+                    <!-- Sidebar info -->
+                    <div
+                        class="md:col-span-2 bg-neutral-900/80 p-8 border-r border-white/5 flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-xl font-serif italic text-white mb-2">Book Your Audit</h3>
+                            <p class="text-sm text-neutral-400 mb-8">
+                                Speak with our admission team to see if your company qualifies for the transformation
+                                program.
+                            </p>
+
+                            <div class="space-y-4">
+                                <div class="flex items-start gap-3">
+                                    <iconify-icon icon="solar:shield-check-linear"
+                                        class="text-emerald-400 text-xl mt-1"></iconify-icon>
+                                    <div>
+                                        <div class="text-white text-sm font-medium">Selective Process</div>
+                                        <div class="text-neutral-500 text-xs">We accept < 10% of applicants</div>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start gap-3">
+                                        <iconify-icon icon="solar:clock-circle-linear"
+                                            class="text-sky-400 text-xl mt-1"></iconify-icon>
+                                        <div>
+                                            <div class="text-white text-sm font-medium">15-Mins Discovery</div>
+                                            <div class="text-neutral-500 text-xs">Zero pressure, consultation only</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mt-12">
+                                <img src="./logos/LOGO%20MARK.png" alt="Exo" class="w-8 opacity-50 mb-4">
+                                <div class="text-xs text-neutral-600">Powered by Steel Protocol</div>
+                            </div>
+                        </div>
+
+                        <!-- Form -->
+                        <div class="md:col-span-3 p-8 bg-black/20">
+                            <form class="space-y-4">
+                                <div class="grid grid-cols-2 gap-4">
+                                    <div class="space-y-1">
+                                        <label
+                                            class="text-xs uppercase tracking-wider text-neutral-200 font-medium">First
+                                            Name *</label>
+                                        <input type="text" id="first-name-x" class="w-full px-4 py-3 rounded-lg text-sm"
+                                            placeholder="John">
+                                    </div>
+                                    <div class="space-y-1">
+                                        <label
+                                            class="text-xs uppercase tracking-wider text-neutral-200 font-medium">Last
+                                            Name *</label>
+                                        <input type="text" id="last-name-x" class="w-full px-4 py-3 rounded-lg text-sm"
+                                            placeholder="Doe">
+                                    </div>
+                                </div>
+
+                                <div class="space-y-1">
+                                    <label class="text-xs uppercase tracking-wider text-neutral-200 font-medium">Work
+                                        Email *</label>
+                                    <input type="email" id="email-x"
+                                        class="w-full px-4 py-3 rounded-lg text-sm bg-neutral-900 border-white/10 border text-white placeholder-neutral-600 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 outline-none transition-all"
+                                        placeholder="john@exo.com">
+                                </div>
+
+                                <div class="space-y-1">
+                                    <label class="text-xs uppercase tracking-wider text-neutral-200 font-medium">Phone
+                                        Number *</label>
+                                    <div class="flex gap-2 relative">
+                                        <!-- Custom Country Dropdown -->
+                                        <div class="relative w-24 custom-dropdown" id="country-dropdown">
+                                            <button type="button"
+                                                class="w-full px-3 py-3 rounded-lg text-sm bg-neutral-800 text-neutral-300 border border-white/10 flex items-center justify-between hover:bg-neutral-700 transition-colors focus:ring-1 focus:ring-emerald-500/50">
+                                                <span class="selected-value truncate">🇺🇸 +1</span>
+                                            </button>
+                                            <div
+                                                class="absolute top-full left-0 w-full mt-1 bg-neutral-900 border border-white/10 rounded-lg shadow-xl overflow-hidden z-20 hidden options-container">
+                                                <div class="option px-3 py-2 text-sm text-neutral-300 hover:bg-white/5 cursor-pointer flex items-center gap-2"
+                                                    data-value="+1">🇺🇸 +1</div>
+                                                <div class="option px-3 py-2 text-sm text-neutral-300 hover:bg-white/5 cursor-pointer flex items-center gap-2"
+                                                    data-value="+44">🇬🇧 +44</div>
+                                                <div class="option px-3 py-2 text-sm text-neutral-300 hover:bg-white/5 cursor-pointer flex items-center gap-2"
+                                                    data-value="+61">🇦🇺 +61</div>
+                                            </div>
+                                            <input type="hidden" name="countryCode" value="+1">
+                                        </div>
+
+                                        <input type="tel" id="phone-input-x"
+                                            class="flex-1 px-4 py-3 rounded-lg text-sm bg-neutral-900 border-white/10 border text-white placeholder-neutral-600 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 outline-none transition-all"
+                                            placeholder="(555) 123-4567" maxlength="14">
+
+                                        <!-- Phone Checkmark (Hidden initially) -->
+                                        <div id="phone-check"
+                                            class="absolute right-3 top-3.5 text-emerald-500 opacity-0 transition-opacity duration-300 pointer-events-none">
+                                            <iconify-icon icon="solar:check-circle-bold" width="16"></iconify-icon>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <!-- Dynamic Qualifier Fields (Hidden initially) -->
+                                <div id="qualifying-fields"
+                                    class="space-y-4 hidden pt-2 transition-all duration-300 ease-in-out opacity-0 translate-y-2">
+
+                                    <!-- Field 1: Annual Revenue -->
+                                    <div class="space-y-1">
+                                        <label
+                                            class="text-xs uppercase tracking-wider text-neutral-200 font-medium">What
+                                            is
+                                            your Annual Revenue? <span class="text-red-500">*</span></label>
+                                        <div class="relative custom-dropdown" id="revenue-dropdown">
+                                            <button type="button"
+                                                class="w-full px-4 py-3 rounded-lg text-sm bg-neutral-900 border border-white/10 text-neutral-400 flex items-center justify-between hover:border-white/20 transition-colors focus:ring-1 focus:ring-emerald-500/50 text-left">
+                                                <span class="selected-value">Under $100k</span>
+                                                <iconify-icon icon="solar:alt-arrow-down-linear" width="16"
+                                                    class="text-neutral-500 transition-transform duration-200 chevron"></iconify-icon>
+                                            </button>
+                                            <div
+                                                class="absolute top-full left-0 w-full mt-1 bg-neutral-900 border border-white/10 rounded-lg shadow-xl overflow-hidden z-20 hidden options-container max-h-60 overflow-y-auto custom-scrollbar">
+                                                <div class="option px-4 py-2.5 text-sm text-neutral-300 hover:bg-white/5 cursor-pointer hover:text-white transition-colors"
+                                                    data-value="Under $100k">Under $100k</div>
+                                                <div class="option px-4 py-2.5 text-sm text-neutral-300 hover:bg-white/5 cursor-pointer hover:text-white transition-colors"
+                                                    data-value="$100k to $250k">$100k to $250k</div>
+                                                <div class="option px-4 py-2.5 text-sm text-neutral-300 hover:bg-white/5 cursor-pointer hover:text-white transition-colors"
+                                                    data-value="$250k to $500k">$250k to $500k</div>
+                                                <div class="option px-4 py-2.5 text-sm text-neutral-300 hover:bg-white/5 cursor-pointer hover:text-white transition-colors"
+                                                    data-value="$500k to $1M">$500k to $1M</div>
+                                                <div class="option px-4 py-2.5 text-sm text-neutral-300 hover:bg-white/5 cursor-pointer hover:text-white transition-colors"
+                                                    data-value="$1M to $3M">$1M to $3M</div>
+                                                <div class="option px-4 py-2.5 text-sm text-neutral-300 hover:bg-white/5 cursor-pointer hover:text-white transition-colors"
+                                                    data-value="$3M to $10M">$3M to $10M</div>
+                                                <div class="option px-4 py-2.5 text-sm text-neutral-300 hover:bg-white/5 cursor-pointer hover:text-white transition-colors"
+                                                    data-value="$10M to 30M">$10M to 30M</div>
+                                                <div class="option px-4 py-2.5 text-sm text-neutral-300 hover:bg-white/5 cursor-pointer hover:text-white transition-colors"
+                                                    data-value="$30 Million +">$30 Million +</div>
+                                            </div>
+                                            <input type="hidden" id="annual-revenue" name="annualRevenue"
+                                                value="Under $100k">
+                                        </div>
+                                    </div>
+
+                                    <!-- Field 2: Investment Capability -->
+                                    <div class="space-y-1">
+                                        <label class="text-xs uppercase tracking-wider text-neutral-200 font-medium">Are
+                                            you
+                                            able to invest in your business? <span class="text-red-500">*</span></label>
+                                        <div class="relative custom-dropdown" id="invest-dropdown">
+                                            <button type="button"
+                                                class="w-full px-4 py-3 rounded-lg text-sm bg-neutral-900 border border-white/10 text-neutral-400 flex items-center justify-between hover:border-white/20 transition-colors focus:ring-1 focus:ring-emerald-500/50 text-left">
+                                                <span class="selected-value">Select Option</span>
+                                                <iconify-icon icon="solar:alt-arrow-down-linear" width="16"
+                                                    class="text-neutral-500 transition-transform duration-200 chevron"></iconify-icon>
+                                            </button>
+                                            <div
+                                                class="absolute top-full left-0 w-full mt-1 bg-neutral-900 border border-white/10 rounded-lg shadow-xl overflow-hidden z-20 hidden options-container">
+                                                <div class="option px-4 py-2.5 text-sm text-neutral-300 hover:bg-white/5 cursor-pointer hover:text-white transition-colors"
+                                                    data-value="Yes">Yes, I can invest in my business</div>
+                                                <div class="option px-4 py-2.5 text-sm text-neutral-300 hover:bg-white/5 cursor-pointer hover:text-white transition-colors"
+                                                    data-value="No">No, I can't invest in my business</div>
+                                                <div class="option px-4 py-2.5 text-sm text-neutral-300 hover:bg-white/5 cursor-pointer hover:text-white transition-colors"
+                                                    data-value="Maybe">Maybe</div>
+                                            </div>
+                                            <input type="hidden" id="investment-capability" name="investmentCapability"
+                                                value="">
+                                        </div>
+                                    </div>
+
+                                    <!-- Field 3: Price Qualifier -->
+                                    <div class="space-y-1">
+                                        <label class="text-xs uppercase tracking-wider text-neutral-200 font-medium">We
+                                            start at $2k.
+                                            Does that work for you? <span class="text-red-500">*</span></label>
+                                        <div class="relative custom-dropdown" id="price-dropdown">
+                                            <button type="button"
+                                                class="w-full px-4 py-3 rounded-lg text-sm bg-neutral-900 border border-white/10 text-neutral-400 flex items-center justify-between hover:border-white/20 transition-colors focus:ring-1 focus:ring-emerald-500/50 text-left">
+                                                <span class="selected-value">Select Option</span>
+                                                <iconify-icon icon="solar:alt-arrow-down-linear" width="16"
+                                                    class="text-neutral-500 transition-transform duration-200 chevron"></iconify-icon>
+                                            </button>
+                                            <div
+                                                class="absolute top-full left-0 w-full mt-1 bg-neutral-900 border border-white/10 rounded-lg shadow-xl overflow-hidden z-20 hidden options-container">
+                                                <div class="option px-4 py-2.5 text-sm text-neutral-300 hover:bg-white/5 cursor-pointer hover:text-white transition-colors"
+                                                    data-value="Yes">Yes, $2k works.</div>
+                                                <div class="option px-4 py-2.5 text-sm text-neutral-300 hover:bg-white/5 cursor-pointer hover:text-white transition-colors"
+                                                    data-value="No">No, $2k does not work.</div>
+                                            </div>
+                                            <input type="hidden" id="price-qualifier" name="priceQualifier" value="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="pt-4">
+                                    <label class="flex items-start gap-3 cursor-pointer group">
+                                        <input type="checkbox" id="terms-checkbox"
+                                            class="mt-1 w-4 h-4 rounded border-white/20 bg-white/5 checked:bg-emerald-500 text-emerald-500 focus:ring-emerald-500/30 accent-emerald-500">
+                                        <span
+                                            class="text-xs text-neutral-400 group-hover:text-neutral-300 transition-colors">
+                                            I agree to the <a href="terms.html"
+                                                class="underline decoration-neutral-600 hover:text-white">Terms</a>
+                                            & <a href="privacy.html"
+                                                class="underline decoration-neutral-600 hover:text-white">Privacy
+                                                Policy</a>. I understand this is an application for a B2B service.
+                                        </span>
+                                    </label>
+                                </div>
+
+                                <button type="button" id="submit-btn-x"
+                                    class="w-full py-4 bg-emerald-500 hover:bg-emerald-400 text-black font-bold tracking-wide rounded-lg mt-2 transition-all shadow-[0_0_20px_-5px_rgba(16,185,129,0.3)] hover:shadow-[0_0_30px_-5px_rgba(16,185,129,0.5)]">
+                                    CONTINUE TO CALENDAR
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section id="faq" class="py-24 bg-neutral-900/30 border-t border-white/5">
+        <div class="max-w-3xl mx-auto px-6">
+            <h2 class="text-3xl font-light text-white text-center mb-16">Common Questions</h2>
+
+            <div class="space-y-4">
+                <!-- FAQ 1 -->
+                <details
+                    class="group glass-panel rounded-xl overflow-hidden border border-white/5 open:border-emerald-500/30 transition-colors">
+                    <summary
+                        class="flex items-center justify-between p-6 cursor-pointer bg-white/0 hover:bg-white/5 transition-colors">
+                        <h3 class="text-lg font-medium text-white pr-8">Is this a consultancy or a software product?
+                        </h3>
+                        <span class="text-2xl text-emerald-400 group-open:rotate-45 transition-transform">+</span>
+                    </summary>
+                    <div class="px-6 pb-6 text-neutral-400 text-sm leading-relaxed border-t border-white/5 pt-4">
+                        <p class="mb-2"><strong class="text-white">It is both.</strong> High-end consulting leaves you
+                            with a strategy but no execution. Software leaves you with a tool but no process.</p>
+                        <p>We are a <strong>Hybrid Firm</strong>. We consult to design the strategy, then we install our
+                            software (Flow OS) to execute it. Most importantly, we transfer the entire capability to you
+                            within 90 days.</p>
+                    </div>
+                </details>
+
+                <!-- FAQ 2 -->
+                <details
+                    class="group glass-panel rounded-xl overflow-hidden border border-white/5 open:border-emerald-500/30 transition-colors">
+                    <summary
+                        class="flex items-center justify-between p-6 cursor-pointer bg-white/0 hover:bg-white/5 transition-colors">
+                        <h3 class="text-lg font-medium text-white pr-8">What exactly do I walk away with?</h3>
+                        <span class="text-2xl text-emerald-400 group-open:rotate-45 transition-transform">+</span>
+                    </summary>
+                    <div class="px-6 pb-6 text-neutral-400 text-sm leading-relaxed border-t border-white/5 pt-4">
+                        <p class="mb-2">You walk away with a <strong class="text-white">fully operational internal
+                                department</strong>.</p>
+                        <p>Specifically: 1) A configured instance of Flow OS running your ops, 2) A trained team (yours
+                            or new hires) certified in the system, and 3) A "Sovereignty Packet" containing all SOPs,
+                            IP, and data. You own 100% of the output.</p>
+                    </div>
+                </details>
+
+                <!-- FAQ 3 -->
+                <details
+                    class="group glass-panel rounded-xl overflow-hidden border border-white/5 open:border-emerald-500/30 transition-colors">
+                    <summary
+                        class="flex items-center justify-between p-6 cursor-pointer bg-white/0 hover:bg-white/5 transition-colors">
+                        <h3 class="text-lg font-medium text-white pr-8">Is this right for my business size?</h3>
+                        <span class="text-2xl text-emerald-400 group-open:rotate-45 transition-transform">+</span>
+                    </summary>
+                    <div class="px-6 pb-6 text-neutral-400 text-sm leading-relaxed border-t border-white/5 pt-4">
+                        <p class="mb-2">Our ideal partners are generating between <strong class="text-white">$2M and
+                                $50M in annual revenue</strong>.</p>
+                        <p>If you are smaller, you likely need a lead generation or PMF solution, not an operations
+                            scale-up. If you are larger ($100M+), we have a dedicated Enterprise division. This program
+                            is optimized for the "Empty Middle" where growth breaks processes.</p>
+                    </div>
+                </details>
+
+                <!-- FAQ 4 -->
+                <details
+                    class="group glass-panel rounded-xl overflow-hidden border border-white/5 open:border-emerald-500/30 transition-colors">
+                    <summary
+                        class="flex items-center justify-between p-6 cursor-pointer bg-white/0 hover:bg-white/5 transition-colors">
+                        <h3 class="text-lg font-medium text-white pr-8">How much does the transformation cost?</h3>
+                        <span class="text-2xl text-emerald-400 group-open:rotate-45 transition-transform">+</span>
+                    </summary>
+                    <div class="px-6 pb-6 text-neutral-400 text-sm leading-relaxed border-t border-white/5 pt-4">
+                        <p class="mb-2">We don't publish a price list because we build custom departments.</p>
+                        <p>However, partners typically invest between <strong class="text-white">$15k and $60k</strong>
+                            for a complete transformation. If you haven't wasted at least that much on <span
+                                class="text-white">bad hires or broken tools</span> in the last year, you probably don't
+                            need us yet.</p>
+                    </div>
+                </details>
+
+                <!-- FAQ 5 -->
+                <details
+                    class="group glass-panel rounded-xl overflow-hidden border border-white/5 open:border-emerald-500/30 transition-colors">
+                    <summary
+                        class="flex items-center justify-between p-6 cursor-pointer bg-white/0 hover:bg-white/5 transition-colors">
+                        <h3 class="text-lg font-medium text-white pr-8">Additional questions?</h3>
+                        <span class="text-2xl text-emerald-400 group-open:rotate-45 transition-transform">+</span>
+                    </summary>
+                    <div class="px-6 pb-6 text-neutral-400 text-sm leading-relaxed border-t border-white/5 pt-4">
+                        <p>We'd love to see if you're a fit for Exo. Book a call with
+                            us <a href="#book" class="text-white hover:underline">here</a>.</p>
+                    </div>
+                </details>
+            </div>
+        </div>
+        </div>
+        <script>
+            // FAQ Accordion Logic: Close others when one opens
+            document.querySelectorAll('#faq details').forEach((detail) => {
+                detail.addEventListener('toggle', (e) => {
+                    if (detail.open) {
+                        document.querySelectorAll('#faq details').forEach((otherDetail) => {
+                            if (otherDetail !== detail && otherDetail.open) {
+                                otherDetail.removeAttribute('open');
+                            }
+                        });
+                    }
+                });
+            });
+        </script>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="py-24 bg-neutral-950 text-center">
+        <div class="max-w-2xl mx-auto px-6">
+            <img src="./logos/LOGO%20MARK.png" alt="Exo" class="w-12 h-12 mx-auto mb-8 opacity-80">
+            <h2 class="text-4xl font-light text-white mb-8">Ready to remove yourself as the bottleneck?</h2>
+
+            <a href="#book"
+                class="inline-flex items-center gap-3 px-10 py-5 bg-white text-black rounded-lg text-sm font-bold tracking-wide hover:bg-neutral-200 transition-all shadow-xl">
+                START APPLICATION
+                <iconify-icon icon="solar:round-alt-arrow-right-bold" width="20"></iconify-icon>
+            </a>
+
+            <div class="mt-12 flex flex-wrap justify-center gap-6 text-xs text-neutral-600 uppercase tracking-widest">
+                <a href="terms.html" class="hover:text-neutral-400">Terms of Service</a>
+                <a href="privacy.html" class="hover:text-neutral-400">Privacy Policy</a>
+                <a href="#" class="hover:text-neutral-400">DMCA</a>
+            </div>
+            <p class="mt-8 text-xs text-neutral-700 max-w-lg mx-auto leading-relaxed">
+                Disclaimer: Exo Enterprise does not guarantee revenue results. All business entails risk. We provide
+                systems, training, and software. Your results rely on your execution.
+            </p>
+            <p class="mt-4 text-xs text-neutral-800">© 2026 Exo Enterprise LLC.</p>
+        </div>
+    </section>
+
+    <script type="module">
+        import { client } from "./js/convex-client.js";
+
+        // DOM Elements
+        const phoneInput = document.getElementById('phone-input-x');
+        const qualifyingFields = document.getElementById('qualifying-fields');
+        const phoneCheck = document.getElementById('phone-check');
+        const submitBtn = document.getElementById('submit-btn-x'); // The main submit button
+
+        let isPhoneValid = false;
+
+        // --- 1. Auto-Populate from Session ---
+        // Check for Lead Magnet Redirect
+        const showBanner = sessionStorage.getItem('exo_show_value_banner');
+        console.log('Value Banner Flag:', showBanner); // Debug log
+
+        if (showBanner === 'true') {
+            const banner = document.getElementById('value-notification-banner');
+            if (banner) {
+                // Show instantly
+                setTimeout(() => {
+                    banner.classList.remove('-translate-y-full');
+                }, 100);
+
+                // Cleanup flag
+                sessionStorage.removeItem('exo_show_value_banner');
+
+                // Auto-hide
+                setTimeout(() => {
+                    banner.classList.add('-translate-y-full');
+                }, 5000); // 5 seconds visibility
+            }
+        }
+        const rawData = sessionStorage.getItem('exo_lead_data');
+        if (rawData) {
+            try {
+                const data = JSON.parse(rawData);
+                if (data.firstName) document.getElementById('first-name-x').value = data.firstName;
+                if (data.lastName) document.getElementById('last-name-x').value = data.lastName;
+                if (data.email) document.getElementById('email-x').value = data.email;
+
+                // Auto-fill revenue dropdown if passed from value.html
+                if (data.revenue) {
+                    const revenueInput = document.getElementById('annual-revenue');
+                    const revenueDropdown = document.getElementById('revenue-dropdown');
+                    if (revenueInput && revenueDropdown) {
+                        // Find the matching option text from x-scale's revenue values
+                        const revenueMap = {
+                            'Under $100k': 'Under $100k',
+                            '$100k to $250k': '$100k to $250k',
+                            '$250k to $500k': '$250k to $500k',
+                            '$500k to $1M': '$500k to $1M',
+                            '$1M to $3M': '$1M to $3M',
+                            '$3M to $10M': '$3M to $10M',
+                            '$10M to $30M': '$10M to 30M'
+                        };
+                        const mappedValue = revenueMap[data.revenue];
+                        if (mappedValue) {
+                            revenueInput.value = mappedValue;
+                            const selectedText = revenueDropdown.querySelector('.selected-value');
+                            if (selectedText) {
+                                selectedText.innerText = data.revenue;
+                                selectedText.classList.remove('text-neutral-400');
+                                selectedText.classList.add('text-white');
+                            }
+                        }
+                    }
+                }
+
+                console.log("Lead data restored:", data);
+            } catch (e) {
+                console.error("Failed to parse lead data", e);
+            }
+        }
+        // Initialize dropdown click listeners
+        initDropdowns();
+
+        // --- 2. Custom Dropdown Logic ---
+        function initDropdowns() {
+            document.querySelectorAll('.custom-dropdown').forEach(dropdown => {
+                const button = dropdown.querySelector('button');
+                const optionsContainer = dropdown.querySelector('.options-container');
+                const hiddenInput = dropdown.querySelector('input[type="hidden"]');
+                const selectedText = dropdown.querySelector('.selected-value');
+                const chevron = dropdown.querySelector('.chevron');
+
+                // Toggle Open
+                button.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    // Close others
+                    document.querySelectorAll('.custom-dropdown .options-container').forEach(el => {
+                        if (el !== optionsContainer) el.classList.add('hidden');
+                    });
+                    document.querySelectorAll('.chevron').forEach(el => {
+                        if (el !== chevron && el) el.classList.remove('rotate-180');
+                    });
+
+                    optionsContainer.classList.toggle('hidden');
+                    if (chevron) chevron.classList.toggle('rotate-180');
+                });
+
+                // Select Option
+                dropdown.querySelectorAll('.option').forEach(option => {
+                    option.addEventListener('click', (e) => {
+                        e.stopPropagation();
+                        const value = option.dataset.value;
+                        const text = option.innerText;
+
+                        hiddenInput.value = value;
+                        selectedText.innerText = text;
+                        selectedText.classList.remove('text-neutral-400');
+                        selectedText.classList.add('text-white'); // Highlight selection
+
+                        optionsContainer.classList.add('hidden');
+                        if (chevron) chevron.classList.remove('rotate-180');
+                    });
+                });
+            });
+
+            // Click outside to close
+            document.addEventListener('click', () => {
+                document.querySelectorAll('.custom-dropdown .options-container').forEach(el => el.classList.add('hidden'));
+                document.querySelectorAll('.chevron').forEach(el => el.classList.remove('rotate-180'));
+            });
+        }
+
+        // --- 3. Phone Masking & Validation ---
+        if (phoneInput) {
+            phoneInput.addEventListener('input', (e) => {
+                let x = e.target.value.replace(/\D/g, '').match(/(\d{0,3})(\d{0,3})(\d{0,4})/);
+                e.target.value = !x[2] ? x[1] : '(' + x[1] + ') ' + x[2] + (x[3] ? '-' + x[3] : '');
+
+                // Count actual digits
+                const digitCount = e.target.value.replace(/\D/g, '').length;
+
+                // Toggle Qualifier Fields (Show at 10 digits)
+                if (digitCount >= 10) {
+                    isPhoneValid = true;
+                    phoneCheck.classList.remove('opacity-0');
+
+                    if (qualifyingFields.classList.contains('hidden')) {
+                        qualifyingFields.classList.remove('hidden');
+                        setTimeout(() => {
+                            qualifyingFields.classList.remove('opacity-0', 'translate-y-2');
+                        }, 10);
+                    }
+                } else {
+                    isPhoneValid = false;
+                    phoneCheck.classList.add('opacity-0');
+                    // Do NOT hide the fields again once shown, to avoid jarring UX if user backspaces
+                }
+            });
+        }
+
+        // --- 4. Form Submission ---
+        if (submitBtn) {
+            submitBtn.addEventListener('click', async () => {
+                // Validation
+                const firstName = document.getElementById('first-name-x').value.trim();
+                const lastName = document.getElementById('last-name-x').value.trim();
+                const email = document.getElementById('email-x').value.trim();
+                const phone = document.getElementById('phone-input-x').value.trim();
+                const revenue = document.getElementById('annual-revenue').value;
+                const invest = document.getElementById('investment-capability').value;
+                const price = document.getElementById('price-qualifier').value;
+                const terms = document.getElementById('terms-checkbox').checked;
+
+                if (!firstName || !lastName || !email) {
+                    alert("Please fill in your contact information.");
+                    return;
+                }
+                if (!isPhoneValid) {
+                    return;
+                }
+                if (!revenue || !invest || !price) {
+                    alert("Please answer all qualification questions.");
+                    return;
+                }
+                if (!terms) {
+                    alert("Please agree to the Terms & Privacy Policy.");
+                    return;
+                }
+
+                // Submit
+                const originalText = submitBtn.innerText;
+                submitBtn.innerText = "SMART CHOICE...";
+                submitBtn.disabled = true;
+
+                try {
+                    const engagementPref = sessionStorage.getItem('exo_engagement_preference') || '';
+                    await client.mutation("leads:submitApplication", {
+                        firstName,
+                        lastName,
+                        email,
+                        phone,
+                        annualRevenue: revenue,
+                        investmentCapability: invest,
+                        priceQualifier: price,
+                        engagementPreference: engagementPref
+                    });
+
+                    // Sync to Mailchimp (B2B audience)
+                    client.action("mailchimp:addSubscriber", {
+                        email,
+                        firstName,
+                        lastName,
+                        brandType: "exo_b2b",
+                        phone
+                    }).catch(err => console.error("Mailchimp sync error:", err));
+
+                    // PostHog: track full application submission
+                    if (window.posthog) {
+                        posthog.capture('application_submitted', {
+                            page: 'x-scale',
+                            annual_revenue: revenue,
+                            investment_capability: invest,
+                            price_qualifier: price,
+                            engagement_preference: engagementPref || 'none',
+                        });
+                    }
+
+                    // Save to sessionStorage for Calendly pre-fill on thank-you page
+                    const leadData = { firstName, lastName, email };
+                    sessionStorage.setItem('exo_lead_data', JSON.stringify(leadData));
+
+                    // Success - Redirect to thank you page
+                    submitBtn.innerText = "REDIRECTING...";
+                    submitBtn.classList.replace('bg-emerald-500', 'bg-emerald-600');
+
+                    // Short delay for UX before redirect
+                    setTimeout(() => {
+                        window.location.href = "/thank-you.html";
+                    }, 1500);
+
+                } catch (error) {
+                    console.error("Submission error:", error);
+                    alert("Something went wrong. Please try again.");
+                    submitBtn.innerText = originalText;
+                    submitBtn.disabled = false;
+                }
+            });
+        }
+    </script>
+
+    <!-- Spline Loader Fade-Out -->
+    <script>
+        (function () {
+            const splineIframe = document.getElementById('spline-iframe');
+            const loader = document.getElementById('spline-loader');
+
+            function hideLoader() {
+                if (loader && loader.style.display !== 'none') {
+                    loader.style.opacity = '0';
+                    setTimeout(() => {
+                        loader.style.display = 'none';
+                    }, 700);
+                }
+            }
+
+            if (splineIframe && loader) {
+                // If already loaded
+                if (splineIframe.contentDocument && splineIframe.contentDocument.readyState === 'complete') {
+                    hideLoader();
+                } else {
+                    splineIframe.addEventListener('load', hideLoader);
+                }
+
+                // Fallback: Hide loader after 5 seconds regardless (faster for UX)
+                setTimeout(hideLoader, 5000);
+            }
+        })();
+    </script>
+    <!-- Image Protection Script -->
+    <script>
+        document.querySelectorAll('.img-protected').forEach(img => {
+            img.addEventListener('contextmenu', e => e.preventDefault());
+            img.addEventListener('dragstart', e => e.preventDefault());
+        });
+    </script>
+</body>
+
+</html>
+```

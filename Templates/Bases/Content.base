@@ -1,0 +1,54 @@
+filters:
+  and:
+    - note.categories.contains(link("Content"))
+    - '!file.name.contains("Template")'
+properties:
+  file.name:
+    displayName: Idea
+  note.content_stage:
+    displayName: Stage
+  note.status:
+    displayName: Status
+  note.topics:
+    displayName: Topics
+  note.platform:
+    displayName: Platform
+  note.created:
+    displayName: Created
+views:
+  - type: table
+    name: By Stage
+    order:
+      - file.name
+      - content_stage
+      - status
+      - topics
+      - platform
+    sort:
+      - property: content_stage
+        direction: ASC
+      - property: status
+        direction: ASC
+  - type: table
+    name: Ready to Post
+    filters:
+      and:
+        - list(status).contains("ready")
+    order:
+      - file.name
+      - content_stage
+      - platform
+      - topics
+    sort:
+      - property: content_stage
+        direction: ASC
+  - type: table
+    name: By Platform
+    order:
+      - file.name
+      - platform
+      - content_stage
+      - status
+    sort:
+      - property: platform
+        direction: ASC

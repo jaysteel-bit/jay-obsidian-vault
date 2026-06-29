@@ -1,0 +1,524 @@
+﻿# Careers Page — exoent.co/careers
+
+**Careers/Opportunities** page. Attracts talent — operators, builders, and creatives who align with the Exo Enterprise mission. Used to grow the internal team or contractor bench.
+
+**Live URL:** exoent.co/careers
+
+---
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers at Exo Enterprise</title>
+    <meta name="description"
+        content="Join Exo Enterprise. We're building the future of operations with autonomous AI departments. Systems thinkers, first principles builders, and high agency operators.">
+    <meta property="og:title" content="Careers at Exo Enterprise">
+    <meta property="og:description" content="Build the future of operations with autonomous AI departments.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/favicon.png">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/favicon.png">
+
+    <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1715251733215249');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1715251733215249&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+
+  <!-- PostHog Analytics -->
+    <script>
+        !function (t, e) { var o, n, p, r; e.__SV || (window.posthog = e, e._i = [], e.init = function (i, s, a) { function g(t, e) { var o = e.split("."); 2 == o.length && (t = t[o[0]], e = o[1]), t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))) } } (p = t.createElement("script")).type = "text/javascript", p.async = !0, p.src = s.api_host.replace(".i.posthog.com", "-assets.i.posthog.com") + "/static/array.js", (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(p, r); var u = e; for (void 0 !== a ? u = e[a] = [] : a = "posthog", u.people = u.people || [], u.toString = function (t) { var e = "posthog"; return "posthog" !== a && (e += "." + a), t || (e += " (stub)"), e }, u.people.toString = function () { return u.toString(1) + ".people (stub)" }, o = "init capture register register_once register_for_session unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group identify setPersonProperties setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags resetGroups onFeatureFlags addFeatureFlagsHandler onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep".split(" "), n = 0; n < o.length; n++)g(u, o[n]); e._i.push([i, s, a]) }, e.__SV = 1) }(document, window.posthog || []);
+        posthog.init('phc_N1Clw6iwKeyIqhNrxd1cejjCuvKXPtW17bn9h6ZUw9b', {
+            api_host: 'https://us.i.posthog.com',
+            defaults: '2025-11-30'
+        })
+    </script>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@0.344.0"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700;800&amp;family=Geist:wght@300;400;500;600&amp;family=Playfair+Display:ital,wght@0,400;0,600;1,400&amp;family=Inter:wght@300;400;500;600&amp;display=swap"
+        rel="stylesheet">
+
+    <style>
+        :root {
+            --font-sans: 'Urbanist', 'Geist', 'Inter', sans-serif;
+            --font-serif: 'Playfair Display', serif;
+        }
+
+        /* Base Styles */
+        body {
+            font-family: var(--font-sans);
+            background-color: #ffffff;
+            color: #171717;
+            -webkit-font-smoothing: antialiased;
+            scroll-behavior: smooth;
+        }
+
+        .font-serif {
+            font-family: var(--font-serif);
+        }
+
+        /* Protected Images */
+        .img-protected {
+            pointer-events: none;
+            user-select: none;
+            -webkit-user-select: none;
+            -webkit-user-drag: none;
+            -webkit-touch-callout: none;
+        }
+    </style>
+</head>
+
+<body class="antialiased min-h-screen flex flex-col items-center py-20 px-6 bg-white text-neutral-900">
+
+    <main class="w-full max-w-[800px] mx-auto opacity-0 animate-in mb-20">
+
+        <!-- Header / Hero -->
+        <header class="mb-20 text-center md:text-left">
+            <div>
+                <img src="./logos/LOGO MARK.png" alt="Exo"
+                    class="w-10 h-10 grayscale opacity-80 mb-8 mx-auto md:mx-0 img-protected" draggable="false">
+                <div
+                    class="inline-block px-3 py-1 bg-neutral-100 rounded-full text-xs font-bold tracking-widest uppercase text-neutral-500 mb-6">
+                    Now Accepting Talent — Build Extraordinary Companies
+                </div>
+
+                <h1 class="text-4xl md:text-6xl font-urbanist text-neutral-900 mb-6 leading-tight">
+                    We Don't Hire Employees. <br>We Build With <span class="italic text-emerald-600">Operators.</span>
+                </h1>
+            </div>
+
+            <p class="text-xl text-neutral-600 leading-relaxed max-w-2xl font-light">
+                Exo installs self-running departments inside companies that are scaling faster than their operations
+                can keep up. We're a team of founders, systems architects, and high-agency operators — and we're
+                building the infrastructure that runs the next generation of great companies.
+            </p>
+        </header>
+
+        <!-- Divider -->
+        <hr class="border-neutral-200 mb-20">
+
+        <!-- Team Photo -->
+        <div class="mb-20 team-photo-wrapper" style="perspective: 1000px;">
+            <!-- Team/Culture Image -->
+            <div class="relative group">
+                <div
+                    class="absolute inset-0 bg-emerald-500/20 rounded-[40px] blur-3xl group-hover:bg-emerald-500/30 transition-all duration-700">
+                </div>
+                <img src="assets/images/Team.jpeg" alt="Exo Team"
+                    class="w-full h-auto object-cover border-[8px] border-neutral-200 rounded-[40px] shadow-[0_30px_60px_rgba(0,0,0,0.12)] team-photo transform will-change-transform opacity-0 translate-y-24 rotate-x-12 img-protected"
+                    draggable="false">
+
+                <!-- Overlay for right-click protection on large image -->
+                <div class="absolute inset-0 z-10" oncontextmenu="return false;"></div>
+            </div>
+        </div>
+
+        <!-- Who We're Looking For (Collapsible) -->
+        <section class="mb-20 flex justify-center">
+            <div id="looking-for-dropdown"
+                class="w-full max-w-md bg-white rounded-2xl shadow-xl shadow-black/5 overflow-hidden cursor-pointer select-none transition-all duration-500 border border-neutral-100 group"
+                onclick="toggleDropdown()">
+
+                <!-- Header -->
+                <div class="flex items-center gap-4 p-4">
+                    <div
+                        class="flex h-12 w-12 items-center justify-center rounded-xl bg-neutral-50 transition-colors duration-300 group-hover:bg-neutral-100">
+                        <i data-lucide="search" class="h-5 w-5 text-neutral-600"></i>
+                    </div>
+                    <div class="flex-1 overflow-hidden">
+                        <h3 class="text-base font-semibold text-neutral-900">Who We Are Looking For</h3>
+                        <p id="dropdown-subtitle"
+                            class="text-sm text-neutral-500 transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)] mt-0.5 max-h-6 opacity-100">
+                            The 6 key traits of an Exo operator
+                        </p>
+                    </div>
+                    <div class="flex h-8 w-8 items-center justify-center">
+                        <i data-lucide="chevron-up" id="dropdown-chevron"
+                            class="h-5 w-5 text-neutral-400 transition-transform duration-500 rotate-180"></i>
+                    </div>
+                </div>
+
+                <!-- Activity List -->
+                <div id="dropdown-list"
+                    class="grid grid-rows-[0fr] opacity-0 transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)]">
+                    <div class="overflow-hidden">
+                        <div class="px-2 pb-4 space-y-1">
+
+                            <!-- Item 1 -->
+                            <div
+                                class="dropdown-item flex items-start gap-3 rounded-xl p-3 transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)] translate-y-4 opacity-0 hover:bg-neutral-50">
+                                <div
+                                    class="w-10 h-10 rounded border border-white/20 flex items-center justify-center bg-white/5 group-hover:bg-white/10 transition-colors overflow-hidden">
+                                    <img src="./logos/LOGO MARK.png" alt="Exo Logo"
+                                        class="w-full h-full object-contain img-protected" draggable="false">
+                                </div>
+                                <div class="flex-1 min-w-0">
+                                    <h4 class="text-sm font-semibold text-neutral-900">Systems Thinkers Who Ship</h4>
+                                    <p class="text-sm text-neutral-500 mt-0.5">You don't just spot broken processes —
+                                        you rebuild them.</p>
+                                </div>
+                            </div>
+
+                            <!-- Item 2 -->
+                            <div
+                                class="dropdown-item flex items-start gap-3 rounded-xl p-3 transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)] translate-y-4 opacity-0 hover:bg-neutral-50">
+                                <div
+                                    class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-50 text-emerald-600 transition-colors duration-300">
+                                    <i data-lucide="compass" class="h-5 w-5"></i>
+                                </div>
+                                <div class="flex-1 min-w-0">
+                                    <h4 class="text-sm font-semibold text-neutral-900">First Principles Builders</h4>
+                                    <p class="text-sm text-neutral-500 mt-0.5">We operate in ambiguity on purpose. It's
+                                        where durable operations get built.</p>
+                                </div>
+                            </div>
+
+                            <!-- Item 3 -->
+                            <div
+                                class="dropdown-item flex items-start gap-3 rounded-xl p-3 transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)] translate-y-4 opacity-0 hover:bg-neutral-50">
+                                <div
+                                    class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-50 text-emerald-600 transition-colors duration-300">
+                                    <i data-lucide="zap" class="h-5 w-5"></i>
+                                </div>
+                                <div class="flex-1 min-w-0">
+                                    <h4 class="text-sm font-semibold text-neutral-900">High Agency Operators</h4>
+                                    <p class="text-sm text-neutral-500 mt-0.5"> You own the outcome, not just the task.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Item 4 -->
+                            <div
+                                class="dropdown-item flex items-start gap-3 rounded-xl p-3 transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)] translate-y-4 opacity-0 hover:bg-neutral-50">
+                                <div
+                                    class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-50 text-emerald-600 transition-colors duration-300">
+                                    <i data-lucide="target" class="h-5 w-5"></i>
+                                </div>
+                                <div class="flex-1 min-w-0">
+                                    <h4 class="text-sm font-semibold text-neutral-900">Judged by Outcomes</h4>
+                                    <p class="text-sm text-neutral-500 mt-0.5">No oversight from anyone not in it with
+                                        you. work speaks for itself.</p>
+                                </div>
+                            </div>
+
+                            <!-- Item 5 -->
+                            <div
+                                class="dropdown-item flex items-start gap-3 rounded-xl p-3 transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)] translate-y-4 opacity-0 hover:bg-neutral-50">
+                                <div
+                                    class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-50 text-emerald-600 transition-colors duration-300">
+                                    <i data-lucide="unlock" class="h-5 w-5"></i>
+                                </div>
+                                <div class="flex-1 min-w-0">
+                                    <h4 class="text-sm font-semibold text-neutral-900">Operators Take Initiative</h4>
+                                    <p class="text-sm text-neutral-500 mt-0.5">No top-down instruction. Unusual freedom
+                                        and accountability.</p>
+                                </div>
+                            </div>
+
+                            <!-- Item 6 -->
+                            <div
+                                class="dropdown-item flex items-start gap-3 rounded-xl p-3 transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)] translate-y-4 opacity-0 hover:bg-neutral-50">
+                                <div
+                                    class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-50 text-emerald-600 transition-colors duration-300">
+                                    <i data-lucide="timer" class="h-5 w-5"></i>
+                                </div>
+                                <div class="flex-1 min-w-0">
+                                    <h4 class="text-sm font-semibold text-neutral-900">Fast Thinkers</h4>
+                                    <p class="text-sm text-neutral-500 mt-0.5">Optimization for impact over consensus.
+                                        Decisions by those closest to the problem.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Role Framework -->
+        <section class="mb-20">
+            <div class="mb-8">
+                <p class="text-xs font-bold tracking-widest text-neutral-400 uppercase mb-2">The People Inside Exo</p>
+                <h2 class="text-2xl font-serif text-black mb-1">
+                    Inside Exo, every person holds one designation.
+                </h2>
+                <p class="text-xl font-serif mb-4">
+                    <span class="text-emerald-600 font-semibold">Exo</span><span class="text-black">traordinaire.</span>
+                </p>
+                <p class="text-neutral-500 text-sm leading-relaxed max-w-xl">
+                    Not a title — a standard of execution. Every Extraordinaire operates under one of three functions.
+                    Together, they form the complete cycle that turns operational chaos into a <br> <span
+                        class="text-emerald-600 font-semibold">self-running enterprise.</span>
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Architects -->
+                <div class="bg-white border border-neutral-100 rounded-2xl p-7 shadow-sm">
+                    <p class="text-xs font-bold tracking-widest text-emerald-600 uppercase mb-4">01 — Architect</p>
+                    <h3 class="text-xl font-serif text-black mb-3">Architects design.</h3>
+                    <p class="text-neutral-500 text-sm leading-relaxed">
+                        They diagnose operational chaos, map every workflow, and blueprint the department OS before a
+                        single tool is touched.
+                        <span class="text-emerald-600">Architects identify the real bottleneck — not the surface
+                            symptom</span> — and build the structural foundation every Engineer will install on top of.
+                    </p>
+                </div>
+                <!-- Engineers -->
+                <div class="bg-white border border-neutral-100 rounded-2xl p-7 shadow-sm">
+                    <p class="text-xs font-bold tracking-widest text-emerald-600 uppercase mb-4">02 — Engineer</p>
+                    <h3 class="text-xl font-serif text-black mb-3">Engineers install.</h3>
+                    <p class="text-neutral-500 text-sm leading-relaxed">
+                        They turn blueprint into working system. Configure Flow OS, deploy AI agents, and build the
+                        automations that <span class="text-emerald-600">make a department run without its founder in the
+                            room.</span>
+                        Engineers do not theorize — they build until it works.
+                    </p>
+                </div>
+                <!-- Conductors -->
+                <div class="bg-white border border-neutral-100 rounded-2xl p-7 shadow-sm">
+                    <p class="text-xs font-bold tracking-widest text-emerald-600 uppercase mb-4">03 — Conductor</p>
+                    <h3 class="text-xl font-serif text-black mb-3">Conductors transfer.</h3>
+                    <p class="text-neutral-500 text-sm leading-relaxed">
+                        They co-run the department alongside the client team, certify operators through Exo Academy,
+                        write the SOPs, and deliver the Sovereignty Packet.
+                        <span class="text-emerald-600">A Conductor's job is done when the client no longer needs
+                            them.</span>
+                    </p>
+                </div>
+            </div>
+            <div class="mt-6 bg-neutral-50 border border-neutral-100 rounded-2xl p-6 max-w-2xl mx-auto text-center">
+                <p class="text-neutral-500 text-sm leading-relaxed">
+                    <span class="text-emerald-600">While each role is distinct, they are designed to operate in
+                        overlap.</span>
+                    All three. Every time.
+                </p>
+            </div>
+        </section>
+
+        <!-- What We Offer -->
+        <section class="mb-20 bg-white p-8 rounded-2xl border border-neutral-100 shadow-sm">
+            <h2 class="text-xl font-serif text-black mb-6">The Upside</h2>
+            <ul class="space-y-4">
+                <li class="flex items-center gap-3 text-neutral-600">
+                    <i data-lucide="check" class="w-4 h-4 text-emerald-500"></i>
+                    <span>Meaningful equity in a profitable, high-growth infrastructure company.</span>
+                </li>
+                <li class="flex items-center gap-3 text-neutral-600">
+                    <i data-lucide="check" class="w-4 h-4 text-emerald-500"></i>
+                    <span>Work directly with the founders on critical-path problems — not through four layers of
+                        management.</span>
+                </li>
+                <li class="flex items-center gap-3 text-neutral-600">
+                    <i data-lucide="check" class="w-4 h-4 text-emerald-500"></i>
+                    <span>Remote-first hybrid workflow with high-density offsites.</span>
+                </li>
+                <li class="flex items-center gap-3 text-neutral-600">
+                    <i data-lucide="check" class="w-4 h-4 text-emerald-500"></i>
+                    <span>Access to STEEL — The Steel Card latest perks included for every team member.</span>
+                </li>
+                <li class="flex items-center gap-3 text-neutral-600">
+                    <i data-lucide="check" class="w-4 h-4 text-emerald-500"></i>
+                    <span>A résumé line that actually means something. Exo operators are known for being some of the
+                        best in the world at what they do.</span>
+                </li>
+            </ul>
+        </section>
+
+        <!-- CTAs -->
+        <section class="flex flex-col md:flex-row gap-4 mb-20">
+            <a href="#talent-form"
+                class="flex-1 flex items-center justify-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-600 text-white rounded-lg font-bold tracking-wide transition-all shadow-lg shadow-emerald-500/20 hover:shadow-emerald-500/30 transform hover:-translate-y-0.5">
+                Explore Role Tracks
+                <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+            <a href="#talent-form"
+                class="flex-1 flex items-center justify-center gap-2 px-8 py-4 bg-white border border-emerald-500 text-emerald-600 rounded-lg font-bold tracking-wide hover:bg-emerald-50 transition-colors">
+                Join Talent Network
+                <i data-lucide="users" class="w-4 h-4"></i>
+            </a>
+        </section>
+
+        <!-- Talent Network Form -->
+        <section id="talent-form" class="mb-20 scroll-mt-8">
+            <div class="mb-6">
+                <p class="text-xs font-bold tracking-widest text-neutral-400 uppercase mb-2">Talent Entry</p>
+                <h2 class="text-2xl font-serif text-black mb-3">Submit Your Interest</h2>
+                <p class="text-neutral-500 text-sm leading-relaxed max-w-lg">
+                    Whether we have a role open or not — submitting puts you directly in our talent pipeline.
+                    When the right fit emerges, we reach out. The right people always get a call. You'll also recieve
+                    new roles and opportunities before they're posted publicly.
+                </p>
+            </div>
+            <div class="rounded-2xl overflow-hidden border border-neutral-200">
+                <iframe class="airtable-embed" src="https://airtable.com/embed/appJ9w8wn7l6bACH8/pagh3kBlDupOZJFCg/form"
+                    frameborder="0" onmousewheel="" width="100%" height="720"
+                    style="background: transparent; border: none;"></iframe>
+            </div>
+        </section>
+
+        <!-- What We Are NOT -->
+        <section class="mb-20">
+            <p class="text-xs font-bold tracking-widest text-neutral-600 uppercase mb-4">Read Before Applying</p>
+            <div class="bg-neutral-100 rounded-lg p-6 text-sm text-neutral-700 leading-relaxed space-y-3">
+                <p><strong class="text-neutral-900">Note:</strong> We are <strong>not</strong> a traditional consulting
+                    firm or a
+                    standard
+                    SaaS company. We build and install operational products and relationships. The work is hard, the
+                    standards are
+                    high, and we ship faster than most organizations feel is comfortable. If you prefer
+                    bureaucracy, politics, or slow-moving environments, this is not for you. If you feel this is the
+                    right
+                    environment for you, we encourage you to apply. <strong>It will be the absolute best decision you
+                        ever make.</strong> We're nothing like the companies you've worked for before.
+                </p>
+                <p><strong class="text-neutral-900">STEEL & STEEL Global</strong> are separate divisions from Exo
+                    Enterprise. If you are interested in joining either division, note it in the form above — we will
+                    route your submission to the correct team.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer
+        class="w-full max-w-[800px] border-t border-neutral-200 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+        <a href="index.html"
+            class="text-sm font-medium text-neutral-500 hover:text-black transition-colors flex items-center gap-2">
+            <i data-lucide="arrow-left" class="w-4 h-4"></i>
+            Back to Exo Enterprise
+        </a>
+        <div class="flex flex-col md:flex-row items-center gap-6">
+            <div class="text-xs text-neutral-400">
+                © 2026 Exo Enterprise LLC.
+            </div>
+            <div class="flex gap-4">
+                <a href="privacy.html" class="text-xs text-neutral-400 hover:text-black transition-colors">Privacy
+                    Policy</a>
+                <a href="terms.html" class="text-xs text-neutral-400 hover:text-black transition-colors">Terms of
+                    Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Animations CSS -->
+    <style>
+        .animate-in {
+            animation: fadeIn 0.8s ease-out forwards;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+
+    <script>
+        lucide.createIcons();
+    </script>
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+
+        gsap.to(".team-photo", {
+            scrollTrigger: {
+                trigger: ".team-photo-wrapper",
+                start: "top 80%",
+                end: "bottom 20%",
+                toggleActions: "play none none reverse"
+            },
+            opacity: 1,
+            y: 0,
+            rotateX: 0,
+            duration: 1.5,
+            ease: "power3.out"
+        });
+
+        // Dropdown Toggle Logic
+        function toggleDropdown() {
+            const dropdown = document.getElementById('looking-for-dropdown');
+            const list = document.getElementById('dropdown-list');
+            const subtitle = document.getElementById('dropdown-subtitle');
+            const chevron = document.getElementById('dropdown-chevron');
+            const items = document.querySelectorAll('.dropdown-item');
+
+            const isOpen = list.classList.contains('grid-rows-[1fr]');
+
+            if (isOpen) {
+                // Close
+                list.classList.remove('grid-rows-[1fr]', 'opacity-100');
+                list.classList.add('grid-rows-[0fr]', 'opacity-0');
+
+                subtitle.classList.remove('opacity-0', 'max-h-0', 'mt-0');
+                subtitle.classList.add('opacity-100', 'max-h-6', 'mt-0.5');
+
+                chevron.style.transform = 'rotate(180deg)';
+                dropdown.classList.remove('rounded-3xl');
+                dropdown.classList.add('rounded-2xl');
+
+                items.forEach(item => {
+                    item.classList.remove('translate-y-0', 'opacity-100');
+                    item.classList.add('translate-y-4', 'opacity-0');
+                    item.style.transitionDelay = '0ms';
+                });
+
+            } else {
+                // Open
+                list.classList.remove('grid-rows-[0fr]', 'opacity-0');
+                list.classList.add('grid-rows-[1fr]', 'opacity-100');
+
+                subtitle.classList.remove('opacity-100', 'max-h-6', 'mt-0.5');
+                subtitle.classList.add('opacity-0', 'max-h-0', 'mt-0');
+
+                chevron.style.transform = 'rotate(0deg)';
+                dropdown.classList.remove('rounded-2xl');
+                dropdown.classList.add('rounded-3xl');
+
+                items.forEach((item, index) => {
+                    item.classList.remove('translate-y-4', 'opacity-0');
+                    item.classList.add('translate-y-0', 'opacity-100');
+                    item.style.transitionDelay = `${index * 75}ms`;
+                });
+            }
+        }
+    </script>
+
+    <!-- Image Protection -->
+    <script src="js/image-protection.js"></script>
+</body>
+
+</html>
+```

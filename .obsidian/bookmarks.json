@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1769096772378,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1778747721987,
+          "path": "log.md",
+          "title": "Log"
+        },
+        {
+          "type": "folder",
+          "ctime": 1778747771477,
+          "path": "raw",
+          "title": "Raw"
+        },
+        {
+          "type": "file",
+          "ctime": 1778747740334,
+          "path": "index.md",
+          "title": "Index"
+        },
+        {
+          "type": "file",
+          "ctime": 1778747917894,
+          "path": "Exo Delivery OS (External Face) - First Draft.md",
+          "title": "Delivery OS Framework"
+        }
+      ],
+      "title": "Pinned Bookmarks"
+    }
+  ]
+}

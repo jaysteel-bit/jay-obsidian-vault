@@ -1,0 +1,1494 @@
+﻿# Firm Page — exoent.co/firm
+
+**Exo Firm** product/service page. Targets enterprise clients and agencies looking for done-for-you AI implementation and consulting. Positioned as the premium, high-touch service arm of Exo Enterprise.
+
+**Live URL:** exoent.co/firm
+
+---
+
+```html
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Exo Enterprise | Meet The Firm</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Meet the team behind Exo Enterprise. We are founders, operators, and systems architects building autonomous departments for the world's fastest-growing businesses.">
+  <meta property="og:title" content="Exo Enterprise | Meet The Firm">
+  <meta property="og:description"
+    content="Founders, operators, and systems architects building autonomous departments.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/favicon.png">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/favicon.png">
+
+  <!-- Spline Preconnect for faster loading -->
+  <link rel="preconnect" href="https://my.spline.design">
+  <link rel="dns-prefetch" href="https://my.spline.design">
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1715251733215249');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1715251733215249&ev=PageView&noscript=1" /></noscript>
+  <!-- End Meta Pixel Code -->
+
+  <!-- PostHog Analytics -->
+  <script>
+    !function (t, e) { var o, n, p, r; e.__SV || (window.posthog = e, e._i = [], e.init = function (i, s, a) { function g(t, e) { var o = e.split("."); 2 == o.length && (t = t[o[0]], e = o[1]), t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))) } } (p = t.createElement("script")).type = "text/javascript", p.async = !0, p.src = s.api_host.replace(".i.posthog.com", "-assets.i.posthog.com") + "/static/array.js", (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(p, r); var u = e; for (void 0 !== a ? u = e[a] = [] : a = "posthog", u.people = u.people || [], u.toString = function (t) { var e = "posthog"; return "posthog" !== a && (e += "." + a), t || (e += " (stub)"), e }, u.people.toString = function () { return u.toString(1) + ".people (stub)" }, o = "init capture register register_once register_for_session unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group identify setPersonProperties setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags resetGroups onFeatureFlags addFeatureFlagsHandler onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep".split(" "), n = 0; n < o.length; n++)g(u, o[n]); e._i.push([i, s, a]) }, e.__SV = 1) }(document, window.posthog || []);
+    posthog.init('phc_N1Clw6iwKeyIqhNrxd1cejjCuvKXPtW17bn9h6ZUw9b', {
+      api_host: 'https://us.i.posthog.com',
+      defaults: '2025-11-30'
+    })
+  </script>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@0.344.0/dist/umd/lucide.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <!-- Iconify -->
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  <style>
+    /* CUSTOM CURSOR OPTIMIZATIONS */
+    /* Removed custom cursor CSS */
+  </style>
+  <link id="all-fonts-link-font-urbanist" rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&amp;display=swap">
+  <style id="all-fonts-style-font-geist">
+    .font-geist {
+      font-family: 'Urbanist', sans-serif !important;
+    }
+  </style>
+  <link id="all-fonts-link-font-playfair" rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&amp;display=swap">
+  <style id="all-fonts-style-font-playfair">
+    .font-playfair {
+      font-family: 'Playfair Display', serif !important;
+    }
+
+    /* Protected Images */
+    .img-protected {
+      pointer-events: none;
+      user-select: none;
+      -webkit-user-select: none;
+      -webkit-user-drag: none;
+      -webkit-touch-callout: none;
+    }
+
+    /* Spline Loader Animations */
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes pulse {
+
+      0%,
+      100% {
+        opacity: 0.6;
+      }
+
+      50% {
+        opacity: 1;
+      }
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-neutral-950 text-neutral-200 antialiased overflow-x-hidden" style="font-family:'Urbanist',sans-serif;">
+  <!-- Announcement Bar -->
+  <div
+    class="sticky top-0 z-[60] w-full bg-emerald-950/90 backdrop-blur-md border-b border-emerald-500/20 flex items-center justify-center px-4 py-2.5 transition-all">
+    <a href="x-scale.html"
+      class="flex items-center gap-2 text-sm font-medium text-emerald-100 hover:text-white transition-colors group">
+      <span class="font-['Urbanist'] tracking-wide"><span
+          class="inline-flex items-center justify-center bg-white text-emerald-950 text-[10px] font-bold px-2 py-0.5 rounded-full mr-2 leading-none">NEW</span>Slots
+        Open This Month: <strong>Transform Your Business</strong></span>
+      <iconify-icon icon="solar:arrow-right-linear" width="16"
+        class="text-emerald-400 group-hover:translate-x-0.5 transition-transform"></iconify-icon>
+    </a>
+  </div>
+
+  <!-- CUSTOM CURSOR SYSTEM -->
+  <!-- Removed custom cursor div -->
+
+  <!-- SPLINE LOADING PLACEHOLDER -->
+  <div id="spline-loader"
+    class="fixed inset-0 -z-10 bg-neutral-950 flex items-center justify-center transition-opacity duration-1000"
+    style="z-index: -9;">
+    <div class="text-center relative z-10">
+      <img src="./logos/LOGO%20MARK.png" alt="Loading..." class="w-16 h-16 mx-auto mb-4 opacity-60"
+        style="animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;">
+      <div class="w-8 h-8 border-2 border-white/20 border-t-emerald-500 rounded-full mx-auto"
+        style="animation: spin 1s linear infinite;"></div>
+    </div>
+    <div
+      class="absolute inset-0 bg-gradient-to-b from-neutral-900/40 via-transparent to-neutral-950 pointer-events-none">
+    </div>
+  </div>
+
+  <div class="spline-container fixed inset-0 w-screen h-screen -z-10 pointer-events-none">
+    <iframe id="spline-iframe" src="https://my.spline.design/animatedshapeblend-1gCFHvLukjcmK6imbIAFLY2d/"
+      frameborder="0" width="100%" height="100%"></iframe>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="relative w-full z-50 border-b border-white/5 bg-neutral-950/80 backdrop-blur-md">
+    <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+      <!-- Logo -->
+      <a href="index.html" class="flex items-center gap-2 group">
+        <div
+          class="w-8 h-8 rounded border border-white/20 flex items-center justify-center bg-white/5 group-hover:bg-white/10 transition-colors overflow-hidden">
+          <img src="./logos/LOGO%20MARK.png" alt="Exo Logo" class="w-full h-full object-contain img-protected"
+            draggable="false">
+        </div>
+        <span class="text-md font-medium tracking-tight text-white/90">Exo Enterprise</span>
+      </a>
+
+      <!-- Desktop Links -->
+      <div class="hidden md:flex items-center gap-8 text-xs font-medium tracking-wide uppercase text-neutral-400">
+        <a href="index.html" class="hover:text-white transition-colors">Home</a>
+        <a href="value.html" class="hover:text-white transition-colors">Vault</a>
+        <a href="flow.html" class="hover:text-white transition-colors">Flow OS</a>
+        <a href="index.html#departments" class="hover:text-white transition-colors">Departments</a>
+        <a href="steel.html" class="hover:text-white transition-colors">Steel</a>
+        <a href="firm.html" class="hover:text-white transition-colors text-white">About The Firm</a>
+        <a href="/careers.html" class="hover:text-white transition-colors">Careers</a>
+      </div>
+
+      <!-- CTA -->
+      <a href="x-scale.html"
+        class="hidden md:flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 hover:bg-white/10 transition-all text-xs font-medium text-white">
+        <span>8 Spots Open This Month</span>
+        <iconify-icon icon="solar:arrow-right-linear" width="16"></iconify-icon>
+      </a>
+
+      <!-- Mobile Menu Icon -->
+      <button id="mobile-menu-toggle" class="md:hidden text-white z-[100] relative" aria-label="Toggle menu">
+        <iconify-icon id="menu-icon" icon="solar:hamburger-menu-linear" width="24"></iconify-icon>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU (Full Screen) -->
+  <div id="mobile-menu"
+    class="fixed inset-0 bg-neutral-950/95 backdrop-blur-xl z-[99] hidden flex flex-col items-center justify-center p-6">
+    <!-- Close Button -->
+    <button id="mobile-menu-close" class="absolute top-6 right-6 text-white/50 hover:text-white transition-colors z-50">
+      <iconify-icon icon="solar:close-circle-linear" width="32"></iconify-icon>
+    </button>
+
+    <div
+      class="absolute inset-0 bg-gradient-to-br from-emerald-500/10 via-transparent to-blue-500/10 pointer-events-none">
+    </div>
+    <div class="absolute inset-0 backdrop-filter backdrop-blur-[1px] pointer-events-none"
+      style="background: radial-gradient(circle at 50% 50%, rgba(16,185,129,0.1) 0%, transparent 50%)"></div>
+
+    <div class="relative z-10 text-center space-y-8 w-full">
+      <nav class="flex flex-col gap-6 items-center">
+        <a href="index.html" class="text-2xl font-light text-white hover:text-emerald-400 transition-colors">Home</a>
+        <a href="flow.html" class="text-2xl font-light text-white hover:text-emerald-400 transition-colors">Flow OS</a>
+        <a href="value.html" class="text-2xl font-light text-white hover:text-emerald-400 transition-colors">Vault</a>
+        <a href="index.html#departments"
+          class="text-2xl font-light text-white hover:text-emerald-400 transition-colors">Departments</a>
+        <a href="firm.html" class="text-2xl font-light text-white hover:text-emerald-400 transition-colors">About The
+          Firm</a>
+        <a href="/careers.html"
+          class="text-2xl font-light text-white hover:text-emerald-400 transition-colors">Careers</a>
+        <a href="/steel.html" class="text-2xl font-light text-white hover:text-emerald-400 transition-colors">STEEL</a>
+      </nav>
+
+      <div class="border-t border-white/10 pt-8">
+        <a href="x-scale.html"
+          class="inline-flex items-center gap-2 px-6 py-3 bg-white text-black rounded-lg font-semibold hover:bg-neutral-200 transition-colors">
+          8 Spots Open This Month
+          <iconify-icon icon="solar:arrow-right-linear" width="16"></iconify-icon>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <header class="relative overflow-hidden pt-20">
+    <div class="sm:px-6 lg:px-8 md:pt-24 max-w-7xl mr-auto ml-auto pt-24 pr-4 pb-8 pl-4">
+      <div class="text-center max-w-4xl mr-auto ml-auto">
+        <span class="inline-flex flex-col items-center gap-2 uppercase text-xs font-medium tracking-widest mb-6"
+          style="opacity: 1; animation: 0.8s ease-out 0.4s 1 normal forwards running fadeSlideUp; transition: opacity 0.8s ease-out, transform 0.8s ease-out; transform: translateY(0px)">
+          <div class="flex items-center gap-2">
+            <span class="w-1.5 h-1.5 animate-pulse bg-gradient-to-r from-emerald-300 to-purple-500 rounded-full"
+              style="transition: outline 0.1s ease-in-out; animation: pulse 0.6s cubic-bezier(0.4, 0, 0.6, 1) infinite; box-shadow: 0 0 0 3px rgba(110, 231, 183, 0.35), 0 0 12px rgba(168, 85, 247, 0.5), 0 0 24px rgba(110, 231, 183, 0.35);"></span>
+            <span class="font-normal text-neutral-400 font-geist drop-shadow-lg"
+              style="transition: outline 0.1s ease-in-out; text-shadow: 0 1px 1px rgba(0,0,0,0.7), 0 0 6px rgba(0,0,0,0.35)">
+              Next-Generation AI Architecture
+            </span>
+          </div>
+          <span class="font-semibold italic text-white font-geist drop-shadow-lg"
+            style="transition: outline 0.1s ease-in-out; text-shadow: 0 1px 1px rgba(0,0,0,0.7), 0 0 6px rgba(0,0,0,0.35)">Be
+            Extraordinary</span>
+        </span>
+
+        <h1
+          class="sm:text-5xl lg:text-7xl xl:text-8xl leading-[0.9] text-4xl font-light text-neutral-100 tracking-tight font-geist mb-8"
+          style="font-family: &quot;Playfair Display&quot;, serif; opacity: 1; animation: 0.8s ease-out 0.6s 1 normal forwards running fadeSlideUp; transition: opacity 0.8s ease-out, transform 0.8s ease-out; transform: translateY(0px); text-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 1px 1px rgba(0,0,0,0.75)">
+          Exo
+          <br>
+          <span
+            class="bg-clip-text font-light text-transparent tracking-tight font-geist bg-gradient-to-tr from-teal-400 to-blue-500"
+            style="text-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 1px 1px rgba(0,0,0,0.75);">
+            Enterprise
+          </span>
+        </h1>
+
+        <p class="sm:text-xl leading-relaxed text-lg font-normal text-neutral-400 font-geist max-w-2xl mr-auto mb-10 ml-auto"
+          style="opacity: 1; animation: 0.8s ease-out 0.8s 1 normal forwards running fadeSlideUp; transition: opacity 0.8s ease-out, transform 0.8s ease-out; transform: translateY(0px); text-shadow: 0 1px 1px rgba(0,0,0,0.7), 0 0 8px rgba(0,0,0,0.35);">
+          Revolutionary AI architecture designed for enterprise-grade
+          intelligence. Built for precision, optimized for scale.
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-4 gap-x-4 gap-y-4 items-center justify-center"
+          style="opacity: 1; animation: 0.8s ease-out 1s 1 normal forwards running fadeSlideUp; transition: opacity 0.8s ease-out, transform 0.8s ease-out; transform: translateY(0px);">
+          <a href="index.html#departments"
+            class="group inline-flex transition-all duration-300 transform hover:scale-105 hover:from-indigo-600 hover:to-indigo-700 cursor-hover-target text-sm font-normal text-white font-geist bg-gradient-to-tr from-teal-400 to-blue-500 rounded-full pt-3 pr-6 pb-3 pl-6 gap-x-2 gap-y-2 items-center"
+            style="transition: outline 0.1s ease-in-out; text-shadow: 0 1px 1px rgba(0,0,0,0.6), 0 0 6px rgba(0,0,0,0.35)">
+            Experience Exo
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="plus"
+              class="lucide lucide-plus lucide-sparkles stroke-2 group-hover:rotate-12 transition-transform w-[16px] h-[16px]"
+              data-icon-replaced="true" style="color: rgb(255, 255, 255); width: 16px; height: 16px;">
+              <path d="M5 12h14"></path>
+              <path d="M12 5v14"></path>
+            </svg>
+          </a>
+          <a href="/steel.html"
+            class="inline-flex hover:border-neutral-600 hover:bg-neutral-900/50 transition-all duration-300 cursor-hover-target text-sm font-normal font-geist border-neutral-700 border rounded-full pt-3 pr-6 pb-3 pl-6 gap-x-2 gap-y-2 items-center"
+            style="transition: outline 0.1s ease-in-out; text-shadow: 0 1px 1px rgba(0,0,0,0.6), 0 0 6px rgba(0,0,0,0.35)">
+            Join Steel Global
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+              style="color: rgb(110, 231, 183); width: 16px; height: 16px"
+              class="lucide lucide-globe stroke-1.5 w-[16px] h-[16px]" fill="none" stroke="currentColor"
+              stroke-linecap="round" stroke-linejoin="round" data-solar="global-line-duotone" data-icon-set="solar"
+              data-icon-replaced="true" stroke-width="2">
+              <g fill="none" stroke="#6ee7b7" stroke-width="1.5">
+                <path stroke-linecap="round"
+                  d="M2 12h20m-6 0c0 1.313-.104 2.614-.305 3.827c-.2 1.213-.495 2.315-.867 3.244c-.371.929-.812 1.665-1.297 2.168c-.486.502-1.006.761-1.531.761s-1.045-.259-1.53-.761c-.486-.503-.927-1.24-1.298-2.168c-.372-.929-.667-2.03-.868-3.244A23.6 23.6 0 0 1 8 12c0-1.313.103-2.614.304-3.827s.496-2.315.868-3.244c.371-.929.812-1.665 1.297-2.168C10.955 2.26 11.475 2 12 2s1.045.259 1.53.761c.486.503.927 1.24 1.298 2.168c.372.929.667 2.03.867 3.244C15.897 9.386 16 10.687 16 12Z"
+                  opacity=".5"></path>
+                <path d="M22 12a10 10 0 1 1-20.001 0A10 10 0 0 1 22 12Z"></path>
+              </g>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Animated background -->
+    <div class="absolute inset-0 -z-10 overflow-hidden">
+      <div class="absolute -top-40 -right-32 w-96 h-96 rounded-full blur-3xl bg-indigo-500/5"
+        style="transition: outline 0.1s ease-in-out;"></div>
+      <div class="absolute -bottom-40 -left-32 w-96 h-96 rounded-full blur-3xl bg-indigo-500/5"
+        style="transition: outline 0.1s ease-in-out;"></div>
+    </div>
+  </header>
+
+  <!-- Stats Section -->
+  <section class="py-16 border-y border-neutral-800/50 bg-neutral-900/30"
+    style="opacity: 1; animation: 0.8s ease-out 1.2s 1 normal forwards running fadeSlideUp; transition: opacity 0.8s ease-out, transform 0.8s ease-out; transform: translateY(0px);">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div class="text-center">
+          <div class="text-2xl md:text-3xl mb-2 font-light tracking-tight font-geist text-emerald-800"
+            style="text-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 1px 1px rgba(0,0,0,0.75);">
+            256K+
+          </div>
+          <div class="text-sm text-neutral-400 font-geist font-normal xl:text-black"
+            style="transition: outline 0.1s ease-in-out; text-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 1px 1px rgba(0,0,0,0.75);">
+            Context Window
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="text-2xl md:text-3xl mb-2 font-light tracking-tight font-geist text-emerald-800"
+            style="text-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 1px 1px rgba(0,0,0,0.75);">
+            2.3s
+          </div>
+          <div class="xl:text-black text-sm font-normal text-neutral-400 font-geist"
+            style="transition: outline 0.1s ease-in-out; text-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 1px 1px rgba(0,0,0,0.75);">
+            Avg Response Time
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="md:text-3xl text-2xl font-light text-emerald-800 tracking-tight font-geist mb-2"
+            style="text-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 1px 1px rgba(0,0,0,0.75);">
+            12.2B+
+          </div>
+          <div class="text-sm text-neutral-400 font-geist font-normal xl:text-black"
+            style="transition: outline 0.1s ease-in-out; text-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 1px 1px rgba(0,0,0,0.75);">
+            Parameters · Top Frontier LLMs
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="text-2xl md:text-3xl mb-2 font-light tracking-tight font-geist text-emerald-800"
+            style="text-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 1px 1px rgba(0,0,0,0.75);">
+            24/7
+          </div>
+          <div class="text-sm text-neutral-400 font-geist font-normal xl:text-black"
+            style="transition: outline 0.1s ease-in-out; text-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 1px 1px rgba(0,0,0,0.75);">
+            Uptime Guarantee
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Headline -->
+  <section class="py-20">
+    <header>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter-custom text-white leading-[0.95]"
+          style="font-family: " Playfair Display", serif; text-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 1px 1px
+          rgba(0,0,0,0.75);">
+          <span class="block md:text-5xl text-4xl italic text-neutral-600 font-serif mb-2"
+            style="text-shadow: 0 1px 1px rgba(0,0,0,0.7), 0 0 6px rgba(0,0,0,0.35);">
+            Meet <span style="text-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 1px 1px rgba(0,0,0,0.75);">EXO</span>, <span
+              class="text-emerald-300">Your AI Team.</span>
+          </span> <span style="text-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 1px 1px rgba(0,0,0,0.75);">Building
+            Self-Running</span> <br>
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-neutral-300 via-emerald-200 to-neutral-500"
+            style="text-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 1px 1px rgba(0,0,0,0.75);">Enterprises.</span>
+        </h1>
+      </div>
+    </header>
+  </section>
+
+  <section class="overflow-hidden md:py-32 pt-20 pb-20 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-12 gap-12 lg:gap-16 items-start">
+        <!-- Description -->
+        <div
+          class="lg:col-span-4 bg-white/5 border-white/10 border ring-white/10 ring-1 rounded-2xl pt-6 pr-6 pb-6 pl-6 backdrop-blur-xl space-y-6"
+          style="opacity: 1; animation: 0.8s ease-out 0.2s 1 normal forwards running fadeSlideRight; transition: opacity 0.8s ease-out, transform 0.8s ease-out; transform: translateY(0px); text-shadow: 0 1px 1px rgba(0,0,0,0.65), 0 2px 8px rgba(0,0,0,0.35);">
+          <div class="flex gap-4 gap-x-4 gap-y-4 items-start">
+            <div class="flex-shrink-0">
+              <span
+                class="inline-flex items-center justify-center text-sm font-normal text-cyan-400 font-geist bg-indigo-500/10 w-8 h-8 rounded-full"
+                style="transition: outline 0.1s ease-in-out; text-shadow: 0 1px 1px rgba(0,0,0,0.7), 0 0 8px rgba(0,0,0,0.35);">
+                EXO
+              </span>
+            </div>
+            <div class="">
+              <h2 class="text-2xl text-neutral-100 mb-4 font-light tracking-tight font-geist"
+                style="text-shadow: 0 1px 1px rgba(0,0,0,0.75), 0 2px 10px rgba(0,0,0,0.5);">
+                Advanced AI Architecture
+              </h2>
+              <p class="leading-relaxed font-normal text-neutral-400 font-geist"
+                style="text-shadow: 0 1px 1px rgba(0,0,0,0.65), 0 0 6px rgba(0,0,0,0.35);">
+                The Exo AI Engine is built on top of the world's most capable
+                frontier models — including custom-tuned and best-in-class LLMs
+                — and engineered specifically for operational intelligence.
+                Every layer is optimized to run, automate, and transfer
+                complete departments with precision and institutional memory
+                that compounds over time.
+              </p>
+            </div>
+          </div>
+
+          <div class="space-y-4 pl-12">
+            <div class="flex items-center gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="zap"
+                class="lucide lucide-zap w-4 h-4 stroke-2 text-cyan-400" style="transition: outline 0.1s ease-in-out;">
+                <path
+                  d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z">
+                </path>
+              </svg>
+              <span class="text-sm text-neutral-300 font-geist font-normal"
+                style="transition: outline 0.1s ease-in-out; text-shadow: 0 1px 1px rgba(0,0,0,0.65), 0 0 6px rgba(0,0,0,0.35);">
+                Every workflow mapped and remembered by Exo AI
+              </span>
+            </div>
+            <div class="flex items-center gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                data-lucide="shield" class="lucide lucide-shield w-4 h-4 stroke-2 text-cyan-400"
+                style="transition: outline 0.1s ease-in-out;">
+                <path
+                  d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
+                </path>
+              </svg>
+              <span class="text-sm text-neutral-300 font-geist font-normal"
+                style="transition: outline 0.1s ease-in-out; text-shadow: 0 1px 1px rgba(0,0,0,0.65), 0 0 6px rgba(0,0,0,0.35);">
+                Live departments co-run alongside your team
+              </span>
+            </div>
+            <div class="flex items-center gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                data-lucide="target" class="lucide lucide-target w-4 h-4 stroke-2 text-cyan-400"
+                style="transition: outline 0.1s ease-in-out;">
+                <circle cx="12" cy="12" r="10"></circle>
+                <circle cx="12" cy="12" r="6"></circle>
+                <circle cx="12" cy="12" r="2"></circle>
+              </svg>
+              <span class="text-sm text-neutral-300 font-geist font-normal"
+                style="transition: outline 0.1s ease-in-out; text-shadow: 0 1px 1px rgba(0,0,0,0.65), 0 0 6px rgba(0,0,0,0.35);">
+                Full custom and operational ownership transferred to you
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Architecture Diagram -->
+        <div class="lg:col-span-8"
+          style="opacity: 1; animation: 0.8s ease-out 0.4s 1 normal forwards running fadeSlideLeft; transition: opacity 0.8s ease-out, transform 0.8s ease-out; transform: translateY(0px);">
+          <div
+            class="overflow-hidden md:p-12 bg-gradient-to-br from-neutral-900/80 to-neutral-900/40 border-neutral-800/50 border rounded-2xl pt-6 pr-6 pb-6 pl-6 relative backdrop-blur-xl"
+            style="transition: outline 0.1s ease-in-out;">
+            <!-- Grid background -->
+            <div class="absolute inset-0 pointer-events-none opacity-30">
+              <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                    <path d="M40 0V40H0" fill="none" stroke="currentColor" stroke-width="0.5"></path>
+                  </pattern>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#grid)" class="text-neutral-700"
+                  style="transition: outline 0.1s ease-in-out;"></rect>
+              </svg>
+            </div>
+
+            <!-- Main Architecture Flow -->
+            <div class="relative">
+              <div class="flex flex-col space-y-8 items-center"
+                style="text-shadow: 0 1px 1px rgba(0,0,0,0.65), 0 0 8px rgba(0,0,0,0.35);">
+                <!-- Input Layer -->
+                <div class="w-full max-w-md">
+                  <div
+                    class="bg-gradient-to-r from-blue-500/20 to-blue-600/20 bg-white/5 border border-blue-500/30 rounded-xl p-6 text-center backdrop-blur-xl ring-1 ring-white/10 shadow-[0_1px_0_rgba(255,255,255,0.06)_inset,0_10px_30px_-10px_rgba(0,0,0,0.5)]">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      data-lucide="message-circle"
+                      class="lucide lucide-message-circle w-8 h-8 text-blue-400 mx-auto mb-3 stroke-1.5">
+                      <path
+                        d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719">
+                      </path>
+                    </svg>
+                    <div class="text-sm text-blue-400 font-geist font-normal"
+                      style="transition: outline 0.1s ease-in-out;">
+                      Customer Query Input
+                    </div>
+                    <div class="text-xs text-neutral-400 mt-1 font-geist font-normal"
+                      style="transition: outline 0.1s ease-in-out;">
+                      Natural language processing
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Processing Layers -->
+                <div class="w-full grid md:grid-cols-2 gap-6 max-w-4xl">
+                  <div
+                    class="ring-white/10 ring-1 text-right bg-gradient-to-r from-indigo-500/20 to-indigo-600/20 border-indigo-500/30 border rounded-xl pt-6 pr-6 pb-6 pl-6 shadow-[0_1px_0_rgba(255,255,255,0.06)_inset,0_10px_30px_-10px_rgba(0,0,0,0.5)] backdrop-blur-xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      data-lucide="brain" class="lucide lucide-brain stroke-1.5 w-[32px] h-[32px] ml-auto mb-3"
+                      data-icon-replaced="true" style="width: 32px; height: 32px; color: rgb(129, 140, 248);">
+                      <path d="M12 18V5"></path>
+                      <path d="M15 13a4.17 4.17 0 0 1-3-4 4.17 4.17 0 0 1-3 4"></path>
+                      <path d="M17.598 6.5A3 3 0 1 0 12 5a3 3 0 1 0-5.598 1.5"></path>
+                      <path d="M17.997 5.125a4 4 0 0 1 2.526 5.77"></path>
+                      <path d="M18 18a4 4 0 0 0 2-7.464"></path>
+                      <path d="M19.967 17.483A4 4 0 1 1 12 18a4 4 0 1 1-7.967-.517"></path>
+                      <path d="M6 18a4 4 0 0 1-2-7.464"></path>
+                      <path d="M6.003 5.125a4 4 0 0 0-2.526 5.77"></path>
+                    </svg>
+                    <div class="text-sm font-normal text-indigo-400 font-geist mb-2">
+                      Neural Processing Core
+                    </div>
+                    <div class="xl:mb-0 text-xs font-normal text-neutral-400 font-geist">
+                      Advanced transformer architecture
+                    </div>
+                  </div>
+                  <div
+                    class="bg-gradient-to-r from-green-500/20 to-green-600/20 border-green-500/30 border ring-white/10 ring-1 rounded-xl pt-6 pr-6 pb-6 pl-6 shadow-[0_1px_0_rgba(255,255,255,0.06)_inset,0_10px_30px_-10px_rgba(0,0,0,0.5)] backdrop-blur-xl"
+                    style="transition: outline 0.1s ease-in-out;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      data-lucide="database" class="lucide lucide-database stroke-1.5 w-[32px] h-[32px] mb-3"
+                      style="transition: outline 0.1s ease-in-out; width: 32px; height: 32px; color: rgb(74, 222, 128);"
+                      data-icon-replaced="true">
+                      <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                      <path d="M3 5V19A9 3 0 0 0 21 19V5"></path>
+                      <path d="M3 12A9 3 0 0 0 21 12"></path>
+                    </svg>
+                    <div class="text-sm font-normal text-green-400 font-geist mb-2"
+                      style="transition: outline 0.1s ease-in-out;">
+                      Knowledge Retrieval
+                    </div>
+                    <div class="text-xs font-normal text-neutral-400 font-geist"
+                      style="transition: outline 0.1s ease-in-out;">
+                      RAG-enhanced information access
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Output Layer -->
+                <div class="w-full max-w-md">
+                  <div
+                    class="bg-gradient-to-r border rounded-xl p-6 text-center from-indigo-500/20 to-indigo-600/20 border-indigo-500/30 backdrop-blur-xl bg-white/5 ring-1 ring-white/10 shadow-[0_1px_0_rgba(255,255,255,0.06)_inset,0_10px_30px_-10px_rgba(0,0,0,0.5)]"
+                    style="transition: outline 0.1s ease-in-out;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      data-lucide="check-circle"
+                      class="lucide lucide-check-circle w-8 h-8 mx-auto mb-3 stroke-1.5 text-indigo-400"
+                      style="transition: outline 0.1s ease-in-out;">
+                      <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                      <path d="m9 11 3 3L22 4"></path>
+                    </svg>
+                    <div class="text-sm font-geist font-normal text-indigo-400"
+                      style="transition: outline 0.1s ease-in-out;">
+                      Validated Response
+                    </div>
+                    <div class="text-xs text-neutral-400 mt-1 font-geist font-normal"
+                      style="transition: outline 0.1s ease-in-out;">
+                      Quality-assured output
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Flow Lines -->
+              <svg class="absolute inset-0 w-full h-full pointer-events-none" style="z-index: -1;">
+                <defs>
+                  <linearGradient id="flowGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" style="stop-color:#f97316;stop-opacity:0.6"></stop>
+                    <stop offset="100%" style="stop-color:#f97316;stop-opacity:0.2"></stop>
+                  </linearGradient>
+                </defs>
+                <path d="M50% 20% L50% 80%" stroke="url(#flowGradient)" stroke-width="2" stroke-dasharray="6 6"
+                  fill="none">
+                  <animate attributeName="stroke-dashoffset" values="0;12" dur="2s" repeatCount="indefinite"></animate>
+                </path>
+              </svg>
+            </div>
+
+            <!-- Technical Specifications -->
+            <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div
+                class="text-center p-4 rounded-lg bg-white/5 backdrop-blur-xl ring-1 ring-white/10 border border-white/10 shadow-[0_1px_0_rgba(255,255,255,0.06)_inset,0_10px_30px_-10px_rgba(0,0,0,0.5)]"
+                style="transition: outline 0.1s ease-in-out;">
+                <div class="text-lg mb-1 font-geist font-normal text-cyan-400"
+                  style="transition: outline 0.1s ease-in-out;">
+                  12.2B
+                </div>
+                <div class="text-xs text-neutral-400 font-geist font-normal"
+                  style="transition: outline 0.1s ease-in-out;">
+                  Parameters
+                </div>
+              </div>
+              <div
+                class="text-center p-4 rounded-lg bg-white/5 backdrop-blur-xl ring-1 ring-white/10 border border-white/10 shadow-[0_1px_0_rgba(255,255,255,0.06)_inset,0_10px_30px_-10px_rgba(0,0,0,0.5)]"
+                style="transition: outline 0.1s ease-in-out;">
+                <div class="text-lg mb-1 font-geist font-normal text-cyan-400"
+                  style="transition: outline 0.1s ease-in-out;">
+                  128K+
+                </div>
+                <div class="text-xs text-neutral-400 font-geist font-normal"
+                  style="transition: outline 0.1s ease-in-out;">
+                  Context Window
+                </div>
+              </div>
+              <div
+                class="text-center p-4 rounded-lg bg-white/5 backdrop-blur-xl ring-1 ring-white/10 border border-white/10 shadow-[0_1px_0_rgba(255,255,255,0.06)_inset,0_10px_30px_-10px_rgba(0,0,0,0.5)]"
+                style="transition: outline 0.1s ease-in-out;">
+                <div class="text-lg mb-1 font-geist font-normal text-cyan-400"
+                  style="transition: outline 0.1s ease-in-out;">
+                  99.97%
+                </div>
+                <div class="text-xs text-neutral-400 font-geist font-normal"
+                  style="transition: outline 0.1s ease-in-out;">
+                  Uptime SLA
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Process Callouts -->
+          <div class="hidden lg:block">
+            <div class="absolute -left-8 top-32 w-64"
+              style="opacity: 0; animation: 0.8s ease-out 1s 1 normal forwards running fadeSlideRight; transition: opacity 0.8s ease-out, transform 0.8s ease-out;">
+              <div class="space-y-8" style="margin-top: 64px; transition: outline 0.1s ease-in-out;">
+                <div
+                  class="flex items-start gap-3 p-4 bg-white/5 rounded-lg border border-white/10 backdrop-blur-xl ring-1 ring-white/10 shadow-[0_1px_0_rgba(255,255,255,0.06)_inset,0_10px_30px_-10px_rgba(0,0,0,0.5)]"
+                  style="transition: outline 0.1s ease-in-out;">
+                  <span class="w-2 h-2 rounded-full mt-2 flex-shrink-0 bg-indigo-500"
+                    style="transition: outline 0.1s ease-in-out;"></span>
+                  <div class="">
+                    <div class="text-xs uppercase tracking-wide mb-1 font-geist font-normal text-cyan-400"
+                      style="transition: outline 0.1s ease-in-out;">
+                      [3.A.1] Query Refinement
+                    </div>
+                    <div class="leading-relaxed xl:text-left text-xs font-normal text-neutral-400 font-geist"
+                      style="transition: outline 0.1s ease-in-out;">
+                      Advanced preprocessing optimizes input comprehension and
+                      context extraction.
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex ring-white/10 ring-1 bg-white/5 border-white/10 border rounded-lg pt-4 pr-4 pb-4 pl-4 shadow-[0_1px_0_rgba(255,255,255,0.06)_inset,0_10px_30px_-10px_rgba(0,0,0,0.5)] backdrop-blur-xl gap-x-3 gap-y-3 items-start"
+                  style="transition: outline 0.1s ease-in-out; margin-top: 12px;">
+                  <span class="w-2 h-2 rounded-full mt-2 flex-shrink-0 bg-indigo-500"
+                    style="transition: outline 0.1s ease-in-out;"></span>
+                  <div class="">
+                    <div class="text-xs uppercase tracking-wide mb-1 font-geist font-normal text-cyan-400"
+                      style="transition: outline 0.1s ease-in-out;">
+                      [3.A.3] Response Validation
+                    </div>
+                    <div class="text-xs text-neutral-400 leading-relaxed font-geist font-normal"
+                      style="transition: outline 0.1s ease-in-out;">
+                      Multi-layer validation ensures accuracy and safety
+                      compliance.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="absolute -right-8 top-48 w-64"
+              style="opacity: 0; animation: 0.8s ease-out 1.2s 1 normal forwards running fadeSlideLeft; transition: opacity 0.8s ease-out, transform 0.8s ease-out;">
+              <div class="space-y-8">
+                <div
+                  class="flex items-start gap-3 p-4 bg-white/5 rounded-lg border border-white/10 backdrop-blur-xl ring-1 ring-white/10 shadow-[0_1px_0_rgba(255,255,255,0.06)_inset,0_10px_30px_-10px_rgba(0,0,0,0.5)]"
+                  style="transition: outline 0.1s ease-in-out;">
+                  <span class="w-2 h-2 rounded-full mt-2 flex-shrink-0 bg-indigo-500"
+                    style="transition: outline 0.1s ease-in-out;"></span>
+                  <div class="">
+                    <div class="text-xs uppercase tracking-wide mb-1 font-geist font-normal text-cyan-400"
+                      style="transition: outline 0.1s ease-in-out;">
+                      [3.A.2] Intelligent Generation
+                    </div>
+                    <div class="text-xs text-neutral-400 leading-relaxed font-geist font-normal"
+                      style="transition: outline 0.1s ease-in-out;">
+                      Proprietary RAG architecture delivers contextually
+                      precise responses.
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex items-start gap-3 p-4 bg-white/5 rounded-lg border border-white/10 backdrop-blur-xl ring-1 ring-white/10 shadow-[0_1px_0_rgba(255,255,255,0.06)_inset,0_10px_30px_-10px_rgba(0,0,0,0.5)]"
+                  style="transition: outline 0.1s ease-in-out;">
+                  <span class="w-2 h-2 rounded-full mt-2 flex-shrink-0 bg-indigo-500"
+                    style="transition: outline 0.1s ease-in-out;"></span>
+                  <div class="">
+                    <div class="text-xs uppercase tracking-wide mb-1 font-geist font-normal text-cyan-400"
+                      style="transition: outline 0.1s ease-in-out;">
+                      [3.A.4] Continuous Optimization
+                    </div>
+                    <div class="text-xs text-neutral-400 leading-relaxed font-geist font-normal"
+                      style="transition: outline 0.1s ease-in-out;">
+                      Real-time learning improves efficiency and knowledge
+                      coverage.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Extraordinaires Role Framework -->
+  <section class="py-20 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="mb-12">
+        <p class="text-xs font-bold tracking-widest text-neutral-500 uppercase mb-3">The People Inside Exo</p>
+        <h2 class="text-3xl md:text-4xl font-serif text-white mb-2"
+          style="text-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 1px 1px rgba(0,0,0,0.75);">
+          Inside Exo, every person holds one designation.
+        </h2>
+        <p class="text-2xl md:text-3xl font-serif mb-5">
+          <span class="text-emerald-400 font-semibold"
+            style="text-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 1px 1px rgba(0,0,0,0.75);">Exo</span><span
+            class="text-white"
+            style="text-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 1px 1px rgba(0,0,0,0.75);">traordinaire.</span>
+        </p>
+        <p class="text-neutral-400 text-base leading-relaxed max-w-2xl"
+          style="text-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 1px 1px rgba(0,0,0,0.75);">
+          Not a title — a standard of execution. Every Extraordinaire operates under one of three functions.
+          Together, they form the complete cycle that turns operational chaos into a self-running enterprise.
+        </p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+        <!-- Architects -->
+        <div class="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur-sm">
+          <p class="text-xs font-bold tracking-widest text-emerald-400 uppercase mb-4">01 — Architect</p>
+          <h3 class="text-xl font-serif text-white mb-3"
+            style="text-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 1px 1px rgba(0,0,0,0.75);">Architects design.</h3>
+          <p class="text-neutral-400 text-sm leading-relaxed"
+            style="text-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 1px 1px rgba(0,0,0,0.75);">
+            They diagnose operational chaos, map every workflow, and blueprint the department OS before a single tool is
+            touched. <span class="text-emerald-400">Architects identify the real bottleneck — not the surface
+              symptom</span> — and build the structural foundation every Engineer installs on top of.
+          </p>
+        </div>
+        <!-- Engineers -->
+        <div class="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur-sm">
+          <p class="text-xs font-bold tracking-widest text-emerald-400 uppercase mb-4">02 — Engineer</p>
+          <h3 class="text-xl font-serif text-white mb-3"
+            style="text-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 1px 1px rgba(0,0,0,0.75);">Engineers install.</h3>
+          <p class="text-neutral-400 text-sm leading-relaxed"
+            style="text-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 1px 1px rgba(0,0,0,0.75);">
+            They turn blueprint into working system. Configure Flow OS, deploy AI agents, and build the automations that
+            <span class="text-emerald-400">make a department run without its founder in the room.</span>
+            Engineers do not theorize — they build until it works.
+          </p>
+        </div>
+        <!-- Conductors -->
+        <div class="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur-sm">
+          <p class="text-xs font-bold tracking-widest text-emerald-400 uppercase mb-4">03 — Conductor</p>
+          <h3 class="text-xl font-serif text-white mb-3"
+            style="text-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 1px 1px rgba(0,0,0,0.75);">Conductors transfer.</h3>
+          <p class="text-neutral-400 text-sm leading-relaxed"
+            style="text-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 1px 1px rgba(0,0,0,0.75);">
+            They co-run the department alongside the client team, certify operators through Exo Academy, write the SOPs,
+            and deliver the Sovereignty Packet.
+            <span class="text-emerald-400">A Conductor's job is done when the client no longer needs them.</span>
+          </p>
+        </div>
+      </div>
+      <div class="bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-sm max-w-2xl mx-auto text-center">
+        <p class="text-neutral-400 text-sm leading-relaxed"
+          style="text-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 1px 1px rgba(0,0,0,0.75);">
+          <span class="text-emerald-400">While each role is distinct, they are designed to operate in overlap.</span>
+          All three. Every time.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Meet Exo Concierge Leadership Section -->
+  <section class="py-20 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- Tagline -->
+      <div class="text-center mb-8">
+        <a href="/careers.html"
+          class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm mx-auto hover:bg-white/10 transition-all duration-300">
+          <span class="relative flex h-2 w-2">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+          </span>
+          <span class="text-[10px] uppercase font-medium text-black/90 tracking-widest"><strong>Join Exo Team:</strong>
+            If you're a hard worker we'd love to have you</span>
+        </a>
+      </div>
+
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-5xl font-bold text-white uppercase tracking-tighter mb-4"
+          style="text-shadow: 0 4px 20px rgba(0,0,0,0.5);">
+          Meet Exo Concierge Leadership
+        </h2>
+        <div class="h-1 w-24 bg-indigo-500 mx-auto rounded-full shadow-[0_0_15px_rgba(99,102,241,0.5)]"></div>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        <!-- Member 1 -->
+        <div class="team-card group">
+          <div class="relative aspect-[4/5] overflow-hidden bg-neutral-800 border-4 border-neutral-800 shadow-2xl">
+            <!-- Grayscale Image Filter as per style -->
+            <img src="assets/images/Liam.jpeg" alt="Liam Dunne"
+              class="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-500 img-protected"
+              draggable="false">
+
+            <!-- Right-click Protection Overlay -->
+            <div class="absolute inset-0 z-10" oncontextmenu="return false;"></div>
+
+            <!-- Overlay -->
+            <div
+              class="absolute inset-0 bg-neutral-900/95 p-8 flex items-center justify-center opacity-0 transition-all duration-300 pointer-events-none team-overlay backdrop-blur-sm">
+              <p class="text-neutral-300 text-center leading-relaxed font-geist text-sm">
+                Expertise in strategic alignment and operational excellence. Leading the concierge initiatives with a
+                focus on client satisfaction and leading operational infrastructure that ensures flawless service at
+                scale.
+              </p>
+            </div>
+            <!-- Bottom highlight bar -->
+            <div class="absolute bottom-0 left-0 right-0 h-1.5 bg-indigo-600 shadow-[0_-4px_15px_rgba(79,70,229,0.5)]">
+            </div>
+          </div>
+
+          <div class="text-center mt-6">
+            <h3 class="text-2xl font-black text-indigo-400 uppercase tracking-tighter font-geist">Liam Dunne</h3>
+            <p class="text-xs font-bold text-black uppercase tracking-widest mt-1 mb-5 font-geist">Head of
+              Concierge
+            </p>
+            <button onclick="toggleTeamOverlay(this)"
+              class="w-full max-w-[200px] bg-indigo-600 hover:bg-indigo-500 text-white font-medium py-3 px-6 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg shadow-indigo-600/20 font-geist text-sm tracking-wide">
+              About Liam
+            </button>
+          </div>
+        </div>
+
+        <!-- Member 2 -->
+        <div class="team-card group">
+          <div class="relative aspect-[4/5] overflow-hidden bg-neutral-800 border-4 border-neutral-800 shadow-2xl">
+            <img src="assets/images/Marcus.jpeg" alt="Marcus O'Reilly"
+              class="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-500">
+            <div
+              class="absolute inset-0 bg-neutral-900/95 p-8 flex items-center justify-center opacity-0 transition-all duration-300 pointer-events-none team-overlay backdrop-blur-sm">
+              <p class="text-neutral-300 text-center leading-relaxed font-geist text-sm">
+                Specializing in AI integration and workflow automation. Optimizing the bridge between human expertise
+                and machine intelligence.
+              </p>
+            </div>
+            <div class="absolute bottom-0 left-0 right-0 h-1.5 bg-indigo-600 shadow-[0_-4px_15px_rgba(79,70,229,0.5)]">
+            </div>
+          </div>
+
+          <div class="text-center mt-6">
+            <h3 class="text-2xl font-black text-indigo-400 uppercase tracking-tighter font-geist">Marcus O'Reilly</h3>
+            <p class="text-xs font-bold text-neutral-100 uppercase tracking-widest mt-1 mb-5 font-geist"
+              style="text-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 1px 1px rgba(0,0,0,0.75);">
+              Director of Product
+            </p>
+            <button onclick="toggleTeamOverlay(this)"
+              class="w-full max-w-[200px] bg-indigo-600 hover:bg-indigo-500 text-white font-medium py-3 px-6 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg shadow-indigo-600/20 font-geist text-sm tracking-wide">
+              About Marcus
+            </button>
+          </div>
+        </div>
+
+        <!-- Member 3 -->
+        <div class="team-card group">
+          <div class="relative aspect-[4/5] overflow-hidden bg-neutral-800 border-4 border-neutral-800 shadow-2xl">
+            <img src="assets/images/Elena.jpeg" alt="Elena Florentius"
+              class="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-500">
+            <div
+              class="absolute inset-0 bg-neutral-900/95 p-8 flex items-center justify-center opacity-0 transition-all duration-300 pointer-events-none team-overlay backdrop-blur-sm">
+              <p class="text-neutral-300 text-center leading-relaxed font-geist text-sm">
+                Orchestrating bespoke client experiences and ensuring every concierge interaction meets our platinum
+                standard of service.
+              </p>
+            </div>
+            <div class="absolute bottom-0 left-0 right-0 h-1.5 bg-indigo-600 shadow-[0_-4px_15px_rgba(79,70,229,0.5)]">
+            </div>
+          </div>
+
+          <div class="text-center mt-6">
+            <h3 class="text-2xl font-black text-indigo-400 uppercase tracking-tighter font-geist">Elena Florentius</h3>
+            <p class="text-xs font-bold text-black uppercase tracking-widest mt-1 mb-5 font-geist">Head of Client Success
+            </p>
+            <button onclick="toggleTeamOverlay(this)"
+              class="w-full max-w-[200px] bg-indigo-600 hover:bg-indigo-500 text-white font-medium py-3 px-6 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg shadow-indigo-600/20 font-geist text-sm tracking-wide">
+              About Elena
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function toggleTeamOverlay(button) {
+        // Find the closest team card parent
+        const card = button.closest('.team-card');
+        const overlay = card.querySelector('.team-overlay');
+        const nameHeading = card.querySelector('h3');
+
+        // Toggle opacity class or style
+        if (overlay.classList.contains('opacity-0')) {
+          overlay.classList.remove('opacity-0', 'pointer-events-none');
+          overlay.classList.add('opacity-100', 'pointer-events-auto');
+          button.textContent = 'Close';
+          button.classList.replace('bg-indigo-600', 'bg-neutral-800');
+          button.classList.replace('hover:bg-indigo-500', 'hover:bg-neutral-700');
+          button.classList.add('border', 'border-neutral-700');
+        } else {
+          overlay.classList.add('opacity-0', 'pointer-events-none');
+          overlay.classList.remove('opacity-100', 'pointer-events-auto');
+          // Reset button text - retrieve name from h3
+          const name = nameHeading ? nameHeading.textContent.split(' ')[0] : 'Leader';
+          button.textContent = 'About ' + name;
+          button.classList.replace('bg-neutral-800', 'bg-indigo-600');
+          button.classList.replace('hover:bg-neutral-700', 'hover:bg-indigo-500');
+          button.classList.remove('border', 'border-neutral-700');
+        }
+      }
+    </script>
+  </section>
+
+  <!-- About Founder Section -->
+  <section class="py-24 bg-neutral-900 overflow-hidden relative border-t border-neutral-800/50">
+    <!-- Background ornamentation -->
+    <div
+      class="absolute top-0 right-0 w-[500px] h-[500px] bg-indigo-900/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none">
+    </div>
+
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="flex flex-col gap-12 text-center md:text-left">
+        <!-- Text Content -->
+        <div class="w-full">
+          <!-- Header with Rotating Text -->
+          <h2 class="text-3xl md:text-5xl font-bold text-white mb-8 tracking-tight leading-tight">
+            About Our Founder: <br />
+            <span class="text-neutral-400 font-normal block mt-3 text-xl md:text-3xl">
+              Jay Steel — <span id="rotating-title"
+                class="text-emerald-400 font-medium inline-block transition-all duration-500 transform translate-y-0 opacity-100">former
+                Systems Thinking Engineer</span>
+            </span>
+          </h2>
+
+          <!-- Problem Statement -->
+          <div class="prose prose-invert max-w-none">
+            <p class="text-xl text-neutral-300 leading-relaxed font-light mb-8">
+              After seeing <span class="text-emerald-400 font-semibold">$200 million +</span> wasted on:
+            </p>
+
+            <!-- Tree List -->
+            <div
+              class="font-mono text-sm md:text-base text-neutral-400 mb-12 pl-6 md:pl-8 border-l-2 border-dashed border-indigo-500/20 inline-block text-left">
+              <div class="flex items-center mb-4 group">
+                <span class="text-indigo-500 mr-3 group-hover:text-indigo-400 transition-colors">├─</span>
+                <span class="text-neutral-300">Consultants who delivered PDFs, not departments</span>
+              </div>
+              <div class="flex items-center mb-4 group">
+                <span class="text-indigo-500 mr-3 group-hover:text-indigo-400 transition-colors">├─</span>
+                <span class="text-neutral-300">Software that gathered dust in "implementation"</span>
+              </div>
+              <div class="flex items-center group">
+                <span class="text-indigo-500 mr-3 group-hover:text-indigo-400 transition-colors">└─</span>
+                <span class="text-neutral-300">Tech that fragmented operations and life instead of unifying them</span>
+              </div>
+            </div>
+
+            <!-- Solution & Vision -->
+            <p class="text-xl text-neutral-200 leading-relaxed mb-10">
+              I built <strong class="text-white">Exo Concierge Team</strong> to deliver what I wish existed:
+            </p>
+
+            <blockquote
+              class="border-l-4 border-indigo-500 pl-6 py-4 my-10 bg-indigo-500/5 rounded-r-xl md:text-left text-left">
+              <p class="text-2xl md:text-3xl font-light italic text-white/90 m-0">
+                "A methodology that <span class="font-bold text-emerald-300">IMPLEMENTS</span> departments, not just
+                advises on them."
+              </p>
+            </blockquote>
+
+            <div class="space-y-6">
+              <p class="text-lg text-neutral-400">
+                Exo is currently accepting <span
+                  class="bg-indigo-500/10 text-indigo-300 px-3 py-1 rounded-md border border-indigo-500/20 font-medium">8
+                  Clients for Q1 2026</span> to maximize client results.
+              </p>
+
+              <p class="text-lg text-neutral-300">
+                If you're ready to fix operational chaos (not just manage it), join us and change the world.
+              </p>
+
+              <div class="mt-8 pt-4">
+                <p class="text-3xl text-white transform -rotate-1 select-none font-serif italic"
+                  style="text-shadow: 0 0 20px rgba(99,102,241,0.3);">
+                  Be Extraordinary.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      (function () {
+        const titles = [
+          "former Systems Thinking Engineer",
+          "2x Entrepreneur",
+          "Managing Partner, Chairman"
+        ];
+        let currentTitleIndex = 0;
+        const titleElement = document.getElementById('rotating-title');
+
+        if (titleElement) {
+          setInterval(() => {
+            // Fade out and move down slightly
+            titleElement.style.opacity = '0';
+            titleElement.style.transform = 'translateY(10px)';
+
+            setTimeout(() => {
+              currentTitleIndex = (currentTitleIndex + 1) % titles.length;
+              titleElement.textContent = titles[currentTitleIndex];
+
+              // Fade in and move back up
+              titleElement.style.opacity = '1';
+              titleElement.style.transform = 'translateY(0)';
+            }, 500); // Duration matches the transition-all duration (0.5s)
+          }, 3500); // Change every 3.5 seconds
+        }
+      })();
+    </script>
+  </section>
+
+
+  <!-- CTA Section -->
+  <section class="border-y bg-gradient-to-r from-neutral-900/50 to-neutral-800/30 border-neutral-800/50 pt-20 pb-20"
+    style="opacity: 1; animation: 0.8s ease-out 0.2s 1 normal forwards running fadeSlideUp; transition: opacity 0.8s ease-out, transform 0.8s ease-out; transform: translateY(0px);">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h3 class="md:text-4xl text-3xl font-light text-neutral-100 tracking-tight font-geist mb-6" style="">
+        Ready to experience the future?
+      </h3>
+      <p class="xl:text-green-300 text-lg font-normal text-emerald-300 font-geist max-w-2xl mr-auto mb-10 ml-auto"
+        style="transition: outline 0.1s ease-in-out;">
+        Join tons of teams leveraging Exo AI Ecosystem for superior experiences.
+      </p>
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="x-scale.html"
+          class="group inline-flex gap-2 transition-all duration-300 transform hover:scale-105 hover:from-indigo-600 hover:to-indigo-700 xl:bg-gradient-to-tr xl:from-teal-400 xl:to-blue-500 cursor-hover-target font-normal text-white font-geist bg-gradient-to-r from-indigo-500 to-indigo-600 rounded-full pt-4 pr-8 pb-4 pl-8 gap-x-2 gap-y-2 items-center"
+          style="transition: outline 0.1s ease-in-out">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="rocket"
+            class="lucide lucide-rocket stroke-2 group-hover:translate-x-1 transition-transform w-[20px] h-[20px]"
+            data-icon-replaced="true" style="color: rgb(255, 255, 255); width: 20px; height: 20px">
+            <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"></path>
+            <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z">
+            </path>
+            <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path>
+            <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path>
+          </svg>
+          Start Discovery
+        </a>
+        <a href="careers.html"
+          class="inline-flex hover:border-neutral-600 hover:bg-neutral-900/50 transition-all duration-300 font-normal font-geist border-neutral-700 border rounded-full pt-4 pr-8 pb-4 pl-8 gap-x-2 gap-y-2 items-center xl:text-[#ffffff] cursor-hover-target"
+          style="transition: outline 0.1s ease-in-out;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="users"
+            class="lucide lucide-users w-5 h-5 stroke-1.5">
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+            <circle cx="9" cy="7" r="4"></circle>
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+          </svg>
+          Join The Team
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust & Certifications -->
+  <section class="border-y bg-neutral-900/20 border-neutral-800/50 pt-20 pb-20"
+    style="opacity: 1; animation: 0.8s ease-out 0.4s 1 normal forwards running fadeSlideUp; transition: opacity 0.8s ease-out, transform 0.8s ease-out; transform: translateY(0px);">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h3 class="uppercase xl:text-emerald-800 text-sm font-normal text-neutral-400 tracking-widest font-geist mb-2"
+          style="transition: outline 0.1s ease-in-out;">
+          Enterprise Security &amp; Compliance
+        </h3>
+        <p class="text-2xl font-light text-neutral-200 tracking-tight font-geist" style="">
+          Trusted by companies worldwide
+        </p>
+        <p class="xl:text-xs text-xs font-light text-neutral-200 tracking-tight font-geist">
+          Currently undergoing
+        </p>
+      </div>
+
+      <div class="flex gap-8 items-center justify-evenly">
+        <div
+          class="group hover:border-white/20 flex transition-all duration-300 hover:scale-110 bg-white/5 w-16 h-16 border border-white/10 rounded-xl backdrop-blur-xl items-center justify-center ring-1 ring-white/10 shadow-[0_1px_0_rgba(255,255,255,0.06)_inset,0_10px_30px_-10px_rgba(0,0,0,0.5)] cursor-hover-target"
+          style="transition: outline 0.1s ease-in-out;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            data-lucide="shield-check"
+            class="lucide lucide-shield-check group-hover:text-neutral-400 stroke-1.5 transition-colors w-[28px] h-[28px] text-emerald-300"
+            style="transition: outline 0.1s ease-in-out; width: 28px; height: 28px;" data-icon-replaced="true">
+            <path
+              d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
+            </path>
+            <path d="m9 12 2 2 4-4"></path>
+          </svg>
+        </div>
+        <div
+          class="group w-16 h-16 rounded-xl bg-white/5 border border-white/10 hover:border-white/20 flex items-center justify-center transition-all duration-300 hover:scale-110 backdrop-blur-xl ring-1 ring-white/10 shadow-[0_1px_0_rgba(255,255,255,0.06)_inset,0_10px_30px_-10px_rgba(0,0,0,0.5)] cursor-hover-target"
+          style="transition: outline 0.1s ease-in-out;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            data-lucide="file-lock"
+            class="lucide lucide-file-lock group-hover:text-neutral-400 stroke-1.5 transition-colors w-[28px] h-[28px] text-emerald-300"
+            style="transition: outline 0.1s ease-in-out; width: 28px; height: 28px;" data-icon-replaced="true">
+            <path
+              d="M4 9.8V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2h-3">
+            </path>
+            <path d="M14 2v5a1 1 0 0 0 1 1h5"></path>
+            <path d="M9 17v-2a2 2 0 0 0-4 0v2"></path>
+            <rect width="8" height="5" x="3" y="17" rx="1"></rect>
+          </svg>
+        </div>
+
+        <div
+          class="group hover:border-white/20 flex transition-all duration-300 hover:scale-110 bg-white/5 w-16 h-16 border border-white/10 rounded-xl backdrop-blur-xl items-center justify-center ring-1 ring-white/10 shadow-[0_1px_0_rgba(255,255,255,0.06)_inset,0_10px_30px_-10px_rgba(0,0,0,0.5)] cursor-hover-target"
+          style="transition: outline 0.1s ease-in-out;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            data-lucide="globe-lock"
+            class="lucide lucide-globe-lock group-hover:text-neutral-400 stroke-1.5 transition-colors w-[28px] h-[28px] text-emerald-300"
+            style="transition: outline 0.1s ease-in-out; width: 28px; height: 28px;" data-icon-replaced="true">
+            <path d="M15.686 15A14.5 14.5 0 0 1 12 22a14.5 14.5 0 0 1 0-20 10 10 0 1 0 9.542 13"></path>
+            <path d="M2 12h8.5"></path>
+            <path d="M20 6V4a2 2 0 1 0-4 0v2"></path>
+            <rect width="8" height="5" x="14" y="6" rx="1"></rect>
+          </svg>
+        </div>
+        <div
+          class="group hover:border-white/20 flex transition-all duration-300 hover:scale-110 bg-white/5 w-16 h-16 border border-white/10 rounded-xl backdrop-blur-xl items-center justify-center ring-1 ring-white/10 shadow-[0_1px_0_rgba(255,255,255,0.06)_inset,0_10px_30px_-10px_rgba(0,0,0,0.5)] cursor-hover-target"
+          style="transition: outline 0.1s ease-in-out;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="award"
+            class="lucide lucide-award group-hover:text-neutral-400 stroke-1.5 transition-colors w-[28px] h-[28px] text-emerald-300"
+            style="transition: outline 0.1s ease-in-out; width: 28px; height: 28px;" data-icon-replaced="true">
+            <path
+              d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526">
+            </path>
+            <circle cx="12" cy="8" r="6"></circle>
+          </svg>
+        </div>
+        <div
+          class="group hover:border-white/20 flex transition-all duration-300 hover:scale-110 bg-white/5 w-16 h-16 border border-white/10 rounded-xl backdrop-blur-xl items-center justify-center ring-1 ring-white/10 shadow-[0_1px_0_rgba(255,255,255,0.06)_inset,0_10px_30px_-10px_rgba(0,0,0,0.5)] cursor-hover-target"
+          style="transition: outline 0.1s ease-in-out;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="key"
+            class="lucide lucide-key group-hover:text-neutral-400 stroke-1.5 transition-colors text-emerald-300 w-[28px] h-[28px]"
+            style="transition: outline 0.1s ease-in-out; width: 28px; height: 28px;" data-icon-replaced="true">
+            <path d="m15.5 7.5 2.3 2.3a1 1 0 0 0 1.4 0l2.1-2.1a1 1 0 0 0 0-1.4L19 4"></path>
+            <path d="m21 2-9.6 9.6"></path>
+            <circle cx="7.5" cy="15.5" r="5.5"></circle>
+          </svg>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12 text-center">
+        <div class="">
+          <div class="text-xs text-neutral-400 uppercase tracking-wide font-geist font-normal"
+            style="transition: outline 0.1s ease-in-out;">
+            SOC 2 Type II
+          </div>
+          <div class="text-sm font-normal text-neutral-500 font-geist mt-1"
+            style="transition: outline 0.1s ease-in-out;">
+            Security Certification
+          </div>
+        </div>
+        <div class="">
+          <div class="text-xs text-neutral-400 uppercase tracking-wide font-geist font-normal"
+            style="transition: outline 0.1s ease-in-out;">
+            GDPR
+          </div>
+          <div class="text-sm font-normal text-neutral-500 font-geist mt-1"
+            style="transition: outline 0.1s ease-in-out;">
+            Privacy Compliance
+          </div>
+        </div>
+        <div class="">
+          <div class="uppercase text-xs font-normal text-neutral-400 tracking-wide font-geist"
+            style="transition: outline 0.1s ease-in-out;">
+            ISO 27001
+          </div>
+          <div class="text-sm text-neutral-500 mt-1 font-geist font-normal"
+            style="transition: outline 0.1s ease-in-out;">
+            Information Security
+          </div>
+        </div>
+        <div class="">
+          <div class="text-xs text-neutral-400 uppercase tracking-wide font-geist font-normal"
+            style="transition: outline 0.1s ease-in-out;">
+            HIPAA
+          </div>
+          <div class="text-sm font-normal text-neutral-500 font-geist mt-1"
+            style="transition: outline 0.1s ease-in-out;">
+            Healthcare Certification
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-neutral-800/50 bg-neutral-900/30">
+    <div class="sm:px-6 lg:px-8 max-w-7xl mr-auto ml-auto pt-14 pr-4 pb-14 pl-4">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-12 lg:grid-cols-4 gap-x-12 gap-y-12"
+        style="text-shadow: 0 1px 1px rgba(0,0,0,0.85), 0 2px 8px rgba(0,0,0,0.5);">
+        <!-- Brand Logo Section -->
+        <div class="flex flex-col items-center justify-center">
+          <div
+            class="w-full bg-white/5 border border-white/10 rounded-lg p-8 backdrop-blur-xl flex items-center justify-center hover:bg-white/[0.07] transition-colors duration-300"
+            style="aspect-ratio: 1;">
+            <img src="./logos/LOGO%20MARK.png" alt="Exo Enterprise Logo" class="w-[80%] h-[80%] object-contain"
+              style="filter: drop-shadow(0 4px 12px rgba(0,0,0,0.3));">
+          </div>
+          <p class="text-xs text-black font-geist mt-4 text-center">Exo Enterprise</p>
+        </div>
+
+        <!-- Company -->
+        <div class="">
+          <h4
+            class="uppercase xl:text-emerald-300 text-sm font-normal text-emerald-300 tracking-widest font-geist mb-4">
+            Company
+          </h4>
+          <ul class="space-y-3" style="text-shadow: 0 1px 1px rgba(0,0,0,0.6), 0 0 2px rgba(0,0,0,0.35);">
+            <li class="">
+              <a href="/"
+                class="text-sm text-neutral-300 hover:text-white transition-colors font-geist font-normal cursor-hover-target">
+                Home
+              </a>
+            </li>
+            <li class="">
+              <a href="/steel.html"
+                class="text-sm text-neutral-300 hover:text-white transition-colors font-geist font-normal cursor-hover-target">
+                Steel Global
+              </a>
+            </li>
+            <li class="">
+              <a href="/careers.html"
+                class="text-sm text-neutral-300 hover:text-white transition-colors font-geist font-normal cursor-hover-target">
+                Careers
+              </a>
+            </li>
+            <li class="">
+              <a href="/x-scale.html"
+                class="text-sm text-neutral-300 hover:text-white transition-colors font-geist font-normal cursor-hover-target">
+                Contact
+              </a>
+            </li>
+
+            <li class="">
+              <a href="/firm.html"
+                class="text-sm text-neutral-300 hover:text-white transition-colors font-geist font-normal cursor-hover-target">
+                About The Firm
+              </a>
+            </li>
+
+          </ul>
+        </div>
+        <!-- Products -->
+        <div class="" style="text-shadow: 0 1px 1px rgba(0,0,0,0.7), 0 0 3px rgba(0,0,0,0.35);">
+          <h4
+            class="uppercase xl:text-emerald-300 text-sm font-normal text-emerald-300 tracking-widest font-geist mb-4">
+            Products
+          </h4>
+          <ul class="space-y-3">
+            <li class="">
+              <a href="index.html#exo-ai"
+                class="text-sm text-neutral-300 hover:text-white transition-colors font-geist font-normal cursor-hover-target">
+                Exo AI
+              </a>
+            </li>
+            <li class="">
+              <a href="flow.html"
+                class="hover:text-white transition-colors cursor-hover-target text-sm font-normal text-neutral-300 font-geist">
+                Flow OS
+              </a>
+            </li>
+            <li class="">
+              <a href="index.html#departments"
+                class="hover:text-white transition-colors cursor-hover-target text-sm font-normal text-neutral-300 font-geist">
+                Departments
+              </a>
+            </li>
+            <li class="">
+              <a href="steel.html"
+                class="hover:text-white transition-colors cursor-hover-target text-sm font-normal text-neutral-300 font-geist">
+                The Steel Card
+              </a>
+            </li>
+            <li class="">
+              <a href="/x-scale.html"
+                class="hover:text-white transition-colors cursor-hover-target text-sm font-normal text-neutral-300 font-geist">
+                Enterprise Solutions
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-12 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
+        <p class="text-xs text-neutral-500">© <span id="year">2026</span> Exo Enterprise. All rights reserved.</p>
+        <div class="flex items-center gap-6">
+          <a href="privacy.html" class="text-xs text-neutral-500 hover:text-white transition-colors">Privacy Policy</a>
+          <a href="terms.html" class="text-xs text-neutral-500 hover:text-white transition-colors">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <style>
+    /* CUSTOMIZATION COMMENT: Animation keyframes */
+    @keyframes fadeSlideUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeSlideDown {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeSlideLeft {
+      from {
+        opacity: 0;
+        transform: translateX(30px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes fadeSlideRight {
+      from {
+        opacity: 0;
+        transform: translateX(-30px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  </style>
+  <style>
+    /* Ensure desktop dropdowns stack correctly */
+    nav .group>div[class*="absolute"] {
+      z-index: 60;
+    }
+  </style>
+
+  <script>
+    lucide.createIcons();
+
+    // Add scroll-triggered animations for mobile responsiveness
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, observerOptions);
+
+    // Observe elements for mobile scroll animations
+    document.querySelectorAll('[style*="opacity: 0"]').forEach(el => {
+      if (window.innerWidth < 1024) {
+        el.style.transition = 'opacity 0.8s ease-out, transform 0.8s ease-out';
+        observer.observe(el);
+      }
+    });
+
+    // Footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script>
+    (function () {
+      const menuToggle = document.getElementById('mobile-menu-toggle');
+      const mobileMenu = document.getElementById('mobile-menu');
+      const menuIcon = document.getElementById('menu-icon');
+      let isMenuOpen = false;
+
+      if (menuToggle && mobileMenu) {
+        menuToggle.addEventListener('click', () => {
+          isMenuOpen = !isMenuOpen;
+          if (isMenuOpen) {
+            mobileMenu.classList.remove('hidden');
+            menuIcon.setAttribute('icon', 'solar:close-circle-linear');
+            document.body.style.overflow = 'hidden';
+          } else {
+            mobileMenu.classList.add('hidden');
+            menuIcon.setAttribute('icon', 'solar:hamburger-menu-linear');
+            document.body.style.overflow = 'auto';
+          }
+        });
+
+        // Close Button Logic
+        const closeBtn = document.getElementById('mobile-menu-close');
+        if (closeBtn) {
+          closeBtn.addEventListener('click', () => {
+            isMenuOpen = false;
+            mobileMenu.classList.add('hidden');
+            menuIcon.setAttribute('icon', 'solar:hamburger-menu-linear');
+            document.body.style.overflow = 'auto';
+          });
+        }
+
+        const menuLinks = mobileMenu.querySelectorAll('a');
+        menuLinks.forEach(link => {
+          link.addEventListener('click', () => {
+            isMenuOpen = false;
+            mobileMenu.classList.add('hidden');
+            menuIcon.setAttribute('icon', 'solar:hamburger-menu-linear');
+            document.body.style.overflow = 'auto';
+          });
+        });
+      }
+    })();
+  </script>
+
+  <!-- Spline Loader Fade-Out -->
+  <script>
+    (function () {
+      const splineIframe = document.getElementById('spline-iframe');
+      const loader = document.getElementById('spline-loader');
+
+      if (splineIframe && loader) {
+        splineIframe.addEventListener('load', function () {
+          loader.style.opacity = '0';
+          setTimeout(() => {
+            loader.style.display = 'none';
+          }, 1000);
+        });
+
+        // Fallback: Hide loader after 8 seconds regardless
+        setTimeout(() => {
+          if (loader.style.display !== 'none') {
+            loader.style.opacity = '0';
+            setTimeout(() => loader.style.display = 'none', 1000);
+          }
+        }, 8000);
+      }
+    })();
+  </script>
+
+  <!-- GSAP Animations -->
+  <script>
+    // ... existing GSAP logic ...
+  </script>
+
+  <!-- Image Protection -->
+  <script src="js/image-protection.js"></script>
+</body>
+
+</html>
+```

@@ -1,0 +1,32 @@
+filters:
+  and:
+    - note.categories.contains(link("Conversations"))
+    - '!file.name.contains("Template")'
+properties:
+  file.name:
+    displayName: Conversation
+  note.type:
+    displayName: Type
+  note.created:
+    displayName: Date
+views:
+  - type: table
+    name: All Conversations
+    order:
+      - file.name
+      - type
+      - created
+    sort:
+      - property: created
+        direction: DESC
+  - type: table
+    name: Solomon Talks
+    filters:
+      and:
+        - note.type.contains("solomon-talk")
+    order:
+      - file.name
+      - created
+    sort:
+      - property: created
+        direction: DESC

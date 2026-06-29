@@ -1,0 +1,21 @@
+# Large binaries - keep local, don't sync to VPS
+*.mp4
+*.mov
+*.MP4
+*.MOV
+*.pdf
+*.PDF
+*.epub
+*.docx
+*.pptx
+
+# Obsidian internal
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini

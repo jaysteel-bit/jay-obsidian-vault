@@ -1,0 +1,24 @@
+filters:
+  and:
+    - note.categories.contains(link("Ideas"))
+    - '!file.name.contains("Template")'
+properties:
+  file.name:
+    displayName: Idea
+  note.created:
+    displayName: Created
+  note.status:
+    displayName: Status
+  note.rating:
+    displayName: Rating
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - created
+      - status
+      - rating
+    sort:
+      - property: created
+        direction: DESC

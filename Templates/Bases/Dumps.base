@@ -1,0 +1,41 @@
+filters:
+  and:
+    - note.categories.contains(link("Dumps"))
+    - '!file.name.contains("Template")'
+properties:
+  file.name:
+    displayName: Dump
+  note.project:
+    displayName: Project
+  note.topic:
+    displayName: Topic
+  note.created:
+    displayName: Created
+  note.review_date:
+    displayName: Reviewed
+views:
+  - type: table
+    name: By Project
+    order:
+      - file.name
+      - project
+      - topic
+      - created
+      - review_date
+    sort:
+      - property: project
+        direction: ASC
+      - property: created
+        direction: DESC
+  - type: table
+    name: By Topic
+    order:
+      - file.name
+      - topic
+      - project
+      - created
+    sort:
+      - property: topic
+        direction: ASC
+      - property: created
+        direction: DESC

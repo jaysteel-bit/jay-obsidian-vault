@@ -1,0 +1,258 @@
+﻿# 404 Error Page — exoent.co/404
+
+**Custom 404** page displayed when a visitor lands on a broken or non-existent URL. On-brand design that redirects visitors back into the funnel rather than leaving them stranded.
+
+**Live URL:** Triggered on any 404 error across exoent.co
+
+---
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found | Exo Enterprise</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/favicon.png">
+
+    <!-- Fonts: Urbanist (Exo) & Playfair Display (Steel) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1715251733215249');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1715251733215249&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+
+  <!-- PostHog Analytics -->
+    <script>
+        !function (t, e) { var o, n, p, r; e.__SV || (window.posthog = e, e._i = [], e.init = function (i, s, a) { function g(t, e) { var o = e.split("."); 2 == o.length && (t = t[o[0]], e = o[1]), t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))) } } (p = t.createElement("script")).type = "text/javascript", p.async = !0, p.src = s.api_host.replace(".i.posthog.com", "-assets.i.posthog.com") + "/static/array.js", (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(p, r); var u = e; for (void 0 !== a ? u = e[a] = [] : a = "posthog", u.people = u.people || [], u.toString = function (t) { var e = "posthog"; return "posthog" !== a && (e += "." + a), t || (e += " (stub)"), e }, u.people.toString = function () { return u.toString(1) + ".people (stub)" }, o = "init capture register register_once register_for_session unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group identify setPersonProperties setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags resetGroups onFeatureFlags addFeatureFlagsHandler onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep".split(" "), n = 0; n < o.length; n++)g(u, o[n]); e._i.push([i, s, a]) }, e.__SV = 1) }(document, window.posthog || []);
+        posthog.init('phc_N1Clw6iwKeyIqhNrxd1cejjCuvKXPtW17bn9h6ZUw9b', {
+            api_host: 'https://us.i.posthog.com',
+            defaults: '2025-11-30'
+        })
+    </script>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@0.344.0"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Urbanist', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    },
+                    colors: {
+                        emerald: {
+                            400: '#34d399',
+                            500: '#10b981',
+                            900: '#064e3b',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #050505;
+            color: #f5f5f5;
+            overflow: hidden;
+            /* Prevent scrollbars from canvas */
+        }
+    </style>
+</head>
+
+<body class="w-full h-screen relative flex justify-center items-center">
+
+    <!-- 1. Background Animation (Canvas) -->
+    <canvas id="circle-animation" class="absolute inset-0 w-full h-full z-0"></canvas>
+
+    <!-- 2. Message Display -->
+    <div id="message-container"
+        class="absolute flex flex-col justify-center items-center w-[90%] h-[90%] z-10 transition-opacity duration-1000 opacity-0">
+        <div class="flex flex-col items-center text-center">
+
+            <!-- Branding Tag -->
+            <div class="mb-6 px-3 py-1 rounded-full border border-white/10 bg-white/5 backdrop-blur-lg">
+                <span class="text-[10px] uppercase font-medium text-emerald-500 tracking-[0.2em]"
+                    style="text-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 1px 1px rgba(0,0,0,0.75);">Exo Enterprise</span>
+            </div>
+
+            <div class="text-4xl md:text-[50px] font-semibold text-white/90 mb-2 tracking-tight"
+                style="text-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 1px 1px rgba(0,0,0,0.75);">
+                Page Not Found
+            </div>
+
+            <div class="text-[100px] md:text-[150px] font-serif font-bold text-white/30 leading-none select-none"
+                style="text-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 1px 1px rgba(0,0,0,0.75);">
+                404
+            </div>
+
+            <div class="text-base md:text-lg text-emerald-900 max-w-md mx-auto mt-6 font-bold leading-relaxed">
+                You didn’t break the internet, but we couldn’t find what you are looking for. Let’s get you back
+                on track to Becoming Extraordinary.
+            </div>
+
+            <div class="flex flex-col sm:flex-row gap-4 mt-10">
+                <button onclick="window.location.href='x-scale.html'"
+                    class="group px-8 py-3 bg-transparent border border-emerald-500/30 text-emerald-500 hover:bg-emerald-500/10 transition-all duration-300 rounded-lg flex items-center justify-center gap-2 hover:scale-105">
+                    <i data-lucide="trending-up" class="w-4 h-4 transition-transform group-hover:scale-110"></i>
+                    <span>Scale Your Business</span>
+                </button>
+
+                <button onclick="window.location.href='index.html'"
+                    class="group px-8 py-3 bg-emerald-500 text-black font-medium hover:bg-emerald-400 transition-all duration-300 rounded-lg flex items-center justify-center gap-2 hover:scale-105 shadow-[0_0_20px_-5px_rgba(16,185,129,0.3)]">
+                    <i data-lucide="home" class="w-4 h-4"></i>
+                    <span>Go Home</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Initialize Icons
+        lucide.createIcons();
+
+        // ---------------------------------------------------------
+        // logic 1: Message Display Fade In
+        // ---------------------------------------------------------
+        document.addEventListener('DOMContentLoaded', () => {
+            const messageContainer = document.getElementById('message-container');
+            setTimeout(() => {
+                messageContainer.classList.remove('opacity-0');
+                messageContainer.classList.add('opacity-100');
+            }, 500); // Slightly faster than 1200ms for better UX
+        });
+
+        // ---------------------------------------------------------
+        // logic 2: Circle Animation (Ported from React)
+        // ---------------------------------------------------------
+        const canvas = document.getElementById('circle-animation');
+        const context = canvas.getContext('2d');
+
+        let animationFrameId;
+        let timer = 0;
+        let circles = [];
+
+        function initCircles() {
+            circles = [];
+            // Create 300 circles
+            for (let index = 0; index < 300; index++) {
+                // Random position logic from original code
+                // x: random between (width * 1.2) and (width * 3) -> starts off-screen right
+                const randomX = Math.floor(
+                    Math.random() * ((canvas.width * 3) - (canvas.width * 1.2) + 1)
+                ) + (canvas.width * 1.2);
+
+                // y: random between (height * -0.2) and (height)
+                const randomY = Math.floor(
+                    Math.random() * ((canvas.height) - (canvas.height * (-0.2) + 1))
+                ) + (canvas.height * (-0.2));
+
+                const size = canvas.width / 1000; // Base size relative to width
+
+                circles.push({ x: randomX, y: randomY, size });
+            }
+        }
+
+        function draw() {
+            timer++;
+            context.setTransform(1, 0, 0, 1, 0, 0);
+
+            // Branding adjustment: Use a very subtle opacity for the circles so they don't distract
+            // or use specific brand colors if desired. The original used 'white'.
+            // Let's use a subtle emerald hint or just white with low opacity.
+            context.fillStyle = 'rgba(255, 255, 255, 0.5)';
+
+            context.clearRect(0, 0, canvas.width, canvas.height);
+
+            const distanceX = canvas.width / 80; // Speed moving left
+            const growthRate = canvas.width / 1000;
+
+            circles.forEach((circle) => {
+                context.beginPath();
+
+                // Phase 1: Fast movement and growth
+                if (timer < 65) {
+                    circle.x = circle.x - distanceX;
+                    circle.size = circle.size + growthRate;
+                }
+
+                // Phase 2: Slow down
+                if (timer > 65 && timer < 500) {
+                    circle.x = circle.x - (distanceX * 0.02);
+                    circle.size = circle.size + (growthRate * 0.2);
+                }
+
+                context.arc(circle.x, circle.y, circle.size, 0, 360);
+                context.fill();
+            });
+
+            // Stop after 500 frames (approx 8 seconds at 60fps)
+            if (timer > 500) {
+                if (animationFrameId) {
+                    cancelAnimationFrame(animationFrameId);
+                }
+                return;
+            }
+
+            animationFrameId = requestAnimationFrame(draw);
+        }
+
+        function handleResize() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+
+            // Reset animation on resize
+            timer = 0;
+            if (animationFrameId) {
+                cancelAnimationFrame(animationFrameId);
+            }
+            // context.reset() is not supported in all browsers, use clearRect and manual reset if needed.
+            // But since we redraw every frame and setTransform in draw(), clearRect is enough.
+            context.clearRect(0, 0, canvas.width, canvas.height);
+
+            initCircles();
+            draw();
+        }
+
+        // Initialize
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        initCircles();
+        draw();
+
+        // Event Listeners
+        window.addEventListener('resize', handleResize);
+
+    </script>
+</body>
+
+</html>
+```
