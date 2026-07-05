@@ -2,5 +2,6 @@
   "google-drive-sync",
   "templater-obsidian",
   "pinned-notes",
-  "obsidian-local-rest-api"
+  "obsidian-local-rest-api",
+  "obsidian-git"
 ]
