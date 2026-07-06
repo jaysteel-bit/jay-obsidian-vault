@@ -1,6 +1,8 @@
 {
   "refreshToken": "1//051f2e0FVtobxCgYIARAAGAUSNwF-L9Ir4K62sS-UpqYgMluyXMgPIXd6SJt2SQCe2qTg8lwlhnpuBKuh3cdsDnQfpmc2W2YbPVU",
-  "operations": {},
+  "operations": {
+    "Test 2.md": "modify"
+  },
   "driveIdToPath": {
     "10aUVJnsqs__zOaVFFuYT5KhRYAIUp_LQ": ".obsidian/zk-prefixer.json",
     "19AKPFHaKMjZKOmdLjCzE8tr-UG34edi3": ".obsidian/types.json",
@@ -249,8 +251,9 @@
     "1h4B-BeMqJIzUk1vLSUYJLiaoOs6d_RcG": "Attachments/google-ai.txt",
     "19evGd3J3qP9whm70sZi2yH__xuU-bcMN": "Attachments/google-ai 2.txt",
     "1rMHFnF0384ZhDvqv-N9lOCk0OQAvuY_W": "Attachments/google-ai 1.txt",
-    "1FH-EEWe_byPKcItL2T4QbMmojoy3p_bC": "Steel Giveback or Luxury Positioned Nightmare?.md"
+    "1FH-EEWe_byPKcItL2T4QbMmojoy3p_bC": "Steel Giveback or Luxury Positioned Nightmare?.md",
+    "1402tW8xTcfsV3hUGopSwySBeA0K0p2ku": ".obsidian/plugins/obsidian-git/data.json"
   },
-  "lastSyncedAt": 1783309797044,
-  "changesToken": "13003"
+  "lastSyncedAt": 1783368426569,
+  "changesToken": "13011"
 }

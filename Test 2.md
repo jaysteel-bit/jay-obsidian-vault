@@ -3,7 +3,7 @@ This is a connection/sync test
 ---
 iPhone 1 business: **Created this file
 
-iPhone 2 personal: 
+iPhone 2 personal:  
 
 VPS Hermes: ✅ Seen — sync confirmed 2026-07-06 05:50 CEST
 
