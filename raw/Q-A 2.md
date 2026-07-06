@@ -128,3 +128,7 @@ Instead of writing a complex custom script from scratch, you can use an open-sou
 While this is incredibly fast, it can create a massive amount of code very quickly. If left completely unattended, the code can deviate from your original vision.  
 
 **Your Role:** You do not need to check the code, but you must check the SYSTEM_STATE.md file once or twice a day. If you see the visual layout or the features moving in a direction you didn't intend, you change the text in the product management file, and the Supervisor will automatically re-route the sub-agents to follow your new instructions.
+
+---
+
+Also, check your new LOOP ENGINEERING if you have enabled any loop capabilities with your agent harnesses
