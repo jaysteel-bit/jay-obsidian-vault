@@ -5,7 +5,7 @@ iPhone 1 business: **Created this file
 
 iPhone 2 personal: 
 
-VPS Hermes:
+VPS Hermes: ✅ Seen — sync confirmed 2026-07-06 05:50 CEST
 
 Hermes Local PC:
 
