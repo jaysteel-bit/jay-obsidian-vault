@@ -248,28 +248,6 @@ Future Claude sessions should reference this file when:
 - Understanding why things are organized the way they are
 - Implementing new categories or bases
 - Troubleshooting how a specific note type should work
-
----
-
-## The Operating Loop (the Karpathy layer — agent-owned)
-
-> Added 2026-06-03. This vault has two complementary minds: **Steph Ango** governs *capture* (everything above — properties, categories, Bases, templates; Jay's job, mobile-first). **Karpathy's LLM-wiki pattern** governs *compilation* (this section — the agent reads raw notes and maintains a compiled, interlinked wiki; the agent's job). They are two halves of one system, not competing systems. Jay captures; the agent maintains; **Jay almost never edits the wiki layer by hand.**
-
-**The three wiki-layer files (agent-maintained, do not hand-edit):**
-- `index.md` — narrative catalog of the vault. Read this FIRST when answering any query, then drill into the pages it links.
-- `log.md` — append-only timeline. Format: `## [YYYY-MM-DD] action | description`. Append an entry every time you ingest, query meaningfully, or lint. Never delete entries.
-- `raw/` — immutable source documents (articles, transcripts, PDFs). Read from, never write to.
-
-**The loop — four verbs:**
-1. **Ingest** — a new note or source appears → read it, write/update its summary + any relevant entity/concept pages, update `index.md`, append to `log.md`. One source may touch 5–15 pages. You do the cross-referencing; Jay just reads the result.
-2. **Query** — Jay asks a question → read `index.md` first, drill into relevant pages, answer with citations. **File good answers back into the vault as new pages** so exploration compounds.
-3. **Lint** — periodically (monthly) → health-check: contradictions, stale claims, orphan pages, missing cross-links, concepts deserving their own page, gaps fillable by web search. Output a short punch list.
-4. **Promote** — when a note stabilizes into a *decision/fact* (referenced 2+ times, or it's become a price/offer/commitment) → it graduates to its canonical home in the `agent-workspace` repo. Add `promoted-to: "agent-workspace/<path>"` to the note's frontmatter and a one-line forward link at the top. **Rule: thinking lives here (the Forge); decisions live in agent-workspace (the Reservoir).**
-
-**Cadence:** run Ingest per session that touches the vault (or via a scheduled Hermes job once a GitHub remote exists). Lint monthly. Because Jay is on mobile ~90% of the time, *every* maintenance step is the agent's job — never design one that needs Jay at a desktop.
-
-**Cross-repo authority:** this section governs the loop *inside* the vault. The full Forge↔Reservoir↔Product pipeline lives in `agent-workspace/KNOWLEDGE-SYSTEM.md` — consult it for promotion targets and the productization (exo-ai.co) connection.
-
----
+--- 
 
 [!NOTE] **This user usually uses this vault on mobile primarily. Only 5-10% of the time is he on a desktop with this vault. 

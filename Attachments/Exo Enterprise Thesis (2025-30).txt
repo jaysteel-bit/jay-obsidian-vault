@@ -17,14 +17,12 @@ From these three primitives you can generate literally every new AI department (
 - brand:post=published
 → same engine, different label.
 
-Business Model = Build–Operate–Manage/Transfer (B.O.M./T.) with a Trojan-horse twist
-- Phase 1 (Build): 30-day stop-gap → 20–40% speed lift, guaranteed. We keep working until the client's defined dream outcome is achieved. The guarantee is conditional — terms are structured around key activation points in the client journey (reverse-engineered from successful outcomes at onboarding). This structure simultaneously protects delivery quality, guides clients through the exact milestones that drive retention and ROI, and reduces downstream churn — the activation points are both the guarantee conditions and the client success roadmap.
+Business Model = Build–Operate–Transfer (B.O.T.) with a Trojan-horse twist
+- Phase 1 (Build): 30-day stop-gap → 20–40 % speed lift or [...] some version of guarantee(weather conditional or non-conditional)
 - Phase 2 (Operate): we run the full AI department for 4–9 months, embedding FlowOS
-- Phase 3 — Choose path:
-  → Manage (ongoing): we continue running the department indefinitely as a retained managed service — for clients who want the output without taking ownership. Recurring revenue, no transfer event.
-  → Transfer: client owns the frozen instance, but…
-    → Predict / Fix / Replay / new modules stay SaaS-only behind an API key
-    → Every additional department (Deal OS = revenue and profit module, ExoLaunch = brand/content module) is a paid namespace unlock
+- Phase 3 (Transfer): client owns the frozen instance, but…
+  → Predict / Fix / Replay / new modules stay SaaS-only behind an API key
+  → Every additional department (Deal OS = revenue and profit module, ExoLaunch = brand/content module) is a paid namespace unlock
 
 Defensibility = Data Gravity + Network Effects (not code)
 - After 12–24 months a client has 2–20 million proprietary diffs + “why” annotations
