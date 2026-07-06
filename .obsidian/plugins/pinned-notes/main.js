@@ -82,10 +82,10 @@ var v4_default = v4;
 // main.ts
 var PinnedNote = class {
   constructor(title, path, icon) {
-    this.title = title;
-    this.path = path;
-    this.icon = icon;
     this.id = v4_default();
+    this.icon = icon;
+    this.path = path;
+    this.title = title;
   }
 };
 var DEFAULT_SETTINGS = {
@@ -238,7 +238,7 @@ var FileSuggest = class extends import_obsidian.AbstractInputSuggest {
     const files = [];
     const inputLower = inputStr.toLowerCase();
     abstractFiles.forEach((file) => {
-      if (file instanceof import_obsidian.TFile && ["md", "canvas", "base"].contains(file.extension) && file.path.toLowerCase().contains(inputLower)) {
+      if (file instanceof import_obsidian.TFile && ["md", "canvas"].contains(file.extension) && file.path.toLowerCase().contains(inputLower)) {
         files.push(file);
       }
     });
@@ -248,14 +248,10 @@ var FileSuggest = class extends import_obsidian.AbstractInputSuggest {
     if (file.extension == "md") {
       el.setText(trimFile(file));
     } else {
-      if (file.extension == "canvas") {
-        el.setText(file.path.slice(0, -7));
-      } else if (file.extension == "base") {
-        el.setText(file.path.slice(0, -5));
-      }
+      el.setText(file.path.slice(0, -7));
       el.insertAdjacentHTML(
         "beforeend",
-        `<div class="nav-file-tag" style="display:inline-block;vertical-align:middle">${file.extension}</div>`
+        `<div class="nav-file-tag" style="display:inline-block;vertical-align:middle">canvas</div>`
       );
     }
   }
