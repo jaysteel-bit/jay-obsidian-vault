@@ -1,4 +1,4 @@
-How to Do It Right (Multi-Agent Workflows)
+## Connecting Open-Source Projects together to fast track Exo development 
 
 
 Using an AI for this is not trivial, nor is it "plug-and-play". While AI is fantastic at bootstrapping, refactoring, and connecting services, piecing together multiple different open-source projects into a custom, cohesive software connected to your database is an advanced architectural task that requires significant human oversight. 
