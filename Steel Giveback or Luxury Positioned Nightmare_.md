@@ -13,8 +13,8 @@ tags:
   - steel
   - ecommerce
   - strategy
-acted-on: true
-backlog: false
+acted-on: false
+backlog: true
 ---
 
 ## Quick Thoughts
