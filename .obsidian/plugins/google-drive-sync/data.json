@@ -2,9 +2,25 @@
   "refreshToken": "1//051f2e0FVtobxCgYIARAAGAUSNwF-L9Ir4K62sS-UpqYgMluyXMgPIXd6SJt2SQCe2qTg8lwlhnpuBKuh3cdsDnQfpmc2W2YbPVU",
   "operations": {
     "WIKI": "create",
-    "WIKI/README": "create",
-    "WIKI/README/llm-wiki.md": "create",
-    "WIKI/README/llm-knowledge-base.md": "create"
+    "WIKI/index.md": "create",
+    "WIKI/log.md": "create",
+    "Q-A AI CODING SYSTEM DRAFT.md": "create",
+    "Q-A BUILDING THE ACTUAL SOFTWARE.md": "create",
+    "WIKI/raw": "create",
+    "WIKI/references": "create",
+    "WIKI/references/llm-knowledge-base.md": "create",
+    "WIKI/references/llm-wiki.md": "create",
+    "WIKI/SCHEMA.md": "create",
+    "Vault-Directions.md": "modify",
+    "agents/CLAUDE.md": "modify",
+    "WIKI-SETUP-LOG.md": "create",
+    "vault-index.md": "delete",
+    "vault-log.md": "delete",
+    "raw/Q-A AI CODING SYSTEM DRAFT.md": "delete",
+    "raw/Q-A BUILDING THE ACTUAL SOFTWARE.md": "delete",
+    "raw": "delete",
+    "index.md": "delete",
+    "log.md": "delete"
   },
   "driveIdToPath": {
     "10aUVJnsqs__zOaVFFuYT5KhRYAIUp_LQ": ".obsidian/zk-prefixer.json",
@@ -257,6 +273,6 @@
     "1FH-EEWe_byPKcItL2T4QbMmojoy3p_bC": "Steel Giveback or Luxury Positioned Nightmare?.md",
     "1402tW8xTcfsV3hUGopSwySBeA0K0p2ku": ".obsidian/plugins/obsidian-git/data.json"
   },
-  "lastSyncedAt": 1783437986830,
+  "lastSyncedAt": 1783440087713,
   "changesToken": "13224"
 }
