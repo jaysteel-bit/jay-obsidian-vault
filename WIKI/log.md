@@ -18,3 +18,11 @@
 - Updated `Vault-Directions.md` — relaxed "no folders" rule, documented WIKI/ folder
 - Updated `agents/CLAUDE.md` — added pointer to WIKI/SCHEMA.md for wiki operations
 - Created `WIKI-SETUP-LOG.md` at vault root documenting the full restructure
+
+### [2026-07-07] ingest | Hormozi — "The Only 4 Ways To Scale A Service Business"
+- Source: YouTube transcript (https://www.youtube.com/watch?v=Dq3R3uS0sQ4)
+- Saved to `raw/hormozi-4-ways-to-scale-service-business.md` with frontmatter + sha256
+- Created `concepts/four-ways-to-scale-service-business.md` — framework breakdown, decision matrix, Exo relevance
+- Created `entities/alex-hormozi.md` — entity page with frameworks, portfolio, quotes
+- Updated `index.md` — added 3 new pages (1 entity, 1 concept, 1 raw source)
+- Deleted original transcript from `agent-workspace/NOTEPAD/Transcripts/yt-transcript.md`

@@ -20,7 +20,12 @@
     "raw/Q-A BUILDING THE ACTUAL SOFTWARE.md": "delete",
     "raw": "delete",
     "index.md": "delete",
-    "log.md": "delete"
+    "log.md": "delete",
+    "WIKI/raw/hormozi-4-ways-to-scale-service-business.md": "create",
+    "WIKI/concepts": "create",
+    "WIKI/concepts/four-ways-to-scale-service-business.md": "create",
+    "WIKI/entities": "create",
+    "WIKI/entities/alex-hormozi.md": "create"
   },
   "driveIdToPath": {
     "10aUVJnsqs__zOaVFFuYT5KhRYAIUp_LQ": ".obsidian/zk-prefixer.json",
