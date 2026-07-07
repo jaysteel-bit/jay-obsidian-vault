@@ -1,6 +1,11 @@
 {
   "refreshToken": "1//051f2e0FVtobxCgYIARAAGAUSNwF-L9Ir4K62sS-UpqYgMluyXMgPIXd6SJt2SQCe2qTg8lwlhnpuBKuh3cdsDnQfpmc2W2YbPVU",
-  "operations": {},
+  "operations": {
+    "WIKI": "create",
+    "WIKI/README": "create",
+    "WIKI/README/llm-wiki.md": "create",
+    "WIKI/README/llm-knowledge-base.md": "create"
+  },
   "driveIdToPath": {
     "10aUVJnsqs__zOaVFFuYT5KhRYAIUp_LQ": ".obsidian/zk-prefixer.json",
     "19AKPFHaKMjZKOmdLjCzE8tr-UG34edi3": ".obsidian/types.json",
@@ -252,6 +257,6 @@
     "1FH-EEWe_byPKcItL2T4QbMmojoy3p_bC": "Steel Giveback or Luxury Positioned Nightmare?.md",
     "1402tW8xTcfsV3hUGopSwySBeA0K0p2ku": ".obsidian/plugins/obsidian-git/data.json"
   },
-  "lastSyncedAt": 1783368524052,
-  "changesToken": "13155"
+  "lastSyncedAt": 1783437986830,
+  "changesToken": "13224"
 }

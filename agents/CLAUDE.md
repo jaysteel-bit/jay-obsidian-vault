@@ -19,6 +19,7 @@ Claude may be called upon to assist in many ways. Sometimes directly using **“
 
 ### Folder Organization
 - **Root** - Personal evergreen notes, brain dumps, and core thinking
+- **WIKI/** - The compiled knowledge layer (AI-maintained, based on Karpathy's LLM Wiki pattern). Contains `SCHEMA.md` (conventions), `index.md` (content catalog), `log.md` (action log), `raw/` (immutable sources), `references/` (pattern docs). **Read `WIKI/SCHEMA.md` before any wiki operation.**
 - **Templates/** - Markdown templates for creating consistent note types (Book, Content, Dump, Admin, Project, Meeting, etc.)
 - **Templates/Bases/** - Obsidian Base files that create queryable database views of notes
 - **Categories/** - Hub files that display organized views of notes by category

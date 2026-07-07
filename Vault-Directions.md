@@ -201,14 +201,18 @@ Properties (top YAML metadata) are how the system auto-organizes.
 
 ---
 
-### 5. **Removed: Folders for Organization**
+### 5. **Folders Are Fine (Updated 2026-07-07)**
 
-**What we didn't keep:**
+The old rule was "no folders for organization — use properties instead." That rule is **relaxed**. Folders are fine where they serve a clear structural purpose:
+
+- **`WIKI/`** — the compiled knowledge layer (AI-maintained, based on Karpathy's LLM Wiki pattern). Contains `SCHEMA.md`, `index.md`, `log.md`, `raw/`, `references/`, and future entity/concept pages. See `WIKI/SCHEMA.md` for full conventions.
+- **`Categories/`, `Templates/`, `References/`, `Daily/`, `Attachments/`** — existing structural folders that hold what properties can't.
+
+Personal notes still live in root and self-organize through properties. Folders don't replace properties — they hold compiled knowledge, immutable sources, and app config. The principle "capture first, organize retroactively" still applies to personal notes. But when a system needs its own home (like the wiki), a folder is the right tool.
+
+**What we didn't keep from the original CEO template:**
 - Clippings folder (merged into References)
-- Rigid sub-folders (they force limiting decisions)
 - Overly specific categories (Movies, Shows, Recipes, etc.)
-
-**Why:** You don't organize *at creation time*. You organize *retroactively* through properties and links.
 
 ---
 
