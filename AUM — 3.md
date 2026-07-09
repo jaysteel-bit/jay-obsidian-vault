@@ -111,7 +111,7 @@ The danger of BOMT is that if you "Transfer" everything, you destroy your asset 
 
 - The Transfer: Instead of transferring the tech back to the legacy parent company, you spin the operational unit out into a new, highly efficient, AI-native Joint Venture.
 - The Catch: The parent company owns part, but your firm retains a permanent equity stake + an AUM management fee for keeping Flow OS running.
-- Investor Value: You transform from a consultant into a holding company of hyper-efficient, AI-driven corporate spin-offs.
+- Investor Value: You transform from a consultant into a holding company of hyper-efficient, AI-driven corporate spin-offs. — Though you may not like this one due to your other response, I thought I’d still share it.
 
 ---
 
@@ -126,7 +126,7 @@ The danger of BOMT is that if you "Transfer" everything, you destroy your asset 
 
 ## The Verdict
 
-Stick with the AUM framing for how you _measure_ and _value_ your data inside the company, but use BOMT as the commercial vehicle to sell it to the enterprise. It removes the corporate antibodies, speeds up your sales cycle, and lets you extract maximum value at the point of transfer.
+Stick with the AUM framing for how you _measure_ and _value_ your data in the company, but use BOMT as the commercial vehicle to sell it to the enterprise. It removes the corporate antibodies, speeds up your sales cycle, and lets you extract maximum value at the point of transfer.
 
 If you want to map out the financial mechanics of this vehicle, let me know if we should draft:
 
