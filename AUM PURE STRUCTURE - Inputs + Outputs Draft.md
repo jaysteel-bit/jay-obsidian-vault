@@ -124,8 +124,7 @@ How many clients can you serve at each stage without adding proportional headcou
 **Pipeline efficiency improves** because case studies compound and the Steel ecosystem generates warm leads. But close rate may drop as you go upmarket ($15M–$50M ARR clients are harder to close).
 
 ---
-
-- 
+#### Quick Stop
 - **Question for you:** What counts as a "decision"? A status change? An autonomous action? A human-approved diff? This definition drives the entire revenue math.
 - Value-share savings are provable
 	 - [ ] Audit trail must be irrefutable
@@ -148,8 +147,7 @@ How many clients can you serve at each stage without adding proportional headcou
 	- Year 4: 200+ qualified leads
 	- Where do they come from? VSL conversion + SteelSpeaks content + affiliate referrals + Steel Global community + other marketing channels
 	- **Current state:** VSL in production, no paid traffic, no case studies yet. Pipeline = 0.
-
-- **Current state:** VSL in production, no paid traffic, no case studies yet. Pipeline = 0.
+- Think about **The Unit Economics** early for One client and so on.
 
 ---
 
