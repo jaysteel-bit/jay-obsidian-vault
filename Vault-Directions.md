@@ -6,7 +6,7 @@ notes: 3/6/26 - AI Agents can update for better productive use; note and date ch
 (https://www.youtube.com/watch?v=Dq3R3uS0sQ4&t=321s)
 # Vault Directions: How This Vault Works
 
-This vault is based on the CEO's (Steph Ango) bottom-up note-taking philosophy, with customizations for your specific needs. This guide explains the system architecture and how to use it effectively.
+This vault is based on the (Steph Ango) bottom-up note-taking philosophy, + Karpathy 2nd Brain model; with customizations for your specific needs. This guide explains the system architecture and how to use it effectively.
 
 ---
 ### Using Templates on Mobile with Templater Plugin
