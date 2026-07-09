@@ -1,0 +1,2 @@
+- Exo AI proactively walks back goals - targets with you: xyz
+- Exo AI can and will proactively monitor your company — and let you know if you shout out employees who deserve it and motivate others through group wide announcements and personal direct messages/voice messages. [Wondering if we should gate these to AURA namespace/upsell unlock or maybe only gatekeep the shouts and motivational pushes]
