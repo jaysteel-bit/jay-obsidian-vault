@@ -49,13 +49,13 @@ decisions > (services fee - platform fee - (savings × %)) / price per decision
 
 ## Concrete Example (hypothetical, structural — not real prices)
 
-| Variable | Value | Why |
-|---|---|---|
-| Services fee (pure consulting/mgmt) | $5,000/mo | Opportunity cost — what you'd make the old way |
-| Platform fee (AUM base subscription) | $1,500/mo | Covers infrastructure, Tier 1 + Tier 3 |
-| Avg savings proven/mo (Tier 4) | $8,000 | Supply chain or sales optimization |
-| Value-share % | 15% | Of proven savings |
-| Price per Tier 2 decision | $0.50 | Per agent action |
+| Variable                             | Value      | Why                                            |
+| ------------------------------------ | ---------- | ---------------------------------------------- |
+| Services fee (pure consulting/mgmt)  | ~$5,000/mo | Opportunity cost — what you'd make the old way |
+| Platform fee (AUM base subscription) | ~$1,500/mo | Covers infrastructure, Tier 1 + Tier 3         |
+| Avg savings proven/mo (Tier 4)       | $8,000     | Supply chain or sales optimization             |
+| Value-share %                        | 15%        | Of proven savings                              |
+| Price per Tier 2 decision            | $0.50      | Per agent action                               |
 
 **Value-share revenue = $8,000 × 15% = $1,200/mo**
 
