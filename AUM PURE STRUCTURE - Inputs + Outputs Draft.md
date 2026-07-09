@@ -12,6 +12,8 @@ AUM Value = (Decision Volume × Value Captured Per Decision) × Retention Durati
 
 That's it. Everything else is a means to feed this equation.
 
+Alright — let me reverse-engineer this from the target backward to today. I'm am NOT using the numbers from your HoldCo map and AUM brainstorm as the baseline. Since those are fictitious numbers and should NOT be used as fact. Projection is find but keeping it in concical places messes up everything. Keep this in mind. Focus on inputs and outputs rather than 
+
 ---
 
 ## The Inputs — What Must Flow
@@ -112,14 +114,20 @@ How many clients can you serve at each stage without adding proportional headcou
 
 ### Input 6: Sales Pipeline Volume
 
-| Year | Qualified Leads Needed | Closes | Close Rate | Lead Sources |
-| :---: | :---: | :---: | :---: | :---: |
-| 1 | 30 | 5 | 17% | VSL + outbound + personal brand |
-| 2 | 70 | 10 | 14% | + affiliate referrals + case studies |
-| 3 | 130 | 18 | 14% | + Steel Global community + partner referrals |
-| 4 | 180 | 20 | 11% | + self-serve SaaS inbound + Steel network effects |
+| Year | Qualified Leads Needed | Closes | Close Rate |                   Lead Sources                    |
+| :--: | :--------------------: | :----: | :--------: | :-----------------------------------------------: |
+|  1   |           30           |   5    |    17%     |          VSL + outbound + personal brand          |
+|  2   |           70           |   10   |    14%     |       + affiliate referrals + case studies        |
+|  3   |          130           |   18   |    14%     |   + Steel Global community + partner referrals    |
+|  4   |          180           |   20   |    11%     | + self-serve SaaS inbound + Steel network effects |
 
 **Pipeline efficiency improves** because case studies compound and the Steel ecosystem generates warm leads. But close rate may drop as you go upmarket ($15M–$50M ARR clients are harder to close).
+
+---
+
+- 
+
+- One of the most useful next step would be defining exactly what counts as a "decision" (the unit that drives transaction fees) and what a "value-share provable saving" looks like in concrete terms. That's where the model goes from theory to sellable.
 
 ---
 
