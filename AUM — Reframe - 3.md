@@ -1,10 +1,27 @@
+---
+categories:
+  - "[[Dumps]]"
+project: []
+topic:
+type: dump
+created:
+  "{ date }":
+review_date:
+tags:
+  - brain-dump
+acted-on: false
+attachments:
+backlog:
+---
+
+---
+## Quick Thoughts + AI Conversation
+
 This is a profound strategic reframe. You are shifting your business from a linear service model (selling human hours) to an exponential network model (managing data equity).
 
 By treating client operations as an asset class (AUM), every consulting hour spent is actually an R&D investment to build your software’s moat.
 
 Here is a breakdown of how this model operates across value creation, structural lock-in, and unit economics.
-
----
 
 ## 1. The Value Reframe: From Expense to Data Equity
 
@@ -135,3 +152,22 @@ If you want to map out the financial mechanics of this vehicle, let me know if w
 - A financial model scenario comparing a flat SaaS fee to a BOMT Transfer payout
 
 Let me know which piece of the BOMT vehicle to design next.
+
+---
+
+## Key Insights
+
+[Extract main takeaways as you review this dump]
+
+---
+
+## Action Items / Next Steps
+
+[What should happen with these thoughts? Convert to Project? Create an Idea? Admin task?]
+
+---
+
+## Notes
+
+**WORKFLOW:** This is a capture zone for business thoughts and tangents. When an idea hits, create a new dump note. Review periodically (weekly recommended) to extract insights into Projects, Ideas, or Admin tasks. Once reviewed, update `review_date` and archive by moving it to a completed state.
+
