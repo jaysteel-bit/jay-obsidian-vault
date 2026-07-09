@@ -131,9 +131,25 @@ How many clients can you serve at each stage without adding proportional headcou
 	 - [ ] Audit trail must be irrefutable
 	 - [ ] Client must agree to the measurement methodology before signing
 	 - [ ] "We saved you $X" must survive finance department scrutiny
-**Without this:** Path C collapses, you're stuck on Path B (capped at \~$50k/yr per client)
+	**Without this:** Path C collapses, you're stuck on Path B (capped at \~$50k/yr per client)
 - One of the most useful next step would be defining exactly what counts as a "decision" (the unit that drives transaction fees) and what a "value-share provable saving" looks like in concrete terms. That's where the model goes from theory to sellable. — Important
 - **The #1 constraint:** Flow OS instrumentation.
+- Client retention stays above 85%
+	- Every churned client = lost AUM base + lost diffs + lost transaction revenue
+	- The structural stickiness (corporate amnesia) helps, but only if Flow OS is deeply embedded.
+	- **Without this:** you're running on a treadmill — new clients replace churning ones, no compounding
+- Delivery capacity scales without linear headcount
+	- Year 1: Jay + 1 → 5 clients
+	- Year 4: 10 people → 50 clients (5:1 ratio, not 1:1)
+	- This requires: documented playbooks, partner certifications, Flow OS doing the heavy lifting
+	- **Without this:** you're capped at \~8–10 clients regardless of demand
+- Sales pipeline volume
+	- Year 1: 30 qualified leads
+	- Year 4: 200+ qualified leads
+	- Where do they come from? VSL conversion + SteelSpeaks content + affiliate referrals + Steel Global community + other marketing channels
+	- **Current state:** VSL in production, no paid traffic, no case studies yet. Pipeline = 0.
+
+- **Current state:** VSL in production, no paid traffic, no case studies yet. Pipeline = 0.
 
 ---
 
