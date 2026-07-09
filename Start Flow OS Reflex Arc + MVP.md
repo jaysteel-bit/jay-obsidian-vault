@@ -1,7 +1,8 @@
 ---
 categories:
   - "[[Dumps]]"
-project: []
+project:
+  - "[[Exo]]"
 topic:
 type: dump
 created:
@@ -11,12 +12,12 @@ tags:
   - brain-dump
 acted-on: false
 attachments:
-backlog:
+backlog: true
 ---
 
-## Quick Thoughts
+## Quick Thoughts + AI Conversation 
 
-******
+***==Q: Answer quickly: Can Google’s earlier mentioned tool help me create the Tiny fast reactive agents I need to trst the architecture idea or no?==***
 
 
 Yes — for testing the architecture, not for production.
