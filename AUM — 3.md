@@ -130,7 +130,7 @@ Stick with the AUM framing for how you _measure_ and _value_ your data in th
 
 If you want to map out the financial mechanics of this vehicle, let me know if we should draft:
 
-- The legal boundaries of what is Transferred vs. what Flow OS Retains
+- The legal boundaries of what is Transferred vs. what Flow OS / Exo Holdings Retains
 - The Transfer Trigger metrics (Is it based on time, e.g., 36 months, or Decision Volume milestones?)
 - A financial model scenario comparing a flat SaaS fee to a BOMT Transfer payout
 
