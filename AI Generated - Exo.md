@@ -1,65 +1,75 @@
-**Below is all AI Generated:**
-Got enough to summarize.
+---
+categories:
+  - "[[Dumps]]"
+project:
+  - "[[Exo]]"
+topic: Exo AI browser extension — AI-generated summary from local files
+type: dump
+created: 2026-07-09
+review_date:
+tags:
+  - brain-dump
+  - exo-ext
+  - browser-extension
+acted-on: false
+attachments:
+backlog: true
+---
 
-  
+## Quick Thoughts
 
-Exo — Summary
+AI-generated summary of Exo (the browser extension arm of Flow OS) from local Desktop files. Captured here for reference.
 
-  
+## Summary
 
-Exo is the AI-powered browser extension arm of your Flow OS "Department-in-a-Box" ecosystem. It's an intelligent capture and command layer that lives inside Chromium browsers (Chrome/Edge/Brave/Arc) as a sidebar, so users interact with "Exo AI" without leaving their workflow.
+Exo is the AI-powered browser extension arm of the Flow OS "Department-in-a-Box" ecosystem. It's an intelligent capture and command layer that lives inside Chromium browsers (Chrome/Edge/Brave/Arc) as a sidebar, so users interact with "Exo AI" without leaving their workflow.
 
-  
+### Flagship capability — SOP Capture
 
-Flagship capability — SOP Capture:
+Uses `tabCapture`/`desktopCapture` APIs to record users' screens + narration as they work, then a multimodal backend (Claude/Grok/user's choice) turns that into clean, numbered SOPs with screenshots. Converts messy institutional knowledge into documented, repeatable processes.
 
-Uses 𝚝𝚊𝚋𝙲𝚊𝚙𝚝𝚞𝚛𝚎/𝚍𝚎𝚜𝚔𝚝𝚘𝚙𝙲𝚊𝚙𝚝𝚞𝚛𝚎 APIs to record users' screens + narration as they work, then a multimodal backend (Claude/Grok/user's choice) turns that into clean, numbered SOPs with screenshots. Converts messy institutional knowledge into documented, repeatable processes.
+### Why it's strategic
 
-  
+- **Department-aware intelligence** — detects the active Flow OS namespace (Deal OS → sales SOPs, Flow OS → workflow templates, Support OS → playbooks, onboarding → EXA integration) and formats output accordingly
+- **Feeds the moat** — every captured SOP writes a diff into the eternal schema (`namespace: academy`, `entity_type: sop`, `event: created`), compounding proprietary workflow data into the BOMT model
+- **Middleware positioning** — plugs into frontier models rather than training its own, keeping it capital-efficient and defensible through captured workflow data instead of LLM weights
 
-Why it's strategic:
+### Business model
 
-  
+- **Self-Service Tier** — $20–50/user/month for autonomous SOP recording
+- **Exo Concierge Tier** — high-touch ($500–2,000+/SOP or retainer): professional documentation sessions, multi-format output (video/PDF/interactive), QA'd and integrated into Exo Academy
 
-• Department-aware intelligence — detects the active Flow OS namespace (Deal OS → sales SOPs, Flow OS → workflow templates, Support OS → playbooks, onboarding → EXA integration) and formats output accordingly.
+### Source files (local Desktop)
 
-• Feeds the moat — every captured SOP writes a diff into the eternal schema (𝚗𝚊𝚖𝚎𝚜𝚙𝚊𝚌𝚎:𝚊𝚌𝚊𝚍𝚎𝚖𝚢, 𝚎𝚗𝚝𝚒𝚝𝚢_𝚝𝚢𝚙𝚎:𝚜𝚘𝚙, 𝚎𝚟𝚎𝚗𝚝:𝚌𝚛𝚎𝚊𝚝𝚎𝚍), compounding proprietary workflow data into your BOMT (Build-Operate-Manage-Transfer) model.
+1. `C:\Users\viole\Desktop\EXO-EXT\EXO-EXT Brainstorm.txt` — primary source for product description, SOP Capture, department-aware intelligence, middleware strategy, business model/pricing
+2. `C:\Users\viole\Desktop\Exo Website Resources + Ai UCG Stuff.txt` — branding/website assets, UI templates, design references
+3. `C:\Users\viole\Desktop\exo characters\` (directory) — logo and branding assets (JPEGs, transition videos, orb imagery)
+4. Desktop shortcuts — `EXO-HTML - Shortcut.lnk` and `Exo Longterm Biz Snapshot - Shortcut.lnk`
 
-• Middleware positioning — plugs into frontier models rather than training its own, keeping it capital-efficient and defensible through captured workflow data instead of LLM weights.
+No code repo or README found at root level — summary based entirely on brainstorm/resource text files.
 
-  
+### One-liner
 
-Business model:
+Exo = the in-browser capture layer that turns how your clients actually work into the structured data that makes your whole Flow OS ecosystem smarter and stickier.
 
-  
+---
 
-• Self-Service Tier — $20–50/user/month for autonomous SOP recording.
+## Key Insights
 
-• Exo Concierge Tier — high-touch ($500–2,000+/SOP or retainer): your team runs professional documentation sessions, multi-format output (video/PDF/interactive), QA'd and integrated into Exo Academy.
+- Exo Ext is the capture layer that feeds the diffs table — it's how you turn "tribal knowledge" into structured data
+- Every captured SOP = a diff in the `academy` namespace = AUM base growth
+- Middleware positioning (no model training) keeps it capital-efficient
+- Concierge tier is the BOMT Build phase — high-touch service that installs Flow OS into the client's workflow
 
-  
+---
 
-Related assets on your Desktop: 𝙴𝚇𝙾-𝙴𝚇𝚃/ (brainstorm + mockup), 𝚎𝚡𝚘 𝚌𝚑𝚊𝚛𝚊𝚝𝚎𝚛𝚜/ (logo/orb branding assets — JPEGs, transition videos), plus shortcuts to a longterm biz snapshot and the EXO-HTML site.
+## Action Items / Next Steps
 
-  
+- [ ] Confirm whether Exo Ext is still in scope for Phase 1 or parked until Flow OS core is live
+- [ ] If active: file paths need to be migrated into agent-workspace for version control
 
-One-liner: Exo = the in-browser capture layer that turns how your clients actually work into the structured data that makes your whole Flow OS ecosystem smarter and stickier.
+---
 
-**User/Me:** where did you get this source information from; give me file paths or whichever location you got this information from. Be concise
+## Notes
 
-Agent message 3: 
-Source locations:
-
-  
-
-1. 𝙲:\𝚄𝚜𝚎𝚛𝚜\𝚟𝚒𝚘𝚕𝚎\𝙳𝚎𝚜𝚔𝚝𝚘𝚙\𝙴𝚇𝙾-𝙴𝚇𝚃\𝙴𝚇𝙾-𝙴𝚇𝚃 𝙱𝚛𝚊𝚒𝚗𝚜𝚝𝚘𝚛𝚖.𝚝𝚡𝚝 — primary source for the product description, SOP Capture feature, department-aware intelligence, middleware strategy, and business model/pricing.
-
-2. 𝙲:\𝚄𝚜𝚎𝚛𝚜\𝚟𝚒𝚘𝚕𝚎\𝙳𝚎𝚜𝚔𝚝𝚘𝚙\𝙴𝚡𝚘 𝚆𝚎𝚋𝚜𝚒𝚝𝚎 𝚁𝚎𝚜𝚘𝚞𝚛𝚌𝚎𝚜 + 𝙰𝚒 𝚄𝙲𝙶 𝚂𝚝𝚞𝚏𝚏.𝚝𝚡𝚝 — branding/website assets, UI templates, and design references for Exo AI and Flow OS.
-
-3. 𝙲:\𝚄𝚜𝚎𝚛𝚜\𝚟𝚒𝚘𝚕𝚎\𝙳𝚎𝚜𝚔𝚝𝚘𝚙\𝚎𝚡𝚘 𝚌𝚑𝚊𝚛𝚊𝚝𝚎𝚛𝚜\ (directory) — logo and branding assets (JPEGs, transition videos, orb imagery).
-
-4. Desktop shortcut hints — 𝙴𝚇𝙾-𝙷𝚃𝙼𝙻 - 𝚂𝚑𝚘𝚛𝚝𝚌𝚞𝚝.𝚕𝚗𝚔 and 𝙴𝚡𝚘 𝙻𝚘𝚗𝚐𝚝𝚎𝚛𝚖 𝙱𝚒𝚣 𝚂𝚗𝚊𝚙𝚜𝚑𝚘𝚝 - 𝚂𝚑𝚘𝚛𝚝𝚌𝚞𝚝.𝚕𝚗𝚔 (targets unread; shortcuts only).
-
-  
-
-No code repo or README was found at the root level — the summary is based entirely on these brainstorm/resource text files in ~/𝙳𝚎𝚜𝚔𝚝𝚘𝚙/.
+**WORKFLOW:** This is a capture zone for business thoughts and tangents. When an idea hits, create a new dump note. Review periodically (weekly recommended) to extract insights into Projects, Ideas, or Admin tasks. Once reviewed, update `review_date` and archive by moving to a completed state.
