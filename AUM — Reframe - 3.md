@@ -1,7 +1,8 @@
 ---
 categories:
   - "[[Dumps]]"
-project: []
+project:
+  - "[[Exo]]"
 topic:
 type: dump
 created:
@@ -11,7 +12,7 @@ tags:
   - brain-dump
 acted-on: false
 attachments:
-backlog:
+backlog: true
 ---
 
 ---
@@ -152,6 +153,8 @@ If you want to map out the financial mechanics of this vehicle, let me know if w
 - A financial model scenario comparing a flat SaaS fee to a BOMT Transfer payout
 
 Let me know which piece of the BOMT vehicle to design next.
+
+---
 
 ---
 
