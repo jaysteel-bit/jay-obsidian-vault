@@ -70,7 +70,9 @@ To truly act like an asset manager rather than a software vendor, your pricing m
 
 - The Base Management Fee (AUM Fee): A baseline subscription fee calculated on the total volume of managed operational states (e.g., tiering based on millions of decisions captured per month).
 - The Performance Fee (Value-Share): When a "Prediction generated from diff history" or an "Autonomous agent action" directly saves money or accelerates a pipeline, you charge a micro-percentage of that realized value.
-- The Data Custody Premium: Charging a premium for securing, structuring, and preparing their proprietary operational diffs so they can plug them into LLMs/SLMs safely.
+- The Data Custody Premium: Charging a premium for securing, structuring, and preparing their proprietary operational diffs so they can plug them into LLMs/SLMs safely. [*There is a mention of this somewhere either in the **agent-workspace** or in the **obsidian vault** (here).— that refers to this for sensitive industries similar to HIPAA, etc. that you thought of that could be lucrative or interesting. But it may*]
+
+**You should think through which lens you want here.**
 
 To refine the Flow OS operational framework, let me know if you want to explore:
 
