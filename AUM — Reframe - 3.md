@@ -72,7 +72,7 @@ To truly act like an asset manager rather than a software vendor, your pricing m
 - The Performance Fee (Value-Share): When a "Prediction generated from diff history" or an "Autonomous agent action" directly saves money or accelerates a pipeline, you charge a micro-percentage of that realized value.
 - The Data Custody Premium: Charging a premium for securing, structuring, and preparing their proprietary operational diffs so they can plug them into LLMs/SLMs safely. [*There is a mention of this somewhere either in the **agent-workspace** or in the **obsidian vault** (here).— that refers to this for sensitive industries similar to HIPAA, hospitals, … etc. that you thought of that could be lucrative or interesting given Flow OS architecture; may be related to the memory idea within flow-os or the immutable data log idea. But it may be buried deep within the locations somewhere, if an AI agent is seeing this and can easily find it then present me the location— **if you are currently running a deep prompt from me, then ignore this part/side-quest** but if it is a light task to find then do so. Most likely in the **agent-workspace** if i am not mistaken.*]
 
-**You should think through which lens you want here.**
+**You should think through which lens you want here. ==Section 4==**
 
 To refine the Flow OS operational framework, let me know if you want to explore:
 
