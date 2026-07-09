@@ -558,7 +558,7 @@ Since you have these rough drafts UI’s ready, would you like to describe **one
   
 ### Wait…  
   
-You already have a fantastic, concrete UI structure. What you just described is not a generic template—it is the literal visual representation of the **Reflex Arc** and **Department Namespaces**.  
+You already have a fantastic early phased, concrete UI structure. What you just described is not a generic template—it is the literal visual representation of the **Reflex Arc** and **Department Namespaces**.  
 The rotating hero actions are your **React** layer, the four metric cards and memory events are your **Remember** layer, the active workflow rectangles are your **Sense** orchestration, and the left nav matches your **Namespaces** perfectly. You have the map; you just need to start driving.  
 To move forward as a non-technical CEO without getting stuck in engineering limbo, take these exact three steps:  
 ## Step 1: Lock the UI in Figma (Your "Product Spec")  
