@@ -126,8 +126,14 @@ How many clients can you serve at each stage without adding proportional headcou
 ---
 
 - 
-
-- One of the most useful next step would be defining exactly what counts as a "decision" (the unit that drives transaction fees) and what a "value-share provable saving" looks like in concrete terms. That's where the model goes from theory to sellable.
+- **Question for you:** What counts as a "decision"? A status change? An autonomous action? A human-approved diff? This definition drives the entire revenue math.
+- Value-share savings are provable
+	 - [ ] Audit trail must be irrefutable
+	 - [ ] Client must agree to the measurement methodology before signing
+	 - [ ] "We saved you $X" must survive finance department scrutiny
+**Without this:** Path C collapses, you're stuck on Path B (capped at \~$50k/yr per client)
+- One of the most useful next step would be defining exactly what counts as a "decision" (the unit that drives transaction fees) and what a "value-share provable saving" looks like in concrete terms. That's where the model goes from theory to sellable. — Important
+- **The #1 constraint:** Flow OS instrumentation.
 
 ---
 
