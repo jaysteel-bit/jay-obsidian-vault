@@ -1,4 +1,4 @@
-# Asset Management (AUM) Exo Model Brainstorming  
+# Asset Management (AUM) Exo Model AI Brainstorming  
   
 —  
 ##   
