@@ -269,3 +269,40 @@ This is the "Data Custody Premium" referenced in your AUM Reframe note. The insi
 ---
 
 That covers all four questions. The thread to pull next is probably the break-even point: **how many Tier 2 decisions per month does a client need to produce for the AUM revenue to exceed what you'd make from pure services?** That's the number that tells you whether your ICP can actually feed the model.
+
+==Jay: One of these parts  got truncated please provide the full finish.==
+
+Here's the missing middle section, condensed:
+
+### How hard is it?
+
+Plumbing, not rocket science. But fiddly, client-specific plumbing.
+
+| Pattern | Difficulty |
+| :---: | :---: |
+| Webhooks | Easy — modern SaaS tools fire them natively. One FastAPI endpoint per tool. |
+| API polling | Easy-Medium — write a connector, diff against last state. Time-consuming per tool, not hard. |
+| CDC | Medium — needs access to client's DB write-ahead log. Some clients won't have this. |
+| DB triggers | Medium — requires write access to client's Postgres + DBA cooperation. |
+
+**The real difficulty isn't any single integration. It's the volume.** Each client uses 5–15 tools. Each needs a connector. Each needs maintenance when APIs change.
+
+### Can agents speed this up?
+
+**Partially.** Agents CAN: auto-generate connectors from API docs, auto-discover state changes from DB schemas, map tool events to your diff vocabulary, and test instrumentation. All with human review.
+
+Agents CAN'T: get the client to grant database access (trust/sales conversation), handle custom internal tools with no API docs (human must reverse-engineer), navigate client IT politics (approvals, whitelisting, DBA cooperation), or decide which state changes are meaningful "decisions" vs noise (business judgment).
+
+**Google's managed agents / Gemini agent builders** — useful as a speed tool for writing connectors faster, but don't solve the core problem (access + judgment).
+
+**Constructive's pgpm + agentic-db** — this is the real leverage point. Package your diffs schema + Reflex Arc + `emit\_diff()` as one pgpm module → deploy into any client's Postgres in minutes. Auto-generated APIs, RLS baked in, version-controlled.
+
+**BUT theoretical only.** Your CURRENT-STATE confirms `emit\_diff()` doesn't exist as a working chokepoint yet — the error service writes directly to the diffs table. No foundation to package yet.
+
+### The honest timeline
+
+**First 2–3 clients: tough.** 2–4 weeks of manual instrumentation per client. Custom connectors, learning edge cases, no templates yet.
+
+**Client 3–5 onward: dramatically easier.** You'll have a connector library, templated checklist, pgpm package working, and an agent auto-generating 70% of new client connectors.
+
+**Key insight:** instrumentation is a **one-time cost per client that produces recurring revenue forever.** Upfront friction is the price of the AUM model. It's plumbing, not deep tech — you need a delivery playbook, not a research team.
