@@ -94,12 +94,12 @@ For Path C to work, you need:
 
 How many clients can you serve at each stage without adding proportional headcount?
 
-| Year | Team Size | Clients Served | Ratio | How |
-| :---: | :---: | :---: | :---: | :---: |
-| 1 | Jay + 1 | 5 | 2.5:1 | Manual instrumentation, high touch |
-| 2 | Jay + 3 | 15 | 3.75:1 | Playbooks documented, first hire trained |
-| 3 | Jay + 6 | 32 | 4.5:1 | Partner certifications, Flow OS doing heavy lifting |
-| 4 | Jay + 10 | 50 | 5:1 | Flow OS auto-instruments, partners deploy, team manages exceptions |
+| Year | Team Size | Clients Served | Ratio  |                                How                                 |
+| :--: | :-------: | :------------: | :----: | :----------------------------------------------------------------: |
+|  1   |  Jay + 1  |       5        | 2.5:1  |                 Manual instrumentation, high touch                 |
+|  2   |  Jay + 3  |       15       | 3.75:1 |              Playbooks documented, first hire trained              |
+|  3   |  Jay + 6  |       32       | 4.5:1  |        Partner certifications, Flow OS doing heavy lifting         |
+|  4   | Jay + 10  |       50       |  5:1   | Flow OS auto-instruments, partners deploy, team manages exceptions |
 
 **The ratio must improve over time.** If it stays 2:1, you're a services company with extra steps. The ratio improves because:
 
