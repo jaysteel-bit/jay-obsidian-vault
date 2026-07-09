@@ -12,7 +12,7 @@ AUM Value = (Decision Volume × Value Captured Per Decision) × Retention Durati
 
 That's it. Everything else is a means to feed this equation.
 
-Alright — let me reverse-engineer this from the target backward to today. I'm am NOT using the numbers from your HoldCo map and AUM brainstorm as the baseline. Since those are fictitious numbers and should NOT be used as fact. Projection is find but keeping it in concical places messes up everything. Keep this in mind. Focus on inputs and outputs rather than 
+Alright — let me ==reverse-engineer== this from the target backward to today. Might as well aim high since your effort is cut out for you woth the Hold Co. vision anyway. — Nevertheless, I'm am **==NOT==** using the numbers from your HoldCo map and AUM brainstorm as the baseline. Since those are fictitious numbers and should **NOT** be used as fact. *Projection is find but keeping it in conical places messes up everything. Keep this in mind. Focus on inputs and outputs rather than fake metrics + numbers you brainstormed. You should honest go clean several places where you have pricing listed as fact but it is not due to your lack of current converted customers. Don’t forget.*
 
 ---
 
