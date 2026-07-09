@@ -108,3 +108,4 @@ They don't compete. The vault root is capture. `WIKI/` is compile. The AI reads 
 - **Create entity/concept pages:** The `WIKI/entities/` and `WIKI/concepts/` folders don't exist yet. They get created when the first wiki pages are compiled.
 - **Cross-link:** Wiki pages should link to relevant root-level personal notes via `[[wikilinks]]`. This connects the compile layer to the capture layer.
 - **Lint:** Periodic health checks once the wiki has 10+ pages.
+- Use tagging system already implemented in vault
