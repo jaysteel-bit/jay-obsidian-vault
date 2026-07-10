@@ -102,7 +102,7 @@ Possible roles:
 - feed Flow OS agents with durable training/context for a department or client
 - support client-specific Academy namespaces after delivery or transfer
 
-Boundary: EXA AI should compile and teach from the vault. It should not become the canonical owner of live operational state or silently overwrite company decisions.
+Boundary: EXA AI should read/write, compile and teach from the vault's 2nd brain to UI. It should not become the canonical owner of live operational state or silently overwrite company decisions.
 
 ## The Bigger Picture
 
