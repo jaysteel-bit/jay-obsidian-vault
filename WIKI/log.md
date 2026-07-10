@@ -33,3 +33,10 @@
 - Read canonical Karpathy references in `WIKI/references/`
 - Created `concepts/exo-vault-meta-leverage-system.md` to connect personal Forge, Exo company operating vault, client vaults, Flow OS, and Delivery OS
 - Updated `index.md`
+
+### [2026-07-10] query | Exo system boundary map
+- Captured the clearest system-boundary framing as its own artifact
+- Created `concepts/exo-system-boundary-map.md`
+- Clarified ownership boundaries for `agent-workspace`, `jay-obsidian-main`, client vaults, and Flow OS
+- Added exploratory role for Exa-like external intelligence as a raw-source/proposed-update backend
+- Updated `index.md`

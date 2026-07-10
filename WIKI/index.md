@@ -2,12 +2,13 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-07-10 | Total pages: 4
+> Last updated: 2026-07-10 | Total pages: 5
 
 ## Entities
 
 | Page | Summary |
 |------|---------|
+| [[Exo System Boundary Map]] | Clear ownership boundaries between agent-workspace, Jay's vault, client vaults, and Flow OS; includes Flow OS harness/client-vault and Exa backend roles. |
 | [[Alex Hormozi]] | Entrepreneur, investor, Acquisition.com founder. Frameworks on scaling service businesses and sales. |
 
 ## Concepts
