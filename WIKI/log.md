@@ -26,3 +26,10 @@
 - Created `entities/alex-hormozi.md` — entity page with frameworks, portfolio, quotes
 - Updated `index.md` — added 3 new pages (1 entity, 1 concept, 1 raw source)
 - Deleted original transcript from `agent-workspace/NOTEPAD/Transcripts/yt-transcript.md`
+
+### [2026-07-10] query | Exo Vault meta-leverage system
+- Read two-layer architecture docs in `agent-workspace/Exo Enterprise/Exo-Vaults/` and `strategy-notes/vault-ecosystem-strategy.md`
+- Read `agent-workspace/KNOWLEDGE-SYSTEM.md` and `company-ssot/07-exo-delivery-os.md`
+- Read canonical Karpathy references in `WIKI/references/`
+- Created `concepts/exo-vault-meta-leverage-system.md` to connect personal Forge, Exo company operating vault, client vaults, Flow OS, and Delivery OS
+- Updated `index.md`
