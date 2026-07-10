@@ -8,7 +8,7 @@
 
 | Page | Summary |
 |------|---------|
-| [[Exo System Boundary Map]] | Clear ownership boundaries between agent-workspace, Jay's vault, client vaults, and Flow OS; includes Flow OS harness/client-vault and Exa backend roles. |
+| [[Exo System Boundary Map]] | Clear ownership boundaries between agent-workspace, Jay's vault, client vaults, and Flow OS; includes Flow OS harness/client-vault and EXA AI / Exo Academy roles. |
 | [[Alex Hormozi]] | Entrepreneur, investor, Acquisition.com founder. Frameworks on scaling service businesses and sales. |
 
 ## Concepts

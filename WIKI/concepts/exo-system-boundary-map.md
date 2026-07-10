@@ -91,18 +91,18 @@ Flow OS should not freely mutate the whole vault. It should update through narro
 - write only approved/context-safe sections automatically
 - preserve logs and source links so the vault remains trustworthy
 
-## Exa / External Intelligence Role
+## EXA AI / Exo Academy Role
 
-Exa-like search/research tooling can plug into this architecture as a namespace-specific intelligence backend.
+EXA AI means the Exo Academy namespace/department: Exo's internal knowledge, training, synthesis, and education layer. It can plug into this architecture as a namespace-specific knowledge backend.
 
 Possible roles:
-- import web research into `WIKI/raw/`
-- enrich company, competitor, market, ICP, or lead pages
-- monitor external changes and propose updates
-- feed Flow OS agents with current outside-world context
-- support client-specific research namespaces
+- turn vault knowledge into training modules, onboarding paths, and certifications
+- synthesize company/client knowledge into lessons, playbooks, and internal courses
+- maintain role-specific learning paths from SOPs, workflows, and delivery history
+- feed Flow OS agents with durable training/context for a department or client
+- support client-specific Academy namespaces after delivery or transfer
 
-Boundary: external research should enter as raw source material or proposed updates first. It should not silently overwrite canonical decisions.
+Boundary: EXA AI should compile and teach from the vault. It should not become the canonical owner of live operational state or silently overwrite company decisions.
 
 ## The Bigger Picture
 
