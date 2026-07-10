@@ -3,14 +3,19 @@ title: Exo System Boundary Map
 created: 2026-07-10
 updated: 2026-07-10
 type: concept
-tags: [exo, architecture, decision, flow-os, delivery]
+tags:
+  - exo
+  - architecture
+  - decision
+  - flow-os
+  - delivery
 sources:
-  - "conversation:2026-07-10-vault-meta-leverage"
-  - "agent-workspace/KNOWLEDGE-SYSTEM.md"
-  - "agent-workspace/Exo Enterprise/Exo-Vaults/README.md"
-  - "agent-workspace/Exo Enterprise/Exo-Vaults/Strategy/two-layer-execution-handoff.md"
-  - "agent-workspace/Exo Enterprise/company-ssot/07-exo-delivery-os.md"
-confidence: high
+  - conversation:2026-07-10-vault-meta-leverage
+  - agent-workspace/KNOWLEDGE-SYSTEM.md
+  - agent-workspace/Exo Enterprise/Exo-Vaults/README.md
+  - agent-workspace/Exo Enterprise/Exo-Vaults/Strategy/two-layer-execution-handoff.md
+  - agent-workspace/Exo Enterprise/company-ssot/07-exo-delivery-os.md
+confidence: high (0.94)
 ---
 
 # Exo System Boundary Map
@@ -62,7 +67,7 @@ This is similar to how an AI workspace has files like:
 - `DESIGN.md`
 - `BRAND.md`
 
-A client vault could eventually include:
+A client vault *could* eventually include:
 
 ```text
 client-[slug]-vault/
