@@ -34,7 +34,7 @@ backlog:
 
 ## Confidence Level (Recursive Loop)
 
-[Recursive tasks that have a two prong approach— First is confidence formatte]
+[Recursive tasks that have a two prong approach— First is confidence level of the answer against realistic perspective; formatted in (99.99). Second is a fresh take with mental models: Inversion if applicable / ]
 
 ]
 ---
