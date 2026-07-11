@@ -35,15 +35,15 @@ Full breakdown of the AUM + BOMT model — how difficult it is, whether it's wor
 
 ### Why it's a better boat
 
-| Dimension | Traditional PE/VC | AUM + BOMT |
-|---|---|---|
-| Capital required | Millions per deal | Software + labor (sweat) |
-| Dilution | You give up cap table equity | Non-dilutive — you keep 100% |
-| Due diligence | Months per deal | The engagement IS the diligence |
-| Risk | Bet wrong → capital locked up | Bet wrong → you still learned from the diffs |
-| Return ceiling | Capped by equity % | Uncapped via value-share + runtime license + global model |
-| Speed | Months to deploy | Days to deploy Flow OS |
-| Moat | Capital (anyone can raise) | Proprietary operational data (nobody can replicate) |
+| Dimension        | Traditional PE/VC             | AUM + BOMT                                                |
+| ---------------- | ----------------------------- | --------------------------------------------------------- |
+| Capital required | Millions per deal             | Software + labor (sweat)                                  |
+| Dilution         | You give up cap table equity  | Non-dilutive — you keep 100%                              |
+| Due diligence    | Months per deal               | The engagement IS the diligence                           |
+| Risk             | Bet wrong → capital locked up | Bet wrong → you still learned from the diffs              |
+| Return ceiling   | Capped by equity %            | Uncapped via value-share + runtime license + global model |
+| Speed            | Months to deploy              | Days to deploy Flow OS                                    |
+| Moat             | Capital (anyone can raise)    | Proprietary operational data (nobody can replicate)       |
 
 **The BOMT wrapper is what makes it sellable.** Pure AUM (permanent lock-in) triggers enterprise fear. BOMT solves this: "We'll build your brain, run it, and hand you the keys — for a price." The client gets ownership eventually; you retain the data rights, the runtime license, or the anonymized model weights. Three Transfer structures from the AUM Reframe note:
 
