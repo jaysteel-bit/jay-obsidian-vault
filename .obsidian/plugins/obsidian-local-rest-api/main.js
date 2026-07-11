@@ -18229,7 +18229,7 @@ var require_content_type = __commonJS({
       if (!TYPE_REGEXP.test(type)) {
         throw new TypeError("invalid media type");
       }
-      var obj = new ContentType2(type.toLowerCase());
+      var obj = new ContentType3(type.toLowerCase());
       if (index !== -1) {
         var key;
         var match;
@@ -18278,7 +18278,7 @@ var require_content_type = __commonJS({
       }
       return '"' + str.replace(QUOTE_REGEXP, "\\$1") + '"';
     }
-    function ContentType2(type) {
+    function ContentType3(type) {
       this.parameters = /* @__PURE__ */ Object.create(null);
       this.type = type;
     }
@@ -51093,11 +51093,11 @@ var require_types2 = __commonJS({
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.ContentType = void 0;
-    var ContentType2;
-    (function(ContentType3) {
-      ContentType3["text"] = "text/markdown";
-      ContentType3["json"] = "application/json";
-    })(ContentType2 || (exports2.ContentType = ContentType2 = {}));
+    var ContentType3;
+    (function(ContentType4) {
+      ContentType4["text"] = "text/markdown";
+      ContentType4["json"] = "application/json";
+    })(ContentType3 || (exports2.ContentType = ContentType3 = {}));
   }
 });
 
@@ -84839,8 +84839,8 @@ var McpHandler = class {
           "The section to patch. Heading text, block reference ID (without '^'), or frontmatter key. Separate nested heading levels with '::' (e.g. 'Heading 1::Subheading')."
         ),
         operation: external_exports.enum(["replace", "prepend", "append"]).describe("How to apply the content: replace the section, prepend before it, or append after it"),
-        content: external_exports.unknown().describe("Content to apply. For contentType 'text/markdown' pass a string. For contentType 'application/json' you may pass a native JSON value (number, boolean, array, object) and it will be serialised automatically."),
-        contentType: external_exports.string().optional().describe(
+        content: external_exports.string().describe(`Content to apply. For contentType 'text/markdown' pass markdown text. For contentType 'application/json' pass a JSON-encoded string (e.g. '["row","cells"]' for a table row, or '42' for a number).`),
+        contentType: external_exports.nativeEnum(import_markdown_patch3.ContentType).optional().describe(
           "MIME type of content. 'text/markdown' (default) or 'application/json'. Use 'application/json' to set typed frontmatter values or to append/prepend table rows (2-D array)."
         ),
         createTargetIfMissing: external_exports.boolean().optional().describe("Create the heading or frontmatter key if it does not already exist (default: false)"),
@@ -84865,13 +84865,24 @@ var McpHandler = class {
         targetScope
       }) => {
         try {
+          const resolvedContentType = contentType2 ?? import_markdown_patch3.ContentType.text;
+          let parsedContent = content;
+          if (resolvedContentType === import_markdown_patch3.ContentType.json) {
+            try {
+              parsedContent = JSON.parse(content);
+            } catch (err) {
+              throw new Error(
+                `Invalid application/json content: ${err instanceof Error ? err.message : String(err)}`
+              );
+            }
+          }
           await this.ops.patchFileSection(
             path2,
             targetType,
             target,
             operation,
-            content,
-            contentType2 ?? "text/markdown",
+            parsedContent,
+            resolvedContentType,
             { createTargetIfMissing, trimTargetWhitespace, rejectIfContentPreexists, targetDelimiter, targetScope }
           );
         } catch (e) {
