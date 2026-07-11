@@ -16,7 +16,7 @@ backlog: true
 ---
 The presentation slide your friend texted you is the missing puzzle piece. It perfectly connects Exo Enterprise’s software, their consulting business, and their private equity acquisition engine. [1] 
 
-They do not sell off the core niche companies they buy for their Permanent Capital Roll-up. Instead, they use a highly aggressive framework called BOMT to "exit" the companies they _don't_ own, allowing them to cash out multiple times without ever selling the equity. [1] 
+They do not sell off the core niche companies they buy for their **Permanent Capital Roll-up** (Brad Jacobs + Warren Buffett idea). Instead, they use a highly aggressive framework called BOMT to "exit" the companies they _don't_ own, allowing them to cash out multiple times without ever selling the equity. [1] 
 
 Here is how the entire investment, data strategy, and business model fit together:
 
@@ -24,7 +24,7 @@ Here is how the entire investment, data strategy, and business model fit togethe
 
 ## 1. Decoding the Formula: AUM + BOMT
 
-In the traditional finance world, AUM stands for _Assets Under Management_ (how much money a fund controls). For Exo Enterprise, AUM means "AI Data Under Management."
+In the traditional finance world, AUM stands for _Assets Under Management_ (how much money a fund controls). For Exo Enterprise, AUM means "AI Data Under Management." — They treat Asset Value differently but still categorize it as a *form of asset/money, their fund controls*.)
 
 They combine this data wealth with a tech-delivery framework known as BOMT: Build, Operate, Manage, Transfer.
 
