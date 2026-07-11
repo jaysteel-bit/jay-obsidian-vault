@@ -201,6 +201,7 @@ Solve the **sovereignty-vs-cross-client-intelligence tension**. If you can struc
 ## Action Items / Next Steps
 
 - [ ] Solve the sovereignty-vs-cross-client-intelligence tension — this is the single highest-leverage structural decision. How do clients share AND benefit? (CrowdStrike threat graph model)
+	- [ ] On your point about the legal framing — yes, that's the key insight. The CrowdStrike model works because every client CONTRIBUTES threat data AND BENEFITS from the collective. It's not extraction — it's participation. If you frame it the same way: "Every client's operational intelligence makes every other client's business smarter. You contribute anonymized diffs, you receive cross-industry predictions trained on everyone's patterns. Opt out = you get your isolated model only. Opt in = you get the global brain." — That framing turns the legal tension into a feature, not a risk. The client WANTS to participate because the value they receive is greater than the value they give up. Same reason CrowdStrike clients don't opt out of the threat graph. That's the structural unlock. The model goes from linear compounding to network compounding the moment you nail that framing.
 - [ ] Confirm "Intel Inside" as default Transfer structure (runtime license primary, data rights secondary)
 - [ ] Defer Head 2 (permanent roll-up) until Head 1 (BOMT) generates consistent cash flow + has 3–5 completed engagements
 - [ ] Long-term: design org structure for two-headed monster (each head gets its own leader, Jay becomes Executive Chairman)
