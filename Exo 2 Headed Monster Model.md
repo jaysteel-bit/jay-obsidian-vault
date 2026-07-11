@@ -1,3 +1,19 @@
+---
+categories:
+  - "[[Dumps]]"
+project:
+  - "[[Exo]]"
+topic: Model Convergence + Idea
+type: dump
+created:
+  "{ date }":
+review_date:
+tags:
+  - brain-dump
+acted-on: false
+attachments:
+backlog: true
+---
 The presentation slide your friend texted you is the missing puzzle piece. It perfectly connects Exo Enterprise’s software, their consulting business, and their private equity acquisition engine. [1] 
 
 They do not sell off the core niche companies they buy for their Permanent Capital Roll-up. Instead, they use a highly aggressive framework called BOMT to "exit" the companies they _don't_ own, allowing them to cash out multiple times without ever selling the equity. [1] 
@@ -59,3 +75,28 @@ Exo Enterprise isn't trying to build startups to flip them to the highest bidder
   
 
 [1] [https://www.linkedin.com](https://www.linkedin.com/company/exoenterprise)
+
+---
+
+
+## Quick Thoughts
+
+[Raw brain dump of ideas, thoughts, and tangents related to this topic]
+
+---
+
+## Key Insights
+
+[Extract main takeaways as you review this dump]
+
+---
+
+## Action Items / Next Steps
+
+[What should happen with these thoughts? Convert to Project? Create an Idea? Admin task?]
+
+---
+
+## Notes
+
+**WORKFLOW:** This is a capture zone for business thoughts and tangents. When an idea hits, create a new dump note. Review periodically (weekly recommended) to extract insights into Projects, Ideas, or Admin tasks. Once reviewed, update `review_date` and archive by moving it to a completed state.
