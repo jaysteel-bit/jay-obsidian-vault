@@ -1,7 +1,8 @@
 ---
 categories:
   - "[[Dumps]]"
-project: []
+project:
+  - "[[Exo]]"
 topic:
 type: dump
 created:
@@ -11,10 +12,12 @@ tags:
   - brain-dump
 acted-on: false
 attachments:
-backlog:
+backlog: true
 ---
+Google AI:
 
-A "data + intelligence compounding conglomerate" refers to an enterprise or investment model that shifts from merely automating tasks to capturing decision traces and behavioral data to build autonomous learning loops. The longer these systems operate, the smarter and more entrenched they become, creating an exponential competitive moat. [1, 2, 3, 4] 
+
+A "**data + intelligence compounding conglomerate**" refers to an enterprise or investment model that shifts from merely automating tasks to capturing decision traces and behavioral data to build autonomous learning loops. The longer these systems operate, the smarter and more entrenched they become, creating an exponential competitive moat. [1, 2, 3, 4] 
 
 These organizations combine proprietary datasets, agentic AI systems, and domain-specific knowledge graphs to generate a compounding return on every transaction, interaction, and workflow. [5, 6, 7] 
 
