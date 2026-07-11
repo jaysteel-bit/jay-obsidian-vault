@@ -102,7 +102,7 @@ The strongest part of the model. Operational diffs + human "why" annotations are
 
 **2. The switching cost is existential, not contractual.**
 
-SaaS companies fight churn with contracts and pricing locks. You fight churn with **corporate amnesia**. Leaving Flow OS means losing the operational memory of the entire business. That's not a cancellation — it's a lobotomy. Strongest possible retention mechanism. Sustains the AUM base.
+SaaS companies fight churn with contracts and pricing locks. You can fight churn with **corporate amnesia**. Leaving Flow OS means losing the operational memory of the entire business. That's not a cancellation — it's a lobotomy. Strongest possible retention mechanism. Sustains the AUM base.
 
 **3. The BOMT wedge removes the biggest objection.**
 
