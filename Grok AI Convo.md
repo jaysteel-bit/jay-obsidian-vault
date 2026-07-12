@@ -1,3 +1,18 @@
+---
+categories:
+  - "[[Dumps]]"
+project: []
+topic:
+type: dump
+created:
+  "{ date }":
+review_date:
+tags:
+  - brain-dump
+acted-on: false
+attachments:
+backlog:
+---
 Honest thoughts on the HoldCo map + the Berkshire/roll-up/hybrid conversation.
 
 Your EXO-HOLDCO-MAP.md is one of the strongest strategic artifacts I’ve seen from a first-time founder at this stage. It’s not fluffy vision — it’s a real systems map with dependencies, leverage intersections, honest [DRAFT] flags, status matrix, and sequencing. It shows clear thinking about how cash, proof, data (diffs), relationships, and brand compound across entities. The ASCII org chart and flywheel diagrams are useful; the “how money moves” and “leverage intersections” sections are particularly sharp.
@@ -204,3 +219,34 @@ What feels most exciting or most uncertain to you right now in this direction? W
 - Or map how this specifically feeds one of the leverage intersections in the HoldCo map?
 
 I’m here to go as deep as you want on any piece. This direction has real legs.
+
+---
+
+
+## Quick Thoughts
+
+[Raw brain dump of ideas, thoughts, and tangents related to this topic]
+
+---
+
+## Key Insights
+
+[Extract main takeaways as you review this dump]
+
+---
+
+## Action Items / Next Steps
+
+[What should happen with these thoughts? Convert to Project? Create an Idea? Admin task?]
+
+---
+
+## Confidence Level (Recursive Loop)
+
+[Recursive tasks that have a two prong approach— First is confidence level of the answer against realistic perspective; formatted in (99.99). Second is a fresh take with mental models if applicable: Inversion / Second Order Thinking / Hypothetical Limits (Max/Low) / First Principles Thinking / etc. (General Thinking Concepts)]
+
+
+---
+## Notes
+
+**WORKFLOW:** This is a capture zone for business thoughts and tangents. When an idea hits, create a new dump note. Review periodically (weekly recommended) to extract insights into Projects, Ideas, or Admin tasks. Once reviewed, update `review_date` and archive by moving it to a completed state.
