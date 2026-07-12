@@ -343,12 +343,12 @@ Tensions 1 and 4 touch on data ownership. Here's the concrete framework:
 
 ## 16. High-Level Sequencing Roadmap
 
-| Phase | When | Focus | AUM Status | Head 2 |
-|---|---|---|---|---|
-| **Phase 0** | Now → first client | Build minimal engine (`emit_diff()` + Reflex Arc + one namespace). Dogfood internally. Close first client on Path B. | AUM base = 0. Capturing baseline. | Inactive. |
-| **Phase 1** | First 3–5 clients | Path B default. Instrument 1–2 namespaces per client. Capture baseline data. Build case studies. First Transfer triggers Care + SaaS ARR. | AUM revenue < services revenue. Expected. | Inactive. |
-| **Phase 2** | Year 2+ | Pilot Path C on high-impact departments (supply chain, procurement, sales). Expand to 2–3 namespaces per client. Test opt-in participation model. AUM crosses break-even. | AUM revenue ≈ services revenue. Crossover. | Begin sourcing. First Exo Ventures equity-for-services deal. |
-| **Phase 3** | Year 3+ | Path C dominant for revenue-generating departments. 3–5 namespaces per client. Prediction engine trained on millions of diffs. Opt-in global model live. | AUM revenue > services revenue. Compounding. | Activate Head 2. Use cash from Head 1 to buy first permanent business. Plug into Flow OS. |
+| Phase       | When               | Focus                                                                                                                                                                     | AUM Status                                   | Head 2                                                                                    |
+| ----------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| **Phase 0** | Now → first client | Build minimal engine (`emit_diff()` + Reflex Arc + one namespace). Dogfood internally. Close first client on Path B.                                                      | AUM base = 0. Capturing baseline.            | Inactive.                                                                                 |
+| **Phase 1** | First 3–5 clients  | Path B default. Instrument 1–2 namespaces per client. Capture baseline data. Build case studies. First Transfer triggers Care + SaaS ARR.                                 | AUM revenue < services revenue. Expected.    | Inactive.                                                                                 |
+| **Phase 2** | Year 2+            | Pilot Path C on high-impact departments (supply chain, procurement, sales). Expand to 2–3 namespaces per client. Test opt-in participation model. AUM crosses break-even. | AUM revenue ≈ services revenue. Crossover.   | Begin sourcing. First Exo Ventures equity-for-services deal.                              |
+| **Phase 3** | Year 3+            | Path C dominant for revenue-generating departments. 3–5 namespaces per client. Prediction engine trained on millions of diffs. Opt-in global model live.                  | AUM revenue > services revenue. Compounding. | Activate Head 2. Use cash from Head 1 to buy first permanent business. Plug into Flow OS. |
 
 **Activation triggers (explicit, not vibes):**
 - Head 2 activates when: Head 1 generates consistent cash flow AND 3+ BOMT engagements completed AND first Path C value-share proven.
@@ -356,6 +356,8 @@ Tensions 1 and 4 touch on data ownership. Here's the concrete framework:
 - Steel Card ships when: steel.id platform live AND 500+ Steel Profile holders AND first 5 Founding Member clients signed.
 - Exo Luxx Phase 1 activates when: Exo Enterprise cash flow supports vehicle acquisition OR first HNW client requests it.
 - Opt-in global model activates when: 5+ clients participating AND 1M+ total diffs accumulated AND prediction accuracy proven on at least one namespace.
+
+==*Update this section as needed*==
 
 ---
 
