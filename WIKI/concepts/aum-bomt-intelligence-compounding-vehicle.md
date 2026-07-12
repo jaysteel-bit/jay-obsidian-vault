@@ -352,8 +352,10 @@ Tensions 1 and 4 touch on data ownership. Here's the concrete framework:
 
 **Activation triggers (explicit, not vibes):**
 - Head 2 activates when: Head 1 generates consistent cash flow AND 3+ BOMT engagements completed AND first Path C value-share proven.
+- First Path C pilot activates when: 3 clients on Path B AND 10k+ decisions captured across those clients AND baseline data exists for at least one high-impact department (supply chain, procurement, or sales).
 - Steel Card ships when: steel.id platform live AND 500+ Steel Profile holders AND first 5 Founding Member clients signed.
 - Exo Luxx Phase 1 activates when: Exo Enterprise cash flow supports vehicle acquisition OR first HNW client requests it.
+- Opt-in global model activates when: 5+ clients participating AND 1M+ total diffs accumulated AND prediction accuracy proven on at least one namespace.
 
 ---
 
