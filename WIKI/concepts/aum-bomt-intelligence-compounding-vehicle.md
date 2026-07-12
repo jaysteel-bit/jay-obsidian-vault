@@ -274,6 +274,121 @@ This concept synthesizes the following vault notes + AI chats into one coherent 
 
 ---
 
+## 12. Reflex Arc → Decision Tier Mapping
+
+The technical heart of the model — how the Reflex Arc maps to the four decision tiers:
+
+| Reflex Arc Phase | What It Does | Maps To | Output |
+|---|---|---|---|
+| **SENSE** | Listens for state changes from client systems (DB triggers, CDC, webhooks, API polling) | Tier 1 (System Triggers) | Raw diff captured: `state_before → state_after` |
+| **REACT** | Evaluates the diff against rules (deterministic first, LLM second for nuance) | Tier 2 (Agent Actions) | Autonomous action taken + logged as diff with "why" metadata |
+| **REMEMBER** | Appends the diff + action + human annotation to the immutable ledger | Tier 3 (Human Whys) | Human approves/overrides agent action with a reason — becomes training data |
+| **PREDICT** *(emergent)* | Pattern-matches against accumulated diff history to generate forecasts | Tier 4 (Predictions) | "This deal closes in 14 days based on 200 similar patterns" — value-share proof |
+
+**Key principle:** SENSE and REMEMBER are infrastructure (not billable). REACT and PREDICT are billable (Tier 2 + Tier 4). The human "why" in REMEMBER is free — you WANT annotations because they're the moat.
+
+---
+
+## 13. MVP Tech Foundation for the First Client
+
+The model assumes the diffs engine exists. It doesn't yet. Here's the minimal foundation needed before the first client:
+
+**Phase 0 — Minimal (before first client):**
+- Postgres append-only `diffs` + `annotations` + `rules` tables (the original ~200-line skeleton)
+- Single `emit_diff()` chokepoint — the ONLY way anything writes to `diffs`
+- Lightweight FastAPI Reflex Arc (SENSE → REACT → REMEMBER loop)
+- One namespace instrumented end-to-end (recommend `sales:` — closest to revenue)
+- Dogfood internally on Exo's own delivery/ops workflows first
+
+**Phase 1 — After first 1–2 clients prove value:**
+- Add Constructive/pgpm for modular namespace packaging (`pgpm install @flowos/sales-reflex`)
+- Add TimescaleDB (hypertables + continuous aggregates for drift/metrics/anomaly detection)
+- Build sovereign Docker stack template (for clean Transfer to client infrastructure)
+- Expand to 2–3 namespaces per client
+
+**What NOT to build yet:** Full prediction engine (Tier 4). Cross-client intelligence layer. The global model. Those come after you have real diffs from real clients. Start with SENSE → REACT → REMEMBER. PREDICT emerges from the data naturally.
+
+---
+
+## 14. Diffs & Annotations Custody Framework
+
+Tensions 1 and 4 touch on data ownership. Here's the concrete framework:
+
+- **Client owns:** Raw operational data + human "why" annotations. These are their IP, on their infrastructure.
+- **Exo retains:** Perpetual runtime royalty license ("Intel Inside" default) — Flow OS remains the operating system required to execute the brain.
+- **Opt-in participation:** Anonymized, aggregated diffs contribute to the global model (CrowdStrike model). Clients who opt in receive cross-client predictions trained on all participating clients' patterns. Opt out = isolated model only.
+- **Transfer exit mechanics:** Clear, contractual Transfer clause — client can take their data and the Flow OS runtime, but Exo retains: (a) runtime license fee, (b) opt-in participation rights for anonymized weights, (c) any equity stake (if Exo Ventures structure).
+- **Sovereignty promise:** Client data lives on their sovereign VPS, encrypted, RLS-enforced. Exo never holds raw client operational data in Exo-owned infrastructure — only anonymized/aggregated weights (and only if client opts in).
+
+**The participation framing:** "Every client contributes anonymized operational intelligence. Every client benefits from cross-industry predictions trained on everyone's patterns. Opt out = you get your isolated model only. Opt in = you get the global brain." The value clients receive is greater than what they give up. Participation is a feature, not extraction.
+
+---
+
+## 15. How This Strengthens the Broader Exo HoldCo
+
+| HoldCo Entity | How AUM + BOMT Strengthens It |
+|---|---|
+| **Exo Enterprise (cash engine)** | Every engagement captures data that makes the next engagement cheaper to deliver and more valuable to sell. Case studies compound. |
+| **Flow OS (product)** | Every client installation = product stress test + improvement. Dogfooding loop tightens. SaaS ARR grows on every Transfer. |
+| **Exo Care (recurring)** | Care monitors the diffs layer post-Transfer. The richer the diffs, the more valuable Care becomes (anomaly detection, prediction alerts). |
+| **Steel ecosystem** | Every AUM client seeds the Steel waitlist. Founding Members get Steel early access. Business World members = exact Exo ICP. Brand layer feeds data layer. |
+| **Exo Ventures** | Engagement IS the diligence. You know the actual business, not the pitch deck. Equity-for-services deals are pre-validated by the diffs data. Portfolio companies inherit all BOMT client intelligence. |
+| **Exo Luxx** | HNW relationships from Luxx = exact Exo ICP. Every ride builds trust that no ad or landing page builds. Luxx members become Exo clients, Steel members, Ventures LPs. |
+| **SteelSpeaks / Jay Steel brand** | Every delivered client = a story. Every prediction that saved $X = content. Credibility compounds with every case study. |
+| **Steel Ventures** | Community-sourced deal flow benefits from operational intelligence captured across the ecosystem. Pre-diligence via Steel Global citizenship + Flow OS data. |
+
+**The flywheel:** Every entity strengthens every other entity. AUM is the data gravity at the center. The more it compounds, the more every spoke accelerates.
+
+---
+
+## 16. High-Level Sequencing Roadmap
+
+| Phase | When | Focus | AUM Status | Head 2 |
+|---|---|---|---|---|
+| **Phase 0** | Now → first client | Build minimal engine (`emit_diff()` + Reflex Arc + one namespace). Dogfood internally. Close first client on Path B. | AUM base = 0. Capturing baseline. | Inactive. |
+| **Phase 1** | First 3–5 clients | Path B default. Instrument 1–2 namespaces per client. Capture baseline data. Build case studies. First Transfer triggers Care + SaaS ARR. | AUM revenue < services revenue. Expected. | Inactive. |
+| **Phase 2** | Year 2+ | Pilot Path C on high-impact departments (supply chain, procurement, sales). Expand to 2–3 namespaces per client. Test opt-in participation model. AUM crosses break-even. | AUM revenue ≈ services revenue. Crossover. | Begin sourcing. First Exo Ventures equity-for-services deal. |
+| **Phase 3** | Year 3+ | Path C dominant for revenue-generating departments. 3–5 namespaces per client. Prediction engine trained on millions of diffs. Opt-in global model live. | AUM revenue > services revenue. Compounding. | Activate Head 2. Use cash from Head 1 to buy first permanent business. Plug into Flow OS. |
+
+**Activation triggers (explicit, not vibes):**
+- Head 2 activates when: Head 1 generates consistent cash flow AND 3+ BOMT engagements completed AND first Path C value-share proven.
+- Steel Card ships when: steel.id platform live AND 500+ Steel Profile holders AND first 5 Founding Member clients signed.
+- Exo Luxx Phase 1 activates when: Exo Enterprise cash flow supports vehicle acquisition OR first HNW client requests it.
+
+---
+
+## 17. Constellation Software (CSI) Reference Note
+
+CSI is the closest public-market analog to Exo's long-term structure:
+
+**What CSI does:**
+- Buys vertical market software (VMS) companies — niche, mission-critical software for specific industries
+- Keeps them autonomous under ~6 operating groups
+- Shares playbooks and benchmarks across portfolio companies without forcing operational integration
+- Tiny central HQ (minimal corporate overhead)
+- Permanent hold — buy and keep forever, no flips or IPO pressure
+- Compounds at high rates with minimal integration tax
+- ~600–1,000+ acquisitions over decades
+- Often called "Canada's Berkshire" or "tech's Berkshire"
+
+**How Exo maps to CSI:**
+
+| Dimension | CSI | Exo |
+|---|---|---|
+| How they acquire | Buy VMS companies with cash | Build Flow OS namespaces, install via BOMT (earn through delivery) |
+| Autonomy | Portfolio companies stay independent | Each client's Flow OS instance is sovereign (their VPS, their data) |
+| Shared layer | Playbooks + benchmarks across groups | Exo Academy + pgpm packages + diff engine principles across namespaces |
+| Central HQ | Tiny — minimal overhead | Jay + small team — AI agents scale delivery without linear headcount |
+| Hold preference | Permanent — never sell | Permanent — Transfer retains runtime license + model weights |
+| Capital source | Cash flow from portfolio companies | Cash flow from BOMT engagements + Care ARR + SaaS MRR + value-share |
+| What compounds | Cash flow + acquisition pipeline | Cash flow + data gravity + prediction engine + equity stakes |
+
+**Key difference:** CSI buys companies with capital. Exo earns them through delivery. Same decentralization, same playbook-sharing, same permanent hold — but non-dilutive and capital-efficient.
+
+**Public comp reference:** CSI.TO. Market cap ~$80B+ CAD. Demonstrates that decentralized vertical software compounding with shared playbooks and tiny HQ is a proven path to massive enterprise value.
+
+---
+
 ## Related Pages
 
 - [[Exo Vault Meta-Leverage System]]
