@@ -278,12 +278,12 @@ This concept synthesizes the following vault notes + AI chats into one coherent 
 
 The technical heart of the model — how the Reflex Arc maps to the four decision tiers:
 
-| Reflex Arc Phase | What It Does | Maps To | Output |
-|---|---|---|---|
-| **SENSE** | Listens for state changes from client systems (DB triggers, CDC, webhooks, API polling) | Tier 1 (System Triggers) | Raw diff captured: `state_before → state_after` |
-| **REACT** | Evaluates the diff against rules (deterministic first, LLM second for nuance) | Tier 2 (Agent Actions) | Autonomous action taken + logged as diff with "why" metadata |
-| **REMEMBER** | Appends the diff + action + human annotation to the immutable ledger | Tier 3 (Human Whys) | Human approves/overrides agent action with a reason — becomes training data |
-| **PREDICT** *(emergent)* | Pattern-matches against accumulated diff history to generate forecasts | Tier 4 (Predictions) | "This deal closes in 14 days based on 200 similar patterns" — value-share proof |
+| Reflex Arc Phase         | What It Does                                                                                  | Maps To                  | Output                                                                          |
+| ------------------------ | --------------------------------------------------------------------------------------------- | ------------------------ | ------------------------------------------------------------------------------- |
+| **SENSE**                | Listens for state changes from client systems (DB triggers, CDC, webhooks, API polling, etc.) | Tier 1 (System Triggers) | Raw diff captured: `state_before → state_after`                                 |
+| **REACT**                | Evaluates the diff against rules (deterministic first, LLM second for nuance)                 | Tier 2 (Agent Actions)   | Autonomous action taken + logged as diff with "why" metadata                    |
+| **REMEMBER**             | Appends the diff + action + human annotation to the immutable ledger                          | Tier 3 (Human Whys)      | Human approves/overrides agent action with a reason — becomes training data     |
+| **PREDICT** *(emergent)* | Pattern-matches against accumulated diff history to generate forecasts                        | Tier 4 (Predictions)     | "This deal closes in 14 days based on 200 similar patterns" — value-share proof |
 
 **Key principle:** SENSE and REMEMBER are infrastructure (not billable). REACT and PREDICT are billable (Tier 2 + Tier 4). The human "why" in REMEMBER is free — you WANT annotations because they're the moat.
 
