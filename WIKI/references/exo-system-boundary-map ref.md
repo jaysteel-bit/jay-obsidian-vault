@@ -86,13 +86,13 @@ client-[slug]-vault/
 
 Flow OS desktop app UI, terminal configs, and namespace-specific harnesses can read from these files to operate with client-specific context.—(an auto-self update them)—similar to how Hermes harness does. The client vault becomes the company's constitution, memory, SOP layer, and durable operating map.
 
-Flow OS should not freely mutate the whole vault. It should update through narrow API/MCP rails (unless we change our mind on this in the future ):
+Flow OS should not freely mutate the whole vault. It should update through narrow API/MCP rails—(unless we change our mind on this in the future)— :
 - emit live diffs into Flow OS first
 - propose vault updates when live behavior changes durable knowledge
 - write only approved/context-safe sections automatically
 - preserve logs and source links so the vault remains trustworthy
 
-## Exa / External Intelligence Role
+## Exa / Exo Academy Dept Role
 
 Exa-like search/research tooling can plug into this architecture as a namespace-specific intelligence backend.
 
