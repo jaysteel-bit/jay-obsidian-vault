@@ -546,14 +546,14 @@ A single capable coding agent (Claude, Codex, Grok) can read the entire tree, ex
 
 Flow OS was designed around this principle before the explicit framing:
 
-| File Tree Concept | Flow OS Implementation |
-|---|---|
-| Folders / subfolders | pgpm namespaces (Sales, Ops, Logistics, AURA) — versioned, installable, composable |
-| Instructions (prompts, rules) | Rules table — trigger conditions + actions |
-| Data (context, state) | Diffs table + annotations — immutable operational memory |
-| The agent that reads/executes the tree | Any foundation model (Claude, GLM, Grok) — replaceable runtime |
-| The persistent memory | `emit_diff()` + annotations — survives model swaps |
-| The engine | Constructive agentic-db + TimescaleDB — hypertables, continuous aggregates |
+| File Tree Concept                      | Flow OS Implementation                                                                         |
+| -------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| Folders / subfolders                   | pgpm namespaces (Sales, Ops, Logistics, AURA) — versioned, installable, updateable, composable |
+| Instructions (prompts, rules)          | Rules table — trigger conditions + actions                                                     |
+| Data (context, state)                  | Diffs table + annotations — immutable operational memory                                       |
+| The agent that reads/executes the tree | Any foundation model (Claude, GLM, Grok) — replaceable runtime                                 |
+| The persistent memory                  | `emit_diff()` + annotations — survives model swaps                                             |
+| The engine                             | Constructive agentic-db + TimescaleDB — hypertables, continuous aggregates                     |
 
 The model (whatever the current best coding agent is) traverses and executes this tree. It only needs to read instructions in the current folder, act, log via `emit_diff()`, and move to the next relevant node.
 
