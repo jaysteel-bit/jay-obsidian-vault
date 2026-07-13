@@ -390,6 +390,7 @@ CSI is the closest public-market analog to Exo's long-term structure:
 **Key difference:** CSI buys companies with capital. Exo earns them through delivery. Same decentralization, same playbook-sharing, same permanent hold — but non-dilutive and capital-efficient.
 
 **Public comp reference:** CSI.TO. Market cap ~$80B+ CAD. Demonstrates that decentralized vertical software compounding with shared playbooks and tiny HQ is a proven path to massive enterprise value. You can later add capital once you have an abundance of it from growth or other Jay Steel investor strategies.
+
 ---
 
 ## 18. Positioning — Scaling Partner, Not Tech Vendor
@@ -572,7 +573,7 @@ The file tree can be self-improving using coding agents:
 - **Auto-expansion:** Agent analyzes diffs across a namespace → proposes new sub-tasks when patterns emerge
 - **Model feature condensation:** When a model adds a capability, a maintenance agent refactors manual workarounds into native tools
 - **Self-optimization:** "Tree gardener" agent reviews rule effectiveness + annotation quality → suggests improvements
-- **Cross-client pattern extraction (opt-in):** Anonymized pattern detection across client trees → shared best-practice sub-trees
+- **Cross-client pattern extraction (opt-in):** Anonymized pattern detection across client trees → shared best-practice sub-trees or rules
 - **Versioned evolution:** pgpm treats namespaces as packages → agents propose, test, and deploy tree updates with human review gates
 
 ### Positioning Soundbites
