@@ -28,20 +28,20 @@ project:
 
 ## Where things live
 
-| Thing | Path |
-|---|---|
-| Task spec (B.3/B.4 unchecked) | `agent-workspace/state/tasks/diff-write-contract.md` |
-| Migrations (4, versioned) | `flow-os/supabase/migrations/` |
-| Reflex Arc + run instructions | `flow-os/backend/` (`main.py`, `README.md`) |
-| Chokepoint caller | `agent-workspace/build/emit-diff.ps1` |
-| Live-state summary | `agent-workspace/state/infra.md` → "Flow OS Data Layer" |
-| Superseded-state notes | `CURRENT-STATE.md` (2026-07-13 update block at top) |
-| Credentials (git-ignored, NOT in chat/git) | `agent-workspace/.env.supabase`, `flow-os/backend/.env`, `flow-os/.env.local` |
+| Thing                                      | Path                                                                                                                      |
+| ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
+| Task spec (B.3/B.4 unchecked)              | `agent-workspace/state/tasks/diff-write-contract.md`                                                                      |
+| Migrations (4, versioned)                  | `flow-os/supabase/migrations/`                                                                                            |
+| Reflex Arc + run instructions              | `flow-os/backend/` (`main.py`, `README.md`)                                                                               |
+| Chokepoint caller                          | `agent-workspace/build/emit-diff.ps1`                                                                                     |
+| Live-state summary                         | `agent-workspace/state/infra.md` → "Flow OS Data Layer"                                                                   |
+| Superseded-state notes                     | `CURRENT-STATE.md` (2026-07-13 update block at top) — update current-state.md to reflect the current state since 07-13-26 |
+| Credentials (git-ignored, NOT in chat/git) | `agent-workspace/.env.supabase`, `flow-os/backend/.env`, `flow-os/.env.local`                                             |
 
 ## Next session (B.3 + B.4)
 
 1. **B.3 — Hermes hand-off:** add an `agent_handle` action to the arc — escalation path where Hermes reasons, acts, and writes results back via `emit_diff()`. Arc v1 actions deliberately emit NO diffs; loop-guards must land with this (an action that emits a diff that triggers the action = infinite loop).
-2. **B.4 — 24/7 deploy:** Docker `restart: always` on the Contabo VPS (147.93.181.36) -OR- Hetzner so the arc survives reboots and loses zero diffs. Until then the arc only runs when started manually, which should be dealt with soon.
+2. **B.4 — 24/7 deploy:** Docker `restart: always` on the Contabo VPS (147.93.181.36) -OR- **Hetzner** so the arc survives reboots and loses zero diffs. Until then the arc only runs when started manually, which should be dealt with soon.
 
 ## Open cautions
 
