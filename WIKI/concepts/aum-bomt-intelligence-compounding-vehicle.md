@@ -244,11 +244,11 @@ A provable saving = a Tier 4 prediction or Tier 2 agent action where you can dra
 
 ## 10. Pricing Paths
 
-| Path | Build Fee | Ongoing | Risk | When to Use |
-|---|---|---|---|---|
-| **A — High-Velocity** | At-cost | Per-transaction fees | Low risk, thin margins | Land-grab for data acquisition |
-| **B — Hybrid Premium** | Standard | Base monthly + micro-fees over threshold | Medium, balanced | Year 1–2 default for first 3–5 clients |
-| **C — Value-Share** | Free/at-cost | 15–25% of proven savings | High variance, uncapped upside | Year 2+ for revenue-generating departments |
+| Path                   | Build Fee    | Ongoing                                  | Risk                           | When to Use                                |
+| ---------------------- | ------------ | ---------------------------------------- | ------------------------------ | ------------------------------------------ |
+| **A — High-Velocity**  | At-cost      | Per-transaction fees                     | Low risk, thin margins         | Land-grab for data acquisition             |
+| **B — Hybrid Premium** | Standard     | Base monthly + micro-fees over threshold | Medium, balanced               | Year 1–2 default for first 3–5 clients     |
+| **C — Value-Share**    | Free/at-cost | 15–25% of proven savings                 | High variance, uncapped upside | Year 2+ for revenue-generating departments |
 
 **Recommended sequence:** Path B for first 3–5 clients (keep cash flowing, capture baseline). Transition to Path C in Year 2 for high-impact departments (supply chain, procurement, sales) where value-share is provable.
 
@@ -581,61 +581,6 @@ The file tree can be self-improving using coding agents:
 - "Most AI agent frameworks get outdated every time a new model drops. Flow OS uses file-tree namespaces — so when models improve, your system gets smarter automatically."
 - "We don't build brittle agent code. We build durable operational trees that capture your company's real decisions and reasoning."
 - "The moat isn't the AI model. The moat is your company's accumulated operational intelligence — structured, queryable, and compounding over time."
-
----
-
-### Current State — What Actually Exists Today (Not Conceptual)
-
-> **Read this before assuming anything above is built.** The sections above describe the target architecture and business model. What follows is the honest snapshot of what's physically in the workspace right now. The gap between the two is real.
-
-**The file-tree pattern already has a working prototype — but it's untested.**
-
-The `departments/` folder in the Exo Enterprise workspace already implements the file-tree structure described above. It's not theoretical — the folders, instructions, tools, and data files physically exist:
-
-- **9 departments** scaffolded: sales, operations, legal, leadership, marketing, finance, people, engineering, design, customer-success, knowledge-research
-- **3 fully-built workflows** with sequential task folders:
-  - `operations/workflows/exocare-delivery-case-management/` — 11 tasks, each with `skill.md`/`task.md` instructions, `scripts/` tools, `references/` data
-  - `legal/workflows/bomt-msa-signing/` — 12 tasks, same structure
-  - `legal/workflows/exocare-client-enrollment/` — 10 tasks, same structure
-- **125 markdown files** total across all departments
-- **Pattern is consistent:** every workflow = folder, every task = numbered subfolder, every subfolder has instructions + tools + data
-
-The `AI ASSETS/` folder follows the same pattern at the brand level — three-brand system (Exo, Steel, SteelSpeaks), each with `BUSINESS-CONTEXT/` (instructions), `DATA/` (training data), `PROMPTS/` (task-specific instructions).
-
-**What's real vs. what's not:**
-
-| Component | Physical State | Functional State |
-|---|---|---|
-| Department folder structure | ✅ Exists, 9 departments | ⚠️ Structure only — no agent reads or executes it |
-| Workflow task folders | ✅ 3 fully built (33 tasks total) | ⚠️ Documents a human follows manually — not automated |
-| `skill.md` / `task.md` instructions | ✅ Written for all 33 tasks | ⚠️ Never tested by an agent end-to-end |
-| `scripts/` tool files | ✅ Written (Airtable, Diffs, e-sign, etc.) | ⚠️ Pseudocode instructions — not connected to real APIs |
-| `references/` data files | ✅ Written (matrices, templates, etc.) | ⚠️ Static — not queryable or live |
-| `emit_diff()` logging | ❌ Does not exist | ❌ Step 09 in ExoCare says "log to Diffs Engine or Airtable proxy" — no engine to log to |
-| pgpm namespace packaging | ❌ Does not exist | ❌ Folders exist but aren't packaged or installable |
-| Agent traversal of the tree | ❌ Does not exist | ❌ No executor reads the folder structure programmatically |
-| Dog-fooding / real-world test | ❌ Never done | ❌ Zero workflows have been run end-to-end by an agent |
-
-**Honest assessment:** For a first-time non-technical founder, the department workflow structures are decent. The folder pattern is correct, the task sequencing is logical, and the instruction/tool/data separation is the right abstraction. But they have never been executed, tested, or validated against real operational scenarios.
-
-**The streamlining problem — why this is a null plan without operationalization:**
-
-The file-tree concept is only valuable if the tree is **executed and maintained**. Right now, building and maintaining these folder structures requires manual effort — every workflow folder was hand-written, every `skill.md` was hand-crafted, every script was hand-documented. Without operationalization and systemization, this approach doesn't scale:
-
-- **Manual build cost:** Each workflow takes hours to scaffold and write. Three workflows took weeks. Scaling to a full company operating manual (20+ workflows across 9 departments) at this pace is unsustainable for one person.
-- **Manual maintenance cost:** When a process changes, the folder must be updated by hand. No agent reviews diffs and proposes tree updates. The "self-maintaining tree" described above is a concept, not a mechanism.
-- **No execution loop:** The folders sit in the workspace as documents. No agent reads them. No system triggers them. No `emit_diff()` logs their execution. They're a well-structured manual, not a running system.
-- **The null-plan risk:** If the long-term plan is "one person builds and maintains every workflow folder by hand," the plan is null — it doesn't survive contact with a real business running at speed. The concept needs an execution engine and a maintenance mechanism to compound, or the folders rot.
-
-**What would make this real (not yet built):**
-
-1. An executor loop — a coding agent (Hermes, Claude, Codex) that reads a workflow folder, executes tasks in sequence, uses scripts as tools, references data for context, and logs results
-2. `emit_diff()` as the logging chokepoint — turns folder execution into structured, queryable operational memory
-3. A build mechanism — templates, scaffolding scripts, or an agent that generates workflow folder structures from process descriptions (reducing manual build cost)
-4. A maintenance mechanism — the "tree gardener" agent described above, reviewing execution diffs and proposing tree updates
-5. Dog-fooding — running at least one workflow end-to-end against a real operational scenario to validate the structure works
-
-Until these exist, the departments folder is a well-designed prototype of the right pattern — but it is a prototype, not a product.
 
 ---
 
