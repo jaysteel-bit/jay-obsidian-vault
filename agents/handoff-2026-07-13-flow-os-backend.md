@@ -3,9 +3,12 @@ tags:
   - system
   - agent-handoff
   - flow-os
+  - backend
 created: 2026-07-13
 type: handoff
-next-session-focus: "Diff Write Contract B.3 (Hermes agent_handle) + B.4 (24/7 VPS deploy)"
+next-session-focus: Diff Write Contract B.3 (Hermes agent_handle) + B.4 (24/7 VPS deploy)
+project:
+  - "[[Exo]]"
 ---
 
 # Handoff — Flow OS Backend: Diff Write Contract A + B.1/B.2 LIVE (2026-07-13)
@@ -38,7 +41,7 @@ next-session-focus: "Diff Write Contract B.3 (Hermes agent_handle) + B.4 (24/7 V
 ## Next session (B.3 + B.4)
 
 1. **B.3 — Hermes hand-off:** add an `agent_handle` action to the arc — escalation path where Hermes reasons, acts, and writes results back via `emit_diff()`. Arc v1 actions deliberately emit NO diffs; loop-guards must land with this (an action that emits a diff that triggers the action = infinite loop).
-2. **B.4 — 24/7 deploy:** Docker `restart: always` on the Contabo VPS (147.93.181.36) so the arc survives reboots and loses zero diffs. Until then the arc only runs when started manually.
+2. **B.4 — 24/7 deploy:** Docker `restart: always` on the Contabo VPS (147.93.181.36) -OR- Hetzner so the arc survives reboots and loses zero diffs. Until then the arc only runs when started manually.
 
 ## Open cautions
 
