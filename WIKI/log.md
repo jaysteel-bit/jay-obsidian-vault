@@ -64,3 +64,9 @@
 - brand namespace seeded (8 stub events); `handoff=updated` retired (active=false)
 - This unblocks the executor loop in `concepts/aum-bomt-intelligence-compounding-vehicle.md` §22 (diffs metadata/actor columns designed for it); remaining: B.3 Hermes agent_handle, B.4 24/7 VPS deploy
 - Full session record: `agent-workspace/log/2026-07-13-session-diff-write-contract.md` · Handoff for next agent: `agents/handoff-2026-07-13-flow-os-backend.md`
+
+### [2026-07-13] infra | Flow OS repo cloned to VPS
+- Cloned `jaysteel-bit/flow-os` to `~/flow-os/` on the Contabo VPS (147.93.181.36)
+- Generated SSH key on VPS (`~/.ssh/id_ed25519`, `exo@vps-flow-os`); registered as GitHub deploy key on the repo (ID 157202502, read+write)
+- VPS `git pull` verified working autonomously — no agent forwarding needed for future operations
+- No auto-sync cron yet (manual pull for now); `state/infra.md` updated
