@@ -27,6 +27,14 @@
 - Updated `index.md` — added 3 new pages (1 entity, 1 concept, 1 raw source)
 - Deleted original transcript from `agent-workspace/NOTEPAD/Transcripts/yt-transcript.md`
 
+### [2026-07-07] setup | Auto-ingest cron + MCP filesystem server deployed
+- Created Hermes cron job `wiki-auto-ingest` (every 2h) on VPS — watches WIKI/raw/ for new sources, compiles wiki pages, updates index/log, git pushes
+- Installed `mcp` Python package on VPS Hermes venv
+- Added MCP filesystem server to VPS Hermes config — `mcp_servers.vault` pointing at `/home/exo/jay-obsidian-main/`
+- 14 MCP tools now available to any Hermes conversation: read_file, write_file, edit_file, list_directory, directory_tree, search_files, etc.
+- Gateway restarted successfully — Telegram + Photon connected, MCP vault server connected (14 tools discovered)
+- This means: (1) drop sources in WIKI/raw/ → wiki auto-compiles every 2h, (2) any Hermes conversation can read/write the vault directly via MCP tools
+
 ### [2026-07-10] query | Exo Vault meta-leverage system
 - Read two-layer architecture docs in `agent-workspace/Exo Enterprise/Exo-Vaults/` and `strategy-notes/vault-ecosystem-strategy.md`
 - Read `agent-workspace/KNOWLEDGE-SYSTEM.md` and `company-ssot/07-exo-delivery-os.md`
