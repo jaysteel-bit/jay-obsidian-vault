@@ -301,7 +301,7 @@ The model assumes the diffs engine exists. It doesn't yet. Here's the minimal fo
 - Dogfood internally on Exo's own delivery/ops workflows first
 
 **Phase 1 — After first 1–2 clients prove value:**
-- Add Constructive/pgpm for modular namespace packaging (`pgpm install @flowos/sales-reflex`)
+- Add **Constructive**/pgpm for modular namespace packaging (`pgpm install @flowos/sales-reflex`)
 - Add TimescaleDB (hypertables + continuous aggregates for drift/metrics/anomaly detection)
 - Build sovereign Docker stack template (for clean Transfer to client infrastructure)
 - Expand to 2–3 namespaces per client
