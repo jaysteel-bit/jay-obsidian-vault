@@ -478,7 +478,7 @@ Both positionings reinforce each other: scaling partner narrative sells the high
 **Phase 0: Preparation (Week 1)**
 
 - [ ] Kickoff: Map current department workflows (key processes, decision points, data sources)
-- [ ] Identify data sources: Databases (Postgres/MySQL), APIs/webhooks, CRMs (HubSpot), ticketing tools, spreadsheets
+- [ ] Identify data sources: Databases (Postgres/etc.), APIs/webhooks, CRMs (HubSpot), ticketing tools, spreadsheets
 - [ ] Agree on data ownership: Client owns raw data; Exo gets license for runtime + anonymized model improvement (see §14 Custody Framework)
 - [ ] Set up client-specific environment (sovereign VPS or managed instance — start simple)
 
