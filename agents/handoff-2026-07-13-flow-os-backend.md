@@ -41,7 +41,7 @@ project:
 ## Next session (B.3 + B.4)
 
 1. **B.3 — Hermes hand-off:** add an `agent_handle` action to the arc — escalation path where Hermes reasons, acts, and writes results back via `emit_diff()`. Arc v1 actions deliberately emit NO diffs; loop-guards must land with this (an action that emits a diff that triggers the action = infinite loop).
-2. **B.4 — 24/7 deploy:** Docker `restart: always` on the Contabo VPS (147.93.181.36) -OR- Hetzner so the arc survives reboots and loses zero diffs. Until then the arc only runs when started manually.
+2. **B.4 — 24/7 deploy:** Docker `restart: always` on the Contabo VPS (147.93.181.36) -OR- Hetzner so the arc survives reboots and loses zero diffs. Until then the arc only runs when started manually, which should be dealt with soon.
 
 ## Open cautions
 
