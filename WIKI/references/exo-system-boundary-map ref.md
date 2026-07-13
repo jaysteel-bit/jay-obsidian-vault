@@ -24,12 +24,12 @@ This page exists to prevent confusion between the four major systems: `agent-wor
 
 ## The Clearest Boundary
 
-| System | Question it answers | Primary role |
-|---|---|---|
-| `agent-workspace` | How does Exo-the-agent operate? | Agent operating system, skills, runtime rules, infra, execution memory, namespace-specific AI agents |
-| `jay-obsidian-main` | What is Jay/Exo thinking, deciding, building, and learning? | Founder + company knowledge graph; the place where the business becomes legible and rich |
-| Client vaults | What does this client's company know, do, own, and need? | Client-specific business brain, delivery record, SOPs, portal source, sovereignty artifact |
-| Flow OS | What is happening right now, and what changed? | Live operational state, diffs, task queues, dashboards, metrics, agent run logs |
+| System              | Question it answers                                         | Primary role                                                                                                                                        |
+| ------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `agent-workspace`   | How does Exo-the-agent operate?                             | Agent operating system, skills, runtime rules, infra, execution memory, namespace-specific AI agents                                                |
+| `jay-obsidian-main` | What is Jay/Exo thinking, deciding, building, and learning? | Founder + company knowledge graph; the place where the business becomes legible and rich                                                            |
+| Client vaults       | What does this client's company know, do, own, and need?    | Client-specific business brain, delivery record, SOPs, portal source, sovereignty artifact, internal supporting repository tool for client delivery |
+| Flow OS             | What is happening right now, and what changed?              | Live operational state, diffs, task queues, dashboards, metrics, agent run logs, desktop UI                                                         |
 
 ## Core Rule
 
