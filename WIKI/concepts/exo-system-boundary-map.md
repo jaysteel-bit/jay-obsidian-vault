@@ -28,8 +28,8 @@ This page exists to prevent confusion between the four major systems: `agent-wor
 |---|---|---|
 | `agent-workspace` | How does Exo-the-agent operate? | Agent operating system, skills, runtime rules, infra, execution memory, namespace-specific AI agents |
 | `jay-obsidian-main` | What is Jay/Exo thinking, deciding, building, and learning? | Founder + company knowledge graph; the place where the business becomes legible and rich |
-| Client vaults | What does this client's company know, do, own, and need? | Client-specific business brain, delivery record, SOPs, portal source, sovereignty artifact |
-| Flow OS | What is happening right now, and what changed? | Live operational state, diffs, task queues, dashboards, metrics, agent run logs |
+| Client vaults | What does this client's company know, do, own, and need? | Client-specific business brain, delivery record, SOPs, portal source, sovereignty artifact, internal supporting repository tool for client delivery |
+| Flow OS | What is happening right now, and what changed? | Live operational state, diffs, task queues, dashboards, metrics, agent run logs, desktop UI |
 
 ## Core Rule
 
@@ -81,11 +81,12 @@ client-[slug]-vault/
   wiki/
   raw/
   deliverables/
+  etc.
 ```
 
-Flow OS desktop app UI, terminal configs, and namespace-specific harnesses can read from these files to operate with client-specific context. The client vault becomes the company's constitution, memory, SOP layer, and durable operating map.
+Flow OS desktop app UI, terminal configs, and namespace-specific harnesses can read from these files to operate with client-specific context — and auto-self-update them, similar to how the Hermes harness auto-updates its own workspace files (SOUL.md, MEMORY.md, etc.). The client vault becomes the company's constitution, memory, SOP layer, and durable operating map.
 
-Flow OS should not freely mutate the whole vault. It should update through narrow API/MCP rails:
+Flow OS should not freely mutate the whole vault. It should update through narrow API/MCP rails (unless we change our mind on this in the future):
 - emit live diffs into Flow OS first
 - propose vault updates when live behavior changes durable knowledge
 - write only approved/context-safe sections automatically
