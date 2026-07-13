@@ -38,5 +38,5 @@
 - Captured the clearest system-boundary framing as its own artifact
 - Created `concepts/exo-system-boundary-map.md`
 - Clarified ownership boundaries for `agent-workspace`, `jay-obsidian-main`, client vaults, and Flow OS
-- Added exploratory role for EXA AI / Exo Academy as the training, synthesis, and education namespace fed by vault knowledge
+- Added exploratory role for EXA AI / Exo Academy as the training, synthesis, and education namespace fed by (not exclusive) vault knowledge
 - Updated `index.md`
