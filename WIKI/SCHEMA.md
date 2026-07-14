@@ -168,7 +168,7 @@ Only after orientation should you ingest, query, or lint.
 
 - **`Vault-Directions.md`** — human-facing guide to the vault's note-taking philosophy. This SCHEMA is the AI-facing companion.
 - **`agents/CLAUDE.md`** — AI interaction guide for the vault. Points here for wiki operations.
-- **agent-workspace `Exo Enterp/Exo-Vaults/`** — Exo's client delivery system. Each client vault uses the same Karpathy pattern (raw/ + wiki/ + SOPs-configs/) but scoped to a single client engagement. This vault is Jay's personal wiki; client vaults are separate instances.
+- **agent-workspace `Exo Enterprise/Exo-Vaults/`** — Exo's client delivery system. Each client vault uses the same Karpathy pattern (raw/ + wiki/ + SOPs-configs/) but scoped to a single client engagement. This vault is Jay's personal wiki; client vaults are separate instances.
 - **Hermes `llm-wiki` skill** — the skill that implements this pattern programmatically. If using Hermes, set `WIKI_PATH` to this `WIKI/` directory.
 
 ## Folders Are Fine
