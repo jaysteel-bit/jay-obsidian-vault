@@ -43,22 +43,22 @@
 
 ## Recently Changed (since 2026-07-10 compile)
 
-| File | Type | Summary |
-|------|------|---------|
-| `AUM + BOMT Model Commitment.md` | dump | Jay's strategic commitment to the AUM + BOMT model. 247 lines. |
-| `AUM + BOMT — Long-Term Model Reconstruction.md` | dump | Long-term sustainability assessment of the AUM model. 214 lines. |
-| `AUM Break-Even — When AUM Beats Services.md` | dump | Analysis of when AUM revenue crosses services revenue. |
-| `AUM — Reframe - 3.md` | dump | Third iteration of the AUM reframe. |
-| `AUM PURE STRUCTURE - Inputs + Outputs Draft.md` | dump | Pure structural model — inputs, outputs, and the four-tier decision framework. |
-| `AUM Part 2 — Flow OS + Exo.md` | dump | How AUM connects to Flow OS and the Exo ecosystem. |
-| `Asset Management (AUM) Exo Model Brainstorming.md` | dump | Original AUM brainstorming session. |
-| `Exo 2 Headed Monster Model.md` | dump | Model convergence — BOMT as permanent capital roll-up (Brad Jacobs + Buffett idea). 107 lines. |
-| `Exo AUM + Investment AI Convo.md` | dump | AI conversation on AUM + investment vehicle framing. 216 lines. |
-| `Exo Business Model Add On - Grok.md` | dump | Grok's analysis of the AUM model + HoldCo map. Deep strategic breakdown. |
-| `Grok AI Convo.md` | dump | Grok's combined analysis: HoldCo map (Berkshire/CSI hybrid) + AUM thesis. 252 lines. |
-| `AI INVESTORS CHAT.md` | dump | Google AI on Berkshire vs roll-up distinction. 49 lines. |
-| `Another AI CHAT.md` | dump | Google AI on "data + intelligence compounding conglomerate" concept. 68 lines. |
-| `Quick Run Through of Model.md` | processed | Jay's honest reaction to the AUM wiki concept page. Pushed back on "null plan" — prefers "prototype stage." |
-| `Updated Harnesses Transcript.md` | dump | Jay's whiteboard rant: file trees vs. frameworks. The technical defensibility argument for Flow OS. |
-| `agents/Agents-Inbox.md` | processed | Executor Loop Spec v0.1 + Path to Operationalization. Promoted to wiki §22. |
-| `agents/handoff-2026-07-13-flow-os-backend.md` | handoff | Flow OS backend LIVE: emit_diff() RPC, Reflex Arc v1, vocabulary table, 3 rules. B.3/B.4 next. |
+| File                                                | Type      | Summary                                                                                                     |
+| --------------------------------------------------- | --------- | ----------------------------------------------------------------------------------------------------------- |
+| `AUM + BOMT Model Commitment.md`                    | dump      | Jay's strategic commitment to the AUM + BOMT model. 247 lines.                                              |
+| `AUM + BOMT — Long-Term Model Reconstruction.md`    | dump      | Long-term sustainability assessment of the AUM model. 214 lines.                                            |
+| `AUM Break-Even — When AUM Beats Services.md`       | dump      | Analysis of when AUM revenue crosses services revenue.                                                      |
+| `AUM — Reframe - 3.md`                              | dump      | Third iteration of the AUM reframe.                                                                         |
+| `AUM PURE STRUCTURE - Inputs + Outputs Draft.md`    | dump      | Pure structural model — inputs, outputs, and the four-tier decision framework.                              |
+| `AUM Part 2 — Flow OS + Exo.md`                     | dump      | How AUM connects to Flow OS and the Exo ecosystem.                                                          |
+| `Asset Management (AUM) Exo Model Brainstorming.md` | dump      | Original AUM brainstorming session.                                                                         |
+| `Exo 2 Headed Monster Model.md`                     | dump      | Model convergence — BOMT as permanent capital roll-up (Brad Jacobs + Buffett idea). 107 lines.              |
+| `Exo AUM + Investment AI Convo.md`                  | dump      | AI conversation on AUM + investment vehicle framing. 216 lines.                                             |
+| `Exo Business Model Add On - Grok.md`               | dump      | Grok's analysis of the AUM model + HoldCo map. Deep strategic breakdown.                                    |
+| `Grok AI Convo.md`                                  | dump      | Grok's combined analysis: HoldCo map (Berkshire/CSI hybrid) + AUM thesis. 252 lines.                        |
+| `AI INVESTORS CHAT.md`                              | dump      | Google AI on Berkshire vs roll-up distinction. 49 lines.                                                    |
+| `Another AI CHAT.md`                                | dump      | Google AI on "data + intelligence compounding conglomerate" concept. 68 lines.                              |
+| `Quick Run Through of Model.md`                     | processed | Jay's honest reaction to the AUM wiki concept page. Pushed back on "null plan" — prefers "prototype stage." |
+| `Updated Harnesses Transcript.md`                   | dump      | Jay's whiteboard rant: file trees vs. frameworks. The technical defensibility argument for Flow OS.         |
+| `agents/Agents-Inbox.md`                            | processed | Executor Loop Spec v0.1 + Path to Operationalization. Promoted to wiki §22.                                 |
+| `agents/handoff-2026-07-13-flow-os-backend.md`      | handoff   | Flow OS backend LIVE: emit_diff() RPC, Reflex Arc v1, vocabulary table, 3 rules. B.3/B.4 next.              |

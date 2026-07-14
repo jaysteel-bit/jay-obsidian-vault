@@ -26,11 +26,11 @@ This vault merges two systems:
 
 ### Three Layers (Karpathy adapted)
 
-| Layer | Where | What | Who writes it |
-|-------|-------|------|---------------|
-| **Raw sources** | `WIKI/raw/` | Immutable source documents — articles, papers, transcripts, clippings | Human drops sources; AI never modifies |
-| **Compiled wiki** | `WIKI/` (index.md, concept pages, entity pages, comparisons) | AI-generated synthesis, cross-references, summaries | **AI writes and maintains; human reads** |
-| **Personal notes** | Vault root (88 .md files) | Jay's own thinking — brain dumps, evergreen notes, content ideas, strategy | **Human writes; AI analyzes and links** |
+| Layer              | Where                                                        | What                                                                       | Who writes it                            |
+| ------------------ | ------------------------------------------------------------ | -------------------------------------------------------------------------- | ---------------------------------------- |
+| **Raw sources**    | `WIKI/raw/`                                                  | Immutable source documents — articles, papers, transcripts, clippings      | Human drops sources; AI never modifies   |
+| **Compiled wiki**  | `WIKI/` (index.md, concept pages, entity pages, comparisons) | AI-generated synthesis, cross-references, summaries                        | **AI writes and maintains; human reads** |
+| **Personal notes** | Vault root (88 .md files)                                    | Jay's own thinking — brain dumps, evergreen notes, content ideas, strategy | **Human writes; AI analyzes and links**  |
 
 ### Folder Structure
 
@@ -168,7 +168,7 @@ Only after orientation should you ingest, query, or lint.
 
 - **`Vault-Directions.md`** — human-facing guide to the vault's note-taking philosophy. This SCHEMA is the AI-facing companion.
 - **`agents/CLAUDE.md`** — AI interaction guide for the vault. Points here for wiki operations.
-- **agent-workspace `NOTEPAD/Exo-Vaults/`** — Exo's client delivery system. Each client vault uses the same Karpathy pattern (raw/ + wiki/ + SOPs-configs/) but scoped to a single client engagement. This vault is Jay's personal wiki; client vaults are separate instances.
+- **agent-workspace `Exo Enterp/Exo-Vaults/`** — Exo's client delivery system. Each client vault uses the same Karpathy pattern (raw/ + wiki/ + SOPs-configs/) but scoped to a single client engagement. This vault is Jay's personal wiki; client vaults are separate instances.
 - **Hermes `llm-wiki` skill** — the skill that implements this pattern programmatically. If using Hermes, set `WIKI_PATH` to this `WIKI/` directory.
 
 ## Folders Are Fine
