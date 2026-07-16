@@ -30,7 +30,7 @@ Instead of paying a monthly consulting retainer to keep humans on standby, the c
 
 This is where the post-AI paradigm completely breaks away from traditional billing. Instead of billing for "hours worked" by a junior consultant, you bill for digital worker capacity.
 
-- The Structure: A usage-based metric tied to Token/Compute Volume or Task Completion. Regardless 
+- The Structure: A usage-based metric tied to Token/Compute Volume or Task Completion. Regardless Token/Compute Volume must be accounted for so that upside cost or pricing doesn’t happen adversely towards Exo, resulting in losing money.
 - The Goal: Align cost directly with business activity. If the AI processes 10,000 invoices in Q4, the client pays more; if Q1 is slow, they pay less.
 - The Pricing: Per 1,000 executed workflows or processed data clusters.
 
