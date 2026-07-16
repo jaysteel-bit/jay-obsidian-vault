@@ -2,6 +2,8 @@
 
 - Captions:
 
+Told my doctor I have cold symptoms :/ 
+
 More Blessings More Bands 🅱️
 
 If you broke we’ll fix it — (gunna track)
