@@ -2,7 +2,7 @@ Google’s own version of this:
 
 To disrupt the traditional $100,000 management consulting retainer, post-AI corporate pricing must shift from billing for inputs (hours, headcount) to billing for infrastructure and outputs (capacity, computation, business metrics).
 
-If I were designing the pricing architecture for an AI-native infrastructure firm, I would implement a Value-Capture Hybrid Model structured as follows:
+If I were designing the pricing architecture for an AI-native infrastructure firm, I wouldn’t use the traditional seat structure common SaaS does because it makes no sense for Exo; instead I would implement a Value-Capture Hybrid Model structured as follows:
 
 ---
 
@@ -12,7 +12,7 @@ Traditional firms charge heavily upfront for PowerPoint decks and discovery. The
 
 - The Structure: A fixed, low-margin Setup & Deployment Fee.
 - The Goal: Cover the compute and engineering sprint costs required to clean internal data pipelines and deploy the core operating system.
-- The Pricing: $15,000 – $25,000 (flat fee).
+- The Pricing: ~$15,000 – $25,000 (flat fee). + onboarding fees per employee or something.
 
 ---
 
@@ -30,7 +30,7 @@ Instead of paying a monthly consulting retainer to keep humans on standby, the c
 
 This is where the post-AI paradigm completely breaks away from traditional billing. Instead of billing for "hours worked" by a junior consultant, you bill for digital worker capacity.
 
-- The Structure: A usage-based metric tied to Token/Compute Volume or Task Completion.
+- The Structure: A usage-based metric tied to Token/Compute Volume or Task Completion. Regardless 
 - The Goal: Align cost directly with business activity. If the AI processes 10,000 invoices in Q4, the client pays more; if Q1 is slow, they pay less.
 - The Pricing: Per 1,000 executed workflows or processed data clusters.
 
@@ -57,6 +57,8 @@ Traditional consultants rarely tie their fees to actual financial outcomes. Beca
 |Ownership|Client gets PDFs; firm keeps the expertise|Client owns the autonomous department data|
 
 ---
+
+Or something similar to this. 
 
 To tailor this pricing framework to a specific business case, let me know:
 
