@@ -70,3 +70,11 @@
 - Generated SSH key on VPS (`~/.ssh/id_ed25519`, `exo@vps-flow-os`); registered as GitHub deploy key on the repo (ID 157202502, read+write)
 - VPS `git pull` verified working autonomously — no agent forwarding needed for future operations
 - No auto-sync cron yet (manual pull for now); `state/infra.md` updated
+
+### [2026-07-19] compile | Vault compile pass — 2 files changed since last compile
+- 2 vault notes changed since 2026-07-13 compile:
+  - `Google AI Pricing Model v0.1.md` (dump, 142 lines) — Google AI's value-capture hybrid pricing model for post-AI infrastructure firms. 4-layer architecture (implementation fee + SaaS subscription + usage metric + value-share), 90-day BOT frontend, multi-department backend monetization. Maps directly to Exo offer stack + AUM model.
+  - `References/Reference - Old Captions.md` (reference, 194 lines) — Personal social media captions/lyrics. Not wiki material — skipped.
+- Created concept page: `concepts/post-ai-pricing-architecture.md` (now 7 pages total)
+- Updated `index.md` — added new concept entry, bumped page count, refreshed last-updated date
+- No promotion candidates this pass (pricing note is strategic thinking; OFFER-BIBLE.md remains the canonical pricing decision home)

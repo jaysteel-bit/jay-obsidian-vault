@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-07-13 | Total pages: 6
+> Last updated: 2026-07-19 | Total pages: 7
 
 ## Entities
 
@@ -18,6 +18,7 @@
 | [[AUM + BOMT — The Intelligence Compounding Vehicle]] | The master synthesis: Exo captures operational intelligence (diffs + human "why" annotations) via BOMT delivery, compounds it into a prediction engine, and builds a self-funding conglomerate. 22 sections, 724 lines. §21 current state, §22 path to operationalization + executor loop spec v0.1. |
 | [[Exo Vault Meta-Leverage System]] | The vault as a reusable business-brain operating pattern for Jay, Exo, and clients; connects Layer 1 vaults, Flow OS, Delivery OS, and dogfood leverage. |
 | [[Four Ways to Scale a Service Business]] | Hormozi's framework: private chain, franchise, licensing, software — trade-offs on cash flow, enterprise value, capital. |
+| [[Post-AI Pricing Architecture]] | Google AI's value-capture hybrid model: 4-layer pricing (implementation fee + SaaS subscription + usage metric + value-share), 90-day BOT frontend, multi-department backend monetization. Maps to Exo offer stack + AUM model. |
 
 ## Comparisons
 
