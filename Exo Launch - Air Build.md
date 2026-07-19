@@ -75,6 +75,8 @@ Transitioning these core capabilities into your existing technical stack require
 | Content Scaling | Extensive generative AI models and prompt edits [7] | LTX Trainer for custom AI visual models [1] |
 | Audit Trail | Comprehensive version stacking and history [3] | Diffs Engine logging immutable state changes and annotations [1] |
 
+This is worth it but wont be easy; you rate each of the difficulties. Good luck.
+
 What is the single most important third-party integration that Exo Launch must support to ensure seamless adoption by your agency clients?
 
 Sources
