@@ -289,11 +289,11 @@ Wrapping your entire Next.js Flow OS prototype in Tauri is brilliant for your sp
 
 ### 3. The Local + Cloud Hybrid Advantage
 Since you use Ollama, ComfyUI, and build heavy AI infrastructure:
-* **The Cloud handles the source of truth:** Supabase stores all the memory, diffs, and multi-tenant logic.
+* **The Cloud handles the source of truth:** Supabase/**Constructive/Postgres** stores all the memory, diffs, and multi-tenant logic.
 * **The Desktop handles heavy lifting:** If a client has their own GPU, your Tauri app can command their *local* ComfyUI  instances to generate assets via `localhost`, saving you massive cloud API costs. If they don't, the Tauri app falls back to your Cloud API.
 
 ### How to execute it:
-Since you are already building Flow OS in Next.js, integrating Tauri is a 10-minute job. You just set Next.js to output a static export (`output: 'export'` in `next.config.js`), run `npx create-tauri-app`, and point Tauri's build path to your Next.js `out` folder. 
+Since you are already building Flow OS in Next.js, integrating Tauri is a 10-minute job. You just set Next.js to output a static export (`output: 'export'` in `next.config.js`), run `npx create-tauri-app`, and point Tauri's build path to your Next.js `out` folder. Unless, you wanted to to a different route.
 
 You develop in the browser for speed, and compile to Tauri when you want to feel the "Desktop OS" experience.
 
