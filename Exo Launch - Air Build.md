@@ -117,3 +117,113 @@ Sources
 [35] Creative Operations platform - Air Inc. https://air.inc/get-air
 [36] Digital Asset Management (DAM) Software https://air.inc/use-cases/digital-asset-management
 [37] Explore Pricing & Plans https://help.air.inc/en/articles/5174589-explore-pricing-plans
+
+---
+
+**Thoughts on the built**
+
+Here is a comprehensive breakdown of the architectural paths for integrating ComfyUI into Exo Launch (the creative department namespace within Flow OS).
+
+### The Core Requirement
+Based on your PRD and Master Doc architecture:
+- **Exo Launch** is the orchestration layer (the "Creative Department in a Box") that handles prompt briefs, approvals, brand guidelines, and multi-format content generation.
+- **Flow OS** is the control plane (Diffs Engine, memory, multi-tenancy).
+- **ComfyUI** is the execution engine (generating the actual assets).
+
+***
+
+### Option 1: Comfy Cloud API (Managed Service)
+*The fastest, zero-infrastructure path.*
+
+**How it works:** 
+Exo Launch (your Next.js/FastAPI app) makes REST API calls directly to `https://cloud.comfy.org/mcp` or their REST endpoints using an `X-API-Key`. You build workflows in Comfy Cloud visually, save them as JSON, and your Exo Launch code injects variables (prompts, seeds) and POSTs them to the API.
+
+**Pros:**
+- **Zero Infrastructure:** No RunPod, no GPU management, no scaling issues. Comfy handles the compute.
+- **Instant Setup:** Get an API key, write a fetch request, and you're generating images in 10 minutes.
+- **Perfect for MVP:** Allows you to validate Exo Launch's core value (asset orchestration and diff logging) without getting bogged down in DevOps.
+
+**Cons:**
+- **Model Limitations:** You can only use models/LoRAs supported by Comfy Cloud.
+- **Cost:** Pay-per-generation pricing might scale poorly compared to raw compute costs if volume gets extremely high.
+
+**Verdict:** This is the best path for your "Phase 1: Build Core OS MVP" and dogfooding (being Client 0).
+
+***
+
+### Option 2: Self-Managed VPS/Cloud GPU + Comfy API (RunPod/Vast.ai)
+*The maximum control, customized path.*
+
+**How it works:**
+You rent a GPU instance (e.g., RunPod RTX 3090). You install ComfyUI on it. Exo Launch communicates with this instance via ComfyUI's native HTTP/WebSocket API. Your agent POSTs the workflow JSON to `http://<your-runpod-ip>:8188/prompt` and listens to `/ws` for progress.
+
+**Pros:**
+- **Total Freedom:** Use *any* custom model, LoRA, or custom node (crucial for things like LTX Trainer or proprietary client models).
+- **Lower Cost at Scale:** Hourly compute pricing ($0.30-$0.80/hr) is cheaper than pay-per-generation if the instance is constantly running jobs.
+- **Data Sovereignty:** Fits well if enterprise clients require strict data isolation (you can spin up a dedicated pod per client).
+
+**Cons:**
+- **DevOps Overhead:** You have to manage pod lifecycles (spinning up/down to save money), network volumes, and model storage.
+- **Complexity:** Requires handling WebSocket connections and queue management yourself.
+
+**Verdict:** The necessary path once you start using custom-trained LoRAs (like LTX Trainer) for specific B2B clients, or when your volume justifies hourly compute.
+
+***
+
+### Option 3: Comfy MCP Server (Agentic Protocol)
+*The modern, LLM-native path.*
+
+**How it works:**
+Instead of your codebase manually parsing JSON and making API calls, you give an AI Agent (like a LangGraph node or a Claude-powered orchestrator) access to a ComfyUI MCP Server (either local or cloud). The agent "talks" to ComfyUI naturally.
+
+**Pros:**
+- **Agentic Autonomy:** The LLM can dynamically adjust parameters, swap models, or retry failed generations without you writing hardcoded API logic.
+- **Future-Proof:** Aligns perfectly with your 2026 PRD vision of using Hermes/LangGraph for orchestration.
+
+**Cons:**
+- **Less Deterministic:** Relying on an LLM to formulate the ComfyUI request can lead to inconsistent formatting or brand drift (which contradicts Exo Launch's "Brand Guideline Enforcement" requirement).
+- **Overhead:** Might be overkill if you just need to pass a specific text prompt into a rigid, pre-tested image workflow.
+
+**Verdict:** Best used as an advanced feature later. For Exo Launch MVP, deterministic API calls (Option 1 or 2) ensure better quality control and brand compliance.
+
+***
+
+### Option 4: Forking ComfyUI (Custom UI/Backend)
+*The extreme ownership path.*
+
+**How it works:**
+You fork the open-source ComfyUI repository. You strip away the node-graph UI and replace it with your "Liquid Glass UI," deeply integrating it with the Flow OS Diffs Engine directly at the Python level.
+
+**Pros:**
+- **Deepest Integration:** ComfyUI becomes native to Flow OS, not just an external service.
+
+**Cons:**
+- **Massive Maintenance Burden:** You have to manually merge upstream updates from the very active ComfyUI ecosystem.
+- **Violates Architecture:** Your PRD emphasizes an "Internal Abstraction Layer Philosophy" (Vendor-independent architecture). Forking ties you intimately to one specific tool's codebase.
+
+**Verdict:** Avoid. As your PRD states: "Different open-source software abstractions so we don't have to build everything ourselves... Exo Launch UI is really LTX Trainer."
+
+***
+
+### Recommended Execution Path for Exo Launch
+
+Based on your strategy of "Service-Funded Software" and "Speed vs. Perfection," here is the logical progression:
+
+1. **Phase 1 (Now - MVP & Dogfooding): Comfy Cloud API (Option 1).**
+   - Build a standard hero-image workflow in the Comfy UI visually.
+   - Export the `workflow_api.json`.
+   - Write a FastAPI/Next.js function in Exo Launch that injects prompts into that JSON and hits the Comfy Cloud endpoint.
+   - *Why?* Gets you generating Exo's own marketing assets immediately with zero infra.
+
+2. **Phase 2 (First Client Deliveries): RunPod + Comfy API (Option 2).**
+   - Once you train specific LTX LoRAs for a client (as detailed in your strategy), you must host them.
+   - Spin up a RunPod template.
+   - Change your API endpoint in Exo Launch from Comfy Cloud to your RunPod IP. The JSON workflow logic remains exactly the same.
+   - *Why?* Required for proprietary client models while keeping costs predictable.
+
+3. **Phase 3 (Autonomous Departments): LangGraph + MCP (Option 3).**
+   - Integrate Comfy MCP into your Flow OS "Reflex Arc."
+   - Allow the agent to not just execute rigid workflows, but dynamically construct workflows based on the diffs/why annotations it reads from the marketing department.
+
+By abstracting the image generation behind a standard API wrapper in Exo Launch, you can swap the backend (Cloud → RunPod → MCP) without changing the user interface or the Flow OS Diffs Engine.
+
