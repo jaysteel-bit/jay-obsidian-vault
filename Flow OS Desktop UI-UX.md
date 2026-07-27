@@ -105,7 +105,10 @@ Recommendation: Start with Tauri (you can even prototype the UI in the same web 
 
 Need a side-by-side comparison table or quick Tauri vs Electron starter commands?
 
+---
 
+
+[DESKTOP-SHELL-UX.md]
 
 
 ## Quick Thoughts
