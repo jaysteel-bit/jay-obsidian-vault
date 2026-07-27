@@ -11,6 +11,7 @@ sources:
 related:
   - Exo Enterprise/departments/product/flow-os/DESKTOP-SHELL-UX.md
   - flow-os/AGENTS.md (three homes + desktop routing)
+project:
 ---
 
 # Flow OS Desktop Shell — UI Direction Note (full)
