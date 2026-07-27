@@ -108,7 +108,7 @@ Need a side-by-side comparison table or quick Tauri vs Electron starter commands
 ---
 
 
-[DESKTOP-SHELL-UX.md]
+[DESKTOP-SHELL-UX.md] / [[flow-os-desktop-shell-ui-direction-2026-07-27]]
 
 
 ## Quick Thoughts
