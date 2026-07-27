@@ -59,15 +59,15 @@ Wants IDE-native chrome while keeping Flow OS template DNA.
 
 **Files:** `Desktop/02 - UI References & Screenshots/HERMES-UI/`
 
-| Pattern | What it does |
-|--------|----------------|
-| **Three-zone workbench** | Left sessions · center conversation · right workspace tree |
-| **Status bar = “this is software”** | Gateway · Agents · Cron · branch · tokens · version |
-| **Ambient art, not UI** | Classical painting *behind* chrome; content still readable |
-| **Utility titlebar** | Layout / volume / settings / theme next to window controls |
-| **Empty state = branded typography** | “HERMES AGENT” + one line + composer |
-| **Composer dock** | Bottom-center, model + send |
-| **Setup progressive** | Installer → “HERMES IS READY” |
+| Pattern                              | What it does                                               |
+| ------------------------------------ | ---------------------------------------------------------- |
+| **Three-zone workbench**             | Left sessions · center conversation · right workspace tree |
+| **Status bar = “this is software”**  | Gateway · Agents · Cron · branch · tokens · version        |
+| **Ambient art, not UI**              | Classical painting *behind* chrome; content still readable |
+| **Utility titlebar**                 | Layout / volume / settings / theme next to window controls |
+| **Empty state = branded typography** | “HERMES AGENT” + one line + composer                       |
+| **Composer dock**                    | Bottom-center, model + send                                |
+| **Setup progressive**                | Installer → “HERMES IS READY”                              |
 
 **Steal:** status bar idea, ambient-behind-chrome, right panel as context, utility titlebar, branded presence that still feels like work.  
 **Don’t steal:** left rail as *only* chat history — left stays **product surfaces** (HQ / Workflows / Memory / Depts).
