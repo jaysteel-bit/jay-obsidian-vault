@@ -78,3 +78,22 @@
 - Created concept page: `concepts/post-ai-pricing-architecture.md` (now 7 pages total)
 - Updated `index.md` — added new concept entry, bumped page count, refreshed last-updated date
 - No promotion candidates this pass (pricing note is strategic thinking; OFFER-BIBLE.md remains the canonical pricing decision home)
+
+### [2026-07-31] compile | Vault compile pass — 6 files changed since last compile (index was 12 days stale, 5-day cadence)
+- Triggered by the `FORGE WIKI/index.md` staleness flag in `agent-workspace/BRIEF.md` (12 days old, expected ≤5). The heartbeat owns this loop; it had not fired since 2026-07-19.
+- 6 vault notes changed since the 2026-07-19 compile:
+  - `flow-os-desktop-shell-ui-direction-2026-07-27.md` (notepad, 193 lines) — full Flow OS desktop shell UI direction: ChatGPT/Codex + Hermes teardown, the Company Pulse correction (pill + rotating hero headlines + KPI row, NOT status-bar-only), phased moves, success criteria.
+  - `Flow OS Desktop UI-UX.md` (dump, 90 lines) — Grok conversation: Tauri vs Electron, onboarding installer, Flow OS MCP + API integration.
+  - `Exo Launch - Air Build.md` (dump, 210 lines) — Air.inc creative-ops teardown mapped onto Exo Launch; four ComfyUI integration paths (Comfy Cloud API → RunPod → MCP → fork, with verdicts); Tauri assessment that concluded "wrap the whole OS, not just Launch."
+  - `Grok Open Ship Opensource Email Convo.md` (dump, 55 lines) — cold-outreach vs nurture tool split; OpenShip self-hosted mail rejected on deliverability. Tactical, not a framework — no page.
+  - `Exo Dept Lead Magnet Quiz Funnel.md` (dump, 5 lines) — department-orb quiz lead magnet. Too thin to compile; pairs with the fuller `agent-workspace/NOTEPAD/lead-magnet-quiz-funnel.md`.
+  - `Attachments/Top 4 Scarcest Skills.md` (reference, 1 line) — a single pasted image, no text. Skipped.
+- **Created concept page:** `concepts/flow-os-desktop-shell.md` — "Flow OS Desktop Shell — Tauri + Company Pulse Theater." Clears the SCHEMA threshold on both counts (central to one source, present in 3). Three decisions captured: Tauri over Electron; wrap all of Flow OS rather than Exo Launch alone; Company Pulse is product identity and survives the shell revamp. Links to [[Exo System Boundary Map]], [[AUM + BOMT — The Intelligence Compounding Vehicle]], [[Exo Vault Meta-Leverage System]].
+- `WIKI/raw/` scanned — no new raw sources since 2026-07-07 (hormozi transcript only). Nothing to ingest.
+- **Index drift fixed** (found while reconciling, all pre-existing):
+  - `Exo System Boundary Map` was listed under **Entities** but lives in `concepts/` — moved to Concepts.
+  - `references/exo-system-boundary-map ref.md` was listed but **does not exist on disk** (added by the 2026-07-13 pass; never created or since deleted) — removed the dead row.
+  - Page count said 7 while only 6 pages existed. Now genuinely 7 (6 concepts + 1 entity) with the new page, and the count is broken out so it can be checked at a glance.
+  - `SCHEMA.md` was not listed anywhere in the index despite being the read-first file — added under References.
+  - "Recently Changed" still said "since 2026-07-10" while the log had moved on twice — refreshed to the 2026-07-19 baseline, with the older AUM/BOMT cluster summarized into a carried-forward note instead of re-listing 17 rows.
+- No promotion candidates to the Reservoir this pass — the desktop shell decisions are already codified there at `Exo Enterprise/departments/product/flow-os/DESKTOP-SHELL-UX.md` (status: locked). The ComfyUI integration ladder from `Exo Launch - Air Build.md` is the one open item worth promoting once a build path is chosen.
