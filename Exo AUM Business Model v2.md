@@ -265,8 +265,8 @@ To help finalize this updated architecture, tell me:
 
 - What specific operational metrics (e.g., supply chain logs, customer support tickets, sales scripts) should Flow OS capture first during a new client onboarding?
 - Do you want to build a centralized M&A team inside Exo Holdings, or will you use external investment bankers to source your acquisitions?
-- Should the Steel Card ecosystem operate purely as an elite B2B referral network, or should it offer direct financial services like corporate charge cards?
-- Do you wid
+- Should the Steel Card ecosystem operate purely as an elite B2B referral network, or should it offer direct financial services like corporate charge cards? -- While keeping your B2C side a way to bring customer acquisition and brand awearness to cold personas?
+- Do you wish to remove or tweak the JV spin-out idea into something more controllable or different?
 
 ---
 ## Key Insights
