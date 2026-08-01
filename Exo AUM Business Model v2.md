@@ -136,7 +136,7 @@ This architecture upgrades your original core thesis from a high-yield enterpris
 
 ---
 
-## The Architecture: One Core Engine, Dual Distribution
+## ==The Architecture: One Core Engine, Dual Distribution==
 
 ```unset
                     [ EXO HOLDINGS (Family Office) ]
@@ -169,7 +169,7 @@ This architecture upgrades your original core thesis from a high-yield enterpris
 ## Layer 2: The Vehicle (Asymmetric BOMT)
 
 - The Wedge: Build-Operate-Manage-Transfer functions as a risk-mitigation tool for enterprise buyers. It completely bypasses typical internal procurement objections by offering a clear, eventual exit ramp.
-- The Reality: The "Transfer" is an economic optical illusion. You hand over the keys to the vehicle, but you remain the sole manufacturer of the fuel.
+- The Reality: ==The "Transfer" is an economic optical illusion.== You hand over the keys to the vehicle, but you remain the sole manufacturer of the fuel.
 
 ```unset
 +----------------------------------------------------------------------------+
