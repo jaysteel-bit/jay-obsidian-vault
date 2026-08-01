@@ -18,6 +18,8 @@ attachments:
 backlog: false
 ---
 
+**See Part v2 of this AUM model**
+
 ## Quick Thoughts
 
 Full reconstruction of the AUM + BOMT model from scattered vault notes + AI chats into one coherent mental model. Long-term sustainability assessment — not execution, not pricing, not timelines. Does the model hold up as a vehicle for the next 10+ years?
