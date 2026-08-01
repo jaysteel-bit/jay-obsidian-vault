@@ -67,11 +67,11 @@ The graphic below maps your current structural blueprint, illustrating the capit
 
 ## Restructuring for Maximum Viability
 
-To elevate this strategy to a 9.5/10, you must separate your software operations from your investment vehicles.
+To elevate this strategy to a *9.5/10*, you must separate your **software operations from your investment vehicles.**
 
 ## 1. Establish the Pure Play HoldCo
 
-- Position Exo Holdings as the top-level umbrella entity.
+- Position Exo Holdings as the top-level umbrella entity-- which it is.
 - Isolate liabilities by holding equity in separate subsidiaries.
 
 ## 2. Segment Capital and Software
