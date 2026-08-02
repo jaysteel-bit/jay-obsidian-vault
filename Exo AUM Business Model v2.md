@@ -118,7 +118,7 @@ To elevate this strategy to a *9.5/10*, you must separate your **software operat
 
 ---
 
-**See below for more flushed out tweaks from the last model version tweaks**
+**See below for more flushed out tweaks from the last model version tweaks** -- restructuring [C:\Users\viole\Desktop\jay-obsidian-main\AUM + BOMT — Long-Term Model Reconstruction.md] & [C:\Users\viole\Desktop\jay-obsidian-main\AUM + BOMT Model Commitment.md]
 
 ---
 
