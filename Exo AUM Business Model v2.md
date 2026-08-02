@@ -88,7 +88,7 @@ To elevate this strategy to a *9.5/10*, you must separate your **software operat
 
 ## 4. Deploy the Flow OS Playbook
 
-- Install a vetted, equity-incentivized operator at each acquired company.
+- Install a vetted, equity/profit-incentivized operator at each acquired company.
 - Strip out legacy ERP systems and install Flow OS namespaces within 90 days.
 - Reinvest the expanded cash margins back into Exo Holdings to fund subsequent acquisitions.
 
