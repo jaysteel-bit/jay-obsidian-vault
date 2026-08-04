@@ -4,14 +4,16 @@ categories:
 project: []
 topic:
 type: dump
-created:
-  "{ date }":
+created: "{{date}}"
 review_date:
 tags:
   - brain-dump
 acted-on: false
+compiled:
+promoted-to:
+backlog: true
+vault-context: business
 attachments:
-backlog:
 ---
 
 ## Quick Thoughts
@@ -23,6 +25,18 @@ backlog:
 ## Key Insights
 
 [Extract main takeaways as you review this dump]
+
+---
+
+## Open questions
+
+- [ ]
+
+---
+
+## Decisions implied
+
+- 
 
 ---
 
@@ -40,4 +54,4 @@ backlog:
 ---
 ## Notes
 
-**WORKFLOW:** This is a capture zone for business thoughts and tangents. When an idea hits, create a new dump note. Review periodically (weekly recommended) to extract insights into Projects, Ideas, or Admin tasks. Once reviewed, update `review_date` and archive by moving it to a completed state.
+**WORKFLOW:** Capture zone for business thoughts. Drop freely on mobile. **Agent owns triage** (heartbeat / `/vault triage`): fills `acted-on`, `compiled`, `backlog`; may add wiki pages; promotes decisions to agent-workspace. Do **not** move dumps into `WIKI/raw/` (raw = external sources only). Once reviewed, residual opens live in `backlog` checklist.

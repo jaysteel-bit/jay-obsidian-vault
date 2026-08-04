@@ -121,7 +121,7 @@ Wiki pages use tags from this list. Add new tags here BEFORE using them.
 
 ## Operations
 
-### 1. Ingest (when Jay drops a source)
+### 1. Ingest (when Jay drops an **external** source)
 
 1. Save source to `WIKI/raw/` with descriptive name + raw frontmatter
 2. Read the source, discuss key takeaways with Jay
@@ -131,6 +131,41 @@ Wiki pages use tags from this list. Add new tags here BEFORE using them.
 6. Update `index.md` — add new pages under correct section
 7. Append to `log.md`: `## [YYYY-MM-DD] ingest | Source Title`
 8. Report every file created or updated
+
+**`WIKI/raw/` is immutable external sources only** (transcripts, articles, PDFs).  
+**Do NOT put Jay's brain dumps in raw/** — those stay at vault root and use §1b.
+
+### 1b. Root capture triage (dumps **and** loose root notes → compile / holes / Reservoir)
+
+**Inbox = vault root `.md` files, NOT `WIKI/raw/`.**  
+Includes formal dumps **and** loose root notes (untitled chats, Grok convos, half-named thinking) that never got `type: dump`.
+
+**Queue selector** — root-level `.md` only (never Categories/, Templates/, Daily/, Attachments/, WIKI/, agents/, .obsidian/):
+
+Include if **any**:
+- `type: dump` OR tag `brain-dump` OR `categories` contains `Dumps`
+- OR loose root note: not agent-maintained, and (`acted-on` false/missing OR `compiled` empty/missing OR mtime newer than last `WIKI/log.md` triage/compile stamp)
+
+**Always exclude from queue:**
+- `WIKI/**`, `Templates/**`, `Categories/**`, `Daily/**`, `Attachments/**`, `agents/**`, `.obsidian/**`
+- Files that are pure evergreen already `acted-on: true` with fresh `compiled` and no newer mtime
+- Binary/media
+
+For each note in the batch (**cap 3 per heartbeat** unless Jay requested a full pass):
+1. Read note + `index.md` (+ relevant existing concept pages)
+2. Classify: `ignore` | `hole-fill` | `wiki-update` | `wiki-create` | `task-atom` | `promote-candidate` (combine when needed)
+3. **Hole-fill on the root note** (additive only — never delete Jay's body):
+   - set `acted-on: true` when triage finished
+   - set `compiled: YYYY-MM-DD` when wiki was touched
+   - fill `backlog` with a markdown checklist of residual opens, OR `backlog: false`
+   - if missing type/categories on a loose note: infer lightly (`type: dump` or `idea` / `research`) — don't force-fit
+   - add `## Open questions` / `## Decisions implied` if missing and content warrants
+4. **Wiki:** create/update concept pages per Page Thresholds; ≥2 wikilinks; bump `index.md` + append `log.md`
+5. **Reservoir (agent-workspace):** only if actionable — `state/tasks/<slug>.md` and/or `state/decisions-open.md`. Never paste full note bodies into the workspace.
+6. **Promote** when KNOWLEDGE-SYSTEM §2 criteria hit: write Reservoir SSOT/state first, then set `promoted-to: "agent-workspace/<path>"` on the note
+7. Log: `## [YYYY-MM-DD] root-triage | <Note Title> → <outcomes>`
+
+Owner: Hermes heartbeat (`HEARTBEAT.md` Owned checks), model-pinned for maintenance. Manual: `/vault triage`.
 
 ### 2. Query (when Jay asks a question)
 
