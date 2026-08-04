@@ -5,14 +5,18 @@ project:
   - "[[Steel]]"
 topic: Ecomm Ideas
 type: dump
-created:
-  "{ date }":
+created: 2026-07-31
 review_date:
 tags:
   - brain-dump
-acted-on: false
-attachments:
+acted-on: true
+compiled:
+promoted-to:
 backlog:
+  - "[ ] Sketch dual belt-loop hardware (hidden detachable loop) for prototype costing"
+  - "[ ] Belt dagger orientation: horizontal / waist-aligned industrial design brief"
+vault-context: business
+attachments:
 ---
 
 ## Quick Thoughts
@@ -24,22 +28,29 @@ backlog:
 
 ## Key Insights
 
-[Extract main takeaways as you review this dump]
+- Product ideas (hardware): dual/hidden belt loops on Steel pants; horizontal waist-aligned "dagger" belt tip that doubles as lock aesthetic.
+- Below wiki page threshold (single thin dump, not 2+ sources) — **no concept page**. Keep as Steel product capture.
+- Triaged 2026-08-04: hole-fill only.
 
----
+## Open questions
+
+- [ ] Manufacturing feasibility / cost of hidden loops?
+- [ ] Safety/shipping for dagger-form belt hardware?
+
+## Decisions implied
+
+- None locked — ideation only.
 
 ## Action Items / Next Steps
 
-[What should happen with these thoughts? Convert to Project? Create an Idea? Admin task?]
-
----
+- [x] Triaged (no wiki page)
+- [ ] Optional Steel product sketch when SKU work starts
 
 ## Confidence Level (Recursive Loop)
 
-[Recursive tasks that have a two prong approach— First is confidence level of the answer against realistic perspective; formatted in (99.99). Second is a fresh take with mental models if applicable: Inversion / Second Order Thinking / Hypothetical Limits (Max/Low) / First Principles Thinking / etc. (General Thinking Concepts)]
-
+Ideation only (~0.4 as business commitment).
 
 ---
 ## Notes
 
-**WORKFLOW:** This is a capture zone for business thoughts and tangents. When an idea hits, create a new dump note. Review periodically (weekly recommended) to extract insights into Projects, Ideas, or Admin tasks. Once reviewed, update `review_date` and archive by moving it to a completed state.
+**WORKFLOW:** Capture zone. Agent triage 2026-08-04 — hole-fill, no wiki page (threshold). Residual in `backlog`.

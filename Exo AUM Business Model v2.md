@@ -2,16 +2,20 @@
 categories:
   - "[[Dumps]]"
 project: []
-topic:
+topic: "AUM holdco structure v2 scoring"
 type: dump
-created:
-  "{ date }":
+created: 2026-08-01
 review_date:
 tags:
   - brain-dump
-acted-on: false
-attachments:
+acted-on: true
+compiled: 2026-08-04
+promoted-to:
 backlog:
+  - "[ ] Reconcile capital-mismatch fix with OFFER-BIBLE / holdco map when pricing pass happens"
+  - "[ ] Do not treat Grok 7.5/10 score as fact — DRAFT only"
+vault-context: business
+attachments:
 ---
 
 ## Quick Thoughts
@@ -271,22 +275,32 @@ To help finalize this updated architecture, tell me:
 ---
 ## Key Insights
 
-[Extract main takeaways as you review this dump]
+- Holdco sketch: Exo Holdings → Exo Enterprise (Flow OS engine) + Steel (identity/passport) → acquired ops businesses.
+- Grok scored vehicle ~7.5/10 with **capital mismatch** as core risk — treat as **[DRAFT]** opinion, not baseline (Jay rule on brainstormed numbers).
+- Already covered at depth by wiki [[AUM + BOMT — The Intelligence Compounding Vehicle]]; this dump is a v2 structure/score pass — **append-only** to that page, no full rewrite.
+- Triaged 2026-08-04.
 
----
+## Open questions
+
+- [ ] First Flow OS capture metrics on new client onboard?
+- [ ] M&A team in-house vs external bankers?
+- [ ] Steel Card: elite B2B referral vs financial services vs pure CAC brand layer?
+- [ ] JV spin-out: keep, tweak, or kill?
+
+## Decisions implied
+
+- None newly locked — thinking dump. Canonical AUM narrative remains the wiki concept + Reservoir holdco/SSOT docs.
 
 ## Action Items / Next Steps
 
-[What should happen with these thoughts? Convert to Project? Create an Idea? Admin task?]
-
----
+- [x] Triaged → wiki concept sources list + § append
+- [ ] Pricing/capital pass when Jay opens OFFER-BIBLE / holdco work
 
 ## Confidence Level (Recursive Loop)
 
-[Recursive tasks that have a two prong approach— First is confidence level of the answer against realistic perspective; formatted in (99.99). Second is a fresh take with mental models if applicable: Inversion / Second Order Thinking / Hypothetical Limits (Max/Low) / First Principles Thinking / etc. (General Thinking Concepts)]
-
+Structure clarity ~0.7; scores/projections not authoritative.
 
 ---
 ## Notes
 
-**WORKFLOW:** This is a capture zone for business thoughts and tangents. When an idea hits, create a new dump note. Review periodically (weekly recommended) to extract insights into Projects, Ideas, or Admin tasks. Once reviewed, update `review_date` and archive by moving it to a completed state.
+**WORKFLOW:** Capture zone. Agent triage 2026-08-04. Residual in `backlog`. Brainstormed scores are DRAFT only.

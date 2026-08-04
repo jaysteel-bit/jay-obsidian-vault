@@ -2,16 +2,21 @@
 categories:
   - "[[Dumps]]"
 project: []
-topic:
+topic: "emit_diff chokepoint scale + vocabulary growth"
 type: dump
-created:
-  "{ date }":
+created: 2026-08-03
 review_date:
 tags:
   - brain-dump
-acted-on: false
-attachments:
+acted-on: true
+compiled: 2026-08-04
+promoted-to:
 backlog:
+  - "[ ] Decide when local queue daemon replaces sync emit-diff.ps1 on hot path"
+  - "[ ] Sandbox stream for unmapped vocabulary events"
+  - "[ ] Lexicon promote thresholds"
+vault-context: business
+attachments:
 ---
 
 ## Quick Thoughts
@@ -183,22 +188,33 @@ I can provide the clean architectural blueprint to keep your data taxonomy perfe
 
 ## Key Insights
 
-[Extract main takeaways as you review this dump]
+- Chokepoint is a feature (control plane), not a bug — scale with async queue + batch + local validation.
+- Pizza/sticky-note mental model: local board → batched delivery → pocket dictionary.
+- Vocabulary: Sandbox → Forge (cluster) → Lexicon; enforce `domain.entity.action`; frequency + similarity guards against slop.
+- **Wiki:** [[emit_diff Chokepoint — Scale Without Slop]]
+- **Live runtime:** agent-workspace `state/flow-os.md`
 
----
+## Open questions
+
+- [ ] Agent runtime language for high-volume emitters (Node/Python/Go/Rust daemon)?
+- [ ] Peak diffs/minute target for dogfood vs first client?
+- [ ] Bulk RPC shape (`bulk_emit_diffs`) vs client-side batch to existing RPC?
+
+## Decisions implied
+
+- Keep single write door (`emit_diff`) even under scale redesign.
+- Do not grow vocabulary by free-form agent strings.
 
 ## Action Items / Next Steps
 
-[What should happen with these thoughts? Convert to Project? Create an Idea? Admin task?]
-
----
+- [x] Triaged 2026-08-04 → wiki concept created
+- [ ] Optional: task in Reservoir when building queue daemon (not opened yet — still design)
 
 ## Confidence Level (Recursive Loop)
 
-[Recursive tasks that have a two prong approach— First is confidence level of the answer against realistic perspective; formatted in (99.99). Second is a fresh take with mental models if applicable: Inversion / Second Order Thinking / Hypothetical Limits (Max/Low) / First Principles Thinking / etc. (General Thinking Concepts)]
-
+Scale diagnosis high confidence for *direction* (~0.85); implementation timing low until dogfood volume is real.
 
 ---
 ## Notes
 
-**WORKFLOW:** This is a capture zone for business thoughts and tangents. When an idea hits, create a new dump note. Review periodically (weekly recommended) to extract insights into Projects, Ideas, or Admin tasks. Once reviewed, update `review_date` and archive by moving it to a completed state.
+**WORKFLOW:** Capture zone. Agent triage 2026-08-04 set `acted-on`/`compiled`. Residual opens in `backlog`.

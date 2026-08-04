@@ -97,3 +97,14 @@
   - `SCHEMA.md` was not listed anywhere in the index despite being the read-first file — added under References.
   - "Recently Changed" still said "since 2026-07-10" while the log had moved on twice — refreshed to the 2026-07-19 baseline, with the older AUM/BOMT cluster summarized into a carried-forward note instead of re-listing 17 rows.
 - No promotion candidates to the Reservoir this pass — the desktop shell decisions are already codified there at `Exo Enterprise/departments/product/flow-os/DESKTOP-SHELL-UX.md` (status: locked). The ComfyUI integration ladder from `Exo Launch - Air Build.md` is the one open item worth promoting once a build path is chosen.
+
+### [2026-08-04] root-triage | Pipeline live + hot backlog pass
+- **Pipeline:** SCHEMA §1b expanded to **dumps + loose root notes**; HEARTBEAT owns root triage (cap 3/tick); vault skill rewritten (VPS path, WIKI/, `/vault triage`); Dump Template gains `compiled`/`acted-on`/`backlog`; heartbeat pinned `deepseek/deepseek-v4-flash-0731` (chat stays grok-4.5).
+- **Reservoir:** `HEARTBEAT.md`, `KNOWLEDGE-SYSTEM.md`, `Skills/vault/SKILL.md`, `state/infra.md` updated. Doctrine: thinking→Forge, decisions→agent-workspace; never body-dump into Reservoir.
+- **Hot notes triaged:**
+  - `emitt-diff talk.md` → created `concepts/emit-diff-chokepoint-scale.md` (acted-on + compiled)
+  - `Flow OS + Buzz.md` → created `concepts/flow-os-team-surface.md` + frontmatter (loose root now in system)
+  - `Exo AUM Business Model v2.md` → hole-fill + AUM concept appendix (DRAFT scores flagged)
+  - `Steel Pants + Steel Belt.md` → hole-fill only (below wiki threshold)
+- Index refreshed: 9 pages (8 concepts + 1 entity).
+- No SSOT promote this pass (no new locked pricing/offer decisions). Queue remains large historically — heartbeat drains cap 3 ongoing.

@@ -1,4 +1,27 @@
+---
+categories:
+  - "[[Dumps]]"
+project:
+  - "[[Flow OS]]"
+topic: "Team surface / Buzz L1 / AX rename"
+type: dump
+created: 2026-08-03
+review_date:
+tags:
+  - brain-dump
+acted-on: true
+compiled: 2026-08-04
+promoted-to:
+backlog:
+  - "[ ] Implement /ax → /team chrome rename when shell work resumes"
+  - "[ ] Choose L1 relay for v1"
+  - "[ ] Bridge first 1–2 Team events into emit_diff"
+vault-context: business
+---
+
 You’re right to push on the UI part. The earlier read was half-right on architecture and half-wrong on product surface. Here’s a cleaner take.
+
+> **Wiki:** [[Flow OS Team Surface — humans + agents]] · Shell chrome: [[Flow OS Desktop Shell — Tauri + Company Pulse Theater]]
 
 ───
 

@@ -1,7 +1,7 @@
 ---
 title: AUM + BOMT — The Intelligence Compounding Vehicle
 created: 2026-07-11
-updated: 2026-07-11
+updated: 2026-08-04
 type: concept
 tags: [exo, aum, bomt, strategy, long-term, flow-os, holdco, compounding]
 sources:
@@ -12,6 +12,7 @@ sources:
   - "../../AUM PURE STRUCTURE - Inputs + Outputs Draft.md"
   - "../../Asset Management (AUM) Exo Model Brainstorming.md"
   - "../../Exo 2 Headed Monster Model.md"
+  - "../../Exo AUM Business Model v2.md"
   - "../../Grok AI Convo.md"
   - "../../Another AI CHAT.md"
   - "../../AI INVESTORS CHAT.md"
@@ -717,8 +718,19 @@ Until these steps are complete, the departments folder remains a high-quality pr
 
 ---
 
+## Appendix — 2026-08-04 root triage (AUM Business Model v2)
+
+> Append-only. Source: vault root `Exo AUM Business Model v2.md`. Does **not** replace §§ above. Brainstormed scores are **[DRAFT]** — not baselines.
+
+- Holdco sketch restated: **Exo Holdings** → **Exo Enterprise** (Flow OS engine on acquired ops) + **Steel** (identity/passport / CAC layer).
+- External scoring pass (~7.5/10) flagged **capital mismatch** as the main structural risk — useful as a challenge list, not as a KPI.
+- Open forks captured on the dump backlog: first onboard metrics; M&A sourcing model; Steel Card job-to-be-done; JV spin-out keep/tweak/kill.
+- Related scale work: [[emit_diff Chokepoint — Scale Without Slop]] (how the intelligence pipe stays the chokepoint under load).
+
 ## Related Pages
 
 - [[Exo Vault Meta-Leverage System]]
 - [[Four Ways to Scale a Service Business]]
 - [[Exo System Boundary Map]]
+- [[emit_diff Chokepoint — Scale Without Slop]]
+- [[Flow OS Team Surface — humans + agents]]
