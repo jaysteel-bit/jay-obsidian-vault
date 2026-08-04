@@ -108,3 +108,12 @@
   - `Steel Pants + Steel Belt.md` → hole-fill only (below wiki threshold)
 - Index refreshed: 9 pages (8 concepts + 1 entity).
 - No SSOT promote this pass (no new locked pricing/offer decisions). Queue remains large historically — heartbeat drains cap 3 ongoing.
+
+### [2026-08-04] root-triage | Connector taxonomy + desktop-shell/AEO hole-fill
+- **Queue select:** 3 loose root/dump notes processed (cap 3), none newer than the 17:53 stamp — routine drain of the historical backlog, not a new burst.
+- `Paycom Flow Integration— Seven Hills B2B Insight.md` → **Wiki** `concepts/flow-os-connector-taxonomy.md` (Tier 1 unified / Tier 2 direct / SFTP stance — don't native-build Paycom) + **Reservoir** `agent-workspace/state/tasks/flow-os-connector-taxonomy.md` (build tagged connector list). Frontmatter added (type: research, acted-on true, compiled 2026-08-04).
+- `Flow OS Desktop UI-UX.md` → hole-fill only. Already a listed source on `concepts/flow-os-desktop-shell.md`; marked acted-on + compiled, no new page (avoid duplicate).
+- `AEO Calculator Lead Magnet.md` → hole-fill only (thin — 1-line idea). acted-on, compiled, backlog: build the AEO visibility calculator, pair with lead-magnet funnel.
+- Index refreshed: **10 pages (9 concepts + 1 entity)**.
+- No SSOT promote (connector stance is decision-grade for Flow OS build order but lives in a task until built; not a new locked offer/pricing).
+- Queue remains large historically (~100 loose root notes untouched) — heartbeat drains cap 3 ongoing; many are evergreen quotes/one-liners below page threshold and will hole-fill only.

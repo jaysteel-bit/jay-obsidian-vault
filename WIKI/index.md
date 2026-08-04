@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-08-04 | Total pages: 9 (8 concepts + 1 entity)
+> Last updated: 2026-08-04 | Total pages: 10 (9 concepts + 1 entity)
 
 ## Entities
 
@@ -20,6 +20,7 @@
 | [[Exo Vault Meta-Leverage System]] | Vault as reusable business-brain pattern for Jay, Exo, clients. |
 | [[Flow OS Desktop Shell — Tauri + Company Pulse Theater]] | Tauri shell + Company Pulse theater rules (locked direction). |
 | [[Flow OS Team Surface — humans + agents]] | Team shell surface (evolve AX); Buzz optional L1; diffs stay L2; not Admin/Delivery/Flowstate. |
+| [[Flow OS Connector Taxonomy — Tier 1 unified / Tier 2 direct / SFTP]] | Never native-build closed-ecosystem connectors; route via unified API, direct OAuth, or SFTP fallback. |
 | [[Four Ways to Scale a Service Business]] | Hormozi framework: private chain, franchise, licensing, software. |
 | [[Post-AI Pricing Architecture]] | Hybrid value-capture pricing layers mapped to Exo offer/AUM. |
 
@@ -53,5 +54,8 @@
 | `Flow OS + Buzz.md` | loose root | **Wiki** → `concepts/flow-os-team-surface.md` + frontmatter |
 | `Exo AUM Business Model v2.md` | dump | **Append** AUM concept appendix; hole-fill |
 | `Steel Pants + Steel Belt.md` | dump | Hole-fill only (below page threshold) |
+| `Paycom Flow Integration— Seven Hills B2B Insight.md` | loose root | **Wiki** → `concepts/flow-os-connector-taxonomy.md` + Reservoir task |
+| `Flow OS Desktop UI-UX.md` | dump | Hole-fill (already a source on desktop-shell concept) |
+| `AEO Calculator Lead Magnet.md` | dump | Hole-fill only (thin; pairs with lead-magnet funnel) |
 | `WIKI/SCHEMA.md` | meta | §1b root triage (dumps **+ loose root**) |
 | Dump Template | template | `compiled` / `acted-on` / backlog fields |
