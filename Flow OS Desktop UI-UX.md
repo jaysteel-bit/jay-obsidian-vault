@@ -9,9 +9,10 @@ created:
 review_date:
 tags:
   - brain-dump
-acted-on: false
+acted-on: true
 attachments:
-backlog:
+compiled: 2026-08-04
+backlog: false
 ---
 
 ### Grok AI Conversation

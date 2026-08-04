@@ -9,9 +9,12 @@ created:
 review_date:
 tags:
   - brain-dump
-acted-on: false
+acted-on: true
 attachments:
-backlog:
+compiled: 2026-08-04
+backlog: |
+  - [ ] Build the AEO/visibility-check calculator (scans client top queries across frontier LLMs)
+  - [ ] Pair with the broader lead-magnet funnel (see agent-workspace NOTEPAD/lead-magnet-quiz-funnel)
 ---
 
 ## Quick Thoughts
