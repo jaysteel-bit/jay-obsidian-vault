@@ -117,3 +117,10 @@
 - Index refreshed: **10 pages (9 concepts + 1 entity)**.
 - No SSOT promote (connector stance is decision-grade for Flow OS build order but lives in a task until built; not a new locked offer/pricing).
 - Queue remains large historically (~100 loose root notes untouched) — heartbeat drains cap 3 ongoing; many are evergreen quotes/one-liners below page threshold and will hole-fill only.
+
+### [2026-08-05] root-triage | AUM commitment + concierge + onboarding (hole-fill, cap 3)
+- `AUM + BOMT Model Commitment.md` → hole-fill only. Already a named source on `concepts/aum-bomt-intelligence-compounding-vehicle.md` (fully synthesized); marked acted-on + compiled, no duplicate page. Backlog false.
+- `Exo Concierge Support — Webex.md` → hole-fill only (thin — Webex/Flow OS concierge + SOP-in-EXA). Below page threshold. acted-on, compiled, backlog: create concierge SOP + document 40-min Webex session workflow.
+- `Dump - Exo Onboarding Strategy.md` → hole-fill only (onboarding messaging, EXA-as-utility-wedge, luxury/concierge positioning). Below page threshold. acted-on, compiled, backlog: draft onboarding flow + clarify BOM/T.
+- No new wiki pages, no index change (0 additions). No SSOT promote (no new locked decisions — all operational/strategic musings below decision grade).
+- Queue still large (~110 loose root notes) — draining cap 3 ongoing; most are evergreen quotes/one-liners that will hole-fill only.

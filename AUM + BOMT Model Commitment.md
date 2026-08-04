@@ -12,9 +12,11 @@ tags:
   - aum
   - bomt
   - strategy
-acted-on: false
+acted-on: true
+compiled: 2026-08-05
 attachments:
 backlog: false
+# synthesized into WIKI/concepts/aum-bomt-intelligence-compounding-vehicle.md (2026-08-05)
 ---
 
 ## Quick Thoughts

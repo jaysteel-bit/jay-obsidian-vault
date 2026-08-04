@@ -7,9 +7,15 @@ topic: Onboarding Structure & Messaging
 type: dump
 created: 2026-01-21
 review_date:
+acted-on: true
+compiled: 2026-08-05
 tags:
   - brain-dump
 vault-context: business
+# backlog:
+# - [ ] Draft onboarding flow with upfront-call messaging (luxury/concierge framing)
+# - [ ] Clarify BOM/T term
+# - [ ] Build personalized setup workflow
 ---
 
 ## Quick Thoughts

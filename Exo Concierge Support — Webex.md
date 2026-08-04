@@ -10,10 +10,15 @@ created:
 review_date:
 tags:
   - brain-dump
-acted-on: false
+acted-on: true
+compiled: 2026-08-05
 attachments:
 backlog: true
 vault-context: business
+# backlog:
+# - [ ] Create SOP in EXA for concierge support (dogfood internally)
+# - [ ] Document Webex 40-min session expiry / recreate-call workflow
+# - [ ] Scope concierge setup + Flow OS maintenance offering
 ---
 
 ## Quick Thoughts
