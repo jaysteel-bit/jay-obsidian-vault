@@ -727,6 +727,22 @@ Until these steps are complete, the departments folder remains a high-quality pr
 - Open forks captured on the dump backlog: first onboard metrics; M&A sourcing model; Steel Card job-to-be-done; JV spin-out keep/tweak/kill.
 - Related scale work: [[emit_diff Chokepoint — Scale Without Slop]] (how the intelligence pipe stays the chokepoint under load).
 
+## Appendix — 2026-08-05 root triage (AUM PURE STRUCTURE)
+
+> Append-only. Source: vault root `AUM PURE STRUCTURE - Inputs + Outputs Draft.md`. The structural (price-agnostic) framing of the AUM model.
+
+**The one equation:** `AUM Value = (Decision Volume × Value Captured Per Decision) × Retention Duration × EV Multiple` — everything else feeds it.
+
+**Key correction flagged by Jay (from the source note):** brainstormed numbers are **fictitious projections, not fact** — do NOT treat holdco-map/AUM-brainstorm price tags as baselines until real converted customers exist. Several places list pricing-as-fact that needs cleaning.
+
+**The structural levers (the only two you control):**
+1. **Decision volume per client per month** — driven by namespaces instrumented × depth × activity; compounding (1→3 namespaces can 10x, not 3x, decisions via cross-department triggers).
+2. **Value captured per decision** — high-value namespaces first, provable delta, value-share %. `Volume × Price = AUM Revenue`.
+
+**Constraint chain (what blocks what):** Flow OS capturing real client diffs (NOW, blocking) → first 3–5 clients instrumented & live → baseline + before/after proven → value-share provable & sellable → transaction volume scales → prediction engine (long-term moat) → AUM compounds. **#1 constraint = Flow OS instrumentation.**
+
+**Open unit question (worth resolving before it's sellable):** what counts as a "decision" (the transaction-fee unit), and what a "provable value-share saving" looks like concretely. Minimum decision volume/client needed for AUM to beat services — is the ICP capable of it?
+
 ## Related Pages
 
 - [[Exo Vault Meta-Leverage System]]

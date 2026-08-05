@@ -1,3 +1,23 @@
+---
+categories:
+  - "[[Dumps]]"
+project:
+  - "[[Exo]]"
+topic: AUM model — pure structural inputs/outputs
+type: dump
+created:
+  "{ date }":
+review_date:
+tags:
+  - brain-dump
+  - aum
+  - bomt
+  - strategy
+acted-on: true
+compiled: 2026-08-05
+attachments:
+backlog: true
+---
 Good — let's strip the price tags and focus purely on **structural inputs and outputs**. The model's viability doesn't depend on what you charge; it depends on what flows through it.
 
 ---
