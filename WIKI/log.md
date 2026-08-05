@@ -131,3 +131,14 @@
 - `Motion Graphics Websites - Used for Business.md` → hole-fill only (thin — Jitter.video + Malloy.sg for brand content). Below page threshold. acted-on, compiled; backlog: evaluate motion-graphics tools for content production.
 - No new wiki pages, no index change (appended to existing concept). No SSOT promote (no new locked decision — correction is directional, not a new decision).
 - Queue still large (~100 loose root notes) — draining cap 3 ongoing; most evergreen quotes/one-liners will hole-fill only.
+
+### [2026-08-05] root-triage | Exo Launch - Air Build (Jay-requested)
+- `Exo Launch - Air Build.md` → **Wiki** `concepts/exo-launch-creative-ops.md`
+  - Air.inc → Launch capability map (DAM/proofing/multiply/portals → diffs+why)
+  - ComfyUI ladder: Cloud API (P1) → RunPod (P2) → MCP (P3) → **no fork**
+  - Generation behind API wrapper; Tauri OS-wide already on desktop-shell concept (cross-link only)
+- Dump frontmatter: acted-on true, compiled 2026-08-05, backlog checklist (Phase 1 path, hero workflow JSON, agency must-have integration)
+- Desktop-shell concept blurb points at new Launch page
+- Index: **11 pages (10 concepts + 1 entity)**
+- No Reservoir task yet — optional when Jay greenlights Phase 1 Comfy Cloud wiring
+- No SSOT promote (ladder is direction-grade; Phase 1 lock still open on dump backlog)

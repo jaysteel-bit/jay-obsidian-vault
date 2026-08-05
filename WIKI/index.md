@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-08-04 | Total pages: 10 (9 concepts + 1 entity)
+> Last updated: 2026-08-05 | Total pages: 11 (10 concepts + 1 entity)
 
 ## Entities
 
@@ -16,6 +16,7 @@
 |------|---------|
 | [[AUM + BOMT — The Intelligence Compounding Vehicle]] | Master synthesis: diffs + human whys via BOMT → prediction moat → self-funding holdco. § appendix 2026-08-04 from AUM v2 dump. |
 | [[emit_diff Chokepoint — Scale Without Slop]] | Keep single write door; scale via local queue + batch + offline vocab validation; sandbox→lexicon growth. |
+| [[Exo Launch — Creative Ops (Air.inc map + ComfyUI ladder)]] | Air.inc capability map for Launch; Comfy Cloud → RunPod → MCP ladder; no Comfy fork; generation behind API wrapper. |
 | [[Exo System Boundary Map]] | Ownership boundaries: agent-workspace, Jay vault, client vaults, Flow OS. |
 | [[Exo Vault Meta-Leverage System]] | Vault as reusable business-brain pattern for Jay, Exo, clients. |
 | [[Flow OS Desktop Shell — Tauri + Company Pulse Theater]] | Tauri shell + Company Pulse theater rules (locked direction). |
@@ -50,6 +51,7 @@
 
 | File | Type | Outcome |
 |------|------|---------|
+| `Exo Launch - Air Build.md` | dump | **Wiki** → `concepts/exo-launch-creative-ops.md` (2026-08-05) |
 | `emitt-diff talk.md` | dump | **Wiki** → `concepts/emit-diff-chokepoint-scale.md` |
 | `Flow OS + Buzz.md` | loose root | **Wiki** → `concepts/flow-os-team-surface.md` + frontmatter |
 | `Exo AUM Business Model v2.md` | dump | **Append** AUM concept appendix; hole-fill |

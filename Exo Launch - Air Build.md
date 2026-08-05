@@ -4,18 +4,22 @@ categories:
   - "[[Ideas]]"
 project:
   - "[[Exo]]"
-topic: Exo Launch PRD value prop - https://air.inc/
+topic: "Exo Launch PRD value prop - Air.inc + ComfyUI ladder"
 type: dump
-created:
-  "{ date }":
+created: 2026-07-19
 review_date:
 tags:
   - brain-dump
-acted-on: false
+acted-on: true
+compiled: 2026-08-05
+promoted-to:
+backlog:
+  - "[ ] Lock Phase 1 Comfy path (Cloud API vs wait for RunPod)"
+  - "[ ] First hero workflow_api.json + Launch inject"
+  - "[ ] Name must-have third-party integration for agency adoption"
+vault-context: business
 attachments:
-backlog: true
 ---
-
 
 
 ## Quick Thoughts
@@ -26,25 +30,37 @@ backlog: true
 
 ## Key Insights
 
-[Extract main takeaways as you review this dump]
+- Air.inc = creative ops reference: AI DAM/tagging, visual proofing, content multiplication, external boards — map into **Exo Launch** namespace, with revisions → **diffs + why**.
+- ComfyUI ladder: (1) Comfy Cloud API = Phase 1 MVP, (2) RunPod/self-host = Phase 2 custom models, (3) MCP agentic later, (4) **don't fork** Comfy.
+- Abstract generation behind a wrapper so backends swap without UI/diffs rewrite.
+- Tauri: wrap **whole Flow OS**, not Launch-alone (already on [[Flow OS Desktop Shell — Tauri + Company Pulse Theater]]).
+- **Wiki:** [[Exo Launch — Creative Ops (Air.inc map + ComfyUI ladder)]]
 
----
+## Open questions
+
+- [ ] Single most important third-party integration for agency clients (dump asked; unanswered)?
+- [ ] Difficulty ratings per Air feature for build order?
+- [ ] Phase 1 start date relative to Part C dogfood?
+
+## Decisions implied
+
+- Launch stays orchestration; Comfy stays execution; Flow OS stays control plane.
+- Prefer API wrapper over forking Comfy (aligns vendor-independent abstraction).
+- Desktop shell is OS-wide (not Launch-only) — already locked in Reservoir DESKTOP-SHELL-UX.
 
 ## Action Items / Next Steps
 
-[What should happen with these thoughts? Convert to Project? Create an Idea? Admin task?]
-
----
+- [x] Triaged 2026-08-05 → wiki concept created
+- [ ] Optional Reservoir task when Jay greenlights Phase 1 Comfy Cloud wiring
 
 ## Confidence Level (Recursive Loop)
 
-[Recursive tasks that have a two prong approach— First is confidence level of the answer against realistic perspective; formatted in (99.99). Second is a fresh take with mental models if applicable: Inversion / Second Order Thinking / Hypothetical Limits (Max/Low) / First Principles Thinking / etc. (General Thinking Concepts)]
-
+Architecture ladder ~0.8; timing/integration pick ~0.5 until dogfood volume + RunPod account.
 
 ---
 ## Notes
 
-**WORKFLOW:** This is a capture zone for business thoughts and tangents. When an idea hits, create a new dump note. Review periodically (weekly recommended) to extract insights into Projects, Ideas, or Admin tasks. Once reviewed, update `review_date` and archive by moving it to a completed state.
+**WORKFLOW:** Capture zone. Agent root-triage 2026-08-05 set `acted-on`/`compiled`. Residual opens in `backlog`. Body research below preserved.
 
 
 ---

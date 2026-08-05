@@ -10,7 +10,7 @@ confidence: high
 
 # Flow OS Desktop Shell — Tauri + Company Pulse Theater
 
-> Why Flow OS ships as a **desktop app**, what the shell should feel like, and the one thing that must survive the revamp. Compiled from three vault notes (Jul 26–27, 2026): the Grok Tauri-vs-Electron conversation, the full UI direction note, and the Exo Launch / Air.inc teardown.
+> Why Flow OS ships as a **desktop app**, what the shell should feel like, and the one thing that must survive the revamp. Compiled from three vault notes (Jul 26–27, 2026): the Grok Tauri-vs-Electron conversation, the full UI direction note, and the Exo Launch / Air.inc teardown. **Exo Launch creative/Comfy path:** see [[Exo Launch — Creative Ops (Air.inc map + ComfyUI ladder)]].
 
 ## The Problem It Solves
 
