@@ -3,6 +3,9 @@ tags:
   - processed
   - aum-model
 date: 2026-07-12
+acted-on: true
+compiled: 2026-08-05
+backlog: false
 ---
 
 # Quick Run Through of Model

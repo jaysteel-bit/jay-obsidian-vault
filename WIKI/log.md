@@ -124,3 +124,10 @@
 - `Dump - Exo Onboarding Strategy.md` → hole-fill only (onboarding messaging, EXA-as-utility-wedge, luxury/concierge positioning). Below page threshold. acted-on, compiled, backlog: draft onboarding flow + clarify BOM/T.
 - No new wiki pages, no index change (0 additions). No SSOT promote (no new locked decisions — all operational/strategic musings below decision grade).
 - Queue still large (~110 loose root notes) — draining cap 3 ongoing; most are evergreen quotes/one-liners that will hole-fill only.
+
+### [2026-08-05] root-triage | LTT business model + Reflex Arc MVP + AUM model check (hole-fill, cap 3)
+- `Long Term Thinking Business Model Brainstorm Edition.md` → hole-fill only. Rich holdco strategy draft (Exo Enterprise ops engine + Steel/Steel Global identity layer + Exo Ventures investor arm; Steel++ Damascus tier @$5k + PMA structure, equity-for-services). All surfaces already sourced in `EXO-HOLDCO-MAP.md` + `company-ssot/sub-brands/*`; no duplicate page. Framed as recommendation, not a locked decision → no SSOT promote. Marked acted-on + compiled; backlog false.
+- `Start Flow OS Reflex Arc + MVP.md` → hole-fill only. Reflex Arc SENSE→REACT→REMEMBER: use Google managed agents for REACT-layer weekend prototype only, then replace with deterministic rules + emit_diff() in production. Already reflected in `concepts/emit-diff-chokepoint-scale.md` + `state/tasks/flow-os-build-order.md`; no new page. Marked acted-on + compiled; backlog false.
+- `Quick Run Through of Model.md` → hole-fill only (already tagged processed 2026-07-13; §22 "Path to Operationalization" promoted to `aum-bomt-intelligence-compounding-vehicle.md`). Added frontmatter flags only; no duplicate. Marked acted-on + compiled; backlog false.
+- No new wiki pages, no index change. No SSOT promote (no new locked decisions — all strategic drafts/frameworks below decision grade).
+- Queue still large (~105 loose root notes) — draining cap 3 ongoing; most are evergreen quotes/one-liners that will hole-fill only.
