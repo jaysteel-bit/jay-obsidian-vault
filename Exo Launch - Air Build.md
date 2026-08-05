@@ -4,7 +4,7 @@ categories:
   - "[[Ideas]]"
 project:
   - "[[Exo]]"
-topic: Exo Launch PRD
+topic: Exo Launch PRD value prop - https://air.inc/
 type: dump
 created:
   "{ date }":
