@@ -6,10 +6,16 @@ project:
 topic: Mission & Vision
 type: dump
 created: 2026-01-21
-review_date:
+review_date: 2026-08-05
 tags:
   - brain-dump
 vault-context: business
+acted-on: true
+compiled: 2026-08-05
+backlog: false
+# Mission/vision framing ("make software cool", "Be Extraordinary", augment-not-diminish) reflected in company-ssot 00-master (tagline) + 03-brand + 01-mission
+# Triage 2026-08-05: hole-fill — north-star messaging already canonical in brand SSOT; no promote needed
+
 ---
 
 ## Quick Thoughts

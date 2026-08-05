@@ -148,3 +148,9 @@
 - Index: **11 pages (10 concepts + 1 entity)**
 - No Reservoir task yet — optional when Jay greenlights Phase 1 Comfy Cloud wiring
 - No SSOT promote (ladder is direction-grade; Phase 1 lock still open on dump backlog)
+
+## [2026-08-05] root-triage | 3 notes (hole-fill batch) → all already canon in SSOT/workspace
+- `Exo Company Folder Setup.md` → **hole-fill** (loose root, added frontmatter). Workflow architecture (deliverable-noun naming, typed handoffs, executor field, tools/ vs workflows/ split) ALREADY canonical in agent-workspace `Exo Enterprise/departments/README.md`. Backlog: update dept README to new standard + migrate 3 workflows. No wiki page (workflow arch is Reservoir-owned).
+- `Exo Delivery OS (External Face) - First Draft.md` → **hole-fill** (acted-on false → true). Maps to company-ssot `07-exo-delivery-os.md` which covers the portal + BOM-T comprehensively. Backlog: exo-ai.co tech build spec + PLG trojan-horse demo flow.
+- `Dump - Exo Mission-Vision ~ make software cool.md` → **hole-fill**. "Make software cool" / "Be Extraordinary" / augment-not-diminish already in company-ssot 00-master + 03-brand + 01-mission. No promote.
+- No SSOT promote, no new wiki page. Assertion: 3 notes cleared from the ~94 loose-root queue.
