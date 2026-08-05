@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-08-05 | Total pages: 11 (10 concepts + 1 entity)
+> Last updated: 2026-08-05 | Total pages: 12 (11 concepts + 1 entity)
 
 ## Entities
 
@@ -24,6 +24,7 @@
 | [[Flow OS Connector Taxonomy — Tier 1 unified / Tier 2 direct / SFTP]] | Never native-build closed-ecosystem connectors; route via unified API, direct OAuth, or SFTP fallback. |
 | [[Four Ways to Scale a Service Business]] | Hormozi framework: private chain, franchise, licensing, software. |
 | [[Post-AI Pricing Architecture]] | Hybrid value-capture pricing layers mapped to Exo offer/AUM. |
+| [[Steel by Exo — Identity Ecosystem]] | Premium identity sub-brand: NFC card → steel.id profile → Steel Global membership/PMA; card=acquisition, profile/membership=moat. |
 
 ## Comparisons
 
@@ -58,6 +59,9 @@
 | `Steel Pants + Steel Belt.md` | dump | Hole-fill only (below page threshold) |
 | `Paycom Flow Integration— Seven Hills B2B Insight.md` | loose root | **Wiki** → `concepts/flow-os-connector-taxonomy.md` + Reservoir task |
 | `Flow OS Desktop UI-UX.md` | dump | Hole-fill (already a source on desktop-shell concept) |
+| `AUM Break-Even — When AUM Beats Services.md` | dump | **Append** AUM concept appendix; hole-fill |
+| `Steel by Exo Ecosystem.md` | dump | **Wiki** → `concepts/steel-by-exo-ecosystem.md` |
+| `Dump - Steel Product Concepts.md` | dump | Hole-fill only (thin; below page threshold) |
 | `AEO Calculator Lead Magnet.md` | dump | Hole-fill only (thin; pairs with lead-magnet funnel) |
 | `WIKI/SCHEMA.md` | meta | §1b root triage (dumps **+ loose root**) |
 | Dump Template | template | `compiled` / `acted-on` / backlog fields |

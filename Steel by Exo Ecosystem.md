@@ -10,9 +10,14 @@ created:
 review_date:
 tags:
   - brain-dump
-acted-on: false
+acted-on: true
+compiled: 2026-08-05
 attachments:
-backlog:
+backlog: |
+  - [ ] Confirm launch sequencing card-first (Card → App → Global → physical)
+  - [ ] Resolve Steel++ flagship product portfolio
+  - [ ] Revenue model + downsell structure
+  - [ ] Membership pricing + distribution model
 ---
 
 ## Quick Thoughts

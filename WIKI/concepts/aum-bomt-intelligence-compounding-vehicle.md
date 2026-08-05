@@ -743,6 +743,23 @@ Until these steps are complete, the departments folder remains a high-quality pr
 
 **Open unit question (worth resolving before it's sellable):** what counts as a "decision" (the transaction-fee unit), and what a "provable value-share saving" looks like concretely. Minimum decision volume/client needed for AUM to beat services — is the ICP capable of it?
 
+## Appendix — 2026-08-05 root triage (AUM Break-Even)
+
+> Append-only. Source: vault root `AUM Break-Even — When AUM Beats Services.md`. Directly answers the "minimum decision volume to beat services" open question above. Numbers are **hypothetical/structural — not real pricing**; the formula is the point, not the dollar values.
+
+**Break-even equation** (AUM > services, same client, same month):
+`decisions > (services fee − platform fee − (savings × value-share %)) / price per decision`
+
+Hypothetical baseline: services $5k/mo, platform $1.5k/mo, proven savings $8k/mo @15% ($1.2k), price $0.50/decision → **break-even ≈ 4,600 Tier-2 decisions/mo**.
+
+**Two paths to beating services:**
+1. **Volume path** — 2+ namespaces instrumented, 5,000+ decisions/mo; transaction fees carry it (ops-heavy clients).
+2. **Value path** — fewer decisions, each touching real money (supply chain/procurement/sales); value-share carries it.
+
+**Honest math:** one namespace won't beat services. ICP ($2M–$15M ARR): Year 1 ~below services (building base, fine), Year 2 crossover with 2–3 namespaces, Year 3+ AUM dominates. Year-1 implication: keep Path B (Hybrid Premium — build/operate fees) to fund cash flow; don't force Path C (pure value-share) until decision volume is real.
+
+**Actionable next step (tracked on note backlog):** pick `sales:` as first namespace to instrument; model real break-even with confirmed Path B pricing; **track decision volume from Day 1** — it's the metric that tells you when to transition B→C.
+
 ## Related Pages
 
 - [[Exo Vault Meta-Leverage System]]
@@ -750,3 +767,4 @@ Until these steps are complete, the departments folder remains a high-quality pr
 - [[Exo System Boundary Map]]
 - [[emit_diff Chokepoint — Scale Without Slop]]
 - [[Flow OS Team Surface — humans + agents]]
+- [[Steel by Exo — Identity Ecosystem]]

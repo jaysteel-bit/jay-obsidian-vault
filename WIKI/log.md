@@ -132,7 +132,13 @@
 - No new wiki pages, no index change (appended to existing concept). No SSOT promote (no new locked decision — correction is directional, not a new decision).
 - Queue still large (~100 loose root notes) — draining cap 3 ongoing; most evergreen quotes/one-liners will hole-fill only.
 
-### [2026-08-05] root-triage | Exo Launch - Air Build (Jay-requested)
+### [2026-08-05] root-triage | AUM Break-Even + Steel Ecosystem (wiki-create) + Steel Product dump
+
+- `AUM Break-Even — When AUM Beats Services.md` → **appended** `## Appendix — 2026-08-05 (AUM Break-Even)` to `concepts/aum-bomt-intelligence-compounding-vehicle.md`. Break-even equation, hypothetical baseline (~4,600 Tier-2 decisions/mo @ $0.50), volume vs value paths, Year-1/2/3 honest math (one namespace won't beat services), Path B (Hybrid Premium) for Year-1 cash flow, `sales:` as first namespace. Answers the "min decision volume" open question from the Pure-Structure appendix. Numbers flagged hypothetical, not real pricing. acted-on/compiled, backlog open.
+- `Steel by Exo Ecosystem.md` → **Wiki** `concepts/steel-by-exo-ecosystem.md` (new). Premium identity sub-brand: v0.1 chain (card → profile → global citizenship), product lines (Card/App/steel.id/Teams/wearables-deferred), brand tiers Steel/+/++, Steel Global PMA structure + Worlds/steel.id earn tiers, growth flywheel, open decisions. actted-on/compiled + backlog. **Index: 12 pages (11 concepts + 1 entity).**
+- `Dump - Steel Product Concepts.md` → hole-fill only (thin — NFC/connected jewelry, biometrics box). Below page threshold; pairs with Steel ecosystem concept. acted-on/compiled, backlog: jewelry-tech research.
+- No SSOT promote (Steel structure is aspirational direction, not a locked decision; AUM break-even pricing hypothetical pending Path-B confirmation). Queue still large (~89 loose root notes) — draining cap 3 ongoing.
+
 - `Exo Launch - Air Build.md` → **Wiki** `concepts/exo-launch-creative-ops.md`
   - Air.inc → Launch capability map (DAM/proofing/multiply/portals → diffs+why)
   - ComfyUI ladder: Cloud API (P1) → RunPod (P2) → MCP (P3) → **no fork**
