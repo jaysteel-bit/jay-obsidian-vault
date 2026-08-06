@@ -63,3 +63,19 @@ confidence: high
 - [ ] Confirm launch sequencing card-first (Card → App → Global)
 - [ ] Resolve Steel++ flagship item list + downsell
 - [ ] Membership pricing + distribution model
+
+## Appendix — 2026-08-06 (NFC Anti-Counterfeit Defense)
+*Crystallized from `steel concepts.md` (root note). Directly supports the Steel Card's physical NFC authenticity claims (AES-128/256, tamper-evident).*
+
+**Why NFC beats QR for authenticity:** QR codes are photocopyable; NFC chips carry a globally-unique, non-clonable UID. Chip not copyable; server decides legitimacy.
+
+**Five anti-counterfeit mechanisms (with loophole fixes):**
+1. **Secure-element hardware (NTAG 424 DNA)** — AES-128/ECC keys; dynamic one-time auth code per tap kills replay attacks (a cloned static copy of a prior scan is rejected).
+2. **Server-side validation** — move source of truth off the tag to a private cloud DB. Manufacturer gets limited/scratch keys; Exo holds master keys on home server. Counterfeiters can't reach final auth logic.
+3. **Anti-overproduction / "ghost shifts"** — whitelist authorized UIDs in DB pre-production; replica UID fails. "First Tap" rule: if a "new" unit scans as already-activated in another city → flag as suspected fake/stolen.
+4. **Digital passport (blockchain or in-house ledger)** — immutable chain of custody: Created → Shipped → Sold. Unit not "Released" in ledger reads as unauthorized.
+5. **Physical security** — tamper-evident VOID tags; embed chip inside lining/material so removal destroys the item (can't reuse genuine packaging).
+
+**Industry analogs:** luxury fashion (bags/shoes/jewelry), wine & spirits (tamper-evident caps), pharmaceuticals (pkg integrity), sports gear (resale protection).
+
+**Steel relevance:** this is the technical backbone behind the Steel Card's anti-counterfeit claim — worth wiring into Steel Card spec/marketing as proof-of-defense, not just stated AES-128.

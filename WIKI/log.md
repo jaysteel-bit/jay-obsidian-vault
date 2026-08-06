@@ -156,3 +156,10 @@
 - No new wiki pages, no index change (0 additions). No SSOT promote (no new locked decisions — all already canon or directional).
 - Queue still large (~91 loose root notes) — draining cap 3 ongoing; most are evergreen quotes/one-liners that will hole-fill only.
 
+
+### [2026-08-06] root-triage | NFC anti-counterfeit + Exo-Ext wiki + Framework hole-fill (cap 3)
+- `steel concepts.md` → **appended** `## Appendix — 2026-08-06 (NFC Anti-Counterfeit Defense)` to `concepts/steel-by-exo-ecosystem.md`. NFC vs QR (non-clonable UID), five anti-counterfeit mechanisms with loophole fixes (NTAG 424 DNA secure-element + dynamic auth vs replay; server-side validation w/ master keys; anti-ghost-shift UID whitelist + "First Tap" rule; digital passport ledger; tamper-evident VOID + in-material embedding), industry analogs, Steel relevance. Directly supports the Steel Card's AES-128 anti-counterfeit claims — flagged to wire into spec/marketing as proof-of-defense. Research frontmatter + acted-on/compiled.
+- `Exo-Ext (Flow OS -or- Exo AI Browser Extension).md` → **Wiki** `concepts/exo-ext-browser-extension.md` (new). Flow OS browser sidebar capture/command layer; flagship **SOP Capture** (tabCapture/desktopCapture → multimodal AI → structured SOPs); **department-aware intelligence** per namespace; auto-diffs feed data-gravity moat (`namespace:academy`); middleware strategy validated (don't train models, own workflow data); pricing tiers (Self-Service $20–50/user/mo, Concierge $500–2,000+/SOP); BOMT front-door. Confidence medium; source's strategic-sharpening section blank + pricing under review. **Index: 13 pages (12 concepts + 1 entity).**
+- `Framework— $$$.md` → **hole-fill only** (blank Alex-template content placeholder, no content). Below page threshold; marked acted-on + compiled, backlog false.
+- No SSOT promote (NFC defense is technical direction supporting an already-canon Steel claim; Exo-Ext is product brainstorm not yet a locked build decision — both backlog-grade).
+- Queue still large (~90 loose root notes) — draining cap 3 ongoing; most are evergreen quotes/one-liners that will hole-fill only.
