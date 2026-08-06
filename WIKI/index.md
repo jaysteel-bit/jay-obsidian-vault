@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-08-06 | Total pages: 15 (14 concepts + 1 entity)
+> Last updated: 2026-08-07 | Total pages: 16 (15 concepts + 1 entity)
 
 ## Entities
 
@@ -15,6 +15,7 @@
 | Page | Summary |
 |------|---------|
 | [[AUM + BOMT — The Intelligence Compounding Vehicle]] | Master synthesis: diffs + human whys via BOMT → prediction moat → self-funding holdco. § appendix 2026-08-04 from AUM v2 dump. |
+| [[AI-as-Dev — Multi-Agent Orchestration]] | CEO-as-PM playbook: single-agent prompt workflow (Cursor) + multi-agent task-registry (SYSTEM_STATE.md) + supervisor cron; CEO oversight via state file. |
 | [[emit_diff Chokepoint — Scale Without Slop]] | Keep single write door; scale via local queue + batch + offline vocab validation; sandbox→lexicon growth. |
 | [[Exo Launch — Creative Ops (Air.inc map + ComfyUI ladder)]] | Air.inc capability map for Launch; Comfy Cloud → RunPod → MCP ladder; no Comfy fork; generation behind API wrapper. |
 | [[Exo System Boundary Map]] | Ownership boundaries: agent-workspace, Jay vault, client vaults, Flow OS. |

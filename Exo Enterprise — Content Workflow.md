@@ -1,4 +1,19 @@
-
+---
+categories:
+  - "[[Content]]"
+type: research
+created: 2026-05-01
+tags:
+  - youtube
+  - content-strategy
+  - exo-ai
+  - marketing
+acted-on: true
+compiled: 2026-08-07
+backlog: |
+  - [ ] Promote-candidate: fold YouTube/content workflow strategy into company-ssot content/marketing layer (needs Jay sign-off)
+vault-context: business
+---
 
 > **Last Updated:** May 2026
 > **Owner:** Jay Steel / Exo Enterprise

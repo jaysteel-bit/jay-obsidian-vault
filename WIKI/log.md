@@ -4,6 +4,7 @@
 
 ---
 
+## [2026-08-07] root-triage | AI-as-Dev — Multi-Agent Orchestration → new concept; Feature All-in-One SM Hub → hole-fill; Exo Enterprise Content Workflow → hole-fill (promote-candidate)
 ### [2026-05-13] setup | Created raw/, index.md, log.md — LLM wiki upgrade (Phase 0)
 ### [2026-05-13] setup | Batch-tagged all root notes with vault-context: business or vault-context: personal via PowerShell
 ### [2026-05-13] setup | Notes without frontmatter flagged for manual YAML addition
