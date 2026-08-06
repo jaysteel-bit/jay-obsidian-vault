@@ -1,3 +1,15 @@
+---
+type: research
+categories: [Strategy]
+acted-on: true
+compiled: 2026-08-06
+backlog: |
+  - Third-party (Google AI) read of Exo Enterprise model: 90-Day Program, Flow OS, agents, workflow automation.
+  - "Infinite memory" = continuous vector-context + diff timeline (State of All Things); Nudge system = prediction engine.
+  - Permanent Decentralized Roll-Up + mini-float + frictionless cash recycling framing.
+  - Content already sourced into WIKI concepts/aum-bomt-intelligence-compounding-vehicle.md. No new page.
+  - Open: Flow OS data mapping via vector DB; ideal niche vertical for first acquisition.
+---
 **Google AI:**
 
 
