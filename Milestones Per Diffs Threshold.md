@@ -11,9 +11,10 @@ tags:
   - brain-dump
   - gamification
   - diffs
-acted-on: false
+acted-on: true
+compiled: 2026-08-06
 attachments:
-backlog: true
+backlog: "gamification milestone thresholds for diffs — pairs with aum-bomt concept / Flow OS client-facing UI"
 ---
 
 ## Quick Thoughts

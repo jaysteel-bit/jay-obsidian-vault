@@ -157,6 +157,14 @@
 - Queue still large (~91 loose root notes) — draining cap 3 ongoing; most are evergreen quotes/one-liners that will hole-fill only.
 
 
+### [2026-08-06] root-triage | Hybrid HoldCo wiki + 3 dumps (cap 3)
+- `Grok AI Convo.md` → **Wiki** `concepts/exo-hybrid-holdco-strategy.md` (new). Berkeley/roll-up/hybrid lens on EXO-HOLDCO-MAP: 3 structural archetypes (roll-up / Berkshire / CSI), how hybrid maps to Exo flagship+arms (includes the identical Part 2 AUM/tech-stack already on aum-bomt concept), 5 strategic paths, recommended lean (1+2 = focused core + steel.id), activation triggers, Exo Playbooks, legal/structure hygiene. acted-on + compiled.
+- `Exo Business Model Add On - Grok.md` → **hole-fill** (same Part 2 content as Grok AI Convo — AUM reframe, pricing paths A/B/C, sovereign+Constructive+Timescale stack already synthesized on aum-bomt concept; its HoldCo-alignment section fed the new hybrid page). acted-on + compiled.
+- `Milestones Per Diffs Threshold.md` → **hole-fill only** (small — gamified diffs-milestone thresholds 100k→20M for client-facing AUM visibility; pairs with aum-bomt concept / Flow OS UI). acted-on + compiled, backlog noted.
+- **Index: 14 pages (13 concepts + 1 entity).** No SSOT promote (hybrid is a recommended strategic lens/direction, not a locked decision — Path 1+2 sequencing + Ventures trigger + dual-class are open questions for Jay).
+- Queue still large (~87 loose root notes) — draining cap 3 ongoing; most are evergreen quotes/one-liners that will hole-fill only.
+
+
 ### [2026-08-06] root-triage | NFC anti-counterfeit + Exo-Ext wiki + Framework hole-fill (cap 3)
 - `steel concepts.md` → **appended** `## Appendix — 2026-08-06 (NFC Anti-Counterfeit Defense)` to `concepts/steel-by-exo-ecosystem.md`. NFC vs QR (non-clonable UID), five anti-counterfeit mechanisms with loophole fixes (NTAG 424 DNA secure-element + dynamic auth vs replay; server-side validation w/ master keys; anti-ghost-shift UID whitelist + "First Tap" rule; digital passport ledger; tamper-evident VOID + in-material embedding), industry analogs, Steel relevance. Directly supports the Steel Card's AES-128 anti-counterfeit claims — flagged to wire into spec/marketing as proof-of-defense. Research frontmatter + acted-on/compiled.
 - `Exo-Ext (Flow OS -or- Exo AI Browser Extension).md` → **Wiki** `concepts/exo-ext-browser-extension.md` (new). Flow OS browser sidebar capture/command layer; flagship **SOP Capture** (tabCapture/desktopCapture → multimodal AI → structured SOPs); **department-aware intelligence** per namespace; auto-diffs feed data-gravity moat (`namespace:academy`); middleware strategy validated (don't train models, own workflow data); pricing tiers (Self-Service $20–50/user/mo, Concierge $500–2,000+/SOP); BOMT front-door. Confidence medium; source's strategic-sharpening section blank + pricing under review. **Index: 13 pages (12 concepts + 1 entity).**

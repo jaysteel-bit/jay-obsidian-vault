@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-08-06 | Total pages: 13 (12 concepts + 1 entity)
+> Last updated: 2026-08-06 | Total pages: 14 (13 concepts + 1 entity)
 
 ## Entities
 
@@ -26,6 +26,7 @@
 | [[Post-AI Pricing Architecture]] | Hybrid value-capture pricing layers mapped to Exo offer/AUM. |
 | [[Steel by Exo — Identity Ecosystem]] | Premium identity sub-brand: NFC card → steel.id profile → Steel Global membership/PMA; card=acquisition, profile/membership=moat. § 2026-08-06 NFC Anti-Counterfeit appendix. |
 | [[Exo-Ext — Flow OS Browser Extension]] | Browser sidebar capture/command layer: SOP Capture (tabCapture→multimodal SOP), department-aware intelligence, middleware strategy, BOM/T front-door. |
+| [[Exo Hybrid HoldCo Strategy — Berkshire + CSI Lens]] | Greenfield hybrid of Berkshire (decentralization, no-float compounding) + CSI (vertical platform + shared playbooks); 5 strategic paths, activation triggers, Exo Playbooks. |
 
 ## Comparisons
 

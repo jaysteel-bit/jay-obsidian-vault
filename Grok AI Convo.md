@@ -9,9 +9,10 @@ created:
 review_date:
 tags:
   - brain-dump
-acted-on: false
+acted-on: true
+compiled: 2026-08-06
 attachments:
-backlog:
+backlog: "fed concepts/exo-hybrid-holdco-strategy.md (Berkshire+CSI lens, 5 paths); AUM/tech-stack already on aum-bomt concept"
 ---
 Honest thoughts on the HoldCo map + the Berkshire/roll-up/hybrid conversation.
 
