@@ -171,3 +171,10 @@
 - `Framework— $$$.md` → **hole-fill only** (blank Alex-template content placeholder, no content). Below page threshold; marked acted-on + compiled, backlog false.
 - No SSOT promote (NFC defense is technical direction supporting an already-canon Steel claim; Exo-Ext is product brainstorm not yet a locked build decision — both backlog-grade).
 - Queue still large (~90 loose root notes) — draining cap 3 ongoing; most are evergreen quotes/one-liners that will hole-fill only.
+
+### [2026-08-06] root-triage | AUM competitive scape + pricing/harness hole-fill (cap 3)
+- `Another AI CHAT.md` → **enriched** `concepts/aum-bomt-intelligence-compounding-vehicle.md` §5 with a *market-leader data-engine scape* table (Palantir Ontology/CDC+decision traces, CrowdStrike Global Threat Graph, Databricks Lakehouse, Roper VMS) — the single genuinely-new asset: **CrowdStrike's cross-client feedback loop as the model for aum's Tension-1 "anonymized global brain."** The regret-graph / decentralized-vertical-intelligence framing was already canonical in §5. acted-on + compiled, backlog notes residual. Source added to concept page.
+- `Google AI Pricing Model v0.1.md` → **hole-fill only** (full 4-layer value-capture hybrid + 90-day BOT engine + backend monetization already synthesized as `concepts/post-ai-pricing-architecture.md`, which lists this file as source). Added missing frontmatter (acted-on + compiled). No new page, no duplicate.
+- `Updated Harnesses Transcript.md` → **hole-fill only** (file-trees-over-frameworks abstraction argument already fully synthesized in aum-bomt §21 incl. self-improving-tree automation + moat framing, source quote present). acted-on + compiled.
+- No new wiki pages, no index change (0 additions). No SSOT promote (nothing new locked; all directional). 
+- Queue still large (~89 loose root notes) — draining cap 3 ongoing; most are evergreen quotes/one-liners that will hole-fill only.

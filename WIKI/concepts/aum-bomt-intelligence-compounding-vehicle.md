@@ -1,7 +1,7 @@
 ---
 title: AUM + BOMT — The Intelligence Compounding Vehicle
 created: 2026-07-11
-updated: 2026-08-04
+updated: 2026-08-06
 type: concept
 tags: [exo, aum, bomt, strategy, long-term, flow-os, holdco, compounding]
 sources:
@@ -10,6 +10,7 @@ sources:
   - "../../AUM Break-Even — When AUM Beats Services.md"
   - "../../AUM — Reframe - 3.md"
   - "../../AUM PURE STRUCTURE - Inputs + Outputs Draft.md"
+  - "../../Another AI CHAT.md"
   - "../../Asset Management (AUM) Exo Model Brainstorming.md"
   - "../../Exo 2 Headed Monster Model.md"
   - "../../Exo AUM Business Model v2.md"
