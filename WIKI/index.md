@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-08-06 | Total pages: 14 (13 concepts + 1 entity)
+> Last updated: 2026-08-06 | Total pages: 15 (14 concepts + 1 entity)
 
 ## Entities
 
@@ -27,6 +27,7 @@
 | [[Steel by Exo — Identity Ecosystem]] | Premium identity sub-brand: NFC card → steel.id profile → Steel Global membership/PMA; card=acquisition, profile/membership=moat. § 2026-08-06 NFC Anti-Counterfeit appendix. |
 | [[Exo-Ext — Flow OS Browser Extension]] | Browser sidebar capture/command layer: SOP Capture (tabCapture→multimodal SOP), department-aware intelligence, middleware strategy, BOM/T front-door. |
 | [[Exo Hybrid HoldCo Strategy — Berkshire + CSI Lens]] | Greenfield hybrid of Berkshire (decentralization, no-float compounding) + CSI (vertical platform + shared playbooks); 5 strategic paths, activation triggers, Exo Playbooks. |
+| [[Flow OS UI Audit — route-by-route vs Diffs vision]] | Route-by-route verdict on the frontend vs Diffs/BOM-T: Memory=crown jewel (needs real data), admin-internal=the standard, /launch+/subscribe+/academy misaligned. |
 
 ## Comparisons
 
@@ -57,6 +58,7 @@
 | `steel concepts.md` | research | **Append** NFC Anti-Counterfeit appendix to Steel concept (2026-08-06) |
 | `Exo-Ext (Flow OS…).md` | dump | **Wiki** → `concepts/exo-ext-browser-extension.md` (2026-08-06) |
 | `Framework— $$$.md` | content | Hole-fill only (blank template placeholder) |
+| `FLOW OS ANALYSIS.md` | research | **Wiki** → `concepts/flow-os-ui-audit.md` (2026-08-06); actions already in Reservoir `state/tasks/flow-os-build-order.md` |
 | `Exo Launch - Air Build.md` | dump | **Wiki** → `concepts/exo-launch-creative-ops.md` (2026-08-05) |
 | `emitt-diff talk.md` | dump | **Wiki** → `concepts/emit-diff-chokepoint-scale.md` |
 | `Flow OS + Buzz.md` | loose root | **Wiki** → `concepts/flow-os-team-surface.md` + frontmatter |

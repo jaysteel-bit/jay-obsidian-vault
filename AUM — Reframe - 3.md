@@ -10,9 +10,13 @@ created:
 review_date:
 tags:
   - brain-dump
-acted-on: false
+acted-on: true
+compiled: 2026-08-06
 attachments:
-backlog: true
+backlog: |
+  - [x] HIPAA/data-custody side-quest resolved: Data Custody Premium located in `agent-workspace/Exo Enterprise/strategy-notes/strategic-notes-holdco-ev-nfc.md` point 6 + absorbed into `AUM + BOMT Model Commitment.md` §5 (Flow OS diffs table = compliance audit trail by design)
+  - [ ] Pick lens for Section 4 pricing (AUM fee / value-share / data-custody premium)
+  - [ ] Design Transfer Trigger metrics (time vs decision-volume milestones)
 ---
 
 ---

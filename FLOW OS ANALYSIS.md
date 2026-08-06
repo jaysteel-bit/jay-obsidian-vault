@@ -1,3 +1,22 @@
+---
+type: research
+categories:
+  - "[[Flow OS]]"
+tags:
+  - flow-os
+  - ui
+  - audit
+acted-on: true
+compiled: 2026-08-06
+backlog: |
+  - [ ] Wire real Diffs into /memory (crown jewel, highest-leverage real-data win)
+  - [ ] Remove or hide /subscribe unless self-serve SaaS tier is a real decision
+  - [ ] Rebuild or hold /launch (current toy ComfyUI canvas contradicts creative-dept-OS intent)
+  - [ ] Redesign /academy for BOM-T Transfer operator certification (not consumer EdTech)
+  - [ ] Define /flowstate purpose or cut from sidebar nav
+  - [ ] Fix /settings billing to reflect BOM-T, not consumer monthly SaaS
+---
+
 Good. I have everything I need. Here's the full audit:
 
   ---
