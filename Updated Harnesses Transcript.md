@@ -14,9 +14,10 @@ tags:
   - abstraction-layer
   - file-tree
   - moat
-acted-on: false
-attachments:
+acted-on: true
+compiled: 2026-08-06
 backlog: false
+attachments:
 ---
 
 ## Transcript

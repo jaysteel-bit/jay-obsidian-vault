@@ -158,6 +158,19 @@ At hypothetical pricing: **~4,600 Tier 2 decisions/month per client.**
 
 **Closest analog: Constellation Software (CSI).** CSI buys vertical market software companies, keeps them autonomous, shares playbooks, compounds with minimal HQ. Exo is a greenfield version — instead of buying VMS companies, you build Flow OS namespaces and install across clients. Same decentralization, same playbook-sharing, same permanent hold — but earned through delivery instead of purchased with capital.
 
+### Why the giants can't copy this (the market-leader data-engine scape)
+
+Exo is not in the same market as the horizontal data giants — but knowing their engines shows where the real moat is _not_ framework, it's the **cross-organizational feedback loop**:
+
+| Player | Data Engine | The Moat Lesson for Exo |
+|---|---|---|
+| **Palantir** | Ontology + CDC + injected decision traces; retrains models on logged human decisions | Tracking _state + intent (the "why")_ as a first-class asset class — which aum's regret-graph already does |
+| **CrowdStrike** | Global Threat Graph — every endpoint streams telemetry; a detection at one client immediately immunizes all clients | ⭐ **The model for aum's "anonymized global brain" (Tension 1):** a true cross-client loop where data from Client A natively improves the product for Client B. CrowdStrike proves this is defensible, not just theoretical — it's the difference between a data moat and a data pond |
+| **Databricks** | Lakehouse + Unity Catalog; consumption-based compute | Consumption pricing — relevant to aum Layer-3 usage metric, not a structural lesson |
+| **Roper** | Decentralized VMS monopolies, bolt-on M&A, cash-flows into acquisitions | The buy-vs-build contrast to Exo's greenfield namespaces (see CSI analog above) |
+
+**Bottom line:** Palantir/Databricks sell horizontal plumbing to CIOs; Exo sells vertical operational intelligence to COOs. The defensible moat is the append-only ledger of intent + a *proven cross-client feedback loop* — the exact thing CrowdStrike monetizes at 69x forward earnings and the same loop aum flags as legally unproven in Tension 1.
+
 ---
 
 ## 6. What Genuinely Sustains (Long-Term)
