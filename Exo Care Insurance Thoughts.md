@@ -10,9 +10,13 @@ created:
 review_date:
 tags:
   - brain-dump
-acted-on: false
+acted-on: true
+compiled: 2026-08-07
 attachments:
 backlog:
+  - "[ ] Jay: draft Exact conditional-close script for No-Care emergency → Care conversion (sales team SOP)"
+  - "[ ] Jay: define boundary of 'Major Workflow Rebuild' vs Sev-2 patch"
+  - "[ ] Sync final ExoCare SLA tiers + per-incident matrix into OFFER-BIBLE.md / offer SSOT (already exists as TIER 3 — verify alignment with 5/15 workflow caps)"
 ---
 
 ## Quick Thoughts
