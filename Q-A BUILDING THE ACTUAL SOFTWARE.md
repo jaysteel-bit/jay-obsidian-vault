@@ -1,3 +1,19 @@
+---
+categories:
+  - "[[References]]"
+project:
+  - "[[Exo]]"
+topic: Connecting open-source projects together to fast-track Exo dev
+type: reference
+created: 2026-08-07
+acted-on: true
+compiled: 2026-08-07
+backlog: |
+  - Hole-fill only (below wiki-page threshold). Multi-agent OSS-assembly guidance — connective-tissue/architecture is where AI struggles; DB/ORM mapping; production-security gaps. Workflow: download repos → aggregate (Repomix/ai-code-merge) → Cursor/Aider/Cline → step-by-step targeted prompts (core arch → data-flow mapping → progressive feature import).
+  - Relates to WIKI/concepts/ai-as-dev-multi-agent-orchestration.md (multi-agent orchestration) and Reservoir AI-as-Dev build order.
+vault-context: business
+---
+
 ## Connecting Open-Source Projects together to fast track Exo development 
 
 

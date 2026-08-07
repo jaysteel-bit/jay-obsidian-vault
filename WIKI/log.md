@@ -5,6 +5,7 @@
 ---
 
 ## [2026-08-07] root-triage | AI-as-Dev — Multi-Agent Orchestration → new concept; Feature All-in-One SM Hub → hole-fill; Exo Enterprise Content Workflow → hole-fill (promote-candidate)
+### [2026-08-07] root-triage | Batch 2 (4h): Buzz UI functionality into Flow OS → already wiki'd (Team-surface appendix); fixed broken frontmatter (ccompiled→compiled+promoted-to). Q-A BUILDING THE ACTUAL SOFTWARE → hole-fill (reference frontmatter; OSS-assembly multi-agent workflow, relates to AI-as-Dev concept). Claude Code Agent (OS) Dashboard → hole-fill (placeholder, YT link only). AEO Report of Exo Home Page → hole-fill (reference frontmatter; exoent.co 67/100, sitemap/canonical/JSON-LD/freshness/citations gaps → website action area).
 ### [2026-05-13] setup | Created raw/, index.md, log.md — LLM wiki upgrade (Phase 0)
 ### [2026-05-13] setup | Batch-tagged all root notes with vault-context: business or vault-context: personal via PowerShell
 ### [2026-05-13] setup | Notes without frontmatter flagged for manual YAML addition

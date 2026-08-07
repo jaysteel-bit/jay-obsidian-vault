@@ -4,6 +4,12 @@ tags:
 categories:
   - "[[References]]"
 vault-context: business
+type: reference
+acted-on: true
+compiled: 2026-08-07
+backlog: |
+  - Framer AEO audit of exoent.co — 67/100 (ahead of most sites, 45-70 band). Concrete fixable gaps: sitemap.xml (0/7), canonical tag (0/7), JSON-LD schema (0/9, start with Organization on homepage), content freshness/dateModified (0/11 — add dateModified to JSON-LD / sitemap lastmod), external citation links (0/7 — link out to credible sources).
+  - Action area = marketing website (Exo Enterprise/DOCUMENTATION/CLAUDE.md sub-project) — AEO/SEO lift for exoent.co.
 ---
 
 

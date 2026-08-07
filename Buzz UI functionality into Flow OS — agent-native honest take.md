@@ -10,7 +10,8 @@ review_date:
 tags:
   - brain-dump
 acted-on: true
-ccompiled: 2026-08-07promoted-to:
+compiled: 2026-08-07
+promoted-to: "WIKI/concepts/flow-os-team-surface.md (appendix: agent-native honest take)"
 backlog: true
 vault-context: business
 attachments:
