@@ -1,3 +1,19 @@
+---
+type: research
+categories:
+  - "[[Dumps]]"
+tags:
+  - flow-os
+  - architecture
+  - reflex-arc
+topic: Reflex Arc data infrastructure — Constructive + TimescaleDB sovereign stack, BOM/T delivery
+acted-on: true
+compiled: 2026-08-07
+backlog:
+  - [ ] Decide: hosted Supabase + pg_partman (cheap start) vs Constructive + Timescale sovereign stack (transfer-built) — or phased A→B
+  - [ ] Choose whether to adopt Constructive agentic-db memory tables vs Exo's own diffs schema
+  - [ ] Enforce agent schema-drift guardrails (agents write migrations, human reviews, no ALTER/DROP role)
+---
 **AI:**  
   
 **Constructive’s** architectural principle of **"ASTs all the way down"** means that everything—from your security policies to your front-end components—is compiled into an Abstract Syntax Tree (AST). By treating your code, schema, and UI as structured trees of data, the system can automatically sync, optimize, and securely compile layers without brittle mapping or guess-prone code translation.  

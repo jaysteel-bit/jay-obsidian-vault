@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-08-07 | Total pages: 16 (15 concepts + 1 entity)
+> Last updated: 2026-08-07 | Total pages: 17 (16 concepts + 1 entity)
 
 ## Entities
 
@@ -29,6 +29,7 @@
 | [[Exo-Ext — Flow OS Browser Extension]] | Browser sidebar capture/command layer: SOP Capture (tabCapture→multimodal SOP), department-aware intelligence, middleware strategy, BOM/T front-door. |
 | [[Exo Hybrid HoldCo Strategy — Berkshire + CSI Lens]] | Greenfield hybrid of Berkshire (decentralization, no-float compounding) + CSI (vertical platform + shared playbooks); 5 strategic paths, activation triggers, Exo Playbooks. |
 | [[Flow OS UI Audit — route-by-route vs Diffs vision]] | Route-by-route verdict on the frontend vs Diffs/BOM-T: Memory=crown jewel (needs real data), admin-internal=the standard, /launch+/subscribe+/academy misaligned. |
+| [[Reflex Arc Data Infrastructure — Sovereign Stack]] | DB-layer options for the diffs engine: Constructive (agentic-db + pgpm) + TimescaleDB hypertables + Supabase or sovereign VPS stack; RLS-in-engine security; BOM/T transfer payoff; agent schema-drift guardrails. |
 
 ## Comparisons
 
@@ -56,6 +57,9 @@
 
 | File | Type | Outcome |
 |------|------|---------|
+| `AI.md` | loose root | **Wiki-create** → `concepts/reflex-arc-data-infrastructure.md` (2026-08-07); hole-fill |
+| `AI Generated - Exo.md` | dump | **Append** Page-Agent.js dev path to exo-ext concept; hole-fill (2026-08-07) |
+| `AI Authority Building Platforms.md` | loose root | Hole-fill only (thin; below page threshold) |
 | `steel concepts.md` | research | **Append** NFC Anti-Counterfeit appendix to Steel concept (2026-08-06) |
 | `Exo-Ext (Flow OS…).md` | dump | **Wiki** → `concepts/exo-ext-browser-extension.md` (2026-08-06) |
 | `Framework— $$$.md` | content | Hole-fill only (blank template placeholder) |

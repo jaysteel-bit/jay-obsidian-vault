@@ -1,10 +1,10 @@
 ---
 title: Exo-Ext — Flow OS Browser Extension
 created: 2026-08-06
-updated: 2026-08-06
+updated: 2026-08-07
 type: concept
 tags: [flow-os, product, sop, captures, delivery-os, browser]
-sources: ["Exo-Ext (Flow OS -or- Exo AI Browser Extension).md"]
+sources: ["Exo-Ext (Flow OS -or- Exo AI Browser Extension).md", "AI Generated - Exo.md"]
 confidence: medium
 ---
 
@@ -44,6 +44,14 @@ Positioning as a **catch-all assistant that plugs into frontier models** rather 
 | Exo Concierge | $500–2,000+/SOP or retainer | Pro documentation sessions, multi-stakeholder interviews, multi-format SOPs (video/PDF/playbooks), QA |
 
 Mirrors the BOM/T hybrid: start with software (extension), layer in services (Concierge), compound value via Exo Academy (all captured SOPs feed the knowledge-synthesis engine).
+
+## Development shortcut: fork Page-Agent.js (validated 2026-08-07)
+From root dump `AI Generated - Exo.md` — a concrete build path to shortcut Exo-Ext from months to ~2–4 weeks:
+- **[Page-Agent.js](https://github.com/alibaba/page-agent) (Alibaba, MIT)** = an in-page GUI agent that controls web UIs with natural language via DOM interaction, screenshot + narration capture, one-line npm integration, works as extension or embedded script.
+- **Why it's the right model (vs Hermes browser):** Hermes' browser tool is *server-side* headless Chromium; Page-Agent.js is *client-side* in the user's actual browser watching **them** work — which is what Exo-Ext needs (capture the human's real workflow), not external automation.
+- **What Exo builds on top:** (1) diffs capture layer — every Page-Agent action emits a diff via `emit_diff()` (DOM state change = Tier 1 trigger, agent action = Tier 2 decision); (2) mid/post "why" annotations → Tier 3 human-why data for the prediction engine; (3) Exo branding (fork, strip Alibaba, apply orb/obsidian identity, MIT allows with attribution); (4) Flow OS namespace detection.
+- **Clean split:** Page-Agent captures *human browser interactions* (academy namespace / tribal knowledge) — it is NOT the Reflex Arc SENSE layer (DB triggers/CDC/webhooks).
+- **Verdict:** capture → diff → annotation loop is a weekend-scale prototype; shortcut validated.
 
 ## Open / notes
 - Agent "critical thoughts and enchantments / overhaul" section in source is blank — the concept's strategic sharpening is not yet done.

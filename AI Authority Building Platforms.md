@@ -1,7 +1,12 @@
 ---
+type: idea
+topic: AI authority-building resource platforms (Maven, DeepLearning.AI)
 tags:
   - exo
   - steelspeaks
+acted-on: true
+compiled: 2026-08-07
+backlog: false
 ---
 
 - Maven.com (Free Lessons [click on AI])
