@@ -1,7 +1,7 @@
 ---
 title: AUM + BOMT — The Intelligence Compounding Vehicle
 created: 2026-07-11
-updated: 2026-08-04
+updated: 2026-08-06
 type: concept
 tags: [exo, aum, bomt, strategy, long-term, flow-os, holdco, compounding]
 sources:
@@ -10,6 +10,7 @@ sources:
   - "../../AUM Break-Even — When AUM Beats Services.md"
   - "../../AUM — Reframe - 3.md"
   - "../../AUM PURE STRUCTURE - Inputs + Outputs Draft.md"
+  - "../../Another AI CHAT.md"
   - "../../Asset Management (AUM) Exo Model Brainstorming.md"
   - "../../Exo 2 Headed Monster Model.md"
   - "../../Exo AUM Business Model v2.md"
@@ -163,6 +164,19 @@ At hypothetical pricing: **~4,600 Tier 2 decisions/month per client.**
 | Target Market | Fortune 500 / government | Mid-market ($2M–$15M ARR) — underserved |
 
 **Closest analog: Constellation Software (CSI).** CSI buys vertical market software companies, keeps them autonomous, shares playbooks, compounds with minimal HQ. Exo is a greenfield version — instead of buying VMS companies, you build Flow OS namespaces and install across clients. Same decentralization, same playbook-sharing, same permanent hold — but earned through delivery instead of purchased with capital.
+
+### Why the giants can't copy this (the market-leader data-engine scape)
+
+Exo is not in the same market as the horizontal data giants — but knowing their engines shows where the real moat is _not_ framework, it's the **cross-organizational feedback loop**:
+
+| Player | Data Engine | The Moat Lesson for Exo |
+|---|---|---|
+| **Palantir** | Ontology + CDC + injected decision traces; retrains models on logged human decisions | Tracking _state + intent (the "why")_ as a first-class asset class — which aum's regret-graph already does |
+| **CrowdStrike** | Global Threat Graph — every endpoint streams telemetry; a detection at one client immediately immunizes all clients | ⭐ **The model for aum's "anonymized global brain" (Tension 1):** a true cross-client loop where data from Client A natively improves the product for Client B. CrowdStrike proves this is defensible, not just theoretical — it's the difference between a data moat and a data pond |
+| **Databricks** | Lakehouse + Unity Catalog; consumption-based compute | Consumption pricing — relevant to aum Layer-3 usage metric, not a structural lesson |
+| **Roper** | Decentralized VMS monopolies, bolt-on M&A, cash-flows into acquisitions | The buy-vs-build contrast to Exo's greenfield namespaces (see CSI analog above) |
+
+**Bottom line:** Palantir/Databricks sell horizontal plumbing to CIOs; Exo sells vertical operational intelligence to COOs. The defensible moat is the append-only ledger of intent + a *proven cross-client feedback loop* — the exact thing CrowdStrike monetizes at 69x forward earnings and the same loop aum flags as legally unproven in Tension 1.
 
 ---
 
@@ -749,6 +763,23 @@ Until these steps are complete, the departments folder remains a high-quality pr
 
 **Open unit question (worth resolving before it's sellable):** what counts as a "decision" (the transaction-fee unit), and what a "provable value-share saving" looks like concretely. Minimum decision volume/client needed for AUM to beat services — is the ICP capable of it?
 
+## Appendix — 2026-08-05 root triage (AUM Break-Even)
+
+> Append-only. Source: vault root `AUM Break-Even — When AUM Beats Services.md`. Directly answers the "minimum decision volume to beat services" open question above. Numbers are **hypothetical/structural — not real pricing**; the formula is the point, not the dollar values.
+
+**Break-even equation** (AUM > services, same client, same month):
+`decisions > (services fee − platform fee − (savings × value-share %)) / price per decision`
+
+Hypothetical baseline: services $5k/mo, platform $1.5k/mo, proven savings $8k/mo @15% ($1.2k), price $0.50/decision → **break-even ≈ 4,600 Tier-2 decisions/mo**.
+
+**Two paths to beating services:**
+1. **Volume path** — 2+ namespaces instrumented, 5,000+ decisions/mo; transaction fees carry it (ops-heavy clients).
+2. **Value path** — fewer decisions, each touching real money (supply chain/procurement/sales); value-share carries it.
+
+**Honest math:** one namespace won't beat services. ICP ($2M–$15M ARR): Year 1 ~below services (building base, fine), Year 2 crossover with 2–3 namespaces, Year 3+ AUM dominates. Year-1 implication: keep Path B (Hybrid Premium — build/operate fees) to fund cash flow; don't force Path C (pure value-share) until decision volume is real.
+
+**Actionable next step (tracked on note backlog):** pick `sales:` as first namespace to instrument; model real break-even with confirmed Path B pricing; **track decision volume from Day 1** — it's the metric that tells you when to transition B→C.
+
 ## Related Pages
 
 - [[Exo Vault Meta-Leverage System]]
@@ -756,3 +787,4 @@ Until these steps are complete, the departments folder remains a high-quality pr
 - [[Exo System Boundary Map]]
 - [[emit_diff Chokepoint — Scale Without Slop]]
 - [[Flow OS Team Surface — humans + agents]]
+- [[Steel by Exo — Identity Ecosystem]]

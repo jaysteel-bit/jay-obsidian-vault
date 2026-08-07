@@ -13,7 +13,8 @@ created:
 review_date:
 tags:
   - brain-dump
-acted-on: false
+acted-on: true
+compiled: 2026-08-06
 attachments:
 backlog: true
 ---

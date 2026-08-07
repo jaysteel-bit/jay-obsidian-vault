@@ -10,9 +10,10 @@ created:
 review_date:
 tags:
   - brain-dump
-acted-on: false
+acted-on: true
+compiled: 2026-08-06
 attachments:
-backlog:
+backlog: "tech-stack + pricing paths already synthesized on aum-bomt concept; HoldCo alignment fed concepts/exo-hybrid-holdco-strategy.md"
 ---
 Honest thoughts on the brainstorm (focusing on the AUM doc + supporting tech stack context).
 

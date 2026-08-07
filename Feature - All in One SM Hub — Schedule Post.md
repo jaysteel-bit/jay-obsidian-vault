@@ -9,8 +9,9 @@ tags:
 project:
   - "[[Steel]]"
   - Steel App
-backlog:
-acted-on:
+backlog: false
+acted-on: true
+compiled: 2026-08-07
 vault-context: business
 ---
 #### **OG Feature Idea: All-In-One Social Hub:**

@@ -1,3 +1,20 @@
+---
+type: dump
+categories:
+  - "[[Dumps]]"
+project:
+  - "[[Exo]]"
+tags:
+  - brain-dump
+  - aum
+  - bomt
+acted-on: true
+compiled: 2026-08-06
+backlog: |
+  - [x] Capital-as-Code / data-equity / Intel-Inside+Anonymized-Global-Brain transfer structures already synthesized on `WIKI/concepts/aum-bomt*` (Intel Inside default, listed sources) — no new page, hole-fill only
+  - [ ] Venture-studio fund lens (data-for-software exchange, data-equity-as-asset-class) — candidate enrich of aum-bomt concept if Jay wants the fund/PE-angle formalized
+---
+
 Treating operational data equity as the core asset class—instead of capturing traditional equity—is a highly scalable, non-dilutive approach to corporate growth. This data-first model enables the extraction of proprietary insights, automates workflows, and drives massive operational leverage without giving up cap-table ownership. 
 
 The foundational design of this studio/fund model centers on extracting maximum value from this data-for-software exchange. 

@@ -13,7 +13,8 @@ tags:
   - bomt
   - long-term-thinking
   - strategy
-acted-on: false
+acted-on: true
+compiled: 2026-08-06
 attachments:
 backlog: false
 ---

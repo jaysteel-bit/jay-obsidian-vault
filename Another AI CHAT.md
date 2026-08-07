@@ -10,9 +10,10 @@ created:
 review_date:
 tags:
   - brain-dump
-acted-on: false
+acted-on: true
+compiled: 2026-08-06
+backlog: "- Competitive positioning vs horizontal data giants (CrowdStrike cross-client loop as anonymous-global-brain model) fed into AUM §5.\n- Regret Graph / decentralized-vertical-intelligence framing already canonical in AUM §5."
 attachments:
-backlog: true
 ---
 Google AI:
 

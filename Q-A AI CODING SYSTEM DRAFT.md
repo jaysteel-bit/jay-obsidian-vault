@@ -1,4 +1,20 @@
-### AI AS DEV + CEO AS PRODUCT MANAGER  
+---
+categories:
+  - "[[Ideas]]"
+type: research
+created: 2026-07-07
+tags:
+  - flow-os
+  - ai-dev
+  - multi-agent
+acted-on: true
+compiled: 2026-08-07
+backlog: |
+  - [ ] Consider promoting AI-as-Dev orchestration pattern as an internal engineering SOP (see WIKI/concepts/ai-as-dev-multi-agent-orchestration.md)
+vault-context: business
+---
+
+### AI AS DEV + CEO AS PRODUCT MANAGER  
 
 Yes, an AI agent or an advanced LLM with full visibility into your codebase absolutely can build this prototype. In fact, this is exactly the kind of task today's AI engineering tools excel at because you already have the visual layout decided and a clear database skeleton. [1]   
 

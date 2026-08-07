@@ -12,7 +12,8 @@ tags:
   - aum
   - break-even
   - strategy
-acted-on: false
+acted-on: true
+compiled: 2026-08-05
 attachments:
 backlog: true
 ---

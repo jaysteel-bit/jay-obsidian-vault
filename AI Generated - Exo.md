@@ -11,9 +11,12 @@ tags:
   - brain-dump
   - exo-ext
   - browser-extension
-acted-on: false
+acted-on: true
+compiled: 2026-08-07
 attachments:
-backlog: true
+backlog:
+  - [ ] If Exo-Ext active in Phase 1: fork Page-Agent.js → add emit_diff() capture + why annotations → prototype the capture→diff→annotation loop
+  - [ ] Migrate Exo-Ext source files from Desktop (C:\Users\viole\Desktop\EXO-EXT\) into agent-workspace for version control
 ---
 
 ## Quick Thoughts

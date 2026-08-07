@@ -9,6 +9,8 @@ created: {{date}}
 tags:
   - content-creation
 vault-context: business
+acted-on: true
+compiled: 2026-08-06
 ---
 Alex Framework — (https://www.instagram.com/reel/DUle-S3kun3/?igsh=MWVsM3QxejVud3pldg==)
 

@@ -1,3 +1,13 @@
+---
+type: research
+categories: [Marketing]
+acted-on: true
+compiled: 2026-08-06
+backlog: |
+  - Lead-gen email stack: cold layer (Instantly/Smartlead/Saleshandy) vs warm layer (Mailchimp/Brevo) with "reply GUIDE" lead-magnet handoff; skip self-hosted email (OpenShip/Postal) for cold outreach due to deliverability.
+  - Related to OFFER-BIBLE / Ops Bottleneck Audit lead magnet delivery plan. No dedicated WIKI page (below threshold; pairs with lead-magnet funnel).
+  - Open: decide cold tool + domain-warming budget; exact Zapier reply→Mailchimp setup.
+---
 Yeah, combining cold outreach with a smart lead magnet approach works well. Here’s the practical mix: Use Saleshandy or Smartlead for your cold campaigns to hunt new leads — keep it clean with warmed-up domains, short sequences, and good targeting. In those emails, instead of attaching the lead magnet right away, say something like: Reply with ‘GUIDE’ and I’ll send you the free . When they reply, you send the magnet through a nurturing tool like Brevo or MailerLite . This does two good things: it gets you real positive replies, which are one of the strongest signals for deliverability, and it creates a double opt-in moment — they’re actively saying yes. That warms them up nicely for future nurturing emails. It’s a solid way to turn cold traffic into warmer leads while protecting your sender reputation. The reply step won’t magically fix bad lists or spammy content, but it’s a clever leverage move that boosts engagement signals. Want me to sketch a sample email sequence for this?
 
 

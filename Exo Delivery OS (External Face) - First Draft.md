@@ -10,9 +10,12 @@ created:
 review_date: 2026-05-11
 tags:
   - brain-dump
-acted-on: false
+acted-on: true
+compiled: 2026-08-05
 attachments:
-backlog: true
+backlog: |
+  - [ ] exo-ai.co technical build spec (already flagged incomplete in company-ssot/07-exo-delivery-os.md)
+  - [ ] PLG trojan-horse demo flow (access.exoflowos.com) — see lead-acquisition SSOT
 ---
 
 ## Quick Thoughts (Original)

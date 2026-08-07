@@ -1,3 +1,14 @@
+---
+type: dump
+tags:
+  - brain-dump
+  - pricing
+  - offer
+category: Dumps
+acted-on: true
+compiled: 2026-08-06
+backlog: false
+---
 Google’s own version of this:
 
 To disrupt the traditional $100,000 management consulting retainer, post-AI corporate pricing must shift from billing for inputs (hours, headcount) to billing for infrastructure and outputs (capacity, computation, business metrics).

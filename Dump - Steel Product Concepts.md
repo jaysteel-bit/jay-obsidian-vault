@@ -10,6 +10,12 @@ review_date:
 tags:
   - brain-dump
 vault-context: business
+acted-on: true
+compiled: 2026-08-05
+backlog: |
+  - [ ] Research jewelry-tech market (Oura Ring, smart wearables)
+  - [ ] Define use cases (payments / home access / identity)
+  - [ ] Prototype concepts; identify target demographic
 ---
 
 ## Quick Thoughts

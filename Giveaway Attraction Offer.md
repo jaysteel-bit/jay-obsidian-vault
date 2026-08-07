@@ -10,9 +10,12 @@ created:
 review_date:
 tags:
   - brain-dump
-acted-on: false
+acted-on: true
+compiled: 2026-08-07
 attachments:
 backlog:
+  - "[ ] Jay: extend 'free department' attraction offer — pairs with lead-magnet funnel; see Exo Dept Lead Magnet Quiz Funnel"
+  - "[ ] Decide scope: free department pilot vs quiz funnel for lead capture"
 ---
 
 ## Quick Thoughts

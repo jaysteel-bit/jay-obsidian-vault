@@ -1,3 +1,20 @@
+---
+type: research
+topic: NFC anti-counterfeiting for physical products
+tags: [steel, nfc, security, research]
+created: 2026-08-06
+vault-context: business
+acted-on: true
+compiled: 2026-08-06
+---
+
+-
+type: research
+topic: NFC anti-counterfeiting
+created: 2026-08-06
+vault-context: business
+
+
 STEEL CONCEPTS
 Yes, NFC technology significantly helps fight replica fakes in e-commerce by embedding unique, secure digital identities into products, allowing consumers and brands to instantly verify authenticity with a smartphone tap, creating a transparent, tamper-proof link to supply chain data, and deterring counterfeiters by making replication much harder. It enhances trust, combats fraud, and offers personalized customer engagement by providing supply chain history and product details. 
 

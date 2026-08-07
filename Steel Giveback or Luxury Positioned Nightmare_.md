@@ -13,7 +13,8 @@ tags:
   - steel
   - ecommerce
   - strategy
-acted-on: false
+acted-on: true
+compiled: 2026-08-06
 backlog: true
 ---
 
