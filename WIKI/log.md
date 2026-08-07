@@ -150,6 +150,12 @@
 - No Reservoir task yet — optional when Jay greenlights Phase 1 Comfy Cloud wiring
 - No SSOT promote (ladder is direction-grade; Phase 1 lock still open on dump backlog)
 
+### [2026-08-05] task + Air UVP gap fill | Launch Phase 1
+- Reservoir: `state/tasks/exo-launch-comfy-cloud-phase1.md` (atomized Comfy Cloud dogfood path + agency integration stack)
+- Wiki concept `exo-launch-creative-ops.md`: UVP gap table from Air.inc public positioning (conversational search, creative intelligence, performance↔library, Canvas/brand-kit multiply, desktop sync, intake→delivery memory, visual-first status, Figma/Adobe/Slack/Canva, time-to-value, guest vs seat)
+- Dump `Exo Launch - Air Build.md`: `promoted-to` task path; backlog updated
+- Stance: copy Air *file UX / ops patterns*; win on diffs/why + multi-dept OS — not “be Air”
+
 ## [2026-08-06] root-triage | AUM reconstruction + Steel giveback + Speaks offer (hole-fill, cap 3)
 - `AUM + BOMT — Long-Term Model Reconstruction.md` → **hole-fill only**. Already fully synthesized into `concepts/aum-bomt-intelligence-compounding-vehicle.md` (listed as source; §6 sustainability, §7 tensions, §9 7.5/10 assessment, §11 source table all incorporated). No duplicate page. acted-on + compiled.
 - `Steel Giveback or Luxury Positioned Nightmare_.md` → **hole-fill** (acted-on false → true). Partial-giveback (10-15%) / no-giveback-on-Steel++ decisions already canonical in `agent-workspace/Exo Enterprise/company-ssot/sub-brands/steel-ecommerce-strategy.md`. No new page.
