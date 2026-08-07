@@ -218,3 +218,9 @@
 - `AI Authority Building Platforms.md` → **hole-fill only** (thin — Maven.com + DeepLearning.AI as authority-building resource list for Exo/Steelspeaks/EXA content). Below page threshold; prepended light frontmatter (type idea) + acted-on/compiled, backlog false.
 - **Index: 17 pages (16 concepts + 1 entity).** No SSOT promote (data-infra is direction-grade build thinking, not a locked decision; Exo-Ext dev path is backlog until Phase-1 greenlight).
 - Queue still large (~80 loose root notes) — draining cap 3 ongoing; most evergreen quotes/one-liners will hole-fill only.
+## [2026-08-07] root-triage | 5 Stages of Awareness + Business Replication + Alex Hormozi on Training Anything (cap 3, hole-fill)
+- `5 Stages of Awareness.md` → **hole-fill.** Content raw-thought (Hormozi 5-stages awareness marketing framework, IG-reel ref). Below page threshold; added type idea + acted-on/compiled + open questions. Format path not started.
+- `Business Replication.md` → **hole-fill.** Content raw-thought — thesis: work at a big company (ideally the one you're trying to start) and replicate best practices incl. culture; underrated method vs founding blind. Below page threshold; added type idea + acted-on/compiled + backlog (format path, sharpen POV).
+- `Alex Hormozi on Training Anything.md` → **hole-fill.** Link-only capture (IG reel). Added type idea + frontmatter + open questions (expand thesis on review). backlisted.
+- No new wiki pages, **no index change** (0 additions; all below page threshold). No SSOT promote (all directional content-idea grade).
+- Queue still large (~40 loose root notes remaining) — draining cap 3 ongoing; most evergreen quotes/one-liners will hole-fill only.

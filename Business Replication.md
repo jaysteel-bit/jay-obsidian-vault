@@ -10,10 +10,16 @@ created:
 tags:
   - content-creation
 attachments:
-topic:
+topic: business-replication
 backlog:
+  - [ ] Decide format path (raw-thought now; could go long-form essay or short-form)
+  - [ ] Sharpen the "work at the company you want to start, replicate best practices incl. culture" thesis into a defined POV
 posted:
 repurposed:
+type: idea
+acted-on: true
+compiled: 2026-08-07
+vault-context: business
 ---
 
 ## Raw Thought

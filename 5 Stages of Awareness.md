@@ -10,7 +10,14 @@ created:
 tags:
   - content-creation
 vault-context: personal
+type: idea
+acted-on: true
+compiled: 2026-08-07
+backlog: false
 ---
+## Open questions
+- Expand past the IG-reel reference: which Hook→Retain→Reward content unit does this fit (Hormozi awareness framework)?
+- Format path not started — raw-thought only. Could go short-form marketing-mindset post.
 
 ## Raw Thought
 
