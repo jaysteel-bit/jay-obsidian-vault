@@ -127,11 +127,20 @@ The danger of BOMT is that if you "Transfer" everything, you destroy your asset 
 - The Catch: Your initial contract states that Flow OS retains a perpetual, royalty-free, irrevocable license to use anonymized, aggregated weights and metadata from their decision volume to train your global foundation models.
 - Investor Value: The client gets their localized system back, but you used them to build a globally dominant, cross-industry operational AI model that you can sell to the rest of the world.
 
-## Option C: The Joint Venture / Equity Spin-Out
+## ~~Option C: The Joint Venture / Equity Spin-Out~~ — KILLED 2026-08-06
 
-- The Transfer: Instead of transferring the tech back to the legacy parent company, you spin the operational unit out into a new, highly efficient, AI-native Joint Venture.
-- The Catch: The parent company owns part, but your firm retains a permanent equity stake + an AUM management fee for keeping Flow OS running.
-- Investor Value: You transform from a consultant into a holding company of hyper-efficient, AI-driven corporate spin-offs. — Though you may not like this one due to your other response, I thought I’d still share it.
+- ~~The Transfer: Instead of transferring the tech back to the legacy parent company, you spin the operational unit out into a new, highly efficient, AI-native Joint Venture.~~
+- ~~The Catch: The parent company owns part, but your firm retains a permanent equity stake + an AUM management fee for keeping Flow OS running.~~
+- ~~Investor Value: You transform from a consultant into a holding company of hyper-efficient, AI-driven corporate spin-offs. — Though you may not like this one due to your other response, I thought I’d still share it.~~
+
+**Why killed:** every deal needs a new entity, a negotiated cap table, shared governance, and its own legal spend. It slows the close for the client and adds permanent corporate overhead for HoldCo. Replaced by Option C (v2) below.
+
+## Option C (v2): Royalty + Distribution *(replaces the JV Spin-Out)*
+
+- **The Transfer:** The department stays where it is — inside the client's existing entity. Nothing is spun out. No new company is formed.
+- **The Catch:** Exo retains a perpetual royalty on the department's throughput (the same value-share metric already being measured), plus passive non-voting minority equity **only** where the client offers it. No board seat, no governance rights, no management obligation.
+- **Investor Value:** The same recurring yield as the JV, booked as royalty income instead of equity-method income — cleaner to report, cleaner to underwrite, and no legal entity to maintain per client.
+- **Head 2 note:** For companies HoldCo actually *owns* (the Permanent Roll-Up), no transfer structure is needed at all — management stays autonomous and HQ simply sweeps excess cash as distributions, then reallocates into the next acquisition. Berkshire model. See [[Exo 2 Headed Monster Model]].
 
 ---
 

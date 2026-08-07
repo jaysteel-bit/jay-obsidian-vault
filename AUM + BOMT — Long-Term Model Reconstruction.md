@@ -54,7 +54,8 @@ The Transfer isn't giving away the farm. Three structures:
 
 - **"Intel Inside"** — they own the brain's content, but Flow OS is the operating system required to run it. Permanent runtime license.
 - **Anonymized Global Brain** — they get 100% of their system back. You retain perpetual rights to anonymized, aggregated weights to train global models.
-- **JV Spin-Out** — you spin the AI-optimized department into a new entity, retain equity + management fee.
+- ~~**JV Spin-Out** — you spin the AI-optimized department into a new entity, retain equity + management fee.~~ **KILLED 2026-08-06.**
+- **Royalty + Distribution** (replaces JV Spin-Out) — the department stays inside the client's entity. Exo retains a perpetual royalty on its throughput, plus passive non-voting equity where offered. No new entity, no shared governance.
 
 Each Transfer structure is a different exit. You can "exit" the same client multiple times without ever selling equity.
 

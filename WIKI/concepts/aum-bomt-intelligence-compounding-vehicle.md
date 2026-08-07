@@ -72,7 +72,13 @@ Build → Operate → Manage → Transfer. The delivery mechanism that gets you 
 |---|---|---|---|
 | **"Intel Inside"** (default) | Brain's content (workflows, SOPs, data) | Flow OS runtime license — permanent royalty | Most defensible legally |
 | **Anonymized Global Brain** | 100% of their system + data | Perpetual license to anonymized, aggregated weights for global model training | Highest compounding upside, legally fragile |
-| **JV Spin-Out** | New AI-native entity with shared ownership | Equity stake + AUM management fee | Converts client to portfolio company |
+| ~~**JV Spin-Out**~~ *(KILLED 2026-08-06)* | ~~New AI-native entity with shared ownership~~ | ~~Equity stake + AUM management fee~~ | ~~Converts client to portfolio company~~ — new entity + cap table + governance per deal |
+| **Royalty + Distribution** *(replaces JV)* | Nothing spun out — department stays in their existing entity | Perpetual royalty on department throughput; passive non-voting equity only where offered | Same yield, no entity to form, no board seat, no legal overhead |
+
+**Decision — 2026-08-06:** The JV Spin-Out is killed. It required a new entity, a negotiated cap table, and shared governance on every deal — friction for the client and permanent corporate overhead for HoldCo. Two simpler mechanisms replace it:
+
+- **Head 1 (clients we don't own):** *Royalty + Distribution.* The department stays inside the client's entity. Exo keeps a perpetual royalty on throughput, measured on the value-share metric already being tracked. Passive non-voting equity is accepted only when the client offers it — never negotiated for.
+- **Head 2 (companies we own):** *No structure at all.* Existing management stays fully autonomous. HQ sweeps excess cash as distributions and acts as central capital allocator, reallocating into the next acquisition. Berkshire model — the mechanism already specified in the roll-up thesis.
 
 ### Layer 3: The Compounding (Two-Headed Monster)
 
@@ -264,7 +270,7 @@ This concept synthesizes the following vault notes + AI chats into one coherent 
 | `AUM + BOMT Model Commitment.md` | Instrumentation analysis, decision tiers, value-share examples, data custody |
 | `AUM + BOMT — Long-Term Model Reconstruction.md` | Three-layer structure, sustainability assessment, structural tensions, 7.5/10 rating |
 | `AUM Break-Even — When AUM Beats Services.md` | Break-even formula, decision volume thresholds, Year 1/2/3 timeline |
-| `AUM — Reframe - 3.md` | Three Transfer structures (Intel Inside, Global Brain, JV), BOMT evolution |
+| `AUM — Reframe - 3.md` | Three Transfer structures (Intel Inside, Global Brain, ~~JV~~ → Royalty + Distribution), BOMT evolution |
 | `AUM PURE STRUCTURE - Inputs + Outputs Draft.md` | Pure structure equation, reverse-engineered volume targets, constraint chain |
 | `Asset Management (AUM) Exo Model Brainstorming.md` | Original AUM framing, Intelligence Onboarding, three pricing paths, tech stack |
 | `Exo 2 Headed Monster Model.md` | Two-headed monster diagram, BOMT + permanent roll-up, system compound |
@@ -724,7 +730,7 @@ Until these steps are complete, the departments folder remains a high-quality pr
 
 - Holdco sketch restated: **Exo Holdings** → **Exo Enterprise** (Flow OS engine on acquired ops) + **Steel** (identity/passport / CAC layer).
 - External scoring pass (~7.5/10) flagged **capital mismatch** as the main structural risk — useful as a challenge list, not as a KPI.
-- Open forks captured on the dump backlog: first onboard metrics; M&A sourcing model; Steel Card job-to-be-done; JV spin-out keep/tweak/kill.
+- Open forks captured on the dump backlog: first onboard metrics; M&A sourcing model; Steel Card job-to-be-done; ~~JV spin-out keep/tweak/kill~~ → **resolved 2026-08-06: killed**, replaced by Royalty + Distribution (Head 1) and sweep-excess-cash distributions (Head 2). See § Layer 2.
 - Related scale work: [[emit_diff Chokepoint — Scale Without Slop]] (how the intelligence pipe stays the chokepoint under load).
 
 ## Appendix — 2026-08-05 root triage (AUM PURE STRUCTURE)

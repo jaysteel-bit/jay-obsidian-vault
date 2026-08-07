@@ -190,9 +190,10 @@ This architecture upgrades your original core thesis from a high-yield enterpris
 |                                    | continuously train the Global Brain.  |
 +------------------------------------+---------------------------------------+
 
-| 3. CO-FOUNDED SPIN-OUTS            | High-margin operational units are     |
-| (The Joint Venture)                | spun out into joint ventures where    |
-|                                    | Exo retains permanent equity.         |
+| 3. ROYALTY + DISTRIBUTION          | Department stays in the client's      |
+| (replaces JV Spin-Out — KILLED)    | entity. Exo keeps a perpetual         |
+|                                    | royalty; passive equity only if       |
+|                                    | offered. No new entity, no board.     |
 +------------------------------------+---------------------------------------+
 
 | Result: You exit the same enterprise account 3-4 separate times.           |
@@ -270,7 +271,7 @@ To help finalize this updated architecture, tell me:
 - What specific operational metrics (e.g., supply chain logs, customer support tickets, sales scripts) should Flow OS capture first during a new client onboarding?
 - Do you want to build a centralized M&A team inside Exo Holdings, or will you use external investment bankers to source your acquisitions?
 - Should the Steel Card ecosystem operate purely as an elite B2B referral network, or should it offer direct financial services like corporate charge cards? -- While keeping your B2C side a way to bring customer acquisition and brand awearness to cold personas?
-- Do you wish to remove or tweak the JV spin-out idea into something more controllable or different?
+- ~~Do you wish to remove or tweak the JV spin-out idea into something more controllable or different?~~ **ANSWERED 2026-08-06 — killed.** Simpler replacement: Royalty + Distribution for clients, sweep excess cash for owned companies.
 
 ---
 ## Key Insights
@@ -285,7 +286,7 @@ To help finalize this updated architecture, tell me:
 - [ ] First Flow OS capture metrics on new client onboard?
 - [ ] M&A team in-house vs external bankers?
 - [ ] Steel Card: elite B2B referral vs financial services vs pure CAC brand layer?
-- [ ] JV spin-out: keep, tweak, or kill?
+- [x] ~~JV spin-out: keep, tweak, or kill?~~ → **KILLED 2026-08-06.** Replaced by Royalty + Distribution (client keeps the entity; Exo keeps a perpetual royalty). Owned companies under Head 2 use sweep-excess-cash distributions instead — no structure needed.
 
 ## Decisions implied
 

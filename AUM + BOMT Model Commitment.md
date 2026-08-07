@@ -51,7 +51,8 @@ Full breakdown of the AUM + BOMT model — how difficult it is, whether it's wor
 
 - **Option A: "Intel Inside"** (strongest) — they own the content of the brain, but Flow OS remains the operating system required to run it
 - **Option B: Anonymized Global Brain** — they get 100% of their system back; you retain perpetual license to anonymized, aggregated weights to train global models
-- **Option C: JV Spin-Out** — spin the operational unit into a new AI-native JV; you retain equity + AUM management fee
+- ~~**Option C: JV Spin-Out** — spin the operational unit into a new AI-native JV; you retain equity + AUM management fee~~ **KILLED 2026-08-06** — new entity, shared cap table, and governance overhead on every deal.
+- **Option C (v2): Royalty + Distribution** — the department stays inside the client's own entity. No new entity, no cap table, no board seat. Exo retains a perpetual royalty on the department's throughput, plus passive non-voting equity only where the client offers it. Same yield as the JV, none of the corporate overhead.
 
 **Difficulty: high, but not where you think.** The hard part isn't the business model. The hard part is the product (Flow OS instrumentation).
 

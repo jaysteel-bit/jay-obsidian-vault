@@ -88,7 +88,12 @@ Exo Enterprise isn't trying to build startups to flip them to the highest bidder
 
 ## Key Insights
 
-[Extract main takeaways as you review this dump]
+**Structure decision — 2026-08-06: no JV spin-outs on either head.** The JV / equity spin-out route is killed across the vault. It required forming a new entity, negotiating a cap table, and running shared governance on every deal — friction for the counterparty and permanent corporate overhead for HoldCo. Both heads use a simpler mechanism instead:
+
+- **Head 2 (companies we own):** sweep excess cash. Existing management stays fully autonomous; HQ acts purely as central capital allocator, pulling distributions up and reallocating into the next cash-flowing asset. This is already the specified mechanism ("mini-floats" above) — nothing new to build.
+- **Head 1 (clients we don't own):** Royalty + Distribution. Nothing is spun out; the department stays inside the client's own entity. Exo retains a perpetual royalty on department throughput, plus passive non-voting equity only where the client offers it. No board seat, no management obligation, no entity to maintain.
+
+Net effect: the acquiring business keeps its structure and its autonomy, HoldCo keeps a clean single-entity balance sheet, and the yield profile is unchanged. See [[AUM + BOMT — The Intelligence Compounding Vehicle]] § Layer 2.
 
 ---
 
