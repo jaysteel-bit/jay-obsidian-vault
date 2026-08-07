@@ -1,4 +1,4 @@
-﻿---
+---
 categories:
   - "[[Content]]"
 content_stage: raw-thought
