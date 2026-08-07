@@ -1,4 +1,4 @@
-﻿---
+---
 categories:
   - "[[Dumps]]"
   - "[[Ideas]]"
@@ -10,10 +10,11 @@ type: dump
 created:
   "{ date }":
 review_date:
+compiled: 2026-08-07
 tags:
   - brain-dump
   - steel-global
-acted-on: false
+acted-on: true
 attachments:
 vault-context: business
 ---

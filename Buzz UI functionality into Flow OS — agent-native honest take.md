@@ -9,9 +9,8 @@ created: 2026-08-07
 review_date:
 tags:
   - brain-dump
-acted-on: false
-compiled:
-promoted-to:
+acted-on: true
+ccompiled: 2026-08-07promoted-to:
 backlog: true
 vault-context: business
 attachments:
