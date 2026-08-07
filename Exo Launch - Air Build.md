@@ -12,14 +12,13 @@ tags:
   - brain-dump
 acted-on: true
 compiled: 2026-08-05
-promoted-to:
+promoted-to: "agent-workspace/state/tasks/exo-launch-comfy-cloud-phase1.md"
 backlog:
   - "[ ] Lock Phase 1 Comfy path (Cloud API vs wait for RunPod) — task: agent-workspace/state/tasks/exo-launch-comfy-cloud-phase1.md"
   - "[ ] First hero workflow_api.json + Launch inject"
   - "[ ] Agency P0 integrations: Figma/Adobe + Slack (then Canva, guest upload)"
   - "[ ] UVP gaps: conversational search, performance↔library loop, brand-kit multiply, desktop sync"
-promoted-to: "agent-workspace/state/tasks/exo-launch-comfy-cloud-phase1.md"
-
+vault-context: business
 ---
 
 
