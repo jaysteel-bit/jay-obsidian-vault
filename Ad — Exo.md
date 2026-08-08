@@ -10,7 +10,13 @@ start:
 year:
 url:
 status:
+created: 2026-08-08
+acted-on: true
+compiled: 2026-08-08
+backlog:
+  - "[ ] Polish Hormozi-adopted excerpt into full ad variant (pain + flow analogy + close)"
 vault-context: business
+wikinote: hole-fill — ad copy idea, below wiki threshold
 ---
 #ad 
 **Ad Idea: Hormozi Adopted Excerpt 

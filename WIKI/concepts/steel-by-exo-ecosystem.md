@@ -79,3 +79,8 @@ confidence: high
 **Industry analogs:** luxury fashion (bags/shoes/jewelry), wine & spirits (tamper-evident caps), pharmaceuticals (pkg integrity), sports gear (resale protection).
 
 **Steel relevance:** this is the technical backbone behind the Steel Card's anti-counterfeit claim — worth wiring into Steel Card spec/marketing as proof-of-defense, not just stated AES-128.
+
+## Appendix — 2026-08-08 (Dynamic Profiles)
+*From `Dynamic Digital Steel Card.md` (root). Small UX feature candidate, rated 10/10 by Jay.*
+
+**Dynamic Profiles:** the digital card is not static. Via the **Steel Global dashboard**, the user updates links/portfolio/"World" affiliations in real-time; changes reflect instantly on the next NFC tap. Turns the card from a fixed business card into a live identity surface — pairs naturally with the steel.id profile (the moat) and the Steel Global earn tiers.

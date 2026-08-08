@@ -11,8 +11,11 @@ tags:
 project:
   - "[[Steel]]"
 backlog:
-acted-on:
+  - "[ ] Wire Dynamic Profiles into Steel concept + steel.id dashboard"
+acted-on: true
+compiled: 2026-08-08
 vault-context: business
+wikinote: hole-fill — adds Dynamic Profiles idea to [[Steel by Exo — Identity Ecosystem]]
 ---
 ---
 

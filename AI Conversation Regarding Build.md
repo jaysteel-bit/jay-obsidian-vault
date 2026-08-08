@@ -1,3 +1,27 @@
+---
+categories:
+  - "[[Dumps]]"
+project:
+  - "[[Flow OS]]"
+  - "[[Exo]]"
+topic: "Sandboxing + Confidential Computing for BOM/T (local vs remote brain, TEE transfer)"
+type: research
+created: 2026-08-08
+tags:
+  - brain-dump
+  - security
+  - architecture
+  - bom-t
+acted-on: true
+compiled: 2026-08-08
+backlog:
+  - "[ ] TEE-ready modular split: decouple AI agent logic from UI/DB code"
+  - "[ ] Decide local-remote hybrid allocation for Exo-Ext capture layer"
+  - "[ ] Evaluate Moltworker fork (architecture, not product) vs LangGraph/CrewAI brain"
+vault-context: business
+wikinote: compiled to WIKI/concepts/confidential-computing-bomt.md
+---
+
 Sandboxing does not mean the AI is completely blocked from helping you; rather, it changes **how** **the** AI interacts with your system to ensure safety. You can still execute workflows, but they move through a "security checkpoint." 
 
 Can it still execute tasks?
