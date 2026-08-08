@@ -243,3 +243,9 @@
 - VSL-New-Script.md -> stamped (no frontmatter, prepended); backlog -> Reservoir Exo Enterprise/DOCUMENTATION/VSL.
 - Email Campaigns — Lead Capture Gem.md -> stamped acted-on/compiled; backlog = build lead magnet once format locked.
 - No new pages; index unchanged. Queue: ~47 loose root notes remaining (mostly quote/evergreen hole-fill only).
+
+## [2026-08-08] root-triage | Rendon lead + Obsidian vaults + Hormozi sales tips (cap 3)
+- `Potential Lead - Source Facebook.md` → **task-atom / promote.** Live B2B lead (Rendon Contracting LTD, referral Josh, younger-brother owner). Added full frontmatter (type lead) + acted-on/compiled + promoted-to `agent-workspace/state/tasks/lead-rendon-contracting.md`. No outreach without Jay.
+- `Obsidian Vaults Per Each Client.md` → **hole-fill.** Strategy dump on client vaults / Flow OS MCP / RAG. Already a source on `concepts/exo-vault-meta-leverage-system.md`. Set acted-on/compiled; added agent review answering the embedded RAG question (LightRAG/LlamaIndex sufficient for mid-market; no vector farm) + open question (build client-zero company vault as dogfood).
+- `Hormozi - 17 Sales Tips.md` → **hole-fill.** Evergreen evergreen quote note; set acted-on/compiled + link to [[Alex Hormozi]] entity page. Below page threshold — kept as capture.
+- No new wiki pages, **no index change** (0 additions). No SSOT promote (lead not ICP-confirmed). Queue still large (~34 loose root notes remaining, mostly quotes/evergreen).

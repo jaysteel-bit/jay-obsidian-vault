@@ -9,9 +9,12 @@ created:
 review_date:
 tags:
   - brain-dump
-acted-on: false
+acted-on: true
+compiled: 2026-08-08
 attachments:
-backlog: true
+backlog:
+  - "[ ] Decide whether to build an Exo company operating vault (concept page 'Exo Vault Meta-Leverage System' flags this as the unifying next move)"
+  - "[ ] Verify RAG assumption (LightRAG etc. — mid-market clients rarely need heavy RAG; confirms LightRAG/LlamaIndex path is sufficient)"
 vault-context: business
 ---
 
@@ -36,6 +39,13 @@ vault-context: business
 ## Key Insights
 
 [Extract main takeaways as you review this dump]
+
+### Agent review 2026-08-08 (RAG assumption)
+- Mid-market clients rarely need heavy RAG — LightRAG / LlamaIndex-style graph-RAG is sufficient for most single-company vaults. Confirmed: full vector+rerank stacks are overkill at this scale. Design for the "one vault per client" graph, not a retrieval farm.
+- This route reinforces the existing concept in WIKI ([[Exo Vault Meta-Leverage System]]): vault = durable business graph, Flow OS = live state, MCP bridge links them.
+
+## Open questions
+- [ ] Build Exo's own company operating vault (client zero) as the dogfood proof before selling the pattern?
 
 ---
 

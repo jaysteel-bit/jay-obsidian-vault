@@ -5,6 +5,10 @@ tags:
 people:
   - Alex Hormozi
 vault-context: personal
+acted-on: true
+compiled: 2026-08-08
+links:
+  - "[[Alex Hormozi]]"
 ---
 
 > [!NOTE]
