@@ -12,6 +12,12 @@ related:
   - Exo Enterprise/departments/product/flow-os/DESKTOP-SHELL-UX.md
   - flow-os/AGENTS.md (three homes + desktop routing)
 project:
+acted-on: true
+compiled: 2026-08-08
+backlog:
+  - "[ ] Jay confirm on the 4 open lock questions (HQ Pulse Theater stays, global status bar additive, Phase 0 shell first, KPI/CTA keep-kill) before implementing shell"
+  - "[ ] After confirm, reconcile DESKTOP-SHELL-UX.md with explicit 'pulse = pill + rotation + KPIs'"
+vault-context: business
 ---
 
 # Flow OS Desktop Shell — UI Direction Note (full)

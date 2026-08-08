@@ -1,3 +1,20 @@
+---
+type: dump
+topic: AUM Exo model brainstorming - Intelligence Onboarding, Reflex Arc, Delta Ledger, multi-agent
+created: 2026-07-09
+categories:
+  - "[[Dumps]]"
+tags:
+  - brain-dump
+  - aum
+  - flow-os
+acted-on: true
+compiled: 2026-08-08
+vault-context: business
+backlog:
+  - "[ ] Delta Ledger / Regret Graph UI — overlay Reflex Arc onto existing client + internal dashboard drafts in Figma (non-technical CEO's remote control for engineering)"
+  - "[ ] Draft full-stack dev role: Python (FastAPI) + React/Next.js to build the simulated-prototype first"
+---
 # Asset Management (AUM) Exo Model AI Brainstorming  
   
 —  

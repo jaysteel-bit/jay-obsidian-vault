@@ -1,6 +1,15 @@
 ---
 tags:
   - exo
+type: idea
+topic: Department lead-magnet quiz funnel concept
+created: 2026-08-08
+vault-context: business
+acted-on: true
+compiled: 2026-08-08
+backlog:
+  - "[ ] Delivery mechanism for the quiz lead magnet not yet chosen — Jay flagged to pick before building"
+  - "[ ] Map department questions to OFFER-BIBLE Ops Bottleneck Audit quiz (00-master lists 'Exo Org. Blueprint (quiz/form funnel)' as coming soon)"
 ---
 
 
