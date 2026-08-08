@@ -237,3 +237,9 @@
 - `Asset Management (AUM) Exo Model Brainstorming.md` → **source-confirm + stamp.** Already a listed source on `concepts/aum-bomt-intelligence-compounding-vehicle.md` §11 (Intelligence Onboarding, three pricing paths, Reflex Arc schema, Delta Ledger / Regret Graph UI, multi-agent SYSTEM_STATE.md supervisor). Rich but fully synthesized — no new page. Prefixed full frontmatter (had none) + acted-on/compiled; backlog (overlay Reflex Arc Delta Ledger onto existing dashboard drafts in Figma; draft full-stack FastAPI+Next.js dev role — build simulated prototype first).
 - No new wiki pages, **no index change** (0 additions; all already-sourced direction). No SSOT promote (Quiz Funnel already canonical in OFFER-BIBLE; AUM + shell direction already canonical in concepts).
 - Queue still large (~37 loose root notes remaining) — draining cap 3 ongoing; most evergreen quotes/one-liners will hole-fill only.
+
+## [2026-08-08] root-triage | Flow OS moat critique (hole-fill) + VSL X-Scale script + Email lead-capture (cap 3)
+- Github + Flow-OS Assessed.md -> hole-filled as source into WIKI/concepts/emit-diff-chokepoint-scale.md (add Moat-challenged section + open question); stamped promoted-to.
+- VSL-New-Script.md -> stamped (no frontmatter, prepended); backlog -> Reservoir Exo Enterprise/DOCUMENTATION/VSL.
+- Email Campaigns — Lead Capture Gem.md -> stamped acted-on/compiled; backlog = build lead magnet once format locked.
+- No new pages; index unchanged. Queue: ~47 loose root notes remaining (mostly quote/evergreen hole-fill only).

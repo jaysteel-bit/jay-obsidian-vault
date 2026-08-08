@@ -1,3 +1,16 @@
+---
+type: research
+topic: X-Scale VSL script draft v5 (12-16min, TTS+AI video)
+categories:
+  - "[[Dumps]]"
+project:
+  - "[[Exo]]"
+acted-on: true
+compiled: 2026-08-08
+backlog:
+  - Live deliverable lives in Reservoir: Exo Enterprise/DOCUMENTATION/VSL/ — mirror vault copy there
+promoted-to: Exo Enterprise/DOCUMENTATION/VSL
+---
 # EXO ENTERPRISE — X-SCALE VSL
 
 ## "The Bottleneck"

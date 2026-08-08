@@ -10,9 +10,11 @@ created:
 review_date:
 tags:
   - brain-dump
-acted-on: false
+acted-on: true
+compiled: 2026-08-08
 attachments:
-backlog: true
+backlog:
+  - Build the lead-capture magnet from this email-campaign format once lead-magnet format is locked (now.md waiting on Jay)
 vault-context: business
 ---
 

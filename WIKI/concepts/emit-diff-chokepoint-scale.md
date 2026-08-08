@@ -4,7 +4,7 @@ created: 2026-08-04
 updated: 2026-08-04
 type: concept
 tags: [flow-os, architecture, database, infrastructure]
-sources: ["emitt-diff talk.md"]
+sources: ["emitt-diff talk.md", "Github + Flow-OS Assessed.md"]
 confidence: medium
 ---
 
@@ -46,6 +46,9 @@ Three-stage lifecycle:
 
 Constraints: namespace hierarchy only; frequency threshold before promote; similarity guard against near-dupes.
 
+## Moat — challenged (2026-08-08)
+Honest stress-test from `Github + Flow-OS Assessed.md`: the *protocol itself* is not a moat (≈200 lines SQL + one table + a controlled vocabulary — reimplementable in an afternoon; Stripe/Vercel/Linear analogies don't actually defend a proprietary middle layer). Real moat candidates: **(a) accumulated diffs with high annotation coverage = switching cost**, or **(b) Exa's synthesis quality = product**. Live contradiction to resolve with Jay: "sovereign stack, self-hosted, handed over cleanly" vs "Layer 2 never ships open" — the moment a client gets the Docker compose they have the schema + RPC; only one principle can be true.
+
 ## Links
 - [[AUM + BOMT — The Intelligence Compounding Vehicle]] — diffs as moat
 - [[Flow OS Desktop Shell — Tauri + Company Pulse Theater]] — UI surfaces that *read* diffs
@@ -55,4 +58,5 @@ Constraints: namespace hierarchy only; frequency threshold before promote; simil
 ## Open (not decided here)
 - [ ] When to build local queue daemon (Rust/Go vs keep ps1 for dogfood)
 - [ ] Sandbox table vs jsonl for unmapped events
+- [ ] Moat decision: diffs+annotation switching cost vs Exa synthesis product; resolve sovereign-vs-open contradiction (Github + Flow-OS Assessed)
 - [ ] Frequency threshold numbers for lexicon promote

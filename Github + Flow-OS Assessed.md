@@ -1,3 +1,15 @@
+---
+type: research
+topic: Flow OS moat & open-source strategy critique
+categories:
+  - "[[Dumps]]"
+acted-on: true
+compiled: 2026-08-08
+backlog:
+  - Decide with Jay: sovereign-stack self-host vs never-open-source are in direct contradiction
+  - Choose moat: accumulated diffs+annotation coverage (switching cost) vs Exa synthesis (product)
+promoted-to: WIKI/concepts/emit-diff-chokepoint-scale.md
+---
 
 I read the README, AGENTS.md, CONTEXT.md, the backend README, and the `emit_diff` migration. Here's my honest read.
 
