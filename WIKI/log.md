@@ -250,6 +250,12 @@
 - `Hormozi - 17 Sales Tips.md` → **hole-fill.** Evergreen evergreen quote note; set acted-on/compiled + link to [[Alex Hormozi]] entity page. Below page threshold — kept as capture.
 - No new wiki pages, **no index change** (0 additions). No SSOT promote (lead not ICP-confirmed). Queue still large (~34 loose root notes remaining, mostly quotes/evergreen).
 
+## [2026-08-08] root-triage | Evergreen quote stamps x3 (cap 3)
+- `Alex Hormozi Quote.md` → **hole-fill (stamp).** Evergreen content raw-thought (work-life-balance-as-love analogy), complete body already. Set acted-on/compiled/backlog:false. Below page threshold — kept as capture.
+- `Mark Twain.md` → **hole-fill (stamp).** Evergreen quote + analysis (majority ≠ validation, via Mint), complete body. Set acted-on/compiled/backlog:false. Below threshold — kept as capture.
+- `Life is poker, not chess.md` → **hole-fill (stamp).** Evergreen mindset (decisions under uncertainty), Claude analysis in place. Set acted-on/compiled/backlog:false. Below threshold — kept as capture.
+- No new wiki pages, **no index change**. No SSOT promote. Queue ~41 loose root notes remaining (nearly all June-29 evergreen quotes/content tips).
+
 ## [2026-08-08] root-triage | Ideal Customer + Read-over stub (cap 3)
 - `Ideal Customer.md` → **hole-fill.** Content raw-thought (Hormozi "quality > quantity" CAC quote, ref [[Lost Chapters]] / [[Alex Hormozi]]). Set acted-on/compiled/backlog:false. Below page threshold — kept as capture.
 - `Read over immediately —.md` → **hole-fill / link-hub.** Stub listing AUM model brainstorming, AI, steel concepts as read-next pointers; added frontmatter + triage comment. No body to compile.

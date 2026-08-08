@@ -14,6 +14,9 @@ created: 2026-04-20
 tags:
   - content-creation
 vault-context: personal
+acted-on: true
+compiled: 2026-08-08
+backlog: false
 ---
 
 ## Raw Thought
