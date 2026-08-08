@@ -12,6 +12,9 @@ created: 2026-01-23
 tags:
   - content-creation
 vault-context: business
+acted-on: true
+compiled: 2026-08-08
+backlog: false
 ---
 
 ## Raw Thought

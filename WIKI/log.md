@@ -249,3 +249,9 @@
 - `Obsidian Vaults Per Each Client.md` → **hole-fill.** Strategy dump on client vaults / Flow OS MCP / RAG. Already a source on `concepts/exo-vault-meta-leverage-system.md`. Set acted-on/compiled; added agent review answering the embedded RAG question (LightRAG/LlamaIndex sufficient for mid-market; no vector farm) + open question (build client-zero company vault as dogfood).
 - `Hormozi - 17 Sales Tips.md` → **hole-fill.** Evergreen evergreen quote note; set acted-on/compiled + link to [[Alex Hormozi]] entity page. Below page threshold — kept as capture.
 - No new wiki pages, **no index change** (0 additions). No SSOT promote (lead not ICP-confirmed). Queue still large (~34 loose root notes remaining, mostly quotes/evergreen).
+
+## [2026-08-08] root-triage | Ideal Customer + Read-over stub (cap 3)
+- `Ideal Customer.md` → **hole-fill.** Content raw-thought (Hormozi "quality > quantity" CAC quote, ref [[Lost Chapters]] / [[Alex Hormozi]]). Set acted-on/compiled/backlog:false. Below page threshold — kept as capture.
+- `Read over immediately —.md` → **hole-fill / link-hub.** Stub listing AUM model brainstorming, AI, steel concepts as read-next pointers; added frontmatter + triage comment. No body to compile.
+- Third slot: checked `Exo Company Folder Setup.md` / `5 Stages of Awareness.md` / `AEO Report of Exo Home Page.md` — all already triaged (acted-on/compiled set) earlier; excluded as false-positives from mtime heuristic.
+- No new wiki pages, **no index change**. No SSOT promote. Queue ~44 loose root notes remaining (nearly all June-29 evergreen quotes/content tips).
