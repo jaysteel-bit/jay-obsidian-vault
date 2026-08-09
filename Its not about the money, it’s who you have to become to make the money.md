@@ -7,6 +7,9 @@ topics: []
 platform: []
 created:
   "{ date }":
+acted-on: true
+compiled:
+promoted-to:
 tags:
   - content-creation
 vault-context: personal

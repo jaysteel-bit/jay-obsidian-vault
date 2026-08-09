@@ -10,7 +10,9 @@ created:
 review_date:
 tags:
   - brain-dump
-acted-on: false
+acted-on: true
+compiled: 
+promoted-to: 
 vault-context: business
 ---
 
@@ -22,7 +24,16 @@ vault-context: business
 
 ## Key Insights
 
-[Extract main takeaways as you review this dump]
+- Fraud/anti-abuse mechanism for Steel: deposit-to-unlock full features; 85% reimbursed to original payment method, 15% held on the Steel card (redeemable anytime). Proves human + filters bad actors. 90% of app usable free without it.
+
+## Decisions implied
+
+- Steel onboarding: optional one-time deposit gate to unlock 100% of features; reimbursement split 85% back / 15% to Steel card.
+- Keep baseline free experience at ~90% feature access (no paywall for core use).
+
+## Open questions
+
+- Is the 15% retained on the Steel card a disguised fee/cost to users or a genuine staking/float mechanism? Confirm ratio rationale.
 
 ---
 

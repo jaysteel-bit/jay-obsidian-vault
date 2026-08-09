@@ -1,8 +1,11 @@
 ﻿---
 categories:
   - "[[Content]]"
-content_stage: raw-thought
+content_stage: clip-captured
 status: draft
+acted-on: true
+compiled:
+promoted-to:
 clip number:
   - "001"
 platform:

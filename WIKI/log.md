@@ -261,3 +261,10 @@
 - `Read over immediately —.md` → **hole-fill / link-hub.** Stub listing AUM model brainstorming, AI, steel concepts as read-next pointers; added frontmatter + triage comment. No body to compile.
 - Third slot: checked `Exo Company Folder Setup.md` / `5 Stages of Awareness.md` / `AEO Report of Exo Home Page.md` — all already triaged (acted-on/compiled set) earlier; excluded as false-positives from mtime heuristic.
 - No new wiki pages, **no index change**. No SSOT promote. Queue ~44 loose root notes remaining (nearly all June-29 evergreen quotes/content tips).
+
+## [2026-08-09] root-triage | Steel Prevents Fraud, Its not about the money, Steve Jobs — Poke Life (cap 3)
+
+- `Steel Prevents Fraud.md` → **hole-fill (dump).** Genuine Steel product idea: optional one-time deposit-to-unlock gate, 85% reimbursed to payment method / 15% held on Steel card. Added ### Key Insights (filled), ### Decisions implied, ### Open questions (15% float rationale). Set acted-on:true. Below promote threshold (feature idea, not settled decision) — kept as capture.
+- `Its not about the money, it’s who you have to become to make the money.md` → **hole-fill (stamp).** Empty content template, title-only evergreen. Set acted-on:true/compiled empty. Below threshold — kept as capture.
+- `Steve Jobs — Poke Life.md` → **hole-fill (stamp).** Content note w/ embedded Jobs "poke life" quote video, hook identified, caption still needed. Bumped to content_stage: clip-captured, set acted-on:true.
+- No wiki page create/update (all below Page Thresholds). No Reservoir change. Queue 39 → 36 remaining.
