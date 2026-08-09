@@ -7,11 +7,12 @@ topics: []
 platform:
   - Instagram
   - X
-created:
-  "{ date }":
+created: 2026-08-09
 tags:
   - content-creation
 vault-context: personal
+acted-on: true
+compiled: 2026-08-09
 ---
 
 ## Raw Thought

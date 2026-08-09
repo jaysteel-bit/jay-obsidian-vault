@@ -282,3 +282,10 @@
 - `Dan Koe Content.md` → **hole-fill (stamp).** Empty raw-thought template (title + reel link only). Repaired malformed frontmatter from patch. Backlog: transcribe reel, evolve per WORKFLOW, decide if generalizes into Exo content engine.
 - `Exo bio draft.md` → **hole-fill (stamp).** Bio/offer hook ("we run the system, now we're teaching it") gated to private WhatsApp group lead capture. Cross-ref lead-magnet / quiz-funnel angle. Kept as copy iteration, not locked message.
 - No new wiki pages (all below Page Thresholds), index unchanged. No SSOT promote. Queue ~30 remaining (mostly June-29 evergreen quotes/content tips).
+
+## [2026-08-09] root-triage | Polymath article + 2 evergreen stamps (cap 3)
+- `Exo—Polymath Article (Reasoning).md` → **hole-fill (research).** Substantive APU Edge excerpt on why modern orgs suppress polymaths (vertical silos, no cross-training, need-to-know info sharing; hiring specs demanding 10-20yr specialists; society-as-dilettante stigma). Direct relevance to Exo's generalist/"sovereign AI department" framing + Flow OS cross-department knowledge model. Prefixed full frontmatter (type research, topics polymath/positioning). Below wiki threshold (single external quote, not yet woven across 3 sources) — kept as capture. Backlog: sharpen into Exo positioning/recruiting POV.
+- `Success Has Enemies.md` → **hole-fill (stamp).** Evergreen content raw-thought (fully formed caption: "Success has enemies. What are you gonna do.. Be unsuccessful?" + refined variant "Success comes with enemies but so does being unsuccessful, but you would be your worst one"). Set acted-on/compiled; content ready for format build on IG/X. Below threshold — kept as capture.
+- `Enterprise Value.md` → **hole-fill (stamp).** Empty raw-thought template (YT short link only, no body). Set acted-on/compiled; backlog: watch clip, extract thesis. Below threshold — kept as capture.
+- No new wiki pages, index unchanged. No SSOT promote (positioning/quote content, directional only).
+- Queue still large (~30 loose root notes remaining, mostly June-29 evergreen quotes/content tips — draining cap 3 ongoing).

@@ -1,3 +1,27 @@
+---
+categories:
+  - "[[Content]]"
+  - "[[Research]]"
+type: research
+content_stage: raw-thought
+status: draft
+topics:
+  - polymath
+  - positioning
+platform: []
+created: 2026-08-09
+tags:
+  - content-creation
+  - exo-identity
+vault-context: business
+acted-on: true
+compiled: 2026-08-09
+---
+
+# Exo—Polymath Article (Reasoning)
+
+> Source: [APU Edge — Why the 21st Century Needs a Resurgence of Polymaths (Part II)](https://apuedge.com/why-the-21st-century-needs-a-resurgence-of-polymaths-part-ii/)
+
 [(https://apuedge.com/why-the-21st-century-needs-a-resurgence-of-polymaths-part-ii/#:~:text=Second%2C%20hiring%20specifications%20also%20discourage,to%20be%20a%20social%20pariah.)]
 
 ---

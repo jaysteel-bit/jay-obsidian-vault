@@ -8,6 +8,8 @@ platform: []
 created: 2026-04-24
 tags:
   - content-creation
+acted-on: true
+compiled: 2026-08-09
 ---
 
 ## Raw Thought
