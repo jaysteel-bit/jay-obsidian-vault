@@ -290,6 +290,13 @@
 - No new wiki pages, index unchanged. No SSOT promote (positioning/quote content, directional only).
 - Queue still large (~30 loose root notes remaining, mostly June-29 evergreen quotes/content tips — draining cap 3 ongoing).
 
+## [2026-08-09] root-triage | New SKILL for Growth + Content Tips + Book List (cap 3)
+- `New SKILL.md for Growth.md` → **hole-fill (idea).** EXA-in-FlowOS employee skill for orgs running Steel frameworks; working name `/personal` vs `/steel` slash-command unresolved. Body is a placeholder awaiting Grok breakdown. Added type:idea + acted-on/compiled + open questions. Below wiki threshold — kept as capture.
+- `Content Tips.md` → **hole-fill (idea).** Evergreen proofreading workflow (read aloud, sub-3rd-grade vocab, sentence-level removal test, short > long). Personal/content-engine. Added frontmatter + acted-on/compiled, backlog false. Below threshold.
+- `Book List.md` → **hole-fill (reference).** Framing/persuasion bookshelf (Luntz, Hutton, Keren, Madrid). Personal copywriting reference. Added type:reference + acted-on/compiled; backlog: curate into offer-stack/content-engine framing reference. Below threshold.
+- No new wiki pages, index unchanged. No SSOT promote (all below Page Thresholds; directional content/reference).
+- Queue remaining: ~24 loose root notes (mostly June-29 evergreen quotes/content tips).
+
 ## [2026-08-09] root-triage | Steel anti-fraud page update + 2 stamps (cap 3)
 - `Steel Prevents Fraud.md` → **wiki-update.** New anti-abuse design (deposit-to-unlock gate, 85% back / 15% held on Steel card, proof-of-personhood, ~90% free baseline preserved) appended to `WIKI/concepts/steel-by-exo-ecosystem.md` as Appendix 2026-08-09 (Anti-Fraud Deposit Gate); sources updated. Stamped acted-on/compiled.
 - `Steel Share Feature Thoughts.md` → **hole-fill (stamp).** Referral virality + verified-badge stance already synthesized on steel-by-exo-ecosystem.md (Appendix 2026-08-09) — source-confirmed, stamp only, no new page.

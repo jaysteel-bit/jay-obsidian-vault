@@ -1,3 +1,17 @@
+---
+type: reference
+categories:
+  - "[[Content]]"
+topic: framing / persuasion bookshelf
+tags:
+  - content-creation
+  - copywriting
+acted-on: true
+compiled: 2026-08-09
+backlog:
+  - "[ ] Curate into a copywriting/framing reference for the offer stack + content engine"
+vault-context: personal
+---
 Books
 
 Framing:
