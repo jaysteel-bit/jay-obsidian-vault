@@ -4,7 +4,7 @@ created: 2026-08-05
 updated: 2026-08-09
 type: concept
 tags: [steel, offer, positioning, roadmap, product]
-sources: ["Steel by Exo Ecosystem.md", "Steel Share Feature Thoughts.md", "Steel Global 03-07.md"]
+sources: ["Steel by Exo Ecosystem.md", "Steel Share Feature Thoughts.md", "Steel Global 03-07.md", "Steel Prevents Fraud.md"]
 confidence: high
 ---
 
@@ -101,3 +101,12 @@ confidence: high
 - **Free Profile = Visitor Pass, Citizen Profile = Diplomatic Passport:** free users get links; Citizens get "World" integration (showing *which* Worlds they inhabit/influence) — counters Linktree-style brand dilution.
 - **Dynamic permissioning (the disruptor vs Linktree):** profile changes by context/time — tap at a business conference → LinkedIn/portfolio prominent; tap at a film screening → Cinema contributions/Instagram top. Plus a **Live Feed of Activity** across the Steel Universe instead of a dead link list ("I just published a critique in the Cinema World", not "I have a Twitter").
 - **Sustainability risk (closed-universe echo chamber):** needs a constant flow of high-quality "missions"/collaborative projects to keep Citizens engaged.
+
+## Appendix — 2026-08-09 (Anti-Fraud Deposit Gate)
+*From `Steel Prevents Fraud.md` (root dump). Steel app onboarding anti-abuse design — genuinely new, not yet synthesized elsewhere.*
+
+**Deposit-to-unlock fraud gate:**
+- To use Steel features, user deposits an amount to their account; **85% reimbursed** directly back to the original payment method, **15% held on the Steel card** (redeemable/sendable at any time). One-time.
+- Purpose: authenticates real human vs robot/bad actor — a proof-of-personhood mechanism, not a fee.
+- **Free baseline preserved:** ~90% of the Steel app remains usable for free without the gate; the deposit unlocks 100% of features.
+- **Open question (flagged):** is the retained 15% a genuine staking/float mechanism or a disguised cost to users? Ratio rationale unconfirmed.

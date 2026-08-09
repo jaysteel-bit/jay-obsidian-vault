@@ -10,9 +10,11 @@ created:
 review_date:
 tags:
   - brain-dump
-acted-on: false
+acted-on: true
+compiled: 2026-08-09
 attachments:
 backlog:
+  - "[ ] Exo vault (vault.exoent.co) UI lift + populating lead magnets — gates on lead-magnet deliverable format lock (state/tasks/lead-magnet-concepts.md, blocked)"
 vault-context: business
 ---
 

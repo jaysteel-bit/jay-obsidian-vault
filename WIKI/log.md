@@ -289,3 +289,10 @@
 - `Enterprise Value.md` → **hole-fill (stamp).** Empty raw-thought template (YT short link only, no body). Set acted-on/compiled; backlog: watch clip, extract thesis. Below threshold — kept as capture.
 - No new wiki pages, index unchanged. No SSOT promote (positioning/quote content, directional only).
 - Queue still large (~30 loose root notes remaining, mostly June-29 evergreen quotes/content tips — draining cap 3 ongoing).
+
+## [2026-08-09] root-triage | Steel anti-fraud page update + 2 stamps (cap 3)
+- `Steel Prevents Fraud.md` → **wiki-update.** New anti-abuse design (deposit-to-unlock gate, 85% back / 15% held on Steel card, proof-of-personhood, ~90% free baseline preserved) appended to `WIKI/concepts/steel-by-exo-ecosystem.md` as Appendix 2026-08-09 (Anti-Fraud Deposit Gate); sources updated. Stamped acted-on/compiled.
+- `Steel Share Feature Thoughts.md` → **hole-fill (stamp).** Referral virality + verified-badge stance already synthesized on steel-by-exo-ecosystem.md (Appendix 2026-08-09) — source-confirmed, stamp only, no new page.
+- `Update Exo Vault (Lead Magnet -Hub Center).md` → **hole-fill (stamp + backlog).** Exo vault (vault.exoent.co) UI lift + populating lead magnets is actionable but gates on locked lead-magnet deliverable format — pointed backlog at existing `state/tasks/lead-magnet-concepts.md` (blocked); no duplicate task spawned.
+- No new wiki pages (Steel page updated, index unchanged). No SSOT promote (ideation, not locked decisions).
+- Queue remaining: ~27 loose root notes (mostly June-29 evergreen quotes/content tips — draining cap 3 ongoing).

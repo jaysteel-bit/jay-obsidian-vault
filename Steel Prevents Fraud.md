@@ -11,7 +11,7 @@ review_date:
 tags:
   - brain-dump
 acted-on: true
-compiled: 
+compiled: 2026-08-09
 promoted-to: 
 vault-context: business
 ---

@@ -14,7 +14,9 @@ tags:
   - Steel-App
   - steel
 acted-on: true
-attachments:
+compiled: 2026-08-09
+backlog:
+  - "[x] Referral virality + verified-badge stance already synthesized on WIKI/concepts/steel-by-exo-ecosystem.md (Appendix 2026-08-09)"
 vault-context: business
 ---
 
