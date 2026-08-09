@@ -276,3 +276,9 @@
 - Steel Tap-to-Features stamped (compiled 2026-08-09) — its NFC/Tap content already synthesized by the 2026-08-06 NFC appendix + Dynamic Profiles; no duplicate.
 - **No new wiki pages, index unchanged (1 appendix on existing concept).** No SSOT promote (Steel growth mechanics + positioning are direction-grade feature/strategy thinking, not a locked decision — pricing/launch sequencing remain open).
 - Queue still large (~33 loose root notes remaining, mostly June-29 evergreen quotes/content tips).
+
+## [2026-08-09] root-triage | Lukas Mullen IG, Dan Koe Content, Exo bio draft (cap 3)
+- `Lukas Mullen on Building A World on Instagram for STEEL.md` → **hole-fill (stamp).** Link-stub (IG reel) on Mullen's community/"world"-building play; mapped to STEEL's owned-audience + SteelSpeaks angle. added type:idea + acted-on/compiled. Backlog: watch reel, extract framework, decide STEEL fit.
+- `Dan Koe Content.md` → **hole-fill (stamp).** Empty raw-thought template (title + reel link only). Repaired malformed frontmatter from patch. Backlog: transcribe reel, evolve per WORKFLOW, decide if generalizes into Exo content engine.
+- `Exo bio draft.md` → **hole-fill (stamp).** Bio/offer hook ("we run the system, now we're teaching it") gated to private WhatsApp group lead capture. Cross-ref lead-magnet / quiz-funnel angle. Kept as copy iteration, not locked message.
+- No new wiki pages (all below Page Thresholds), index unchanged. No SSOT promote. Queue ~30 remaining (mostly June-29 evergreen quotes/content tips).
