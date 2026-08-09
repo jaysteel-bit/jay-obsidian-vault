@@ -268,3 +268,11 @@
 - `Its not about the money, it’s who you have to become to make the money.md` → **hole-fill (stamp).** Empty content template, title-only evergreen. Set acted-on:true/compiled empty. Below threshold — kept as capture.
 - `Steve Jobs — Poke Life.md` → **hole-fill (stamp).** Content note w/ embedded Jobs "poke life" quote video, hook identified, caption still needed. Bumped to content_stage: clip-captured, set acted-on:true.
 - No wiki page create/update (all below Page Thresholds). No Reservoir change. Queue 39 → 36 remaining.
+
+## [2026-08-09] root-triage | Steel referral virality + Citizen/Visitor positioning (cap 3)
+- `Steel Share Feature Thoughts.md` → **appended** `## Appendix — 2026-08-09 (Referral Virality + Citizen/Visitor Distinction)` to `concepts/steel-by-exo-ecosystem.md`. Onboarding virality (3–5 click $5–10 referral credit, PayPal-style exponential, abuse risk parked), partner-access fee tiers ($99/105–110/500+), no-charge basic "Facebook-style" membership with the physical Card's **verified badge** as the differentiator. acted-on true + compiled.
+- `Steel Global 03-07.md` → **appended** to same new appendix. "Visitor Pass vs Diplomatic Passport" positioning: Cross-World metadata bridges, Contribution Ledger cross-pollination badge, Free=links / Citizen=World-integration (counters Linktree dilution), **Dynamic Permissioning** (context/time-aware profile) + Live Feed of Activity as the Linktree disruptor, closed-universe echo-chamber sustainability risk. acted-on true + compiled.
+- `Dump - Exo Charity & Social Impact.md` → **hole-fill (stamp).** Distinct Exo mission capture (charity = AI-literacy/education angle, not generic donations; "Be Extraordinary" tie-in; decide revenue-portion vs free-tier-donation mechanism). Below wiki threshold — kept as capture. Added acted-on true + compiled.
+- Steel Tap-to-Features stamped (compiled 2026-08-09) — its NFC/Tap content already synthesized by the 2026-08-06 NFC appendix + Dynamic Profiles; no duplicate.
+- **No new wiki pages, index unchanged (1 appendix on existing concept).** No SSOT promote (Steel growth mechanics + positioning are direction-grade feature/strategy thinking, not a locked decision — pricing/launch sequencing remain open).
+- Queue still large (~33 loose root notes remaining, mostly June-29 evergreen quotes/content tips).

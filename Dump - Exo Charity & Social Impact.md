@@ -9,6 +9,8 @@ created: 2026-01-21
 review_date:
 tags:
   - brain-dump
+acted-on: true
+compiled: 2026-08-09
 vault-context: business
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: Steel by Exo — Identity Ecosystem
 created: 2026-08-05
-updated: 2026-08-05
+updated: 2026-08-09
 type: concept
 tags: [steel, offer, positioning, roadmap, product]
-sources: ["Steel by Exo Ecosystem.md"]
+sources: ["Steel by Exo Ecosystem.md", "Steel Share Feature Thoughts.md", "Steel Global 03-07.md"]
 confidence: high
 ---
 
@@ -84,3 +84,20 @@ confidence: high
 *From `Dynamic Digital Steel Card.md` (root). Small UX feature candidate, rated 10/10 by Jay.*
 
 **Dynamic Profiles:** the digital card is not static. Via the **Steel Global dashboard**, the user updates links/portfolio/"World" affiliations in real-time; changes reflect instantly on the next NFC tap. Turns the card from a fixed business card into a live identity surface — pairs naturally with the steel.id profile (the moat) and the Steel Global earn tiers.
+
+## Appendix — 2026-08-09 (Referral Virality + Citizen/Visitor Distinction)
+*From `Steel Share Feature Thoughts.md` + `Steel Global 03-07.md` (root dumps). Growth mechanics + positioning sharpening, both genuinely-new.*
+
+**Onboarding virality (`Steel Share Feature Thoughts.md`):**
+- In the first 3–5 onboarding clicks, user shares profile externally (messages/social) and gets **$5–$10 credited "on us"** — spendable at partner locations or as Steel Credit for Steel products. Deliberate PayPal-style referral bacteria / exponential replication.
+- Flagged risk: if it scales, virality introduces its own class of problems (abuse/gaming) — parked for "when we get there."
+- **Partner angle:** charge partners for access to the customer base ($99 / $105–110 / $500+ tiers) — a separate partner onboarding fee, likely competing with/or over the referral cost. Could be an upsell later; not yet decided.
+- **Membership stance:** do NOT charge basic members — "anyone can join" Facebook-style for the basic SHARE use case; the physical Steel Card (future) carries a **verified badge** as its differentiation.
+
+**Positioning sharpening (`Steel Global 03-07.md`) — the "Visitor Pass vs Diplomatic Passport" move:**
+- Solves the **Discovery vs Depth** tension. Treat Steel Global as urban-planning infrastructure, not a feed.
+- **Cross-World metadata:** in the Business world, subtly surface how Steel Cinema aesthetics shape branding — the value is the *bridge* between worlds, not the worlds themselves.
+- **Contribution Ledger:** a cross-pollination badge — citizen's business insight helping a Cinema creator gets recorded on the Steel Card as polymathic-influence proof.
+- **Free Profile = Visitor Pass, Citizen Profile = Diplomatic Passport:** free users get links; Citizens get "World" integration (showing *which* Worlds they inhabit/influence) — counters Linktree-style brand dilution.
+- **Dynamic permissioning (the disruptor vs Linktree):** profile changes by context/time — tap at a business conference → LinkedIn/portfolio prominent; tap at a film screening → Cinema contributions/Instagram top. Plus a **Live Feed of Activity** across the Steel Universe instead of a dead link list ("I just published a critique in the Cinema World", not "I have a Twitter").
+- **Sustainability risk (closed-universe echo chamber):** needs a constant flow of high-quality "missions"/collaborative projects to keep Citizens engaged.

@@ -13,7 +13,7 @@ tags:
   - brain-dump
   - Steel-App
   - steel
-acted-on: false
+acted-on: true
 attachments:
 vault-context: business
 ---

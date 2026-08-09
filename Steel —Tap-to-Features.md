@@ -16,7 +16,8 @@ tags:
   - Steel-App
   - steel-card
   - steel-global
-acted-on: false
+acted-on: true
+compiled: 2026-08-09
 attachments:
 backlog: true
 vault-context: business
@@ -24,9 +25,7 @@ vault-context: business
 
 ## Quick Thoughts
 
-The Steel Tap technology is the core "handshake" of the Steel & [Steel Global](https://steelglobal.us/) ecosystem, designed to turn a physical card into a dynamic networking and access tool. It functions as a bridge between the physical "Steel Citizen" and their digital presence within the "Universe" [1.1].
-
-Different Types of Tap(s):
+The Steel Tap technology is the core "handshake" of the Steel & [Steel Global](https://steelglobal.us/) ecosystem, designed to turn a physical card into a dynamic networking and access tool. It functions as a bridge between the physical "Steel Citizen" and their digital presence within the "Universe" [1.1].
 ## How Steel Tap Works
 
 The technology is built on NFC (Near Field Communication), which allows for instant data transfer with a single touch: [1, 2] 
