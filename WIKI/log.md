@@ -303,3 +303,10 @@
 - `Update Exo Vault (Lead Magnet -Hub Center).md` → **hole-fill (stamp + backlog).** Exo vault (vault.exoent.co) UI lift + populating lead magnets is actionable but gates on locked lead-magnet deliverable format — pointed backlog at existing `state/tasks/lead-magnet-concepts.md` (blocked); no duplicate task spawned.
 - No new wiki pages (Steel page updated, index unchanged). No SSOT promote (ideation, not locked decisions).
 - Queue remaining: ~27 loose root notes (mostly June-29 evergreen quotes/content tips — draining cap 3 ongoing).
+
+## [2026-08-10] root-triage | Uncertainty + Iteration + Your probably right + beliefs (cap 3)
+- `Uncertainty + Iteration.md` → **hole-fill (evergreen).** Strong entrepreneurial raw-thought on tolerating uncertainty ("Run. I'll tell you when to stop") — maps directly to Exo's positioning (decision throughput / sticking with the process) + personal mindset content. Stamped type evergreen/acted-on/backlog. Below wiki threshold (single capture, no synthesis) — kept as capture; backlog: build into content-engine long-form.
+- `Your probably right.md` → **hole-fill (evergreen).** Solomon-paradox theme (most business owners could 10x by following their own advice; "you're probably right but not acting"). Complements Solomon 1-28 capture. Stamped acted-on/backlog. Below threshold — kept as capture; backlog: fold into decision/action content.
+- `You're only as big as your beliefs.md` → **hole-fill (stamp).** Evergreen mindset with existing Claude analysis (pattern-recognition limiting possibility, beliefs-as-ceiling). Content-ready: stamped acted-on, backlog false. Below wiki threshold — kept as capture, ready for format build.
+- No new wiki pages, index unchanged. No SSOT promote (mindset/evergreen directional content).
+- Queue remaining: ~21 loose root notes (mostly June-29 evergreen quotes/content tips — draining cap 3 ongoing).

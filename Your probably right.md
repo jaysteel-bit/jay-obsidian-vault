@@ -12,6 +12,8 @@ tags:
 attachments:
 topic:
 backlog:
+acted-on: true
+compiled: 2026-08-10
 posted:
 repurposed:
 ---

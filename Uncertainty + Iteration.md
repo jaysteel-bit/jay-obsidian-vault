@@ -8,6 +8,9 @@ topics:
 platform: []
 created:
   "{ date }":
+acted-on: true
+compiled: 2026-08-10
+backlog: true
 tags:
   - content-creation
 vault-context: personal

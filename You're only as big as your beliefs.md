@@ -10,6 +10,9 @@ categories:
 topics:
   - "[[Evergreen]]"
 status:
+acted-on: true
+compiled: 2026-08-10
+backlog: false
 vault-context: personal
 ---
 **You’re only as big as your smallest beliefs
