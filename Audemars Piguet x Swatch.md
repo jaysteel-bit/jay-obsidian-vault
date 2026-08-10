@@ -9,6 +9,10 @@ created:
   "{ date }":
 tags:
   - content-creation
+type: content
+acted-on: true
+compiled: 2026-08-10
+backlog: true
 attachments:
 topic:
 backlog:

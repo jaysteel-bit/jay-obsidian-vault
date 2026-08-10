@@ -8,6 +8,10 @@ platform: []
 created: 2026-04-24
 tags:
   - content-creation
+type: content
+acted-on: true
+compiled: 2026-08-10
+backlog: true
 vault-context: personal
 ---
 

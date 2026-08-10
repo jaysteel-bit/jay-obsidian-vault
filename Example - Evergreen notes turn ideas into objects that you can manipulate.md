@@ -12,6 +12,10 @@ topics:
   - "[[Example]]"
 tags:
   - 0🌲
+type: reference
+acted-on: true
+compiled: 2026-08-10
+backlog: false
 status:
   - "[[Example]]"
   - "[[Pending]]"

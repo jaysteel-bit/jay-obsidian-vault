@@ -310,3 +310,10 @@
 - `You're only as big as your beliefs.md` → **hole-fill (stamp).** Evergreen mindset with existing Claude analysis (pattern-recognition limiting possibility, beliefs-as-ceiling). Content-ready: stamped acted-on, backlog false. Below wiki threshold — kept as capture, ready for format build.
 - No new wiki pages, index unchanged. No SSOT promote (mindset/evergreen directional content).
 - Queue remaining: ~21 loose root notes (mostly June-29 evergreen quotes/content tips — draining cap 3 ongoing).
+
+## [2026-08-10] root-triage | Evergreen-notes example + AP×Swatch content + Worth The Wait (cap 3)
+- `Example - Evergreen notes turn ideas into objects that you can manipulate.md` → **hole-fill (reference).** Steph Ango's evergreen-notes method (title-as-distilled-idea, composable, ideas-as-objects) — the foundational philosophy the whole WIKI/Forge system runs on. Added type:reference + acted-on/compiled, backlog false. Below page threshold (external essay, single-source) — kept as capture/reference.
+- `Audemars Piguet x Swatch.md` → **hole-fill (content).** Content idea with a two-sided take (business + culture) + contrarian angle (agree with collab, dispute the low-price detractors) + B-roll checklist. Actionable short-form material but mid-draft (some placeholder links). Added type:content + acted-on/compiled, backlog true (complete B-roll links + write). Below threshold — kept as capture.
+- `Worth The Wait.md` → **hole-fill (content).** Raw-thought clip link only, no thesis extracted. Added type:content + acted-on/compiled, backlog true (watch clip, extract thesis). Below threshold — kept as capture.
+- No new wiki pages, index unchanged. No SSOT promote (content/reference, directional).
+- Queue remaining: ~16 loose root notes (mostly Steel/Solomon/product-named files + templates — draining cap 3 ongoing).
