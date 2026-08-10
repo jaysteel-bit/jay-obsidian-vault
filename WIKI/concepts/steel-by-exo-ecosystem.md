@@ -4,7 +4,7 @@ created: 2026-08-05
 updated: 2026-08-10
 type: concept
 tags: [steel, offer, positioning, roadmap, product]
-sources: ["Steel by Exo Ecosystem.md", "Steel Share Feature Thoughts.md", "Steel Global 03-07.md", "Steel Prevents Fraud.md", "Steel App Prompt.md"]
+sources: ["Steel by Exo Ecosystem.md", "Steel Share Feature Thoughts.md", "Steel Global 03-07.md", "Steel Prevents Fraud.md", "Steel App Prompt.md", "Steel Tagged.md", "Steel App UX - Add On.md", "Steel Product Model Page.md"]
 confidence: high
 ---
 
