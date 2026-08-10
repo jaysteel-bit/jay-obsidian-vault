@@ -4,7 +4,8 @@ categories:
 content_stage: clip-captured
 status: draft
 acted-on: true
-compiled:
+compiled: 2026-08-10
+backlog: false
 promoted-to:
 clip number:
   - "001"

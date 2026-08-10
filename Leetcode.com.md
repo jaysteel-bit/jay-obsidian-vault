@@ -1,3 +1,13 @@
+---
+type: idea
+tags:
+  - hiring
+vault-context: business
+acted-on: true
+compiled: 2026-08-10
+backlog: false
+---
+
 #hiring #exo 
 
 Leetcode has questions about software hiring — as stated by Roy Lee instagram post. They have a quiz or something like that, that have thebsame questions SWE employers always ask during an interview.
