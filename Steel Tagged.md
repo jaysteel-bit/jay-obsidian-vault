@@ -9,8 +9,9 @@ rating:
 tags:
 project:
   - "[[Steel]]"
-backlog:
-acted-on:
+backlog: "Steel Tag content-aggregation play appended to WIKI/concepts/steel-by-exo-ecosystem.md Appendix 2026-08-10 (attribution + content recycling + unified feed)"
+acted-on: true
+compiled: 2026-08-10
 vault-context: business
 ---
 Steel profiles can be tagged (Steel Tag) in the universe if it is a image or something - tying back to steel card. Hopefully collecting content from the social medias infrastructures that already existing (Youtube embeds maybe; twitter-X post; instagram post etc.) - giving us potentially constant unlimited content whenever we need [being that we have in the steel terms and conditions that we can use their the attached social media content/profile they use on other platforms as content to post in our ecosystem/platform.. and we'll tag their steel profile instead of the platform username we got the content from].. 

@@ -12,6 +12,9 @@ tags:
   - brain-dump
   - steel
 vault-context: business
+acted-on: true
+compiled: 2026-08-10
+backlog: "Steel App UX add-ons (AI connected-messaging + sent-with-Love virality) appended to WIKI/concepts/steel-by-exo-ecosystem.md Appendix 2026-08-10"
 ---
 
 ## Quick Thoughts

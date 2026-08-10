@@ -4,6 +4,13 @@
 
 ---
 
+## [2026-08-10] root-triage | Steel Tag + Steel App UX + Steel Product Model (cap 3)
+- `Steel Tagged.md` → **wiki-append.** Steel Tag as content-attribution-aggregator (tag profiles in universe; recycle existing social-media infra via T&C; two/three-prong: attribution + constant content pool + unified all-platform feed). Appended to `WIKI/concepts/steel-by-exo-ecosystem.md` Appendix 2026-08-10 (Steel Tag block). Stamped acted-on/compiled.
+- `Steel App UX - Add On.md` → **wiki-append.** Steel App UX add-ons (AI connected-messaging with presets; "sent with Love/by Steel" branded send footer = viral coefficient with download link). Appended as Steel App connected-messaging + viral-send Appendix 2026-08-10 to same ecosystem page. Stamped acted-on/compiled.
+- `Steel Product Model Page.md` → **hole-fill (stamp only).** Thin 2-line draft (products-come-short-form-content idea); below wiki threshold. Stamped acted-on/compiled, backlog false.
+- No new page (all fold into existing steel ecosystem concept); no SSOT promote (drafts, not locked).
+- Queue remaining: ~8 loose root notes (Steel Card/Tagged done; still: Copy Enhancing, Guinness world record, Its-not-about-the-money, Leetcode, Steve Jobs Poke, Success Has Enemies, T-Bills, Steel App UX (done), plus test/system junk excluded).
+
 ## [2026-08-10] root-triage | Solomon 1-28 + Solomon Talk 01-21 + Steel App Prompt (cap 3)
 - `Solomon 1-28 + 2-1.md` → **hole-fill (stamp).** Personal weekly journaling (vault-context: personal) — meeting-reunion reflection + Solomon's staying-conviction nudge. Below wiki threshold (private journaling, not synthesis). Stamped acted-on/compiled, backlog false. Kept private.
 - `Solomon Talk - January 21, 2026.md` → **hole-fill (stamp).** First AI-generated Solomon session (focus on clarity, not quantity; know thyself). Same classification — personal journaling, kept private. Stamped acted-on/compiled.

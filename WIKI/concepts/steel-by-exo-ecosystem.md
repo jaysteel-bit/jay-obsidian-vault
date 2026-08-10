@@ -4,7 +4,7 @@ created: 2026-08-05
 updated: 2026-08-10
 type: concept
 tags: [steel, offer, positioning, roadmap, product]
-sources: ["Steel by Exo Ecosystem.md", "Steel Share Feature Thoughts.md", "Steel Global 03-07.md", "Steel Prevents Fraud.md", "Steel App Prompt.md", "Steel Tagged.md", "Steel App UX - Add On.md", "Steel Product Model Page.md"]
+sources: ["Steel by Exo Ecosystem.md", "Steel Share Feature Thoughts.md", "Steel Global 03-07.md", "Steel Prevents Fraud.md", "Steel App Prompt.md", "Steel Tagged.md", "Steel App UX - Add On.md"]
 confidence: high
 ---
 
@@ -135,3 +135,22 @@ confidence: high
 - Purpose: authenticates real human vs robot/bad actor — a proof-of-personhood mechanism, not a fee.
 - **Free baseline preserved:** ~90% of the Steel app remains usable for free without the gate; the deposit unlocks 100% of features.
 - **Open question (flagged):** is the retained 15% a genuine staking/float mechanism or a disguised cost to users? Ratio rationale unconfirmed.
+
+## Appendix — 2026-08-10 (Steel Tag — content aggregation + attribution)
+*From `Steel Tagged.md` (root dump). Extends the "Steel Tag" attribution line above — turns it from a reputation signal into a content engine.*
+
+**Steel Tag as content-attribution-aggregator:**
+- Steel profiles get tagged (Steel Tag) in the universe — if it's an image/content, tag it back to the Steel card/profile.
+- **Content recycling play:** pull existing social-media infrastructure (YouTube embeds, X/Twitter posts, Instagram posts, LinkedIn, reels, shorts) into the Steel ecosystem feed. Terms & Conditions grant Steel the right to use attached social-media content/profile for posting in the ecosystem — attribution goes to the Steel profile, NOT the platform username.
+- **Two/three-prong approach:** (1) Steel Tag attribution, (2) constant reusable content pool ("constant unlimited content whenever we need"), (3) potentially a unified all-platform feed — a mix of X posts + Instagram reels/carousels + YouTube shorts/longs + LinkedIn embedded cleanly in one ecosystem.
+- **Status:** early idea-maze roaming — not locked.
+
+## Appendix — 2026-08-10 (Steel App — connected-messaging + viral send)
+*From `Steel App UX - Add On.md` (root dump). Steel App UX add-ons — extends the Steel App appendix above.*
+
+**AI-assisted connected-messaging:**
+- When connecting, user can go back and send messages to their connected list with AI help — summarizing their message/email (Gemini-email-rewrite style) with a couple of presets/choices for the user to pick from.
+
+**Viral coefficient — "sent with Love/by Steel":**
+- Message/connection send carries a branded footer like *"sent with Love / by Steel from <user>"*, adapting to the relationship status chosen during connection creation.
+- Adds a hyperlink to download → "x2 better" virality (each send is a Steel acquisition surface).

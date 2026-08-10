@@ -10,8 +10,9 @@ tags:
   - steelbyexo
 project:
   - "[[Steel]]"
-backlog:
-acted-on:
+backlog: false
+acted-on: true
+compiled: 2026-08-10
 vault-context: business
 ---
 ---
