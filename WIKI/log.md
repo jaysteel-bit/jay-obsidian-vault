@@ -4,6 +4,13 @@
 
 ---
 
+## [2026-08-10] root-triage | T-Bills + Steve Jobs Poke Life + Leetcode.com (cap 3)
+- `T-Bills.md` → **hole-fill (stamp only).** Raw content idea (YouTube short reference only, no formed thesis). Below wiki threshold. Stamped acted-on/compiled/backlog:false.
+- `Steve Jobs — Poke Life.md` → **hole-fill (stamp only).** clip-captured short-form quote (Steve Jobs "poke life" excerpt) — polished quote already in-body, no synthesis needed. Stamped acted-on/compiled/backlog:false.
+- `Leetcode.com.md` → **hole-fill (stamp).** Hiring idea (Leetcode-style SWE competence baseline via Roy Lee referral) — actionable but parked (no active hiring loop). Inferred minimal frontmatter (type:idea, vault-context:business). Stamped acted-on/compiled/backlog:false. No reservoir task (no active hiring workflow).
+- No new wiki page, no SSOT promote (raw-content captures, not locked decisions).
+- Queue remaining: ~3 loose root notes (Copy Enhancing [empty], Guinness world record 2002, Its-not-about-the-money) + test/system junk excluded. Draining cap 3 ongoing.
+
 ## [2026-08-10] root-triage | Steel Tag + Steel App UX + Steel Product Model (cap 3)
 - `Steel Tagged.md` → **wiki-append.** Steel Tag as content-attribution-aggregator (tag profiles in universe; recycle existing social-media infra via T&C; two/three-prong: attribution + constant content pool + unified all-platform feed). Appended to `WIKI/concepts/steel-by-exo-ecosystem.md` Appendix 2026-08-10 (Steel Tag block). Stamped acted-on/compiled.
 - `Steel App UX - Add On.md` → **wiki-append.** Steel App UX add-ons (AI connected-messaging with presets; "sent with Love/by Steel" branded send footer = viral coefficient with download link). Appended as Steel App connected-messaging + viral-send Appendix 2026-08-10 to same ecosystem page. Stamped acted-on/compiled.
