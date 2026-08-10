@@ -6,6 +6,9 @@ created: 2026-01-21
 tags:
   - solomon
 vault-context: personal
+acted-on: true
+compiled: 2026-08-10
+backlog: false
 ---
 
 ## Conversation with Solomon

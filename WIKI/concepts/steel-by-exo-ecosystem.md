@@ -38,6 +38,21 @@ confidence: high
 - **Worlds** — curated editorial + community, taste is the filter (not feeds).
 - **Steel Citizenship** — earned tier system (Member → Contributor → Featured → Editor). Earned, not purchased.
 - **Steel Tag** — attribution tied to Steel Profile, not social handle; reputation on verified identity not follower count.
+
+---
+
+## Steel App — UI / NFC spec (Appendix 2026-08-10)
+> From root note `Steel App Prompt.md`. Implementation-facing spec for the Steel App mobile surface. Core requirement: **NFC must be real hardware function, not just UI.**
+
+- **NFC foundation**: real NDEF tags / CoreNFC settings up-front, not mock. (Apple: developer.apple.com/documentation/corenfc.) Unlocked foundation before UI polish.
+- **Recent Connections slide gesture**: per-connection slide brings profile pic to far right, descriptions collapse, reveals 3 action buttons:
+  1. ⋯ (three-dot) → per-connection settings (trash, settings, etc.)
+  2. Hide (collapse/hide recent connection)
+  3. 💬 chat-icon → opens the **AI** section (context-aware assistant per connection)
+- **Trust icon**: new icon in the bottom nav (between Venues and Events) — gold coin icon for "Trust".
+- **Card disabled state**: red shield icon replaces green active button.
+- **Bug**: gold shadow not visible on mobile in active state (fine on desktop) — must render on mobile.
+- **Deferred/next**: AI section behavior TBD (will be explained); follow-up files to attach for CoreNFC context.
 - **Content 3-layer** — Steel Editorial (owned, Quartr-style) / Member Content (community) / Curated Embeds (best of internet framed in Steel context).
 - **B2B adjacent** — World Sponsorship (brand-sponsor world editorial, not banner ads); Steel Ventures (investment/operator arm; concept stage).
 
