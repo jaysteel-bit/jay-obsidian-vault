@@ -4,6 +4,13 @@
 
 ---
 
+## [2026-08-10] root-triage | Solomon 1-28 + Solomon Talk 01-21 + Steel App Prompt (cap 3)
+- `Solomon 1-28 + 2-1.md` → **hole-fill (stamp).** Personal weekly journaling (vault-context: personal) — meeting-reunion reflection + Solomon's staying-conviction nudge. Below wiki threshold (private journaling, not synthesis). Stamped acted-on/compiled, backlog false. Kept private.
+- `Solomon Talk - January 21, 2026.md` → **hole-fill (stamp).** First AI-generated Solomon session (focus on clarity, not quantity; know thyself). Same classification — personal journaling, kept private. Stamped acted-on/compiled.
+- `Steel App Prompt.md` → **wiki-update + task-atom.** Detailed Steel App UI/NFC spec (real NFC not mock; Recent Connections slide gesture → 3 reveal buttons; Trust gold-coin nav icon; red-shield disabled state; mobile gold-shadow bug). Appended as Steel App Appendix 2026-08-10 (UI/NFC + AI Mode "viral coefficient" full-screen card) to `WIKI/concepts/steel-by-exo-ecosystem.md`; added frontmatter (type:idea, project:Steel, acted-on/compiled). Reservoir task created `state/tasks/steel-app-nfc-spec.md`.
+- No SSOT promote (spec, not locked decisions).
+- Queue remaining: ~13 loose root notes (mostly Steel/Solomon/product-named files + templates — draining cap 3 ongoing).
+
 ## [2026-08-07] root-triage | AI-as-Dev — Multi-Agent Orchestration → new concept; Feature All-in-One SM Hub → hole-fill; Exo Enterprise Content Workflow → hole-fill (promote-candidate)
 ### [2026-08-07] root-triage | Batch 2 (4h): Buzz UI functionality into Flow OS → already wiki'd (Team-surface appendix); fixed broken frontmatter (ccompiled→compiled+promoted-to). Q-A BUILDING THE ACTUAL SOFTWARE → hole-fill (reference frontmatter; OSS-assembly multi-agent workflow, relates to AI-as-Dev concept). Claude Code Agent (OS) Dashboard → hole-fill (placeholder, YT link only). AEO Report of Exo Home Page → hole-fill (reference frontmatter; exoent.co 67/100, sitemap/canonical/JSON-LD/freshness/citations gaps → website action area).
 ### [2026-05-13] setup | Created raw/, index.md, log.md — LLM wiki upgrade (Phase 0)

@@ -1,10 +1,10 @@
 ---
 title: Steel by Exo — Identity Ecosystem
 created: 2026-08-05
-updated: 2026-08-09
+updated: 2026-08-10
 type: concept
 tags: [steel, offer, positioning, roadmap, product]
-sources: ["Steel by Exo Ecosystem.md", "Steel Share Feature Thoughts.md", "Steel Global 03-07.md", "Steel Prevents Fraud.md"]
+sources: ["Steel by Exo Ecosystem.md", "Steel Share Feature Thoughts.md", "Steel Global 03-07.md", "Steel Prevents Fraud.md", "Steel App Prompt.md"]
 confidence: high
 ---
 
@@ -53,6 +53,16 @@ confidence: high
 - **Card disabled state**: red shield icon replaces green active button.
 - **Bug**: gold shadow not visible on mobile in active state (fine on desktop) — must render on mobile.
 - **Deferred/next**: AI section behavior TBD (will be explained); follow-up files to attach for CoreNFC context.
+
+### AI Mode — full-screen card UI (viral coefficient)
+> Same source. The vertical card display is **also the web-share steel card UI** for potential customers without the app — flagged by Jay as *important viral coefficient*.
+
+- **Enter AI mode**: pull the steel card down (refresh-like gesture) → card expands/drags into a full-screen vertical card.
+- **Layout**: minimalist; profile-theme; user profile pic div top-right; small notification bell; chat bar at bottom.
+- **Chat behavior**: pressing the chat bar raises the vertical card in a collapsing fashion → collapses upward into a slim announcement bar (profile pic still visible slightly, right of bar); bar labeled "steel card" on the left.
+- **Return**: pull the announcement bar down → vertical card returns full-screen, keyboard drops, chat bar returns to bottom.
+- **Chat screen**: no user name; placeholder logo centered; greeting line under it (e.g. "how can I help you this evening?").
+- **History sidebar**: small 3-line (hamburger) button far-left of announcement bar opens a collapsible left sidebar of recent chat history.
 - **Content 3-layer** — Steel Editorial (owned, Quartr-style) / Member Content (community) / Curated Embeds (best of internet framed in Steel context).
 - **B2B adjacent** — World Sponsorship (brand-sponsor world editorial, not banner ads); Steel Ventures (investment/operator arm; concept stage).
 

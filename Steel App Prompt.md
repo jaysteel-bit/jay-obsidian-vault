@@ -1,3 +1,17 @@
+type: idea
+categories:
+  - "[[Ideas]]"
+  - "[[Dumps]]"
+project:
+  - "[[Steel]]"
+tags:
+  - "#steel-card"
+  - "#steel-app"
+acted-on: true
+compiled: 2026-08-10
+backlog: "- AI section behavior detailed below (expanded in steel-by-exo-ecosystem.md Appendix 2026-08-10) - CoreNFC context files to attach - task: state/tasks/steel-app-nfc-spec.md (append AI-mode section)"
+---
+
 Alright, I’m going to ramble off some thoughts I had and you help me structure then so Claude opus can implement them.
 
 ---
