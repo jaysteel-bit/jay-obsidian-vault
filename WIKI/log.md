@@ -345,3 +345,7 @@
 - `Guinness world record 2002.md` → **hole-fill (stamp).** Raw content-resource idea (Guinness 2002 book as reference for record-setting/extremity content angles). Below wiki threshold. Added full frontmatter (type:content) + acted-on/compiled, backlog false.
 - No new wiki pages, index unchanged. No SSOT promote (all source-confirm / below-threshold captures).
 - Queue remaining: ~1 genuine loose root note (`HERMES AGENT.md` — large reference doc, untriaged) + system/test junk excluded (Test 2, Markdown Test, Vault-Directions, WIKI-SETUP-LOG).
+
+## [2026-08-11] root-triage | HERMES AGENT.md (last genuine loose note)
+- `HERMES AGENT.md` → **hole-fill (stamp).** Reference doc (Nous Research Hermes Agent overview/roadmap). No frontmatter existed; prepended full block (type:reference + acted-on/compiled, backlog false). Below wiki threshold (single external reference source) — kept as capture/reference, not wiki'd.
+- Queue remaining: **0 genuine loose root notes.** All dumps (Onboarding/Steel Concepts/Mission-Vision/Charity) confirmed acted-on. Only system/test junk at root (Test 2, Markdown Test, Vault-Directions, WIKI-SETUP-LOG) excluded.

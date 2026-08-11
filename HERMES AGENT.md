@@ -1,3 +1,12 @@
+---
+type: reference
+topic: Hermes Agent (Nous Research) — overview & capabilities
+source: hermes-agent.nousresearch.com / Nous Research
+created: 2026-08-11
+acted-on: true
+compiled: 2026-08-11
+backlog: false
+---
 Everything you need to understand and customize Hermes Agent. Self-evolving skills, three-tier memory, GEPA optimization, and going from 1 to 10 agents that work for you 24/7.
 
 Hermes Agent crossed 90,000 GitHub stars in two months. Developers are quietly building personal AI agents that learn their workflow, remember their context, and run 24/7.
