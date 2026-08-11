@@ -338,3 +338,10 @@
 - `Worth The Wait.md` → **hole-fill (content).** Raw-thought clip link only, no thesis extracted. Added type:content + acted-on/compiled, backlog true (watch clip, extract thesis). Below threshold — kept as capture.
 - No new wiki pages, index unchanged. No SSOT promote (content/reference, directional).
 - Queue remaining: ~16 loose root notes (mostly Steel/Solomon/product-named files + templates — draining cap 3 ongoing).
+
+## [2026-08-11] root-triage | Steel Card + Copy Enhancing + Guinness record (cap 3)
+- `Steel Card.md` → **source-confirm + stamp.** Frontmatter-only stub (no body); Steel Card (NFC anti-counterfeit, deposit-to-unlock anti-fraud gate, verified-badge, referral virality, Citizen/Visitor positioning) already fully synthesized on `WIKI/concepts/steel-by-exo-ecosystem.md` (Appendices 2026-08-06/09). Added type:idea + acted-on/compiled + promoted-to pointer. Backlog false.
+- `Copy Enhancing.md` → **hole-fill (stamp).** Empty template placeholder (title only, 0 bytes body). No content to compile. Added type:idea + acted-on/compiled, backlog false. Kept as title-keyed evergreen slot.
+- `Guinness world record 2002.md` → **hole-fill (stamp).** Raw content-resource idea (Guinness 2002 book as reference for record-setting/extremity content angles). Below wiki threshold. Added full frontmatter (type:content) + acted-on/compiled, backlog false.
+- No new wiki pages, index unchanged. No SSOT promote (all source-confirm / below-threshold captures).
+- Queue remaining: ~1 genuine loose root note (`HERMES AGENT.md` — large reference doc, untriaged) + system/test junk excluded (Test 2, Markdown Test, Vault-Directions, WIKI-SETUP-LOG).
