@@ -349,3 +349,9 @@
 ## [2026-08-11] root-triage | HERMES AGENT.md (last genuine loose note)
 - `HERMES AGENT.md` → **hole-fill (stamp).** Reference doc (Nous Research Hermes Agent overview/roadmap). No frontmatter existed; prepended full block (type:reference + acted-on/compiled, backlog false). Below wiki threshold (single external reference source) — kept as capture/reference, not wiki'd.
 - Queue remaining: **0 genuine loose root notes.** All dumps (Onboarding/Steel Concepts/Mission-Vision/Charity) confirmed acted-on. Only system/test junk at root (Test 2, Markdown Test, Vault-Directions, WIKI-SETUP-LOG) excluded.
+
+## [2026-08-12] root-triage | Its-not-about-the-money + Steel Pants/Belt (cap 2)
+- `Its not about the money…md` → **hole-fill (stamp only).** `vault-context: personal` content-capture template (empty raw-thought pattern note, evergreen quote premise). Stamp-only per personal rule; kept private. Stamped `compiled: 2026-08-12`.
+- `Steel Pants + Steel Belt.md` → **hole-fill (stamp only).** Business dump (dual/hidden belt loops + horizontal dagger belt-tip ideation), already triaged 08-04 in-body (no concept page — below 2-source threshold). `compiled:` was empty → backfilled `compiled: 2026-08-12`. Residual backlog intact (prototype sketch + belt dagger design brief).
+- No new wiki page, no SSOT promote (personal template + ideation only).
+- Queue remaining: 0 genuine loose root notes (remaining `comp=MISS` are system/test junk: Markdown Test, Test 2, Vault-Directions, WIKI-SETUP-LOG).

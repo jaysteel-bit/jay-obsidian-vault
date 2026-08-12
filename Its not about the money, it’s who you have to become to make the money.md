@@ -8,7 +8,7 @@ platform: []
 created:
   "{ date }":
 acted-on: true
-compiled:
+compiled: 2026-08-12
 promoted-to:
 tags:
   - content-creation

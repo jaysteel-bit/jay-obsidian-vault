@@ -10,7 +10,7 @@ review_date:
 tags:
   - brain-dump
 acted-on: true
-compiled:
+compiled: 2026-08-12
 promoted-to:
 backlog:
   - "[ ] Sketch dual belt-loop hardware (hidden detachable loop) for prototype costing"
