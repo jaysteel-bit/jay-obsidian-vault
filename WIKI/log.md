@@ -350,6 +350,9 @@
 - `HERMES AGENT.md` → **hole-fill (stamp).** Reference doc (Nous Research Hermes Agent overview/roadmap). No frontmatter existed; prepended full block (type:reference + acted-on/compiled, backlog false). Below wiki threshold (single external reference source) — kept as capture/reference, not wiki'd.
 - Queue remaining: **0 genuine loose root notes.** All dumps (Onboarding/Steel Concepts/Mission-Vision/Charity) confirmed acted-on. Only system/test junk at root (Test 2, Markdown Test, Vault-Directions, WIKI-SETUP-LOG) excluded.
 
+## [2026-08-13] compile | Index stamp refresh (stale-flag clear)
+- Heartbeat stale-flag run: FORGE `WIKI/index.md` showed last-updated 08-08 (age 6 > 5d expected). Verified index fully accurate — 18 pages (17 concepts + 1 entity) all present, no orphan files, no page drift since 08-08 (recent triages all hole-fills, no new pages). Refreshed stamp only: 2026-08-13. No content change.
+
 ## [2026-08-12] root-triage | Its-not-about-the-money + Steel Pants/Belt (cap 2)
 - `Its not about the money…md` → **hole-fill (stamp only).** `vault-context: personal` content-capture template (empty raw-thought pattern note, evergreen quote premise). Stamp-only per personal rule; kept private. Stamped `compiled: 2026-08-12`.
 - `Steel Pants + Steel Belt.md` → **hole-fill (stamp only).** Business dump (dual/hidden belt loops + horizontal dagger belt-tip ideation), already triaged 08-04 in-body (no concept page — below 2-source threshold). `compiled:` was empty → backfilled `compiled: 2026-08-12`. Residual backlog intact (prototype sketch + belt dagger design brief).
