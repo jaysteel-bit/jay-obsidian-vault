@@ -2,7 +2,10 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-08-08 | Total pages: 18 (17 concepts + 1 entity)
+> Last updated: 2026-08-14 | Total pages: 18 (17 concepts + 1 entity)
+> Verified against disk 2026-08-14: 17 files in `concepts/` + 1 in `entities/` = 18 index rows. No drift.
+> Triage ran 2026-08-11 and 2026-08-12 (see `log.md`) and correctly added no pages — every remaining
+> root note was below the wiki threshold. Queue is at **0 genuine loose root notes**.
 
 ## Entities
 
