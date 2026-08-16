@@ -40,6 +40,8 @@ This also needs to be thought through many paintings over - Hench this can be mu
 If you want a single compact phrase for the PRD: **“a content-agnostic, masonry-style infinite discovery feed for cross-domain visual taste; and only after post card selection** —single card click enters a view: common infinite vertical scroll akin to TikTok’s scroll mechanism**.***]] 
 -- can have a prediction engine/algorithm akin to social media: Meta's Instagram and Youtube and X and Tiktok, etc... that shows either our content or piggy backs on others -- which can then have Business World show Portfolio companies under **Exo Holdings** that we acquired interest in become high quality content and testimonials of **Exo** involvement adding to a loop of testimonials for the Brand; reducing CAC to near zero or negative in some way or another... this is just a quick draft example of what perspectives can be made true if we combine content creation efforts. 
 
+There are various other combinations of leverage but I am just quick noting and likely missing things
+
 ---
 
 ALGO WHEN DONE RIGHT:
