@@ -30,7 +30,7 @@ Overarching mental model is that media is a high leverage component that we will
 Acting as a media company in strategy is highly appropriate and needed to be reinforced
 
 This also needs to be thought through many paintings over - Hench this can be multiplicative from a leverage perspective:
-* **Steel Global discover page can have a prediction engine/algorithm akin to social media: Meta's Instagram and Youtube and X and Tiktok, etc...  
+* **Steel Global discover page can have a prediction engine/algorithm akin to social media: Meta's Instagram and Youtube and X and Tiktok, etc... 
 
 ---
 
