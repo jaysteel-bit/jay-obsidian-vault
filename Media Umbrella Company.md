@@ -6,12 +6,15 @@ project:
   - "[[Steel]]"
   - "[[Steel Global]]"
   - Exo Holdings
-topic: Exo Holdings
+topic: Exo Holdings - has/is a [Multi Brand Media Company] - Arm
 type: dump
 created: "{{date}}"
 review_date:
 tags:
   - brain-dump
+  - exo
+  - brand
+  - steelbyexo
 acted-on: false
 compiled:
 promoted-to:
@@ -22,7 +25,7 @@ attachments:
 
 ## Quick Thoughts
 
-[Raw brain dump of ideas, thoughts, and tangents related to this topic]
+Overarching mental model is that media is a ex
 
 ---
 
