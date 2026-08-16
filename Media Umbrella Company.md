@@ -25,7 +25,7 @@ attachments:
 
 ## Quick Thoughts
 
-Overarching mental model is that media is a ex
+Overarching mental model is that media is a high leverage component that we will keep as core regarding the Hold Co. and it's sub-brands. With Steel Global as the media focused portal - nevertheless the entire Hold Co. will distribute to subsidary and represent a high quality media feel.
 
 ---
 
