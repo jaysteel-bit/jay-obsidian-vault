@@ -43,8 +43,9 @@ If you want a single compact phrase for the PRD: **“a content-agnostic, masonr
 There are various other combinations of leverage but I am just quick noting and likely missing things
 
 ---
+---
 
-ALGO WHEN DONE RIGHT:
+ALGO WHEN DONE RIGHT (AI):
 	**What “done right” entails in practice**  
 • **Strong behavioral data**: Large volumes of clean, logged user actions (impressions, clicks, likes, shares, dwell/watch time, skips, reports, mutes, etc.) tied to specific users and content. Without sufficient real interaction data the predictions stay weak.  
 • **Two-stage pipeline**:  
