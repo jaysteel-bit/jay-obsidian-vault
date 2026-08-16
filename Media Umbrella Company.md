@@ -30,15 +30,15 @@ Overarching mental model is that media is a high leverage component that we will
 Acting as a media company in strategy is highly appropriate and needed to be reinforced
 
 This also needs to be thought through many paintings over - Hench this can be multiplicative from a leverage perspective:
-* **Steel Global discover page aka worlds or UI --[***Masonry / waterfall grid feed with content-agnostic curation** — that’s the core term of art. A few layers to describe it precisely:  
-  
+
+* **Steel Global discover page aka worlds or UI --[***Masonry / waterfall grid feed with content-agnostic curation** — that’s the core term of art. A few layers to describe it precisely:
 **• Layout mechanic**: variable-height, multi-column masonry grid (not a uniform card grid) — Pinterest/Cosmos-style waterfall.  
 **• Content model**: content-agnostic or domain-agnostic stream — furniture, digital art, interiors, fashion editorial, product photography, and screenshots all coexist in one feed with no category partitioning.  
 **• Discovery pattern**: associative/serendipitous discovery — the algorithm surfaces by visual/aesthetic adjacency rather than topic or chronology, so a silver headpiece sits next to a vintage TV sits next to a UI screenshot.  
 **• Consumption behavior**: continuous/infinite scroll with no end-state, optimized for browsing flow rather than task completion.  
-**• User intent framing**: cross-pollination feed or polymathic feed — built for someone whose taste spans disciplines, where the value is in the collision of unrelated domains rather than a filtered single-interest stream.*] -- can have a prediction engine/algorithm akin to social media: Meta's Instagram and Youtube and X and Tiktok, etc... 
+**• User intent framing**: cross-pollination feed or polymathic feed — built for someone whose taste spans disciplines, where the value is in the collision of unrelated domains rather than a filtered single-interest stream.*] -- can have a prediction engine/algorithm akin to social media: Meta's Instagram and Youtube and X and Tiktok, etc... that shows either our content or piggy backs on others -- which can then have Business World show Portfolio companies under Exo Holdings that we acquired interest in become high quality content and testimonials of **Exo** involvement adding to a loop of testimonials for the Brand; reducing CAC to near zero or negative in some way or another... this is just a quick draft example of what perspectives can be made true if we combine content creation efforts. 
 
-
+---
 
 ALGO WHEN DONE RIGHT:
 	**What “done right” entails in practice**  
