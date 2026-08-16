@@ -25,7 +25,9 @@ attachments:
 
 ## Quick Thoughts
 
-Overarching mental model is that media is a high leverage component that we will keep as core regarding the Hold Co. and it's sub-brands. With Steel Global as the media focused portal - nevertheless the entire Hold Co. will distribute to subsidiaries and represent a high quality media feel. Akin to companies like Acquisition.com [more closely aligns with our PE/Investment positioning goals of Exo Holdings/Exo + they use media as the same leverage point for deals, etc.] and Complex [Multi media company uses commerce in a way ]
+Overarching mental model is that media is a high leverage component that we will keep as core regarding the Hold Co. and it's sub-brands. With Steel Global as the media focused portal - nevertheless the entire Hold Co. will distribute to subsidiaries and represent a high quality media feel. Akin to companies like Acquisition.com --[more closely aligns with our PE/Investment positioning goals of Exo Holdings/Exo + they use media as the same leverage point for deals, etc.] and Complex --[Multi Brand Media Company uses commerce in a way Steel (B2C) will in some variation] to name a few examples. 
+
+Acting as a media company in strategy is highly appropriate and needed to be reinforced
 
 ---
 
