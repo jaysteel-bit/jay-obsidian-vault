@@ -29,6 +29,9 @@ Overarching mental model is that media is a high leverage component that we will
 
 Acting as a media company in strategy is highly appropriate and needed to be reinforced
 
+This also needs to be thought through many paintings over - hench this can be multiplicative from a leverage perspective:
+* **Steel Global disco
+
 ---
 
 ## Key Insights
