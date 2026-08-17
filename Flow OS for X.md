@@ -20,11 +20,17 @@ attachments:
 
 ## Quick Thoughts
 
-Since Flow OS is a [First Principles Focused]concept with companies are just state changes 'diffs' -- can't we think differently with our approach of [Exo Holdings - Portfolio Companies Long-term strategy / model] -- by having Flow OS for [specific market/vertical] (e.g. Flow OS for Hedge Funds -and- Flow OS for Construction -and- Flow OS for HVAC -and- Flow OS for {etc.}) - with a Flow OS Standard Mode as well [the one we are building now]. 
+Since Flow OS is a [First Principles Focused] concept with companies are just state changes 'diffs' -- can't we think differently with our approach of [Exo Holdings - Portfolio Companies Long-term strategy / model] -- by having Flow OS for [specific market/vertical] (e.g. Flow OS for Hedge Funds -and- Flow OS for Construction -and- Flow OS for HVAC -and- Flow OS for {etc.}) - with a Flow OS Standard Mode as well [the one we are building now]. 
 
 I don't know where things fits or goes down the road this path but I honestly it is at its infant stage of a concept; but i came across this via my thought of an AI First Company - shouldn't we be able to personalize more easily to verticals/markets/industries - and have a superior feedback loop for each or a self healing mechanism for upgrading verticals modes as we get clients. 
 
-I don't know the underlying 2nd order of concequens here and I need AI's help to see this; hench this note, soon to be 
+Use divergent thinking so we can mold this into something tangible. 
+
+I don't know the underlying 2nd order of consequences here and I need AI's help to see this; Hench this note, soon to be prompted to a concept once went over. 
+
+If things needed to be changed or adjusted im open to thoughts; also instead of one suggestion, two to three paths that very high leverage are preferred.  
+
+Look
 
 ---
 
