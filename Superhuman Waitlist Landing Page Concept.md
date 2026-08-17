@@ -1,3 +1,31 @@
+---
+categories:
+  - "[[Ideas]]"
+  - "[[Content]]"
+project:
+  - "[[Exo]]"
+  - "[[Exo Launch]]"
+topic: Superhuman waitlist funnel — high-friction onboarding + social referral + concierge onboarding
+type: research
+created: 2026-08-17
+review_date:
+tags:
+  - growth
+  - waitlist
+  - launch
+  - funnel
+  - lead-magnet
+acted-on: true
+compiled: 2026-08-17
+promoted-to:
+backlog: true
+vault-context: business
+attachments:
+---
+## Triage note (2026-08-17)
+Research capture: Superhuman's famous waitlist funnel (180k–450k users) — deliberate high-friction gate (request-access → qualification survey → referral/bypass loop → 30-min concierge onboarding → $30/mo prepay sight-unseen). Directly relevant to Exo Launch / any future product launch gate + lead-magnet backlog. Below wiki-create threshold (external single-topic source, no cross-synthesis yet) — kept as capture/reference. **Backlog:** [ ] mine exact survey logic → replicate as a modern Exo/Flow-OS launch gate; [ ] decide when to apply (gates on launch timing + MVP date).
+
+---
 
 Yes, Superhuman used a famous waitlist model (accumulating over 180,000 to 450,000 users) built around exclusivity, social proof, and high-friction onboarding. Rather than a standard standalone AI waitlist page, ==they integrated the waitlist mechanism directly into their web presence and app command palette==. [1, 2, 3, 4, 5]
 

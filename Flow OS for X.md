@@ -6,12 +6,15 @@ project:
   - Exo Holdings
 topic: Flow OS Standard -AND- Flow OS [Per Vertical Mode]
 type: dump
-created: "{{date}}"
+created: 2026-08-17
 review_date:
 tags:
   - brain-dump
-acted-on: false
-compiled:
+  - flow-os
+  - strategy
+  - holdco
+acted-on: true
+compiled: 2026-08-17
 promoted-to:
 backlog: true
 vault-context: business

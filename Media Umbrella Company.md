@@ -8,19 +8,23 @@ project:
   - Exo Holdings
 topic: Exo Holdings - has/is a [Multi Brand Media Company] - Arm
 type: dump
-created: "{{date}}"
+created: 2026-08-17
 review_date:
 tags:
   - brain-dump
   - exo
   - brand
   - steelbyexo
-acted-on: false
-compiled:
+  - holdco
+acted-on: true
+compiled: 2026-08-17
 promoted-to:
 backlog: true
 vault-context: business
 attachments:
+
+## Emergent thread
+Exo Holdings operating as a **multi-brand media company arm** — the sub-brands (Exo, Steel, SteelSpeaks, Luxx) as a shared brand/messaging flywheel + cross-promo engine rather than isolated products. Sits alongside the holdco arms/spokes model in `[[Exo Hybrid HoldCo Strategy — Berkshire + CSI Lens]]` and the brand SSOT. Not yet synthesized to wiki threshold — keep as capture, revisit when brand ecosystem work resumes.
 ---
 
 ## Quick Thoughts
