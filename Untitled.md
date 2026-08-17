@@ -18,7 +18,7 @@ attachments:
 
 ## Quick Thoughts
 
-Since Flow OS is a [First Principles Focused]concept with companies are just state  
+Since Flow OS is a [First Principles Focused]concept with companies are just state changes 'diffs' -- can't we think differently with our approach of [Exo Holdings - Portfolio Companies Long-term strategy / model] -- by having Flow OS for [specific market/vertical] (e.g. Flow OS for Hedge Funds -and- Flow OS for Construction -and- F) 
 
 ---
 
