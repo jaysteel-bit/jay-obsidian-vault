@@ -30,7 +30,7 @@ I don't know the underlying 2nd order of consequences here and I need AI's help 
 
 If things needed to be changed or adjusted im open to thoughts; also instead of one suggestion, two to three paths that very high leverage are preferred.  
 
-Look
+AI AGENT: Look through our other concepts for context instead of treating this as a prompt.
 
 ---
 
