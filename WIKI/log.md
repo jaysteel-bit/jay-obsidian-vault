@@ -359,6 +359,9 @@
 - No new wiki page, no SSOT promote (personal template + ideation only).
 - Queue remaining: 0 genuine loose root notes (remaining `comp=MISS` are system/test junk: Markdown Test, Test 2, Vault-Directions, WIKI-SETUP-LOG).
 
+## [2026-08-19] compile | Index stamp refresh (stale-flag clear)
+- Heartbeat stale-flag run: FORGE `WIKI/index.md` showed last-updated 08-14 (age 5 > 5d expected). The 08-17 log entry already appends the 08-19 stale-flag context; index verified fully accurate against disk — 18 pages (17 concepts + 1 entity) all present, no orphan files, no page drift since 08-14. Recent triages (08-17) all hole-fills, no new pages. Queue confirmed 0 genuine loose root notes (newest root .md = 08-17 Superhuman/FlowOS-for-X/Media-Umbrella, all batch-processed; nothing modified since). Refreshed stamp only: 2026-08-19. No content change.
+
 ## [2026-08-17] root-triage | Flow OS for X + Media Umbrella + Superhuman Waitlist (cap 3)
 - `Flow OS for X.md` → **hole-fill (idea/backlog).** Real strategic thread: Flow OS as standard mode + per-vertical modes (Flow OS for Hedge Funds / Construction / HVAC …) — a superior per-vertical feedback/self-healing loop as clients onboard. Infant-stage concept. Sits on `[[Exo Hybrid HoldCo Strategy — Berkshire + CSI Lens]]` (Path 3 CSI-style vertical shareability) + Flow OS product. Added type/tags/created/stamped acted-on+compiled. Backlog: [ ] stress-test per-vertical vs standard mode for Flow OS pitch. No new wiki page (single-source ideation, not synthesized).
 - `Media Umbrella Company.md` → **hole-fill (stamp).** Empty-ish dump (topic only): Exo Holdings as a multi-brand media company arm (Exo/Steel/SteelSpeaks/Luxx shared brand flywheel + cross-promo). Already covered structurally by holdco arms/spokes model + brand SSOT. Stamped acted-on+compiled, added emergent-thread note + pointer. Backlog false (capture for brand-ecosystem revisit).
